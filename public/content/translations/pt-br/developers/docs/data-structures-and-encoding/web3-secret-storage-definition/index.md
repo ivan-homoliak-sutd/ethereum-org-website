@@ -184,6 +184,6 @@ Foram feitas alterações no formato para dar o seguinte arquivo, funcionalmente
 }
 ```
 
-## Alterações da versão 2 {#alterations-from-v2}
+## Alterações da versão 2 {#alterations-from-v2-2}
 
 A versão 2 foi uma implementação inicial de C++ com um número de bugs. Todos os elementos essenciais permanecem inalterados.

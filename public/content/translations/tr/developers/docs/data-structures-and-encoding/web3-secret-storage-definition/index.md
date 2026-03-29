@@ -184,6 +184,6 @@ Biçim üzerinde değişiklikler yapıldı ve aşağıdaki dosya elde edildi, ba
 }
 ```
 
-## Versiyon 2'ye göre farklılıklar {#alterations-from-v2}
+## Versiyon 2'ye göre farklılıklar {#alterations-from-v2-2}
 
 Versiyon 2, çok sayıda hata içeren erken bir C++ uygulamasıydı. Bütün önemli kısımları aynı şekilde bırakıldı.

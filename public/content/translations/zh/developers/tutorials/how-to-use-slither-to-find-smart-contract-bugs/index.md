@@ -169,7 +169,7 @@ Slither 具有内置的[数据依赖性](https://github.com/crytic/slither/wiki/
 
 数据依赖性用法的一个示例可以在[危险严格相等检测器](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities)中找到。 这里 Slither 将查找与危险值的严格相等比较 ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87))，并通知用户应使用 `>=` 或 `<=` 而不是 `==`，以防止攻击者给合约设下陷阱。 此外，检测器会将对 `balanceOf(address)` 的调用的返回值视为危险值 ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64))，并使用数据依赖性引擎跟踪其用法。
 
-#### 不动点计算 {#fixed-point-computation}
+#### 不动点计算 {#fixed-point-computation-2}
 
 如果您的分析遍历 CFG 并沿边进行，您可能会看到已经访问过的节点。 例如，如果循环如下所示：
 

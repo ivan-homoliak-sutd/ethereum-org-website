@@ -29,7 +29,7 @@ ethereum.org 커뮤니티는 다음을 지향합니다:
 - DEX, CEX 또는 기타 모든 형태의 금융 플랫폼
 - 어떤 종류의 재정적 또는 법적 조언을 제공하는 플랫폼
 
-## 행동 강령 {#code-of-conduct}
+## 행동 강령 {#code-of-conduct-2}
 
 ### 서약 {#pledge}
 

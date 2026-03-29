@@ -168,7 +168,7 @@ variable_a = variable_b + 1;
 
 يمكن العثور على مثال لاستخدام تبعية البيانات في [كاشف المساواة الصارمة الخطير](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities). هنا سيبحث سليذر عن مقارنة المساواة الصارمة بقيمة خطيرة ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87))، وسيبلغ المستخدم أنه يجب عليه استخدام `>=` أو `<=` بدلاً من `==`، لمنع المهاجم من محاصرة العقد. من بين أمور أخرى، سيعتبر الكاشف القيمة المرجعة لاستدعاء `balanceOf(address)` خطيرة ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64))، وسيستخدم محرك تبعية البيانات لتتبع استخدامه.
 
-#### حساب النقطة الثابتة {#fixed-point-computation}
+#### حساب النقطة الثابتة {#fixed-point-computation-2}
 
 إذا كان تحليلك يتنقل عبر الرسم البياني لتدفق التحكم (CFG) ويتبع الحواف، فمن المحتمل أن ترى العقد التي تمت زيارتها بالفعل. على سبيل المثال، إذا تم تقديم حلقة كما هو موضح أدناه:
 

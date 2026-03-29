@@ -40,7 +40,7 @@ Para garantir a integridade dos dados, a EIP-4844 já foi implementada com compr
 
 O DAS é um mecanismo que se baseia nisso e garante que os dados estejam corretos e disponíveis. A amostragem é um processo em que um nó consulta apenas uma pequena parte dos dados e os verifica em relação ao compromisso. KZG é um esquema de compromisso polinomial, o que significa que qualquer ponto único na curva polinomial pode ser verificado. Ao verificar apenas alguns pontos no polinômio, o cliente que faz a amostragem pode ter uma forte garantia probabilística de que os dados estão disponíveis.
 
-## PeerDAS {#peer-das}
+## PeerDAS {#peer-das-2}
 
 [PeerDAS (EIP-7594)](https://eips.ethereum.org/EIPS/eip-7594) é uma proposta específica que implementa o mecanismo DAS no Ethereum, marcando provavelmente a maior atualização desde A Fusão. O PeerDAS foi projetado para estender os dados de blob, dividindo-os em colunas e distribuindo um subconjunto para os nós.
 

@@ -447,7 +447,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 நீங்கள் கட்டுப்பாடுகளை உலகளாவிய ரீதியிலோ அல்லது ஒரு குறிப்பிட்ட நிலைக்கோ பயன்படுத்தலாம்.
 
-#### உலகளாவிய கட்டுப்பாடு {#state-constraint}
+#### உலகளாவிய கட்டுப்பாடு {#state-constraint-2}
 
 உலகளாவிய கட்டுப்பாட்டைச் சேர்க்க `m.constrain(constraint)`-ஐப் பயன்படுத்தவும்.
 எடுத்துக்காட்டாக, நீங்கள் ஒரு சிம்பாலிக் முகவரியிலிருந்து ஒரு ஒப்பந்தத்தை அழைக்கலாம், மேலும் இந்த முகவரியைக் குறிப்பிட்ட மதிப்புகளாகக் கட்டுப்படுத்தலாம்:
@@ -461,7 +461,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### நிலைக் கட்டுப்பாடு {#state-constraint}
+#### நிலைக் கட்டுப்பாடு {#state-constraint-3}
 
 ஒரு குறிப்பிட்ட நிலைக்குக் கட்டுப்பாட்டைச் சேர்க்க [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain)-ஐப் பயன்படுத்தவும்.
 அதன் மீது சில பண்புகளைச் சரிபார்க்க அதன் ஆய்வுக்குப் பிறகு நிலையைக் கட்டுப்படுத்த இதைப் பயன்படுத்தலாம்.

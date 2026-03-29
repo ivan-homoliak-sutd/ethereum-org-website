@@ -50,7 +50,7 @@ Podobně jako u expirace historie, v případě expirací stavu je odpovědnost 
 
 Expirace stavu je stále ve fázi výzkumu a v současné době není připravena ke spuštění. Expirace stavu bude pravděpodobně spuštěna později než bezstavové klienty a expirace historie, protože tato vylepšení umožňují většině validátorů snadné zpracování velkých stavových objemů.
 
-## Bezstavovost {#statelessness}
+## Bezstavovost {#statelessness-2}
 
 Bezstavovost je trochu zavádějící termín, protože neznamená, že by byl koncept „stavu“ eliminován, ale zahrnuje změny ve způsobu, jakým uzly Etherea pracují se stavovými daty. Bezstavovost sama o sobě má dvě podoby: slabou bezstavovost a silnou bezstavovost. Slabá bezstavovost umožňuje většině uzlů být bezstavovými tím, že přenáší odpovědnost za ukládání stavu na méně uzlů. Silná bezstavovost úplně odstraňuje potřebu jakéhokoliv uzlu ukládat plná stavová data. Slabá i silná bezstavovost nabízí běžným validátorům následující výhody:
 

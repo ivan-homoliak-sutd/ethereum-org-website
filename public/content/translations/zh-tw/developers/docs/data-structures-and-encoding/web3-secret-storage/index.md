@@ -190,6 +190,6 @@ KECCAK(DK[16..31] ++ <ciphertext>)
 }
 ```
 
-## 與版本 2 的差異 {#alterations-from-v2}
+## 與版本 2 的差異 {#alterations-from-v2-2}
 
 第二版是早期的 C++ 實作，有若干缺陷。 所有基本元素保留不變。

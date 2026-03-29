@@ -50,7 +50,7 @@ Tarih sonlanmasına benzer olarak, durum sonlanmasının eski durum verilerini d
 
 Durum sonlanması hâlâ araştırma aşamasında ve henüz hazır değil. Durum sonlanması durumsuz istemcilerden ve tarih sonlanmasından sonra gayet de gerçekleşebilir çünkü o yükseltmeler büyük durum verilerini doğrulayıcıların çoğunluğu için kolayca yönbetilebilir hale getirecek.
 
-## Durumsuzluk {#statelessness}
+## Durumsuzluk {#statelessness-2}
 
 Durumsuzluk biraz yanlış bir isim çünkü durum konseptinin elimine edildiğini ifade etmiyor, aksine Ethereum Düğümlerinin durum verilerini işlemesi için bazı değişiklikler içeriyor. Durumsuzluğun kendisi iki kavram ile geliyor: zayıf durumsuzluk ve güçlü durumsuzluk. Zayıf durumsuzluk çoğu düğümün durumsuz hale gelmesini bazılarına durum depolama sorumluluğu vererek yapıyor. Güçlü durumsuzluk ise her düğümün tam durum verisi depolama gerekliliğini tamamen ortadan kaldırıyor. Hem zayıf hem de güçlü durumsuzluk normal doğrulayıcılara aşağıdaki bazı faydaları da beraberinde getiriyor:
 

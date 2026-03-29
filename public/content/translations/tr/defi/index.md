@@ -180,7 +180,7 @@ Yukarıdaki örneği geleneksel finans dünyasında yapabilmek için çok büyü
 
 ### Kripto ile birikim yapmaya başlayın {#saving}
 
-#### Borç Verme {#lending}
+#### Borç Verme {#lending-2}
 
 Borç vererek kripto paranızdan faiz kazanabilir ve fonlarınızın gerçek zamanlı olarak büyümesini sağlayabilirsiniz. Şu anda faiz oranları, yerel bankanızda elde edebileceğinizden çok daha yüksek (eğer bir bankaya erişebilecek kadar şanslıysanız). İşte bir örnek:
 

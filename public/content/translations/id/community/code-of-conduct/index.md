@@ -29,7 +29,7 @@ Komunitas ethereum.org berjuang untuk menjadi:
 - DEX, CEX, atau bentuk platform keuangan lainnya
 - Platform yang memberikan nasihat keuangan atau hukum dalam bentuk apa pun
 
-## Kode etik {#code-of-conduct}
+## Kode etik {#code-of-conduct-2}
 
 ### Janji {#pledge}
 

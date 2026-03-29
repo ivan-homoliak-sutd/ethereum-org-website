@@ -449,7 +449,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 제약 조건을 전역적으로 또는 특정 상태에 사용할 수 있습니다.
 
-#### 전역 제약 조건 {#state-constraint}
+#### 전역 제약 조건 {#state-constraint-2}
 
 `m.constrain(constraint)`를 사용하여 전역 제약 조건을 추가합니다.
 예를 들어, 심볼릭 주소에서 계약을 호출하고 이 주소를 특정 값으로 제한할 수 있습니다.
@@ -463,7 +463,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### 상태 제약 조건 {#state-constraint}
+#### 상태 제약 조건 {#state-constraint-3}
 
 [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain)를 사용하여 특정 상태에 제약 조건을 추가합니다.
 탐색 후 상태를 제한하여 속성을 확인하는 데 사용할 수 있습니다.

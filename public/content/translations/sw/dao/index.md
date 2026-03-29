@@ -72,15 +72,15 @@ Ujumbe ni kama DAO toleo la wajumbe kidemokrasia. Wamiliki tokeni hukabidhi kura
 
 #### Mfano maarufu {#governance-example}[ENS](https://claim.ens.domains/delegate-ranking) – Wamiliki wa ENS wanaweza kukabidhi kura zao kwa wanajamii wanaoshiriki kikamilifu ili kuwawakilisha.
 
-### Utawala wa muamala wa kiotomatiki {#governance-example}
+### Utawala wa muamala wa kiotomatiki {#governance-example-2}
 
 Kwa mikataba ya DAO, makubaliano hutekelezwa moja kwa moja kama kiwango cha kura za wanachama zinakubaliana.
 
-#### Mfano maarufu {#governance-example}
+#### Mfano maarufu {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – Katika Nouns DAO, muamala hutekelezwa kiotomatiki ikiwa akidi ya kura itafikiwa na walio wengi wakipiga kura ya ndiyo, mradi tu haijapingwa na waanzilishi.
 
-### Utawala wa Multisig {#governance-example}
+### Utawala wa Multisig {#governance-example-4}
 
 Ingawa DAOs zinaweza kuwa na maelfu ya wanachama wapigakura, fedha zinaweza kuwekwa kwenye [mkoba](/glossary/#wallet) unaotumiwa na wanajamii 5-20 hai wanaoaminika na kwa kawaida utambulisho wao ni wa umma (utambulisho wa umma unaojulikana na jamii). Baada ya kura, watia sahihi wa [multisig](/glossary/#multisig) hutekeleza matakwa ya jamii.
 

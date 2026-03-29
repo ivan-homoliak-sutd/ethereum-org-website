@@ -50,7 +50,7 @@ Sama halnya dengan kedaluwarsa riwayat, di bawah kedaluwarsa status, tanggung ja
 
 Kedaluwarsa status masih dalam tahap penelitian dan belum siap untuk diluncurkan. Kedaluwarsa status mungkin terjadi lebih lambat daripada klien stateless dan kedaluwarsa riwayat karena peningkatan tersebut membuat ukuran status yang besar mudah dikelola oleh sebagian besar validator.
 
-## Statelessness {#statelessness}
+## Statelessness {#statelessness-2}
 
 Statelessness adalah istilah yang sedikit keliru karena tidak berarti konsep "status" dihilangkan, tetapi melibatkan perubahan pada cara node Ethereum menangani data status. Statelessness itu sendiri hadir dalam dua rasa: weak statelessness dan strong statelessness. Weak statelessness memungkinkan sebagian besar node menjadi stateless dengan meletakkan tanggung jawab penyimpanan status pada beberapa node. Strong statelessness sepenuhnya menghilangkan kebutuhan node mana pun untuk menyimpan data status penuh. Baik weak maupun strong statelessness menawarkan manfaat berikut bagi validator normal:
 

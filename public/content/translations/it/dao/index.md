@@ -74,15 +74,15 @@ La delega è come la versione DAO della democrazia rappresentativa. I detentori 
 
 [ENS](https://claim.ens.domains/delegate-ranking) – I detentori di ENS possono delegare i propri voti a membri attivi della comunità affinché li rappresentino.
 
-### Governance automatica delle transazioni {#governance-example}
+### Governance automatica delle transazioni {#governance-example-2}
 
 In molte DAO, le transazioni verranno eseguite automaticamente se un quorum di membri vota a favore.
 
-#### Un esempio famoso {#governance-example}
+#### Un esempio famoso {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – Nella Nouns DAO, una transazione viene eseguita automaticamente se viene raggiunto un quorum di voti e la maggioranza vota a favore, a patto che non venga posto il veto dai fondatori.
 
-### Governance multifirma {#governance-example}
+### Governance multifirma {#governance-example-4}
 
 Sebbene le DAO possano avere migliaia di membri votanti, i fondi possono risiedere in un [portafoglio](/glossary/#wallet) condiviso da 5-20 membri attivi della comunità che sono fidati e solitamente "doxxati" (identità pubbliche note alla comunità). Dopo una votazione, i firmatari del [multifirma](/glossary/#multisig) eseguono la volontà della comunità.
 

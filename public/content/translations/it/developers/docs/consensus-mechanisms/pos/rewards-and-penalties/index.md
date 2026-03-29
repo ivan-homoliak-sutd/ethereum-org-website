@@ -16,7 +16,7 @@ Continua a leggere per maggiori dettagli...
 
 ## Ricompense e penalità {#rewards}
 
-### Ricompense {#rewards}
+### Ricompense {#rewards-2}
 
 I validatori ricevono ricompense quando esprimono voti coerenti con la maggioranza degli altri validatori, quando propongono blocchi e quando partecipano ai comitati di sincronizzazione. Il valore delle ricompense in ogni epoca è calcolato da una `base_reward`. Questa è l'unità di base da cui vengono calcolate le altre ricompense. La `base_reward` rappresenta la ricompensa media ricevuta da un validatore in condizioni ottimali per epoca. Questa viene calcolata dal saldo effettivo del validatore e dal numero totale di validatori attivi come segue:
 

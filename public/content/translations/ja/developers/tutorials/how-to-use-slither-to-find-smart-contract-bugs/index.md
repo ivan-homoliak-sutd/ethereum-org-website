@@ -169,7 +169,7 @@ Slitherには、その中間表現 (後のセクションで説明) のおかげ
 
 データ依存性の使用例は、[危険な厳密等価性検出器](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities)にあります。 ここでは、Slitherは危険な値との厳密な等価比較を探し ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87))、攻撃者がコントラクトを罠にかけるのを防ぐために、`==`ではなく`>=`または`<=`を使用すべきであるとユーザーに通知します。 とりわけ、検出器は `balanceOf(address)` の呼び出しの戻り値を危険とみなし ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64))、その使用状況を追跡するためにデータ依存性エンジンを使用します。
 
-#### 不動点計算 {#fixed-point-computation}
+#### 不動点計算 {#fixed-point-computation-2}
 
 解析がCFGを走査してエッジをたどる場合、すでに訪れたノードに遭遇する可能性があります。 例えば、以下のようにループが存在する場合です。
 

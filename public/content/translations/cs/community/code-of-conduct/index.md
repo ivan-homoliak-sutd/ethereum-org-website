@@ -29,7 +29,7 @@ Komunita ethereum.org se snaží být:
 - DEX, CEX nebo jakákoli jiná forma finanční platformy
 - Platforma, která poskytuje finanční nebo právní poradenství jakéhokoli druhu
 
-## Etický kodex {#code-of-conduct}
+## Etický kodex {#code-of-conduct-2}
 
 ### Závazek {#pledge}
 

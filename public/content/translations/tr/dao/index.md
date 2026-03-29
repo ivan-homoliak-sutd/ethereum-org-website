@@ -72,15 +72,15 @@ Delegasyon, temsili demokrasinin DAO versiyonu gibidir. Jeton sahipleri, kendile
 
 #### Ünlü bir örnek {#governance-example}[ENS](https://claim.ens.domains/delegate-ranking) – ENS sahipleri, kendilerini temsil etmeleri için oylarını ilgili topluluk üyelerine devredebilirler.
 
-### Otomatik işlem yönetişimi {#governance-example}
+### Otomatik işlem yönetişimi {#governance-example-2}
 
 Birçok DAO'da, üyelerin çoğunluğu olumlu oy kullanırsa işlemler otomatik olarak yürütülür.
 
-#### Ünlü bir örnek {#governance-example}
+#### Ünlü bir örnek {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – Nouns DAO'da bir işlem, kurucular tarafından veto edilmediği sürece, oy yeter sayısına ulaşılırsa ve çoğunluk olumlu oy kullanırsa otomatik olarak yürütülür.
 
-### Çoklu imza yönetişimi {#governance-example}
+### Çoklu imza yönetişimi {#governance-example-4}
 
 DAO'ların binlerce oy kullanan üyesi olabilse de fonlar, güvenilir ve genellikle doxxed (kimlikleri topluluk tarafından bilinen) olan 5-20 aktif topluluk üyesi tarafından paylaşılan bir [cüzdanda](/glossary/#wallet) tutulabilir. Oylamadan sonra, [çoklu imza](/glossary/#multisig) imzalayanları topluluğun iradesini yerine getirir.
 

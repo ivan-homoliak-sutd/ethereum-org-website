@@ -40,7 +40,7 @@ Một cách tiếp cận khác để lưu trữ dữ liệu và đảm bảo tí
 
 DAS là một cơ chế được xây dựng trên cơ sở này và đảm bảo dữ liệu vừa chính xác vừa khả dụng. Lấy mẫu là một quá trình trong đó một nút chỉ truy vấn một phần nhỏ của dữ liệu và xác minh nó với cam kết. KZG là một sơ đồ cam kết đa thức có nghĩa là bất kỳ điểm nào trên đường cong đa thức đều có thể được xác minh. Bằng cách chỉ kiểm tra một vài điểm trên đa thức, ứng dụng thực hiện việc lấy mẫu có thể có một đảm bảo xác suất mạnh mẽ rằng dữ liệu là khả dụng.
 
-## PeerDAS {#peer-das}
+## PeerDAS {#peer-das-2}
 
 [PeerDAS (EIP-7594)](https://eips.ethereum.org/EIPS/eip-7594) là một đề xuất cụ thể triển khai cơ chế DAS trong Ethereum, đánh dấu có lẽ là bản nâng cấp lớn nhất kể từ The Merge. PeerDAS được thiết kế để mở rộng dữ liệu blob, chia nó thành các cột và phân phối một tập hợp con cho các nút.
 

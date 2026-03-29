@@ -70,7 +70,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 Podívejme se, proč je tento standard tak důležitý pro zjednodušení prohlížení jakéhokoliv kontraktu ERC-20 tokenu na Ethereu.
 Abychom mohli vytvořit rozhraní pro jakýkoliv ERC-20 token, stačí nám Contract Application Binary Interface (ABI). Jak můžete vidět níže, použijeme zjednodušené ABI, abychom vám to ukázali na jednoduchém příkladu.
 
-#### Příklad Web3.py {#web3py-example}
+#### Příklad Web3.py {#web3py-example-2}
 
 Nejprve se ujistěte, že máte nainstalovanou knihovnu Python [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

@@ -280,7 +280,7 @@ Il metodo RPC `eth_call` non è limitato e consentirà la simulazione di transaz
 
 I compilatori EVM come Solidity implementeranno e utilizzeranno la nuova funzione per il conteggio degli zeri dietro le quinte. I nuovi contratti potrebbero beneficiare di risparmi di gas se si basano su questo tipo di operazione. Segui le versioni e gli annunci delle funzionalità del linguaggio dei contratti intelligenti per la documentazione sui potenziali risparmi.
 
-### Ci sono modifiche per i miei contratti intelligenti esistenti? {#what-clz-means-for-developers}
+### Ci sono modifiche per i miei contratti intelligenti esistenti? {#what-clz-means-for-developers-2}
 
 Fusaka non ha alcun effetto diretto che interromperebbe i contratti esistenti o ne cambierebbe il comportamento. Le modifiche introdotte nel livello di esecuzione sono apportate con retrocompatibilità, tuttavia, tieni sempre d'occhio i casi limite e il potenziale impatto.
 

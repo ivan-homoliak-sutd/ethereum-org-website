@@ -455,7 +455,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 आप विश्व स्तर पर या किसी विशिष्ट स्टेट के लिए कंस्ट्रेंट्स का उपयोग कर सकते हैं।
 
-#### ग्लोबल कंस्ट्रेंट {#state-constraint}
+#### ग्लोबल कंस्ट्रेंट {#state-constraint-2}
 
 एक ग्लोबल कंस्ट्रेंट जोड़ने के लिए `m.constrain(constraint)` का उपयोग करें।
 उदाहरण के लिए, आप एक सिम्बॉलिक पते से एक अनुबंध को कॉल कर सकते हैं, और इस पते को विशिष्ट मानों तक सीमित कर सकते हैं:
@@ -469,7 +469,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### स्टेट कंस्ट्रेंट {#state-constraint}
+#### स्टेट कंस्ट्रेंट {#state-constraint-3}
 
 किसी विशिष्ट स्टेट में कंस्ट्रेंट जोड़ने के लिए [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) का उपयोग करें।
 इसका उपयोग स्टेट को उसके एक्सप्लोरेशन के बाद उस पर कुछ संपत्ति की जांच करने के लिए किया जा सकता है।

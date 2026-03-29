@@ -71,7 +71,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 讓我們看看為何標準如此重要，去讓我們檢查以太坊上的任何 ERC-20 代幣合約變得簡單。
 我們只需要合約應用程式二進位介面 (ABI) 來創建任何 ERC-20 代幣的介面。 如下所示，我們將使用簡化的 ABI，使其成為一個低門檻的範例。
 
-#### Web3.py 範例 {#web3py-example}
+#### Web3.py 範例 {#web3py-example-2}
 
 首先，請確認您已安裝 [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) Python 函式庫：
 

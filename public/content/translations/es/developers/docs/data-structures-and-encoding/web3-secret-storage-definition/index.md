@@ -184,6 +184,6 @@ Se han hecho cambios al formato para obtener el siguiente archivo, es funcionalm
 }
 ```
 
-## Se han hecho cambios desde la versión 2 {#alterations-from-v2}
+## Se han hecho cambios desde la versión 2 {#alterations-from-v2-2}
 
 La versión 2 fue una implementation temprana en C++ con un número de errores. Todo lo esencial permanece sin cambios.

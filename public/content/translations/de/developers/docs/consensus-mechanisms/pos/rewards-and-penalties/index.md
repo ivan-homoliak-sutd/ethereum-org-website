@@ -16,7 +16,7 @@ Lesen Sie weiter für mehr Details...
 
 ## Belohnungen und Strafen {#rewards}
 
-### Belohnungen {#rewards}
+### Belohnungen {#rewards-2}
 
 Validatoren erhalten Belohnungen, wenn sie Abstimmungen vornehmen, die mit der Mehrheit der anderen Validatoren übereinstimmen, wenn sie Blöcke vorschlagen und wenn sie an Sync-Komitees teilnehmen. Der Wert der Belohnungen in jeder Epoche wird aus einer `base_reward` berechnet. Dies ist die Basiseinheit, aus der andere Belohnungen berechnet werden. Die `base_reward` stellt die durchschnittliche Belohnung dar, die ein Validator unter optimalen Bedingungen pro Epoche erhält. Diese wird aus dem effektiven Guthaben des Validators und der Gesamtzahl der aktiven Validatoren wie folgt berechnet:
 

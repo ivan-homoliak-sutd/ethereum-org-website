@@ -168,7 +168,7 @@ Slither verfügt dank seiner Zwischendarstellung (die in einem späteren Abschni
 
 Ein Beispiel für die Nutzung von Datenabhängigkeiten findet sich im [Detektor für gefährliche strikte Gleichheit](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities). Hier sucht Slither nach einem strikten Gleichheitsvergleich mit einem gefährlichen Wert ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)) und informiert den Benutzer, dass er `>=` oder `<=` anstelle von `==` verwenden sollte, um zu verhindern, dass ein Angreifer den Vertrag in eine Falle lockt. Unter anderem betrachtet der Detektor den Rückgabewert eines Aufrufs von `balanceOf(address)` als gefährlich ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)) und verwendet die Datenabhängigkeits-Engine, um dessen Verwendung zu verfolgen.
 
-#### Fixpunktberechnung {#fixed-point-computation}
+#### Fixpunktberechnung {#fixed-point-computation-2}
 
 Wenn Ihre Analyse durch den CFG navigiert und den Kanten folgt, werden Sie wahrscheinlich bereits besuchte Knoten sehen. Zum Beispiel, wenn eine Schleife wie unten gezeigt vorliegt:
 

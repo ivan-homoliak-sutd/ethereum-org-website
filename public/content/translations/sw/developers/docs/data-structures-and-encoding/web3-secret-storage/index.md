@@ -190,6 +190,6 @@ Mabadiliko yamefanywa kwenye umbizo ili kutoa faili ifuatayo, ambayo ni sawa kiu
 }
 ```
 
-## Mabadiliko kutoka Toleo la 2 {#alterations-from-v2}
+## Mabadiliko kutoka Toleo la 2 {#alterations-from-v2-2}
 
 Toleo la 2 lilikuwa utekelezaji wa mapema wa C++ na idadi ya hitilafu. Mambo yote muhimu hayajabadilika kutoka humo.

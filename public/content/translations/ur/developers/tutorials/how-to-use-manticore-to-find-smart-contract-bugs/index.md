@@ -447,7 +447,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 آپ پابندیوں کو عالمی سطح پر (globally) یا کسی مخصوص اسٹیٹ کے لیے استعمال کر سکتے ہیں۔
 
-#### عالمی پابندی (Global constraint) {#state-constraint}
+#### عالمی پابندی (Global constraint) {#state-constraint-2}
 
 عالمی پابندی شامل کرنے کے لیے `m.constrain(constraint)` استعمال کریں۔
 مثال کے طور پر، آپ کسی کانٹریکٹ کو ایک علامتی ایڈریس سے کال کر سکتے ہیں، اور اس ایڈریس کو مخصوص ویلیوز تک محدود کر سکتے ہیں:
@@ -461,7 +461,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### اسٹیٹ کی پابندی (State constraint) {#state-constraint}
+#### اسٹیٹ کی پابندی (State constraint) {#state-constraint-3}
 
 کسی مخصوص اسٹیٹ میں پابندی شامل کرنے کے لیے [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) استعمال کریں۔
 اسے ایکسپلوریشن کے بعد اسٹیٹ کو محدود کرنے کے لیے استعمال کیا جا سکتا ہے تاکہ اس پر کچھ خصوصیات کی جانچ کی جا سکے۔

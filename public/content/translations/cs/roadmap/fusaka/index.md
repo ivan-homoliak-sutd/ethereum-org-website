@@ -280,7 +280,7 @@ Metoda RPC `eth_call` není omezena a umožní simulaci větších transakcí, n
 
 Kompilátory EVM jako Solidity budou implementovat a využívat novou funkci pro počítání nul pod kapotou. Nové kontrakty mohou těžit z úspor paliva, pokud se spoléhají na tento typ operace. Sledujte vydání a oznámení funkcí jazyka chytrých kontraktů pro dokumentaci o potenciálních úsporách.
 
-### Jsou nějaké změny pro mé stávající chytré kontrakty? {#what-clz-means-for-developers}
+### Jsou nějaké změny pro mé stávající chytré kontrakty? {#what-clz-means-for-developers-2}
 
 Fusaka nemá žádný přímý vliv, který by narušil jakékoli stávající kontrakty nebo změnil jejich chování. Změny zavedené do exekuční vrstvy jsou provedeny se zpětnou kompatibilitou, nicméně vždy sledujte okrajové případy a potenciální dopad.
 

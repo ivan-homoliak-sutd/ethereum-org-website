@@ -194,6 +194,6 @@ Perubahan telah dilakukan pada format untuk memberikan file berikut, yang secara
 }
 ```
 
-## Perubahan dari Versi 2 {#alterations-from-v2}
+## Perubahan dari Versi 2 {#alterations-from-v2-2}
 
 Versi 2 adalah implementasi C++ awal dengan sejumlah bug. Semua hal penting tetap tidak berubah darinya.

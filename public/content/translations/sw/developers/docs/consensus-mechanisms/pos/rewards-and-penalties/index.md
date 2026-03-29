@@ -16,7 +16,7 @@ Endelea kusoma ili upate habari zaidi...
 
 ## Zawadi na adhabu {#rewards}
 
-### Zawadi {#rewards}
+### Zawadi {#rewards-2}
 
 Uthibitishaji wanapokea tuzo wanapofanya kura ambazo kuambatana na wengi wa uthibitisho wengine, wanapopendekeza vitalu, na wanaposhiriki katika kamati za usawazishaji. Thamani ya zawadi katika kila epoch hukokotolewa kutoka kwa `base_reward`. Hii ni kitengo msingi kwamba tuzo nyingine ni mahesabu kutoka. `base_reward` inawakilisha zawadi ya wastani inayopokelewa na mthibitishaji chini ya hali bora kwa kila epoch. Hii ni mahesabu kutoka kwa usawa wa kweli wa uthibitisho na idadi ya jumla ya validators hai kama ifuatavyo:
 

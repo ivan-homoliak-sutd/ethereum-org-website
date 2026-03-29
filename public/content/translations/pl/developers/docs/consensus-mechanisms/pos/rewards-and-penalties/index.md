@@ -16,7 +16,7 @@ Czytaj dalej, aby poznać więcej szczegółów...
 
 ## Nagrody i kary {#rewards}
 
-### Nagrody {#rewards}
+### Nagrody {#rewards-2}
 
 Walidatorzy otrzymują nagrody, gdy oddają głosy zgodne z większością innych walidatorów, gdy proponują bloki i gdy uczestniczą w komitetach synchronizacyjnych. Wartość nagród w każdej epoce jest obliczana na podstawie `base_reward`. Jest to podstawowa jednostka, na podstawie której obliczane są inne nagrody. `base_reward` reprezentuje średnią nagrodę otrzymywaną przez walidatora w optymalnych warunkach w każdej epoce. Jest ona obliczana na podstawie efektywnego salda walidatora i całkowitej liczby aktywnych walidatorów w następujący sposób:
 

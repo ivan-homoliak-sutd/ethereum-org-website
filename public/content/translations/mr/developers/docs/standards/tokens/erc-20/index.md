@@ -70,7 +70,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 चला पाहूया की Ethereum वरील कोणत्याही ERC-20 टोकन कॉन्ट्रॅक्टची तपासणी करणे आपल्यासाठी सोपे करण्यासाठी एक मानक किती महत्त्वाचे आहे.
 कोणत्याही ERC-20 टोकनसाठी इंटरफेस तयार करण्यासाठी आपल्याला फक्त कॉन्ट्रॅक्ट ऍप्लिकेशन बायनरी इंटरफेस (ABI) ची आवश्यकता आहे. तुम्ही खाली पाहू शकता की आम्ही एक सरलीकृत ABI वापरणार आहोत, जेणेकरून हे एक कमी घर्षणाचे उदाहरण बनेल.
 
-#### Web3.py उदाहरण {#web3py-example}
+#### Web3.py उदाहरण {#web3py-example-2}
 
 प्रथम, आपण [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) Python लायब्ररी स्थापित केली असल्याची खात्री करा:
 

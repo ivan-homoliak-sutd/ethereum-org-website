@@ -454,7 +454,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 Вы можете использовать ограничения глобально или для определенного состояния.
 
-#### Глобальное ограничение {#state-constraint}
+#### Глобальное ограничение {#state-constraint-2}
 
 Используйте `m.constrain(constraint)` для добавления глобального ограничения.
 Например, вы можете вызвать контракт с символического адреса и ограничить этот адрес определенными значениями:
@@ -468,7 +468,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### Ограничение состояния {#state-constraint}
+#### Ограничение состояния {#state-constraint-3}
 
 Используйте [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) для добавления ограничения к определенному состоянию.
 Его можно использовать для ограничения состояния после его исследования, чтобы проверить какое-либо свойство на нем.

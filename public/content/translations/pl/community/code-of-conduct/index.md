@@ -29,7 +29,7 @@ Społeczność ethereum.org dąży do bycia:
 - DEX, CEX lub jakąkolwiek inną formą platformy finansowej
 - Platformą udzielającą jakichkolwiek porad finansowych lub prawnych
 
-## Kodeks postępowania {#code-of-conduct}
+## Kodeks postępowania {#code-of-conduct-2}
 
 ### Zobowiązanie {#pledge}
 

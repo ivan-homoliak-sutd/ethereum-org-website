@@ -74,15 +74,15 @@ Delegation ist wie die DAO-Version der repräsentativen Demokratie. Token-Inhabe
 
 [ENS](https://claim.ens.domains/delegate-ranking) – ENS-Inhaber können ihre Stimmen an engagierte Community-Mitglieder delegieren, um sie zu vertreten.
 
-### Automatische Transaktions-Governance {#governance-example}
+### Automatische Transaktions-Governance {#governance-example-2}
 
 In vielen DAOs werden Transaktionen automatisch ausgeführt, wenn ein Quorum der Mitglieder zustimmt.
 
-#### Ein bekanntes Beispiel {#governance-example}
+#### Ein bekanntes Beispiel {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – In der Nouns DAO wird eine Transaktion automatisch ausgeführt, wenn ein Quorum an Stimmen erreicht ist und eine Mehrheit zustimmt, solange die Gründer kein Veto einlegen.
 
-### Mehrfachsignatur-Governance {#governance-example}
+### Mehrfachsignatur-Governance {#governance-example-4}
 
 Während DAOs Tausende von stimmberechtigten Mitgliedern haben können, können sich die Gelder in einem [Wallet](/glossary/#wallet) befinden, das von 5-20 aktiven Community-Mitgliedern geteilt wird, denen vertraut wird und die normalerweise gedoxxt sind (öffentliche Identitäten, die der Community bekannt sind). Nach einer Abstimmung führen die [Mehrfachsignatur](/glossary/#multisig)-Unterzeichner den Willen der Community aus.
 

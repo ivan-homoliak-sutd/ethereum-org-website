@@ -40,7 +40,7 @@ Pro zajištění integrity dat byl již EIP-4844 implementován s KZG závazky. 
 
 DAS je mechanismus, který na tomto staví a zajišťuje, že data jsou správná i dostupná. Vzorkování je proces, při kterém uzel dotazuje pouze malou část dat a ověřuje ji proti závazku. KZG je schéma polynomiálního závazku, což znamená, že lze ověřit jakýkoli jednotlivý bod na polynomiální křivce. Kontrolou pouhých několika bodů na polynomu může mít klient provádějící vzorkování silnou pravděpodobnostní záruku, že data jsou dostupná.
 
-## PeerDAS {#peer-das}
+## PeerDAS {#peer-das-2}
 
 [PeerDAS (EIP-7594)](https://eips.ethereum.org/EIPS/eip-7594) je specifický návrh, který implementuje mechanismus DAS v Ethereu a představuje pravděpodobně největší vylepšení od Sloučení (The Merge). PeerDAS je navržen tak, aby rozšiřoval blob data rozdělením na sloupce a distribucí podmnožiny uzlům.
 

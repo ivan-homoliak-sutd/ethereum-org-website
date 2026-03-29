@@ -29,7 +29,7 @@ La community di ethereum.org si impegna a essere:
 - Un DEX, un CEX o qualsiasi altra forma di piattaforma finanziaria
 - Una piattaforma che fornisce consulenza finanziaria o legale di alcun tipo
 
-## Codice di condotta {#code-of-conduct}
+## Codice di condotta {#code-of-conduct-2}
 
 ### Impegno {#pledge}
 

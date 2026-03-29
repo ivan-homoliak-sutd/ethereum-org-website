@@ -29,7 +29,7 @@ ethereum.org topluluğu şunlar olmaya çalışır:
 - Bir DEX, CEX veya başka herhangi bir finansal platform
 - Herhangi bir türde finansal ya da hukuki tavsiye veren bir platform
 
-## Davranış Kuralları {#code-of-conduct}
+## Davranış Kuralları {#code-of-conduct-2}
 
 ### Taahhüt {#pledge}
 

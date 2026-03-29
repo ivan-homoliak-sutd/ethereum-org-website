@@ -81,7 +81,7 @@ C'est le flux le plus courant, utilisé par les traders :
 5. Vérifier si les montants sont acceptables (les appelants peuvent spécifier un montant minimum en dessous duquel ils préfèrent ne pas ajouter de liquidité).
 6. Appeler le contrat de base.
 
-#### Dans le contrat de base (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-2}
+#### Dans le contrat de base (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. Frapper des jetons de liquidité et les envoyer à l'appelant.
 8. Appeler `_update` pour mettre à jour les montants de la réserve.
@@ -97,7 +97,7 @@ C'est le flux le plus courant, utilisé par les traders :
 
 3. Envoyer les jetons de liquidité à l'échange de paires.
 
-#### Dans le contrat de base (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
+#### Dans le contrat de base (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. Envoyer à l'adresse de destination les jetons sous-jacents en proportion des jetons brûlés. Par exemple, s'il y a 1 000 jetons A dans le pool, 500 jetons B et 90 jetons de liquidité, et que nous recevons 9 jetons à brûler, nous brûlons 10 % des jetons de liquidité, nous renvoyons donc à l'utilisateur 100 jetons A et 50 jetons B.
 5. Brûler les jetons de liquidité.

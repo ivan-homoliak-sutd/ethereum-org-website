@@ -169,7 +169,7 @@ Slither अंगभूत [डेटा डिपेंडन्सी](https:/
 
 डेटा डिपेंडन्सी वापराचे उदाहरण [डेंजरस स्ट्रिक्ट इक्वलिटी डिटेक्टर](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities) मध्ये आढळू शकते. येथे Slither एका धोकादायक मूल्याशी स्ट्रिक्ट इक्वलिटी कंपॅरिझन शोधेल ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)), आणि वापरकर्त्याला सूचित करेल की त्याने `>=` किंवा `<=` ऐवजी `==` वापरावे, जेणेकरून अटॅकरला कॉन्ट्रॅक्टमध्ये अडकवण्यापासून रोखता येईल. इतर गोष्टींबरोबरच, डिटेक्टर `balanceOf(address)` ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)) ला केलेल्या कॉलचे रिटर्न व्हॅल्यू धोकादायक मानेल आणि त्याचा वापर ट्रॅक करण्यासाठी डेटा डिपेंडन्सी इंजिन वापरेल.
 
-#### फिक्स्ड-पॉइंट संगणन {#fixed-point-computation}
+#### फिक्स्ड-पॉइंट संगणन {#fixed-point-computation-2}
 
 जर तुमचे विश्लेषण CFG मधून नेव्हिगेट करत असेल आणि एजेसचे अनुसरण करत असेल, तर तुम्हाला आधीच भेट दिलेले नोड्स दिसण्याची शक्यता आहे. उदाहरणार्थ, जर एखादे लूप खाली दर्शविल्याप्रमाणे सादर केले असेल तर:
 

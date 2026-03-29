@@ -175,7 +175,7 @@ Slither, ara gösterimi (ileriki bir bölümde ele alınacaktır) sayesinde yerl
 
 Veri bağımlılığı kullanımına bir örnek, [tehlikeli katı eşitlik dedektöründe](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities) bulunabilir. Burada Slither, tehlikeli bir değere katı eşitlik karşılaştırması arar ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)) ve bir saldırganın sözleşmeyi tuzağa düşürmesini önlemek için kullanıcıya `==` yerine `>=` veya `<=` kullanması gerektiğini bildirir. Diğer şeylerin yanı sıra dedektör, `balanceOf(address)` çağrısının dönüş değerini tehlikeli olarak kabul eder ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)) ve kullanımını izlemek için veri bağımlılığı motorunu kullanır.
 
-#### Sabit nokta hesaplaması {#fixed-point-computation}
+#### Sabit nokta hesaplaması {#fixed-point-computation-2}
 
 Analiziniz CFG içinde gezinir ve kenarları takip ederse, daha önce ziyaret edilmiş düğümleri görmeniz olasıdır. Örneğin, bir döngü aşağıda gösterildiği gibi sunulursa:
 

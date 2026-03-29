@@ -81,7 +81,7 @@ Uniswap v2 được chia thành hai thành phần, lõi và ngoại vi. Sự ph�
 5. Kiểm tra xem số tiền có được chấp nhận hay không (người gọi có thể chỉ định số tiền tối thiểu mà dưới mức đó họ không muốn thêm thanh khoản)
 6. Gọi hợp đồng lõi.
 
-#### Trong hợp đồng lõi (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-2}
+#### Trong hợp đồng lõi (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. Đúc token thanh khoản và gửi chúng cho người gọi
 8. Gọi `_update` để cập nhật số lượng dự trữ
@@ -97,7 +97,7 @@ Uniswap v2 được chia thành hai thành phần, lõi và ngoại vi. Sự ph�
 
 3. Gửi các token thanh khoản đến sàn giao dịch cặp
 
-#### Trong hợp đồng lõi (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
+#### Trong hợp đồng lõi (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. Gửi cho địa chỉ đích các token cơ sở theo tỷ lệ với các token đã đốt. Ví dụ: nếu có 1000 token A trong pool, 500 token B và 90 token thanh khoản, và chúng tôi nhận được 9 token để đốt, chúng tôi đang đốt 10% token thanh khoản, vì vậy chúng tôi gửi lại cho người dùng 100 token A và 50 token B.
 5. Đốt các token thanh khoản

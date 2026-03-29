@@ -456,7 +456,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 Omezení můžete použít globálně nebo pro určitý stav.
 
-#### Globální omezení {#state-constraint}
+#### Globální omezení {#state-constraint-2}
 
 Použijte `m.constrain(constraint)` pro přidání globálního omezení.
 Můžete například zavolat kontrakt ze symbolické adresy a omezit tuto adresu na konkrétní hodnoty:
@@ -470,7 +470,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### Omezení stavu {#state-constraint}
+#### Omezení stavu {#state-constraint-3}
 
 Použijte [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) k přidání omezení ke konkrétnímu stavu.
 Lze jej použít k omezení stavu po jeho prozkoumání a ke kontrole nějaké jeho vlastnosti.

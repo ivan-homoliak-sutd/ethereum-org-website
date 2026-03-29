@@ -453,7 +453,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 يمكنك استخدام القيود بشكل عام أو لحالة معينة.
 
-#### قيد عام {#state-constraint}
+#### قيد عام {#state-constraint-2}
 
 استخدم `m.constrain(constraint)` لإضافة قيد عام.
 على سبيل المثال، يمكنك استدعاء عقد من عنوان رمزي، وتقييد هذا العنوان ليكون قيمًا محددة:
@@ -467,7 +467,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### قيد الحالة {#state-constraint}
+#### قيد الحالة {#state-constraint-3}
 
 استخدم [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) لإضافة قيد إلى حالة معينة.
 يمكن استخدامه لتقييد الحالة بعد استكشافها للتحقق من خاصية معينة عليها.

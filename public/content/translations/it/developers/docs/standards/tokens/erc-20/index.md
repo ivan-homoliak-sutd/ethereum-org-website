@@ -69,7 +69,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 
 Vediamo come uno Standard sia così importante per semplificarci l'ispezione di qualsiasi Contratto di Token ERC-20 su Ethereum. Abbiamo solo bisogno dell'Application Binary Interface (ABI) del contratto per creare un'interfaccia per qualsiasi Token ERC-20. Come puoi vedere di seguito, utilizzeremo un'ABI semplificata, per renderlo un esempio a basso attrito.
 
-#### Esempio con Web3.py {#web3py-example}
+#### Esempio con Web3.py {#web3py-example-2}
 
 Innanzitutto, assicurati di aver installato la libreria Python [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

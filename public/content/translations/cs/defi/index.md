@@ -180,7 +180,7 @@ Abyste mohli provést výše uvedený příklad v tradičním finančním systé
 
 ### Začněte spořit s kryptoměnami {#saving}
 
-#### Poskytování půjček {#lending}
+#### Poskytování půjček {#lending-2}
 
 Půjčováním kryptoměn můžete vydělávat na úrocích a sledovat růst svých prostředků v reálném čase. Momentálně jsou úrokové sazby mnohem vyšší než ty, které pravděpodobně dostanete v místní bance (pokud máte to štěstí, že se k ní dostanete). Toto je příklad:
 

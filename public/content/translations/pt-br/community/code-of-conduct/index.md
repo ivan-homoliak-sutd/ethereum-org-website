@@ -29,7 +29,7 @@ A comunidade ethereum.org trabalha para ser:
 - Uma DEX, CEX, ou qualquer outra forma de plataforma financeira
 - Uma plataforma que oferece recomendações financeiras ou jurídicas de qualquer tipo
 
-## Código de conduta {#code-of-conduct}
+## Código de conduta {#code-of-conduct-2}
 
 ### Compromisso {#pledge}
 

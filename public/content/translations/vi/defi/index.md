@@ -180,7 +180,7 @@ Nếu nguồn cung của sàn giao dịch B sụt giảm bất ngờ và ngườ
 
 ### Bắt đầu tiết kiệm bằng tiền mã hóa {#saving}
 
-#### Cho vay {#lending}
+#### Cho vay {#lending-2}
 
 Bạn có thể thu lãi suất trên tiền mã hóa của mình bằng cách cho vay và nhìn thấy số tiền của mình sinh lời trực tiếp. Hiện tại, lãi suất gửi tiền mã hóa cao hơn nhiều so với lãi suất bạn có thể kiếm được từ ngân hàng địa phương (đó là nếu bạn đủ may mắn để có thể tiếp cận một ngân hàng nơi bạn ở). Dưới đây là ví dụ:
 

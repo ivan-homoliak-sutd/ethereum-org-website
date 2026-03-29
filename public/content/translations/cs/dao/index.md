@@ -74,15 +74,15 @@ Delegování je něco jako DAO verze zastupitelské demokracie. Držitelé token
 
 [ENS](https://claim.ens.domains/delegate-ranking) – Držitelé ENS mohou delegovat své hlasy angažovaným členům komunity, aby je zastupovali.
 
-### Automatická správa transakcí {#governance-example}
+### Automatická správa transakcí {#governance-example-2}
 
 V mnoha DAO budou transakce provedeny automaticky, pokud bude dostatečně uživatelů hlasovat pro.
 
-#### Známý příklad {#governance-example}
+#### Známý příklad {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – V Nouns DAO se transakce automaticky provede, pokud je dosaženo kvóra hlasů a většina hlasuje pro, pokud ji zakladatelé nevetují.
 
-### Správa pomocí multisig {#governance-example}
+### Správa pomocí multisig {#governance-example-4}
 
 Ačkoli DAO mohou mít tisíce hlasujících členů, prostředky mohou být uloženy v [peněžence](/glossary/#wallet) sdílené 5–20 aktivními členy komunity, kteří jsou důvěryhodní a obvykle mají zveřejněnou identitu (veřejná identita známá komunitě). Po hlasování signatáři s [vícenásobným podpisem](/glossary/#multisig) vykonají vůli komunity.
 

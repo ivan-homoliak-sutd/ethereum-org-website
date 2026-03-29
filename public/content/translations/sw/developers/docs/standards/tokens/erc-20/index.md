@@ -76,7 +76,7 @@ Hebu angalia jinsi kiwango ni muhimu sana kufanya jambo rahisi kwa ajili yetu ya
 Sisi tu haja ya Mkataba wa Maombi jozi Mtandao (ABI) kujenga Mtandao kwa yoyote ERC-20 ishara. Ama unaweza
 Tazama chini kutumia ABI rahisi, kuifanya mfano wa msuguano mdogo.
 
-#### Mfano wa Web3.py {#web3py-example}
+#### Mfano wa Web3.py {#web3py-example-2}
 
 Kwanza, hakikisha umesakinisha maktaba ya Python ya [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

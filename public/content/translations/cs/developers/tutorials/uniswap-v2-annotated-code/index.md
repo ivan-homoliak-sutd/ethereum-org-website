@@ -81,7 +81,7 @@ Toto je nejběžnější tok, který používají obchodníci:
 5. Zkontrolujte, zda jsou částky přijatelné (volající mohou zadat minimální částku, pod kterou by raději nepřidávali likviditu)
 6. Zavolejte hlavní kontrakt.
 
-#### V hlavním kontraktu (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-2}
+#### V hlavním kontraktu (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. Vyražte tokeny likvidity a odešlete je volajícímu
 8. Zavolejte `_update` pro aktualizaci výše rezerv
@@ -97,7 +97,7 @@ Toto je nejběžnější tok, který používají obchodníci:
 
 3. Odešlete tokeny likvidity do párové směnárny
 
-#### V hlavním kontraktu (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
+#### V hlavním kontraktu (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. Odešlete na cílovou adresu podkladové tokeny v poměru ke spáleným tokenům. Například pokud je v poolu 1 000 tokenů A, 500 tokenů B a 90 tokenů likvidity a obdržíme 9 tokenů ke spálení, pálíme 10 % tokenů likvidity, takže uživateli vrátíme 100 tokenů A a 50 tokenů B.
 5. Spalte tokeny likvidity

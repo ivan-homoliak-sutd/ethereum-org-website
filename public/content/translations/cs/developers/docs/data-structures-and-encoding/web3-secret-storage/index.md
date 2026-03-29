@@ -190,6 +190,6 @@ Ve formátu byly provedeny změny tak, aby vznikl následující soubor, který 
 }
 ```
 
-## Změny oproti verzi 2 {#alterations-from-v2}
+## Změny oproti verzi 2 {#alterations-from-v2-2}
 
 Verze 2 byla raná implementace v C++ s řadou chyb. Všechny základní věci v ní zůstávají beze změny.

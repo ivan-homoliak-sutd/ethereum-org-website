@@ -63,7 +63,7 @@ lang: ar
 دعونا نرى كيف أن المعيار مهم جداً لجعل الأمور بسيطة بالنسبة لنا لفحص أي عقد توكن ERC-721 على Ethereum.
 We just need the Contract Application Binary Interface (ABI) to create an interface to any ERC-721 Token. كما ترى أدناه، سنستخدم واجهة برمجة تطبيقات (ABI) مبسطة، لجعلها مثالاً منخفض الاحتكاك.
 
-#### مثال ويب3.باي {#web3py-example}
+#### مثال ويب3.باي {#web3py-example-2}
 
 أولاً، تأكد من تثبيت مكتبة [ويب3.باي](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) الخاصة بلغة بايثون:
 

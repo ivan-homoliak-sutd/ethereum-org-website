@@ -180,7 +180,7 @@ Para hacer lo que describimos en el ejemplo de arriba pero en el mundo real nece
 
 ### Empieza a ahorrar con cripto {#saving}
 
-#### Préstamos {#lending}
+#### Préstamos {#lending-2}
 
 Puede ganar un interés en criptomonedas al prestar dinero: verá cómo aumentan sus fondos en tiempo real. Ahora mismo, las tasas de interés son mucho más altas de lo que probablemente pueda obtener en su banco local (si tiene la suerte suficiente de encontrar uno). Le mostramos un ejemplo:
 

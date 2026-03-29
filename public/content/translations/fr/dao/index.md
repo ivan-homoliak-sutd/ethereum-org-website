@@ -72,15 +72,15 @@ La délégation est la version DAO de la démocratie représentative. Les déten
 
 #### Un exemple célèbre {#governance-example}[ENS](https://claim.ens.domains/delegate-ranking) – Les détenteurs d'ENS peuvent déléguer leurs votes à des membres engagés de la communauté pour les représenter.
 
-### Gouvernance automatique des transactions {#governance-example}
+### Gouvernance automatique des transactions {#governance-example-2}
 
 Dans de nombreuse DAO, les transactions seront automatiquement exécutées si le quorum des membres vote par l'affirmative.
 
-#### Un exemple célèbre {#governance-example}
+#### Un exemple célèbre {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – Dans la DAO Nouns, une transaction est automatiquement exécutée si un quorum de votes est atteint et qu'une majorité vote par l'affirmative, tant qu'elle ne fait pas l'objet d'un veto de la part des fondateurs.
 
-### Gouvernance multisig {#governance-example}
+### Gouvernance multisig {#governance-example-4}
 
 Bien que les DAO puissent avoir des milliers de membres votants, les fonds peuvent se trouver dans un [portefeuille](/glossary/#wallet) partagé par 5 à 20 membres actifs de la communauté qui sont dignes de confiance et généralement doxxés (dont les identités publiques sont connues de la communauté). Après un vote, les signataires [multisig](/glossary/#multisig) exécutent la volonté de la communauté.
 

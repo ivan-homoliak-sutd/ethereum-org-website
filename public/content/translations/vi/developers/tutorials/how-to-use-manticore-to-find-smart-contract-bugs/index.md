@@ -454,7 +454,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 Bạn có thể sử dụng các ràng buộc trên toàn cục hoặc cho một trạng thái cụ thể.
 
-#### Ràng buộc toàn cục {#state-constraint}
+#### Ràng buộc toàn cục {#state-constraint-2}
 
 Sử dụng `m.constrain(constraint)` để thêm một ràng buộc toàn cục.
 Ví dụ: bạn có thể gọi một hợp đồng từ một địa chỉ ký hiệu và giới hạn địa chỉ này ở các giá trị cụ thể:
@@ -468,7 +468,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### Ràng buộc trạng thái {#state-constraint}
+#### Ràng buộc trạng thái {#state-constraint-3}
 
 Sử dụng [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) để thêm một ràng buộc vào một trạng thái cụ thể.
 Nó có thể được sử dụng để ràng buộc trạng thái sau khi khám phá để kiểm tra một số thuộc tính trên đó.

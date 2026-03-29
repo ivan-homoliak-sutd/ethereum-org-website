@@ -62,7 +62,7 @@ Hebu tuone jinsi Kiwango kilivyo muhimu sana kurahisisha mambo kwetu kukagua Mka
 Tunahitaji tu Kiolesura cha Binary cha Programu ya Mkataba (ABI) ili kuunda kiolesura cha Tokeni yoyote ya ERC-721. Ama unaweza
 Tazama chini kutumia ABI rahisi, kuifanya mfano wa msuguano mdogo.
 
-#### Mfano wa Web3.py {#web3py-example}
+#### Mfano wa Web3.py {#web3py-example-2}
 
 Kwanza, hakikisha umesakinisha maktaba ya Python ya [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

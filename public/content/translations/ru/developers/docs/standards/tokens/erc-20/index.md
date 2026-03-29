@@ -70,7 +70,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 Давайте разберемся почему Стандарт настолько важен, чтобы упростить для нас проверку любого контракта токена ERC-20 в Ethereum.
 Нам просто нужен двоичный интерфейс приложения контракта (ABI) для создания интерфейса для любого токена ERC-20. Как вы можете увидеть ниже, мы будем использовать упрощенный ABI, чтобы сделать пример простым.
 
-#### Пример Web3.py {#web3py-example}
+#### Пример Web3.py {#web3py-example-2}
 
 Во-первых, убедитесь, что вы установили библиотеку Python [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

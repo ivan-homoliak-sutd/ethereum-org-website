@@ -447,7 +447,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 আপনি বিশ্বব্যাপী (globally) বা একটি নির্দিষ্ট স্টেটের জন্য কনস্ট্রেইন্ট ব্যবহার করতে পারেন।
 
-#### গ্লোবাল কনস্ট্রেইন্ট {#state-constraint}
+#### গ্লোবাল কনস্ট্রেইন্ট {#state-constraint-2}
 
 একটি গ্লোবাল কনস্ট্রেইন্ট যোগ করতে `m.constrain(constraint)` ব্যবহার করুন।
 উদাহরণস্বরূপ, আপনি একটি সিম্বলিক এডড্রেস থেকে একটি কন্ট্রাক্ট কল করতে পারেন এবং এই এডড্রেসটিকে নির্দিষ্ট মান হতে সীমাবদ্ধ করতে পারেন:
@@ -461,7 +461,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### স্টেট কনস্ট্রেইন্ট {#state-constraint}
+#### স্টেট কনস্ট্রেইন্ট {#state-constraint-3}
 
 একটি নির্দিষ্ট স্টেটে কনস্ট্রেইন্ট যোগ করতে [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) ব্যবহার করুন।
 এটি অন্বেষণের পরে স্টেটের উপর কোনো প্রপার্টি চেক করার জন্য স্টেটকে সীমাবদ্ধ করতে ব্যবহৃত হতে পারে।

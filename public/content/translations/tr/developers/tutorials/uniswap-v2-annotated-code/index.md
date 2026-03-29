@@ -82,7 +82,7 @@ This is most common flow, used by traders:
 5. Check if the amounts are acceptable (callers can specify a minimum amount below which they'd rather not add liquidity)
 6. Call the core contract.
 
-#### Çekirdek sözleşmesinde (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-2}
+#### Çekirdek sözleşmesinde (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. Mint liquidity tokens and send them to the caller
 8. Rezerv tutarlarını güncellemek için _update komutunu çağırın
@@ -98,7 +98,7 @@ This is most common flow, used by traders:
 
 3. Send the liquidity tokens to the pair exchange
 
-#### In the core contract (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
+#### In the core contract (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. Send the destination address the underlying tokens in proportion to the burned tokens. For example if there are 1000 A tokens in the pool, 500 B tokens, and 90 liquidity tokens, and we receive 9 tokens to burn, we're burning 10% of the liquidity tokens so we send back the user 100 A tokens and 50 B tokens.
 5. Burn the liquidity tokens

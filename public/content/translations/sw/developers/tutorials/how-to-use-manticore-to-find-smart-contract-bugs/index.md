@@ -449,7 +449,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 Unaweza kutumia vikwazo kimataifa au kwa hali maalum.
 
-#### Kikwazo cha kimataifa {#state-constraint}
+#### Kikwazo cha kimataifa {#state-constraint-2}
 
 Tumia `m.constrain(constraint)` kuongeza kikwazo cha kimataifa.
 Kwa mfano, unaweza kuita mkataba kutoka kwa anwani ya ishara, na kuzuia anwani hii kuwa na maadili maalum:
@@ -463,7 +463,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### Kikwazo cha hali {#state-constraint}
+#### Kikwazo cha hali {#state-constraint-3}
 
 Tumia [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) kuongeza kikwazo kwa hali maalum.
 Inaweza kutumika kuzuia hali baada ya uchunguzi wake kuangalia mali fulani juu yake.

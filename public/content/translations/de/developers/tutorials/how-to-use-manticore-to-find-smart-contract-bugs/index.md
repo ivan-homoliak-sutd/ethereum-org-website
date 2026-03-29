@@ -447,7 +447,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 Sie können Einschränkungen global oder für einen bestimmten Zustand verwenden.
 
-#### Globale Einschränkung {#state-constraint}
+#### Globale Einschränkung {#state-constraint-2}
 
 Verwenden Sie `m.constrain(constraint)`, um eine globale Einschränkung hinzuzufügen.
 Zum Beispiel können Sie einen Smart Contract von einer symbolischen Adresse aus aufrufen und diese Adresse auf bestimmte Werte beschränken:
@@ -461,7 +461,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### Zustandseinschränkung {#state-constraint}
+#### Zustandseinschränkung {#state-constraint-3}
 
 Verwenden Sie [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain), um einem bestimmten Zustand eine Einschränkung hinzuzufügen.
 Dies kann verwendet werden, um den Zustand nach seiner Untersuchung einzuschränken, um eine Eigenschaft daran zu überprüfen.

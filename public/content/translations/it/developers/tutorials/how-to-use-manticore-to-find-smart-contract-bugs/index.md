@@ -447,7 +447,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 Puoi usare i vincoli a livello globale o per uno stato specifico.
 
-#### Vincolo globale {#state-constraint}
+#### Vincolo globale {#state-constraint-2}
 
 Usa `m.constrain(constraint)` per aggiungere un vincolo globale.
 Ad esempio, puoi chiamare un contratto da un indirizzo simbolico e vincolare questo indirizzo a valori specifici:
@@ -461,7 +461,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### Vincolo di stato {#state-constraint}
+#### Vincolo di stato {#state-constraint-3}
 
 Usa [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) per aggiungere un vincolo a uno stato specifico.
 Può essere usato per vincolare lo stato dopo la sua esplorazione per verificare alcune proprietà su di esso.

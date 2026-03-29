@@ -447,7 +447,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 您可以全域或針對特定狀態使用約束。
 
-#### 全域約束 {#state-constraint}
+#### 全域約束 {#state-constraint-2}
 
 使用 `m.constrain(constraint)` 來新增全域約束。
 例如，您可以從一個符號位址呼叫合約，並將此位址限制為特定值：
@@ -461,7 +461,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### 狀態約束 {#state-constraint}
+#### 狀態約束 {#state-constraint-3}
 
 使用 [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) 將約束新增到特定狀態。
 它可用於在探索後約束狀態，以檢查其上的某些屬性。

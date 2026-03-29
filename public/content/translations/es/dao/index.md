@@ -70,17 +70,17 @@ Muchas consideraciones entran en juego a la hora de gobernar una DAO, como la ma
 
 La delegación es la versión DAO de la democracia representativa. Los poseedores de los tokens delegan votos a los usuarios quienes se nominan a sí mismos y se comprometen a administrar el protocolo y mantenerse informados.
 
-#### Un ejemplo famoso {#governance-example}[ENS](https://claim.ens.domains/delegate-ranking) – Los titulares de ENS pueden delegar sus votos a miembros activos de la comunidad para que los representen.
+#### Un ejemplo famoso {#governance-example-5}[ENS](https://claim.ens.domains/delegate-ranking) – Los titulares de ENS pueden delegar sus votos a miembros activos de la comunidad para que los representen.
 
-### Gobernanza de transacciones automáticas {#governance-example}
+### Gobernanza de transacciones automáticas {#governance-example-2}
 
 En muchas DAO, las transacciones se ejecutarán automáticamente si el quórum de miembros vota afirmativamente.
 
-#### Un ejemplo famoso {#governance-example}
+#### Un ejemplo famoso {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – En Nouns DAO, una transacción se ejecuta automáticamente si se alcanza el quórum de votos y la mayoría vota afirmativamente, siempre que no sea vetada por los fundadores.
 
-### Gobernanza multisig {#governance-example}
+### Gobernanza multisig {#governance-example-4}
 
 Aunque las DAO pueden tener miles de miembros votantes, los fondos pueden residir en una [wallet](/glossary/#wallet) compartida por 5-20 miembros activos de la comunidad que son de confianza y, por lo general, tienen identidad pública (doxxeados ante la comunidad). Después de una votación, los firmantes del [multisig](/glossary/#multisig) ejecutan la voluntad de la comunidad.
 

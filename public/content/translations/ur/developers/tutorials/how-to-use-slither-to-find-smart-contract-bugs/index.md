@@ -168,7 +168,7 @@ Slither اپنی درمیانی نمائندگی (جس پر بعد کے سیکش
 
 ڈیٹا ڈیپینڈنسی کے استعمال کی ایک مثال [خطرناک سخت برابری کے ڈیٹیکٹر (dangerous strict equality detector)](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities) میں مل سکتی ہے۔ یہاں Slither کسی خطرناک قدر کے ساتھ سخت برابری کے موازنے کو تلاش کرے گا ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87))، اور صارف کو مطلع کرے گا کہ اسے حملہ آور کو کانٹریکٹ میں پھنسانے سے روکنے کے لیے `==` کے بجائے `>=` یا `<=` کا استعمال کرنا چاہیے۔ دیگر چیزوں کے علاوہ، ڈیٹیکٹر `balanceOf(address)` پر کال کی ریٹرن ویلیو کو خطرناک سمجھے گا ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64))، اور اس کے استعمال کو ٹریک کرنے کے لیے ڈیٹا ڈیپینڈنسی انجن کا استعمال کرے گا۔
 
-#### فکسڈ پوائنٹ کیلکولیشن {#fixed-point-computation}
+#### فکسڈ پوائنٹ کیلکولیشن {#fixed-point-computation-2}
 
 اگر آپ کا تجزیہ CFG کے ذریعے نیویگیٹ کرتا ہے اور کناروں (edges) کی پیروی کرتا ہے، تو آپ کو پہلے سے دیکھے گئے نوڈز نظر آنے کا امکان ہے۔ مثال کے طور پر، اگر کوئی لوپ نیچے دکھائے گئے طریقے سے پیش کیا گیا ہے:
 

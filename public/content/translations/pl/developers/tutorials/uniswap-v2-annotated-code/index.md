@@ -80,7 +80,7 @@ Jest to najczęstszy przepływ, używany przez handlowców:
 5. Sprawdź, czy kwoty są dopuszczalne (wywołujący mogą określić minimalną kwotę, poniżej której woleliby nie dodawać płynności)
 6. Wywołaj kontrakt główny.
 
-#### W kontrakcie głównym (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-2}
+#### W kontrakcie głównym (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. Wybij tokeny płynności i wyślij je do wywołującego
 8. Wywołaj `_update`, aby zaktualizować kwoty rezerw
@@ -96,7 +96,7 @@ Jest to najczęstszy przepływ, używany przez handlowców:
 
 3. Wyślij tokeny płynności do giełdy par
 
-#### W kontrakcie głównym (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
+#### W kontrakcie głównym (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. Wyślij na adres docelowy tokeny bazowe w proporcji do spalonych tokenów. Na przykład, jeśli w puli jest 1000 tokenów A, 500 tokenów B i 90 tokenów płynności, a my otrzymujemy 9 tokenów do spalenia, spalamy 10% tokenów płynności, więc odsyłamy użytkownikowi 100 tokenów A i 50 tokenów B.
 5. Spal tokeny płynności

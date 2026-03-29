@@ -453,7 +453,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 మీరు పరిమితులను ప్రపంచవ్యాప్తంగా లేదా ఒక నిర్దిష్ట స్థితి కోసం ఉపయోగించవచ్చు.
 
-#### గ్లోబల్ పరిమితి {#state-constraint}
+#### గ్లోబల్ పరిమితి {#state-constraint-2}
 
 గ్లోబల్ పరిమితిని జోడించడానికి `m.constrain(constraint)` ను ఉపయోగించండి.
 ఉదాహరణకు, మీరు ఒక సింబాలిక్ చిరునామా నుండి ఒక కాంట్రాక్ట్‌ను పిలవవచ్చు మరియు ఈ చిరునామాను నిర్దిష్ట విలువలకు పరిమితం చేయవచ్చు:
@@ -467,7 +467,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### స్థితి పరిమితి {#state-constraint}
+#### స్థితి పరిమితి {#state-constraint-3}
 
 ఒక నిర్దిష్ట స్థితికి పరిమితిని జోడించడానికి [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain)ని ఉపయోగించండి.
 దానిపై కొన్ని లక్షణాలను తనిఖీ చేయడానికి దాని అన్వేషణ తర్వాత స్థితిని పరిమితం చేయడానికి దీనిని ఉపయోగించవచ్చు.

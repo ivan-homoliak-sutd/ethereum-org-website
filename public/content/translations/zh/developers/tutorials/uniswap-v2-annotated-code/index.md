@@ -82,7 +82,7 @@ Uniswap v2 分为两个部分：核心和外围。 这种划分使得持有资�
 5. 检查金额是否可接受（调用者可以指定一个最低金额，低于此金额他们宁愿不添加流动性）
 6. 调用核心合约。
 
-#### 在核心合约 (UniswapV2Pair.sol) 中 {#in-the-core-contract-uniswapv2pairsol-2}
+#### 在核心合约 (UniswapV2Pair.sol) 中 {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. 铸造流动性代币并将其发送给调用者
 8. 调用 `_update` 来更新储备金金额
@@ -98,7 +98,7 @@ Uniswap v2 分为两个部分：核心和外围。 这种划分使得持有资�
 
 3. 将流动性代币发送到交易对
 
-#### 在核心合约 (UniswapV2Pair.sol) 中 {#in-the-core-contract-uniswapv2pairsol-3}
+#### 在核心合约 (UniswapV2Pair.sol) 中 {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. 按与销毁代币成比例的标的代币数量发送到目标地址。 例如，如果资金池中有 1000 个 A 代币、500 个 B 代币和 90 个流动性代币，而我们收到 9 个代币进行销毁，我们销毁了 10% 的流动性代币，因此返还给用户 100 个 A 代币和 50 个 B 代币。
 5. 销毁流动性代币

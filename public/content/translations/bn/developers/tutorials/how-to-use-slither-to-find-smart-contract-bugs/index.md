@@ -169,7 +169,7 @@ variable_a = variable_b + 1;
 
 ডেটা ডিপেন্ডেন্সি ব্যবহারের একটি উদাহরণ [বিপজ্জনক স্ট্রিক্ট ইকুয়ালিটি ডিটেক্টরে](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities) পাওয়া যেতে পারে। এখানে স্লিদার একটি বিপজ্জনক মানের সাথে স্ট্রিক্ট ইকুয়ালিটি তুলনা খুঁজবে ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)), এবং ব্যবহারকারীকে জানাবে যে কোনো আক্রমণকারীকে কন্ট্রাক্টটি ফাঁদে ফেলা থেকে বিরত রাখতে `==`-এর পরিবর্তে `>=` বা `<=` ব্যবহার করা উচিত। অন্যান্য বিষয়ের মধ্যে, ডিটেক্টরটি `balanceOf(address)`-এ কলের রিটার্ন ভ্যালুকে বিপজ্জনক হিসেবে বিবেচনা করবে ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)), এবং এর ব্যবহার ট্র্যাক করতে ডেটা ডিপেন্ডেন্সি ইঞ্জিন ব্যবহার করবে।
 
-#### ফিক্সড-পয়েন্ট কম্পিউটেশন {#fixed-point-computation}
+#### ফিক্সড-পয়েন্ট কম্পিউটেশন {#fixed-point-computation-2}
 
 যদি আপনার অ্যানালাইসিস CFG-এর মাধ্যমে নেভিগেট করে এবং এজগুলো অনুসরণ করে, তবে আপনি সম্ভবত ইতিমধ্যে ভিজিট করা নোডগুলো দেখতে পাবেন। উদাহরণস্বরূপ, যদি নিচে দেখানো লুপটি উপস্থিত থাকে:
 

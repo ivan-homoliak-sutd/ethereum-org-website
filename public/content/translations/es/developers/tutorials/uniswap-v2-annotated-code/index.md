@@ -63,7 +63,7 @@ Este es el flujo más común, utilizado por los traders:
 7. Enviar los tókenes de salida al destino.
 8. Llamar a `_update` para actualizar las cantidades de la reserva
 
-#### De vuelta en el contrato periférico (UniswapV2Router02.sol) {#in-the-core-contract-uniswapv2pairsol-2}
+#### De vuelta en el contrato periférico (UniswapV2Router02.sol) {#in-the-core-contract-uniswapv2pairsol-3}
 
 9. Realizar cualquier limpieza necesaria (por ejemplo, quemar tókenes WETH para recuperar ETH y enviarlos al trader).
 
@@ -86,7 +86,7 @@ Este es el flujo más común, utilizado por los traders:
 7. Acuñar tókenes de liquidez y enviarlos al emisor
 8. Llamar a `_update` para actualizar las cantidades de la reserva
 
-### Retirar liquidez {#in-the-core-contract-uniswapv2pairsol-2}
+### Retirar liquidez {#in-the-core-contract-uniswapv2pairsol-5}
 
 #### Emisor {#remove-liquidity-flow}
 
@@ -103,7 +103,7 @@ Este es el flujo más común, utilizado por los traders:
 5. Quemar los tókenes de liquidez.
 6. Llamar a `_update` para actualizar las cantidades de la reserva
 
-## Los contratos principales {#in-the-core-contract-uniswapv2pairsol-3}
+## Los contratos principales {#in-the-core-contract-uniswapv2pairsol-4}
 
 Estos son los contratos seguros que contienen la liquidez.
 

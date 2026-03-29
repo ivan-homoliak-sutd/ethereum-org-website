@@ -449,7 +449,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 制約は、グローバルまたは特定の状態に対して使用できます。
 
-#### グローバル制約 {#state-constraint}
+#### グローバル制約 {#state-constraint-2}
 
 グローバル制約を追加するには `m.constrain(constraint)` を使用します。
 例えば、シンボリックアドレスからコントラクトを呼び出し、このアドレスを特定の値に制限することができます。
@@ -463,7 +463,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### 状態制約 {#state-constraint}
+#### 状態制約 {#state-constraint-3}
 
 [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) を使用して、特定の状態に制約を追加します。
 これは、探索後に状態を制約して、そのプロパティをチェックするために使用できます。

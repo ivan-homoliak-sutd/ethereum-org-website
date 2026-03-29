@@ -280,7 +280,7 @@ RPC yöntemi `eth_call` sınırlı değildir ve gerçek blokzincir limitinden da
 
 Solidity gibi EVM derleyicileri, arka planda sıfırları saymak için yeni işlevi uygulayacak ve kullanacaktır. Yeni sözleşmeler, bu tür işlemlere dayanıyorlarsa gaz tasarrufundan faydalanabilirler. Potansiyel tasarruflar hakkında dokümantasyon için akıllı sözleşme dilinin sürümlerini ve özellik duyurularını takip edin.
 
-### Mevcut akıllı sözleşmelerim için herhangi bir değişiklik var mı? {#what-clz-means-for-developers}
+### Mevcut akıllı sözleşmelerim için herhangi bir değişiklik var mı? {#what-clz-means-for-developers-2}
 
 Fusaka'nın, mevcut sözleşmeleri bozacak veya davranışlarını değiştirecek doğrudan bir etkisi yoktur. Yürütme katmanına getirilen değişiklikler geriye dönük uyumlulukla yapılır, ancak her zaman uç durumlara ve potansiyel etkilere dikkat edin.
 

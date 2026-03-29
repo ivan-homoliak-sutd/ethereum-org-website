@@ -175,7 +175,7 @@ Slither viene con capacidades integradas de [dependencia de datos](https://githu
 
 Se puede encontrar un ejemplo del uso de la dependencia de datos en el [detector de igualdad estricta peligrosa](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities). Aquí Slither buscará una comparación de igualdad estricta con un valor peligroso ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)), e informará al usuario de que debe usar `>=` o `<=` en lugar de `==`, para evitar que un atacante atrape el contrato. Entre otros, el detector considerará peligroso el valor de retorno de una llamada a `balanceOf(address)` ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)), y utilizará el motor de dependencia de datos para rastrear su uso.
 
-#### Cálculo de punto fijo {#fixed-point-computation}
+#### Cálculo de punto fijo {#fixed-point-computation-2}
 
 Si su análisis navega a través del CFG y sigue las aristas, es probable que vea nodos ya visitados. Por ejemplo, si un bucle se presenta como se muestra a continuación:
 

@@ -169,7 +169,7 @@ Slither inakuja na uwezo uliojengewa ndani wa [utegemezi wa data](https://github
 
 Mfano wa matumizi ya utegemezi wa data unaweza kupatikana katika [kitambuzi hatari cha usawa mkali](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities). Hapa Slither itatafuta ulinganisho wa usawa mkali na thamani hatari ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)), na itamjulisha mtumiaji kwamba anapaswa kutumia `>=` au `<=` badala ya `==`, ili kumzuia mshambulizi asitege mkataba. Miongoni mwa mambo mengine, kitambuzi kitazingatia thamani ya kurejesha ya mwito kwa `balanceOf(address)` kuwa hatari ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)), na itatumia injini ya utegemezi wa data kufuatilia matumizi yake.
 
-#### Hesabu ya nukta isiyobadilika {#fixed-point-computation}
+#### Hesabu ya nukta isiyobadilika {#fixed-point-computation-2}
 
 Ikiwa uchambuzi wako unapitia CFG na kufuata pande, kuna uwezekano wa kuona nodi ambazo tayari zimetembelewa. Kwa mfano, ikiwa kitanzi kinaonyeshwa kama ilivyo hapo chini:
 

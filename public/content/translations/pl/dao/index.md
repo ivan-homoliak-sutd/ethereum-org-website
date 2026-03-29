@@ -72,15 +72,15 @@ Oddelegowywanie w DAO jest wersją demokracji przedstawicielskiej. Posiadacze to
 
 #### Znany przykład {#governance-example}[ENS](https://claim.ens.domains/delegate-ranking) – posiadacze tokenów ENS mogą przekazywać swoje głosy zaangażowanym członkom społeczności, aby ich reprezentowali.
 
-### Automatyczne zarządzanie transakcjami {#governance-example}
+### Automatyczne zarządzanie transakcjami {#governance-example-2}
 
 W wielu DAO transakcje będą automatycznie wykonywane, jeśli wymagana minimalna liczba członków zagłosuje za.
 
-#### Znany przykład {#governance-example}
+#### Znany przykład {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – w Nouns DAO transakcja jest automatycznie wykonywana, jeśli zostanie osiągnięte kworum głosów i większość opowie się za, o ile nie zostanie zawetowana przez założycieli.
 
-### Zarządzanie multisig {#governance-example}
+### Zarządzanie multisig {#governance-example-4}
 
 Chociaż DAO mogą mieć tysiące członków z prawem głosu, środki mogą być przechowywane w [portfelu](/glossary/#wallet) współdzielonym przez 5-20 aktywnych członków społeczności, którzy są zaufani i zazwyczaj doxxed (mają tożsamość publiczną znaną społeczności). Po głosowaniu sygnatariusze [multisig](/glossary/#multisig) wykonują wolę społeczności.
 

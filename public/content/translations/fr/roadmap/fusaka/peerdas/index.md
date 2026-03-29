@@ -40,7 +40,7 @@ Pour garantir l'intégrité des données, l'EIP-4844 a déjà été mis en œuvr
 
 Le DAS est un mécanisme qui s'appuie sur cela et garantit que les données sont à la fois correctes et disponibles. L'échantillonnage est un processus où un nœud n'interroge qu'une petite partie des données et la vérifie par rapport à l'engagement. KZG est un schéma d'engagement polynomial, ce qui signifie que n'importe quel point unique sur la courbe polynomiale peut être vérifié. En ne vérifiant que quelques points sur le polynôme, le client effectuant l'échantillonnage peut avoir une forte garantie probabiliste que les données sont disponibles.
 
-## PeerDAS {#peer-das}
+## PeerDAS {#peer-das-2}
 
 [PeerDAS (EIP-7594)](https://eips.ethereum.org/EIPS/eip-7594) est une proposition spécifique qui met en œuvre le mécanisme DAS dans Ethereum, marquant probablement la plus grande mise à niveau depuis La Fusion. PeerDAS est conçu pour étendre les données de blob, en les divisant en colonnes et en distribuant un sous-ensemble aux nœuds.
 

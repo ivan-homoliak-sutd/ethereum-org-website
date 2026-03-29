@@ -175,7 +175,7 @@ Slither je dodáván s vestavěnými schopnostmi [datové závislosti](https://g
 
 Příklad použití datové závislosti lze nalézt v [detektoru nebezpečné striktní rovnosti](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities). Zde Slither bude hledat porovnání striktní rovnosti s nebezpečnou hodnotou ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)), a informuje uživatele, že by měl použít `>=` nebo `<=` místo `==`, aby zabránil útočníkovi uvěznit kontrakt. Mimo jiné bude detektor považovat za nebezpečnou návratovou hodnotu volání `balanceOf(address)` ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)) a použije engine datové závislosti ke sledování jejího použití.
 
-#### Výpočet pevného bodu {#fixed-point-computation}
+#### Výpočet pevného bodu {#fixed-point-computation-2}
 
 Pokud vaše analýza prochází CFG a sleduje hrany, je pravděpodobné, že uvidíte již navštívené uzly. Například, pokud je smyčka představena, jak je uvedeno níže:
 

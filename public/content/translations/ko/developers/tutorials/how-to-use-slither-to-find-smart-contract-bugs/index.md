@@ -169,7 +169,7 @@ Slither는 중간 표현(이후 섹션에서 논의) 덕분에 내장된 [데이
 
 데이터 종속성 사용의 예는 [위험한 엄격한 동등성 감지기](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities)에서 찾을 수 있습니다. 여기서 Slither는 위험한 값에 대한 엄격한 동등성 비교를 찾고([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)), 공격자가 계약을 함정에 빠뜨리는 것을 방지하기 위해 `==` 대신 `>=` 또는 `<=`를 사용해야 한다고 사용자에게 알립니다. 무엇보다도 감지기는 `balanceOf(address)` 호출의 반환 값을 위험한 것으로 간주하고([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)), 데이터 종속성 엔진을 사용하여 그 사용을 추적합니다.
 
-#### 고정 소수점 계산 {#fixed-point-computation}
+#### 고정 소수점 계산 {#fixed-point-computation-2}
 
 분석이 CFG를 탐색하고 에지를 따라가면 이미 방문한 노드를 볼 가능성이 높습니다. 예를 들어, 아래와 같이 루프가 표시되는 경우:
 

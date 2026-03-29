@@ -70,7 +70,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 دعونا نرى كيف أن المعيار مهم جداً لجعل الأمور بسيطة بالنسبة لنا لفحص أي عقد توكن ERC-20 على Ethereum.
 We just need the Contract Application Binary Interface (ABI) to create an interface to any ERC-20 Token. كما ترى أدناه، سنستخدم واجهة برمجة تطبيقات (ABI) مبسطة، لجعلها مثالاً منخفض الاحتكاك.
 
-#### مثال ويب3.باي {#web3py-example}
+#### مثال ويب3.باي {#web3py-example-2}
 
 أولاً، تأكد من تثبيت مكتبة [ويب3.باي](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) الخاصة بلغة بايثون:
 

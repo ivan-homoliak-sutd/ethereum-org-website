@@ -81,7 +81,7 @@ Questo è il flusso più comune, utilizzato dai trader:
 5. Controllare se gli importi sono accettabili (i chiamanti possono specificare un importo minimo al di sotto del quale preferirebbero non aggiungere liquidità)
 6. Chiamare il contratto principale.
 
-#### Nel contratto principale (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-2}
+#### Nel contratto principale (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. Coniare i token di liquidità e inviarli al chiamante
 8. Chiamare `_update` per aggiornare gli importi della riserva
@@ -97,7 +97,7 @@ Questo è il flusso più comune, utilizzato dai trader:
 
 3. Inviare i token di liquidità allo scambio di coppie
 
-#### Nel contratto principale (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
+#### Nel contratto principale (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. Inviare all'indirizzo di destinazione i token sottostanti in proporzione ai token bruciati. Ad esempio, se ci sono 1000 token A nella pool, 500 token B e 90 token di liquidità, e riceviamo 9 token da bruciare, stiamo bruciando il 10% dei token di liquidità, quindi restituiamo all'utente 100 token A e 50 token B.
 5. Bruciare i token di liquidità

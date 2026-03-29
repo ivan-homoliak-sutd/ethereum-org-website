@@ -72,15 +72,15 @@ DAO의 핵심은 조직의 규칙을 정의하고 그룹의 자금을 보관하�
 
 #### 유명한 예시 {#governance-example}
 
-### 자동 트랜잭션 거버넌스 {#governance-example}
+### 자동 트랜잭션 거버넌스 {#governance-example-2}
 
 많은 DAO에서는 구성원의 정족수가 찬성하면 거래가 자동으로 실행됩니다.
 
-#### 유명한 예시 {#governance-example}
+#### 유명한 예시 {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – Nouns DAO에서는 투표 정족수가 충족되고 과반수가 찬성하면, 창립자가 거부권을 행사하지 않는 한 트랜잭션이 자동으로 실행됩니다.
 
-### 다중 서명 거버넌스 {#governance-example}
+### 다중 서명 거버넌스 {#governance-example-4}
 
 DAO에는 수천 명의 투표 구성원이 있을 수 있지만, 자금은 신뢰할 수 있고 일반적으로 신원이 공개된(커뮤니티에 알려진 공개 신원) 5-20명의 활성 커뮤니티 구성원이 공유하는 [지갑](/glossary/#wallet)에 보관될 수 있습니다. 투표 후, [다중 서명](/glossary/#multisig) 서명자들이 커뮤니티의 의사를 실행합니다.
 

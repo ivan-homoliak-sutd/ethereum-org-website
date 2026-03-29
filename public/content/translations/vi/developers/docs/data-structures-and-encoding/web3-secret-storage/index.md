@@ -190,6 +190,6 @@ Những thay đổi đã được thực hiện đối với định dạng đ�
 }
 ```
 
-## Những thay đổi so với Phiên bản 2 {#alterations-from-v2}
+## Những thay đổi so với Phiên bản 2 {#alterations-from-v2-2}
 
 Phiên bản 2 là một triển khai C++ ban đầu với một số lỗi. Tất cả các yếu tố thiết yếu vẫn không thay đổi so với nó.

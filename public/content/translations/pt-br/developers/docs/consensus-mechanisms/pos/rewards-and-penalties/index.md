@@ -16,7 +16,7 @@ Leia para obter mais detalhes...
 
 ## Recompensas e penalidades {#rewards}
 
-### Recompensas {#rewards}
+### Recompensas {#rewards-2}
 
 Os validadores recebem recompensas quando votam de modo consistente com a maioria dos outros validadores, quando propõem blocos e quando participam de comitês de sincronização. O valor das recompensas em cada época é calculado a partir de uma `base_reward`. Essa é a unidade base a partir da qual outras recompensas são calculadas. A `base_reward` representa a recompensa média recebida por um validador em condições ideais por época. Isso é calculado a partir do saldo efetivo do validador e do número total de validadores ativos da seguinte forma:
 

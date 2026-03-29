@@ -280,7 +280,7 @@ Die RPC-Methode `eth_call` ist nicht begrenzt und ermöglicht die Simulation gr�
 
 EVM-Compiler wie Solidity werden die neue Funktion zum Zählen von Nullen unter der Haube implementieren und nutzen. Neue Verträge könnten von Gaseinsparungen profitieren, wenn sie auf diese Art von Operation angewiesen sind. Verfolgen Sie Releases und Funktionsankündigungen der Smart-Contract-Sprache für Dokumentationen zu potenziellen Einsparungen.
 
-### Gibt es Änderungen für meine bestehenden Smart Contracts? {#what-clz-means-for-developers}
+### Gibt es Änderungen für meine bestehenden Smart Contracts? {#what-clz-means-for-developers-2}
 
 Fusaka hat keine direkten Auswirkungen, die bestehende Verträge beschädigen oder ihr Verhalten ändern würden. Änderungen, die auf der Ausführungsebene eingeführt werden, erfolgen mit Abwärtskompatibilität, behalten Sie jedoch immer Randfälle und potenzielle Auswirkungen im Auge.
 

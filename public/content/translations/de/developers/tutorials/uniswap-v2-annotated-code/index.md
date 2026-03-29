@@ -81,7 +81,7 @@ Dies ist der häufigste Ablauf, der von Händlern verwendet wird:
 5. Überprüfen, ob die Beträge akzeptabel sind (Aufrufer können einen Mindestbetrag angeben, unter dem sie lieber keine Liquidität hinzufügen möchten)
 6. Den Kernvertrag aufrufen.
 
-#### Im Kernvertrag (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-2}
+#### Im Kernvertrag (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. Liquiditäts-Token prägen und an den Aufrufer senden
 8. `_update` aufrufen, um die Reservebeträge zu aktualisieren
@@ -97,7 +97,7 @@ Dies ist der häufigste Ablauf, der von Händlern verwendet wird:
 
 3. Die Liquiditäts-Token an die Tauschbörse des Paares senden
 
-#### Im Kernvertrag (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
+#### Im Kernvertrag (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. Die zugrunde liegenden Token im Verhältnis zu den verbrannten Token an die Zieladresse senden. Wenn sich beispielsweise 1000 A-Token, 500 B-Token und 90 Liquiditäts-Token im Pool befinden und wir 9 Token zum Verbrennen erhalten, verbrennen wir 10 % der Liquiditäts-Token, sodass wir dem Benutzer 100 A-Token und 50 B-Token zurücksenden.
 5. Die Liquiditäts-Token verbrennen

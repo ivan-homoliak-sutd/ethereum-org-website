@@ -81,7 +81,7 @@ Ini adalah aliran yang paling umum, digunakan oleh pedagang:
 5. Periksa apakah jumlahnya dapat diterima (pemanggil dapat menentukan jumlah minimum di mana mereka lebih suka tidak menambahkan likuiditas)
 6. Panggil kontrak inti.
 
-#### Di dalam kontrak inti (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-2}
+#### Di dalam kontrak inti (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. Mint token likuiditas dan kirimkan ke pemanggil
 8. Panggil `_update` untuk memperbarui jumlah cadangan
@@ -97,7 +97,7 @@ Ini adalah aliran yang paling umum, digunakan oleh pedagang:
 
 3. Kirim token likuiditas ke pertukaran pasangan
 
-#### Di dalam kontrak inti (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
+#### Di dalam kontrak inti (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. Kirimkan alamat tujuan token yang mendasarinya secara proporsional dengan token yang dibakar. Misalnya jika ada 1000 token A di kolam, 500 token B, dan 90 token likuiditas, dan kita menerima 9 token untuk dibakar, kita membakar 10% dari token likuiditas sehingga kita mengirim kembali pengguna 100 token A dan 50 token B.
 5. Bakar token likuiditas

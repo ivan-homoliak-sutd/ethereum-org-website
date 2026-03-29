@@ -280,7 +280,7 @@ Metoda RPC `eth_call` nie jest ograniczona i pozwoli na symulację transakcji wi
 
 Kompilatory EVM, takie jak Solidity, zaimplementują i wykorzystają nową funkcję do liczenia zer pod maską. Nowe kontrakty mogą skorzystać na oszczędnościach gazu, jeśli opierają się na tego rodzaju operacjach. Śledź wydania i ogłoszenia o funkcjach języka inteligentnych kontraktów, aby uzyskać dokumentację na temat potencjalnych oszczędności.
 
-### Czy są jakieś zmiany dla moich istniejących inteligentnych kontraktów? {#what-clz-means-for-developers}
+### Czy są jakieś zmiany dla moich istniejących inteligentnych kontraktów? {#what-clz-means-for-developers-2}
 
 Fusaka nie ma bezpośredniego wpływu, który mógłby uszkodzić istniejące kontrakty lub zmienić ich zachowanie. Zmiany wprowadzane w warstwie wykonawczej są dokonywane z zachowaniem kompatybilności wstecznej, jednak zawsze należy zwracać uwagę na skrajne przypadki i potencjalny wpływ.
 

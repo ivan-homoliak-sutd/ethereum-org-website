@@ -74,15 +74,15 @@ Delegasi seperti versi DAO dari demokrasi perwakilan. Pemegang token mendelegasi
 
 [ENS](https://claim.ens.domains/delegate-ranking) – Pemegang ENS dapat mendelegasikan suara mereka kepada anggota komunitas yang terlibat untuk mewakili mereka.
 
-### Tata kelola transaksi otomatis {#governance-example}
+### Tata kelola transaksi otomatis {#governance-example-2}
 
 Di banyak DAO, transaksi akan dieksekusi secara otomatis jika kuorum anggota memberikan suara setuju.
 
-#### Contoh terkenal {#governance-example}
+#### Contoh terkenal {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – Di Nouns DAO, sebuah transaksi dieksekusi secara otomatis jika kuorum suara terpenuhi dan mayoritas memberikan suara setuju, selama tidak diveto oleh para pendiri.
 
-### Tata kelola multi tanda tangan {#governance-example}
+### Tata kelola multi tanda tangan {#governance-example-4}
 
 Meskipun DAO mungkin memiliki ribuan anggota yang memiliki hak suara, dana dapat disimpan di [dompet](/glossary/#wallet) yang dibagikan oleh 5-20 anggota komunitas aktif yang tepercaya dan biasanya di-doxxing (identitas publik diketahui oleh komunitas). Setelah pemungutan suara, penandatangan [multi tanda tangan](/glossary/#multisig) mengeksekusi kehendak komunitas.
 

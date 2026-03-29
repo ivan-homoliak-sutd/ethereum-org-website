@@ -70,7 +70,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 Ethereum'daki herhangi bir ERC-20 Token Sözleşmesini incelememizi basitleştirmek için bir Standart'ın ne kadar önemli olduğunu görelim.
 Herhangi bir ERC-20 token'a arayüz oluşturmak için sadece Sözleşme Uygulama İkili Arayüzü'ne (ABI) ihtiyacımız var. Aşağıda görebileceğiniz gibi az sürtünmeli bir örnek olması için basitleştirilmiş bir ABI kullanacağız.
 
-#### Web3.py Örneği {#web3py-example}
+#### Web3.py Örneği {#web3py-example-2}
 
 Öncelikle, [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) Python kütüphanesini yüklediğinizden emin olun:
 

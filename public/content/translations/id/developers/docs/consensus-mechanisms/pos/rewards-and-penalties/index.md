@@ -16,7 +16,7 @@ Baca terus untuk detail lebih lanjut...
 
 ## Hadiah dan penalti {#rewards}
 
-### Hadiah {#rewards}
+### Hadiah {#rewards-2}
 
 Validator menerima hadiah ketika mereka memberikan suara yang konsisten dengan mayoritas validator lainnya, ketika mereka mengusulkan blok, dan ketika mereka berpartisipasi dalam komite sinkronisasi. Nilai hadiah di setiap epoch dihitung dari `base_reward`. Ini adalah unit dasar dari mana hadiah lainnya dihitung. `base_reward` mewakili hadiah rata-rata yang diterima oleh validator di bawah kondisi optimal per epoch. Ini dihitung dari saldo efektif validator dan jumlah total validator aktif sebagai berikut:
 

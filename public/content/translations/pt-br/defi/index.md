@@ -180,7 +180,7 @@ Para ser capaz de fazer o exemplo acima no mundo financeiro tradicional, você p
 
 ### Comece a poupar com cripto {#saving}
 
-#### Empréstimos {#lending}
+#### Empréstimos {#lending-2}
 
 Você pode ganhar juros sobre suas criptomoedas emprestando-as e vendo seus fundos crescerem em tempo real. No momento, as taxas de juros são muito mais altas do que as que você pode obter no seu banco local (se você tiver sorte o suficiente para ter acesso a um). Aqui está um exemplo:
 

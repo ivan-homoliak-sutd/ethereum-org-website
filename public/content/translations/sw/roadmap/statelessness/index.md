@@ -50,7 +50,7 @@ Sawa na kuisha kwa historia, chini ya jukumu la kuisha kwa serikali kwa kuhifadh
 
 Kuisha kwa hali bado kiko katika awamu ya utafiti na bado hakiko tayari kusafirishwa. Kuisha kwa serikali kunaweza kutokea baadaye kuliko wateja wasio na uraia na kuisha kwa historia kwa sababu masasisho hayo hufanya saizi kubwa za serikali kudhibitiwa kwa urahisi kwa wathibitishaji wengi.
 
-## Kutokuwa na hali {#statelessness}
+## Kutokuwa na hali {#statelessness-2}
 
 Kutokuwa na utaifa ni kosa kidogo kwa sababu haimaanishi kuwa dhana ya "hali" imeondolewa, lakini inahusisha mabadiliko ya jinsi nodi za Ethereum zinashughulikia data ya serikali. Kutokuwa na hali kwenyewe kuna aina mbili: kutokuwa na hali dhaifu na kutokuwa na hali thabiti. Kutokuwa na utaifa hafifu huwezesha nodi nyingi kwenda bila utaifa kwa kuweka jukumu la hifadhi ya serikali kwa chache. Kutokuwa na hali thabiti huondoa kabisa hitaji la nodi yoyote kuhifadhi data kamili ya hali. Kutokuwa na hali dhaifu na thabiti hutoa faida zifuatazo kwa wathibitishaji wa kawaida:
 

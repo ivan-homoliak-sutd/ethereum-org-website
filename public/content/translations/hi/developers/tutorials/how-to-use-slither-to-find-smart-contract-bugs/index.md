@@ -168,7 +168,7 @@ variable_a = variable_b + 1;
 
 डेटा निर्भरता उपयोग का एक उदाहरण [खतरनाक सख्त समानता डिटेक्टर](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities) में पाया जा सकता है। यहां स्लिदर एक खतरनाक मान से सख्त समानता तुलना की तलाश करेगा ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)), और यूज़र को सूचित करेगा कि उसे `==` के बजाय `>=` या `<=` का उपयोग करना चाहिए, ताकि एक हमलावर को अनुबंध को ट्रैप करने से रोका जा सके। अन्य बातों के अलावा, डिटेक्टर `balanceOf(address)` पर कॉल के रिटर्न मान को खतरनाक मानेगा ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)), और इसके उपयोग को ट्रैक करने के लिए डेटा निर्भरता इंजन का उपयोग करेगा।
 
-#### फिक्स्ड-पॉइंट गणना {#fixed-point-computation}
+#### फिक्स्ड-पॉइंट गणना {#fixed-point-computation-2}
 
 यदि आपका विश्लेषण CFG के माध्यम से नेविगेट करता है और किनारों का अनुसरण करता है, तो आपको पहले से देखे गए नोड देखने की संभावना है। उदाहरण के लिए, यदि एक लूप नीचे दिखाए अनुसार प्रस्तुत किया गया है:
 

@@ -50,7 +50,7 @@ Analogamente alla scadenza della cronologia, con la scadenza dello stato la resp
 
 La scadenza dello stato è ancora in fase di ricerca e non è ancora pronta per essere rilasciata. La scadenza dello stato potrebbe benissimo avvenire più tardi rispetto ai client senza stato e alla scadenza della cronologia, perché quegli aggiornamenti rendono le grandi dimensioni dello stato facilmente gestibili per la maggior parte dei validatori.
 
-## Assenza di stato {#statelessness}
+## Assenza di stato {#statelessness-2}
 
 L'assenza di stato è un termine un po' improprio perché non significa che il concetto di "stato" venga eliminato, ma comporta modifiche al modo in cui i nodi di Ethereum gestiscono i dati di stato. L'assenza di stato stessa si presenta in due varianti: assenza di stato debole e assenza di stato forte. L'assenza di stato debole consente alla maggior parte dei nodi di diventare senza stato affidando la responsabilità dell'archiviazione dello stato a pochi. L'assenza di stato forte rimuove completamente la necessità per qualsiasi nodo di archiviare i dati di stato completi. Sia l'assenza di stato debole che quella forte offrono i seguenti vantaggi ai normali validatori:
 

@@ -50,7 +50,7 @@ Die Art und Weise, wie dies funktionieren würde, besteht wahrscheinlich darin, 
 
 Der Zustandsablauf befindet sich noch in der Forschungsphase und ist noch nicht bereit für die Veröffentlichung. Der Zustandsablauf könnte durchaus später erfolgen als zustandslose Anwendungen und der Historienablauf, da diese Upgrades große Zustandsgrößen für die Mehrheit der Validatoren leicht handhabbar machen.
 
-## Zustandslosigkeit {#statelessness}
+## Zustandslosigkeit {#statelessness-2}
 
 Zustandslosigkeit ist ein wenig irreführend, da es nicht bedeutet, dass das Konzept des „Zustands“ eliminiert wird, aber es beinhaltet Änderungen daran, wie Ethereum-Blockchain-Knoten mit Zustandsdaten umgehen. Zustandslosigkeit selbst gibt es in zwei Varianten: schwache Zustandslosigkeit und starke Zustandslosigkeit. Schwache Zustandslosigkeit ermöglicht es den meisten Blockchain-Knoten, zustandslos zu werden, indem die Verantwortung für die Zustandsspeicherung auf einige wenige übertragen wird. Starke Zustandslosigkeit beseitigt die Notwendigkeit für jeden Blockchain-Knoten, die vollständigen Zustandsdaten zu speichern, vollständig. Sowohl schwache als auch starke Zustandslosigkeit bieten normalen Validatoren die folgenden Vorteile:
 

@@ -40,7 +40,7 @@ Um die Integrität der Daten sicherzustellen, wurde EIP-4844 bereits mit KZG-Com
 
 DAS ist ein Mechanismus, der darauf aufbaut und sicherstellt, dass die Daten sowohl korrekt als auch verfügbar sind. Sampling ist ein Prozess, bei dem ein Blockchain-Knoten nur einen kleinen Teil der Daten abfragt und ihn gegen das Commitment verifiziert. KZG ist ein polynomielles Commitment-Schema, was bedeutet, dass jeder einzelne Punkt auf der Polynomkurve verifiziert werden kann. Durch die Überprüfung von nur ein paar Punkten auf dem Polynom kann die Anwendung, die das Sampling durchführt, eine starke probabilistische Garantie haben, dass die Daten verfügbar sind. 
 
-## PeerDAS {#peer-das}
+## PeerDAS {#peer-das-2}
 
 [PeerDAS (EIP-7594)](https://eips.ethereum.org/EIPS/eip-7594) ist ein spezifischer Vorschlag, der den DAS-Mechanismus in Ethereum implementiert und wahrscheinlich das größte Upgrade seit The Merge markiert. PeerDAS ist darauf ausgelegt, Blob-Daten zu erweitern, sie in Spalten zu unterteilen und eine Teilmenge an Blockchain-Knoten zu verteilen.
 

@@ -71,7 +71,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 Hãy xem Tiêu chuẩn quan trọng như thế nào để giúp mọi thứ trở nên đơn giản với chúng ta khi kiểm tra Hợp đồng Token ERC-20 trên Ethereum.
 Chúng ta chỉ cần Contract Application Binary Interface (ABI), để tạo ra giao diện một token ERC-20 bất kỳ. Như bạn cũng thấy ở dưới, chúng ta sẽ dùng một ABI đơn giản, khiến nó trở thành một ví dụ có tính ma sát thấp.
 
-#### Ví dụ về Web3.py {#web3py-example}
+#### Ví dụ về Web3.py {#web3py-example-2}
 
 Đầu tiên, hãy đảm bảo rằng bạn đã cài đặt thư viện Python [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

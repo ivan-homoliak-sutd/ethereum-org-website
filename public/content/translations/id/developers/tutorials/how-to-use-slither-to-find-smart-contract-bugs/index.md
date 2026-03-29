@@ -169,7 +169,7 @@ Slither dilengkapi dengan kemampuan [ketergantungan data](https://github.com/cry
 
 Contoh penggunaan ketergantungan data dapat ditemukan di [detektor kesetaraan ketat yang berbahaya](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities). Di sini Slither akan mencari perbandingan kesetaraan yang ketat dengan nilai yang berbahaya ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)), dan akan memberi tahu pengguna bahwa mereka harus menggunakan `>=` atau `<=` daripada `==`, untuk mencegah penyerang menjebak kontrak. Antara lain, detektor akan menganggap berbahaya nilai kembalian dari panggilan ke `balanceOf(address)` ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)), dan akan menggunakan mesin ketergantungan data untuk melacak penggunaannya.
 
-#### Komputasi titik tetap (Fixed-point computation) {#fixed-point-computation}
+#### Komputasi titik tetap (Fixed-point computation) {#fixed-point-computation-2}
 
 Jika analisis Anda menavigasi melalui CFG dan mengikuti tepinya, Anda kemungkinan akan melihat node yang sudah dikunjungi. Misalnya, jika sebuah loop disajikan seperti yang ditunjukkan di bawah ini:
 

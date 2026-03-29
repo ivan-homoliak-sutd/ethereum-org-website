@@ -40,7 +40,7 @@ Aby zapewnić integralność danych, EIP-4844 został już wdrożony ze zobowią
 
 DAS to mechanizm, który na tym bazuje i zapewnia, że dane są zarówno poprawne, jak i dostępne. Próbkowanie to proces, w którym węzeł odpytuje tylko małą część danych i weryfikuje je na podstawie zobowiązania. KZG to schemat zobowiązań wielomianowych, co oznacza, że każdy pojedynczy punkt na krzywej wielomianowej może zostać zweryfikowany. Sprawdzając tylko kilka punktów na wielomianie, klient przeprowadzający próbkowanie może mieć silną probabilistyczną gwarancję, że dane są dostępne.
 
-## PeerDAS {#peer-das}
+## PeerDAS {#peer-das-2}
 
 [PeerDAS (EIP-7594)](https://eips.ethereum.org/EIPS/eip-7594) to konkretna propozycja, która implementuje mechanizm DAS w Ethereum, stanowiąc prawdopodobnie największe uaktualnienie od czasu The Merge. PeerDAS został zaprojektowany do rozszerzania danych blob, dzieląc je na kolumny i dystrybuując podzbiór do węzłów.
 

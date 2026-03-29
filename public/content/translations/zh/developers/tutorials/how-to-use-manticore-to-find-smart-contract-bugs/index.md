@@ -446,7 +446,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 你可以在全局范围内或针对某个特定的状态使用约束。
 
-#### 全局约束 {#state-constraint}
+#### 全局约束 {#state-constraint-2}
 
 使用 `m.constrain(constraint)` 添加全局约束。
 例如，你可以从一个符号地址调用合约，并将这个地址约束为特定的值：
@@ -460,7 +460,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### 状态约束 {#state-constraint}
+#### 状态约束 {#state-constraint-3}
 
 使用 [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) 为特定状态添加约束。
 它可用于在探索状态后对其进行约束，以检查状态上的某些属性。

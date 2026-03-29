@@ -81,7 +81,7 @@ Uniswap v2는 코어와 주변이라는 두 가지 구성 요소로 나뉩니다
 5. 금액이 허용 가능한지 확인합니다(호출자는 유동성을 추가하지 않으려는 최소 금액을 지정할 수 있음)
 6. 코어 컨트랙트를 호출합니다.
 
-#### 코어 컨트랙트(UniswapV2Pair.sol)에서 {#in-the-core-contract-uniswapv2pairsol-2}
+#### 코어 컨트랙트(UniswapV2Pair.sol)에서 {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. 유동성 토큰을 발행하여 호출자에게 보냅니다
 8. `_update`를 호출하여 예비금 수량을 업데이트합니다
@@ -97,7 +97,7 @@ Uniswap v2는 코어와 주변이라는 두 가지 구성 요소로 나뉩니다
 
 3. 유동성 토큰을 페어 교환으로 보냅니다
 
-#### 코어 컨트랙트(UniswapV2Pair.sol)에서 {#in-the-core-contract-uniswapv2pairsol-3}
+#### 코어 컨트랙트(UniswapV2Pair.sol)에서 {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. 소각된 토큰에 비례하여 기본 토큰을 대상 주소로 보냅니다. 예를 들어 풀에 A 토큰 1000개, B 토큰 500개, 유동성 토큰 90개가 있고, 소각할 토큰 9개를 받으면 유동성 토큰의 10%를 소각하는 것이므로 사용자에게 A 토큰 100개와 B 토큰 50개를 다시 보냅니다.
 5. 유동성 토큰 소각

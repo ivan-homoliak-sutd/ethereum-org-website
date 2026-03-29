@@ -81,7 +81,7 @@ Uniswap v2 分為兩個部分：核心與周邊。 這種劃分讓持有資產�
 5. 檢查數量是否可接受（呼叫者可以指定一個最低數量，低於此數量他們寧願不增加流動性）
 6. 呼叫核心合約。
 
-#### 在核心合約 (UniswapV2Pair.sol) 中 {#in-the-core-contract-uniswapv2pairsol-2}
+#### 在核心合約 (UniswapV2Pair.sol) 中 {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. 鑄造流動性代幣並將其發送給呼叫者
 8. 呼叫 `_update` 來更新儲備金數量
@@ -97,7 +97,7 @@ Uniswap v2 分為兩個部分：核心與周邊。 這種劃分讓持有資產�
 
 3. 將流動性代幣發送到成對交易所
 
-#### 在核心合約 (UniswapV2Pair.sol) 中 {#in-the-core-contract-uniswapv2pairsol-3}
+#### 在核心合約 (UniswapV2Pair.sol) 中 {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. 根據銷毀的代幣比例，將基礎代幣發送到目標地址。 例如，如果資金池中有 1000 個 A 代幣、500 個 B 代幣和 90 個流動性代幣，而我們收到 9 個要銷毀的代幣，這表示我們正在銷毀 10% 的流動性代幣，因此我們將返還給使用者 100 個 A 代幣和 50 個 B 代幣。
 5. 銷毀流動性代幣

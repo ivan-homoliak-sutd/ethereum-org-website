@@ -40,7 +40,7 @@ Ili kuhakikisha uadilifu wa data, EIP-4844 tayari ilitekelezwa na ahadi za KZG. 
 
 DAS ni utaratibu unaojengwa juu ya hili na unahakikisha data ni sahihi na inapatikana. Kuchukua sampuli ni mchakato ambapo nodi huuliza sehemu ndogo tu ya data na kuithibitisha dhidi ya ahadi. KZG ni mpango wa ahadi ya polinomiali ambayo inamaanisha kwamba nukta yoyote moja kwenye mkunjo wa polinomiali inaweza kuthibitishwa. Kwa kuangalia nukta chache tu kwenye polinomiali, mteja anayefanya sampuli anaweza kuwa na uhakika mkubwa wa uwezekano kwamba data inapatikana.
 
-## PeerDAS {#peer-das}
+## PeerDAS {#peer-das-2}
 
 [PeerDAS (EIP-7594)](https://eips.ethereum.org/EIPS/eip-7594) ni pendekezo maalum linalotekeleza utaratibu wa DAS katika Ethereum, likiwa labda sasisho kubwa zaidi tangu Muungano. PeerDAS imeundwa kupanua data ya blob, kuigawanya katika safu wima na kusambaza sehemu ndogo kwa nodi.
 

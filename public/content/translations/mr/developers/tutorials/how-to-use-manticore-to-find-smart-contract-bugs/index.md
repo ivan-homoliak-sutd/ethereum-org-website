@@ -455,7 +455,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 तुम्ही जागतिक स्तरावर किंवा विशिष्ट स्टेटसाठी मर्यादा वापरू शकता.
 
-#### जागतिक मर्यादा {#state-constraint}
+#### जागतिक मर्यादा {#state-constraint-2}
 
 जागतिक मर्यादा जोडण्यासाठी `m.constrain(constraint)` वापरा.
 उदाहरणार्थ, तुम्ही एका सिम्बॉलिक ॲड्रेसवरून कॉन्ट्रॅक्टला कॉल करू शकता, आणि या ॲड्रेसला विशिष्ट मूल्यांवर मर्यादित करू शकता:
@@ -469,7 +469,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### स्टेट मर्यादा {#state-constraint}
+#### स्टेट मर्यादा {#state-constraint-3}
 
 एका विशिष्ट स्टेटला मर्यादा जोडण्यासाठी [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) वापरा.
 त्याच्या एक्सप्लोरेशननंतर स्टेटवर काही गुणधर्म तपासण्यासाठी मर्यादा घालण्यासाठी याचा वापर केला जाऊ शकतो.

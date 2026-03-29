@@ -629,7 +629,7 @@ uint8 private _decimals;
 
 토큰을 나누는 것이 의미가 없다면 `_decimals` 값을 0으로 사용할 수 있습니다. ETH와 동일한 표준을 사용하려면 값 <strong>18</strong>을 사용하세요.
 
-### 생성자 {#the-constructor}
+### 생성자 {#the-constructor-2}
 
 ```solidity
     /**
@@ -653,7 +653,7 @@ uint8 private _decimals;
 관례적으로 함수 매개변수는 `<something>_`로 명명됩니다.
 ```
 
-### 사용자 인터페이스 함수 {#user-interface-functions}
+### 사용자 인터페이스 함수 {#user-interface-functions-2}
 
 ```solidity
     /**
@@ -718,7 +718,7 @@ uint8 private _decimals;
 
 높음 (읽기 800, 쓰기 20k) 이 경우, `memory`가 최선의 선택입니다.
 
-### 토큰 정보 읽기 {#read-token-information}
+### 토큰 정보 읽기 {#read-token-information-2}
 
 이 함수들은 총 공급량이나 계정 잔액과 같은 토큰에 대한 정보를 제공합니다.
 
@@ -741,7 +741,7 @@ uint8 private _decimals;
 
 이 정보는 어쨌든 모든 노드에서 사용할 수 있으므로 숨기려고 해도 소용이 없습니다. _블록체인에는 비밀이 없습니다._
 
-### 토큰 전송하기 {#transfer-tokens}
+### 토큰 전송하기 {#transfer-tokens-2}
 
 ```solidity
     /**
@@ -773,11 +773,11 @@ uint8 private _decimals;
 - 하지만 이는 [OpenGSN](http://opengsn.org/)을 깨뜨립니다. 토큰으로 이더 없는 트랜잭션을 허용하려면 `_msgSender()`를 사용해야 합니다.
 - 이 함수는 일반 트랜잭션의 경우 `msg.sender`를 반환하지만, 이더 없는 트랜잭션의 경우 메시지를 중계한 계약이 아닌 원래 서명자를 반환합니다.
 
-### 허용량 함수 {#allowance-functions}
+### 허용량 함수 {#allowance-functions-2}
 
 이 함수들은 허용량 기능을 구현하는 함수들입니다: `allowance`, `approve`, `transferFrom`, 그리고 `_approve`. 또한, OpenZeppelin 구현은 기본 표준을 넘어 보안을 향상시키는 몇 가지 기능, 즉 `increaseAllowance`와 `decreaseAllowance`를 포함합니다.
 
-#### allowance 함수 {#allowance}
+#### allowance 함수 {#allowance-2}
 
 ```solidity
     /**
@@ -790,7 +790,7 @@ uint8 private _decimals;
 
 `allowance` 함수는 누구나 어떤 허용량이든 확인할 수 있게 해줍니다.
 
-#### approve 함수 {#approve}
+#### approve 함수 {#approve-2}
 
 ```solidity
     /**

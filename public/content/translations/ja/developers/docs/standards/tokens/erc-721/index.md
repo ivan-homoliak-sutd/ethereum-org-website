@@ -62,7 +62,7 @@ ERC-721（Ethereum Request for Comments 721）は、ウィリアム・エント�
 イーサリアムネットワークにおけるERC-721トークンコントラクトを詳しく検討することで、ネットワークをシンプルにする上でこれらの規格がいかに重要であるかが理解できるでしょう。
 ERC-721トークンを対象とするインターフェイスを開発するには、コントラクトのアブリケーション・バイナリ・インターフェイス（ABI）があれば十分です。 理解しやすいように、以下では簡略化したABIを用いています。
 
-#### Web3.pyの例 {#web3py-example}
+#### Web3.pyの例 {#web3py-example-2}
 
 まず、[Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) Pythonライブラリがインストールされていることを確認してください:
 

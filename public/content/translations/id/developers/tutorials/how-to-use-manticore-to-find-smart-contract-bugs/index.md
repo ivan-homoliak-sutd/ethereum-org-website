@@ -444,7 +444,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 Anda dapat menggunakan batasan secara global atau untuk status tertentu.
 
-#### Batasan global {#state-constraint}
+#### Batasan global {#state-constraint-2}
 
 Gunakan `m.constrain(constraint)` untuk menambahkan batasan global.
 Misalnya, Anda dapat memanggil kontrak dari alamat simbolik, dan membatasi alamat ini menjadi nilai tertentu:
@@ -458,7 +458,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### Batasan status {#state-constraint}
+#### Batasan status {#state-constraint-3}
 
 Gunakan [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) untuk menambahkan batasan ke status tertentu.
 Ini dapat digunakan untuk membatasi status setelah eksplorasinya untuk memeriksa beberapa properti di dalamnya.

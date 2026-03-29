@@ -69,7 +69,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 
 Ethereum-இல் உள்ள எந்தவொரு ERC-20 டோக்கன் ஒப்பந்தத்தையும் நாம் ஆய்வு செய்வதை எளிதாக்குவதற்கு ஒரு தரநிலை எவ்வளவு முக்கியமானது என்பதைப் பார்ப்போம். எந்தவொரு ERC-20 டோக்கனுக்கும் ஒரு இடைமுகத்தை (interface) உருவாக்க நமக்கு ஒப்பந்த பயன்பாட்டு பைனரி இடைமுகம் (Contract Application Binary Interface - ABI) மட்டுமே தேவை. கீழே நீங்கள் பார்ப்பது போல், இதைப் புரிந்துகொள்ள எளிதான எடுத்துக்காட்டாக மாற்ற, எளிமைப்படுத்தப்பட்ட ABI-ஐப் பயன்படுத்துவோம்.
 
-#### Web3.py எடுத்துக்காட்டு {#web3py-example}
+#### Web3.py எடுத்துக்காட்டு {#web3py-example-2}
 
 முதலில், நீங்கள் [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) பைதான் நூலகத்தை (Python library) நிறுவியுள்ளீர்கள் என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள்:
 

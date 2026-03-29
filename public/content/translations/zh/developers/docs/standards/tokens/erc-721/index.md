@@ -64,7 +64,7 @@ ERC-721（Ethereum Request for Comments 721），由 William Entriken、Dieter S
 让我们看看一个标准是多么重要，它使我们能够简单地在以太坊上检查任何 ERC-721 代币合约。
 我们只需要合约的应用程序二进制接口（ABI）就可以创造任何 ERC-721 代币的接口。 下面我们将使用一个简化的应用程序二进制接口，让例子变得更为简单。
 
-#### Web3.py 示例 {#web3py-example}
+#### Web3.py 示例 {#web3py-example-2}
 
 首先，请确保您已安装 [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) Python 程序库：
 

@@ -190,6 +190,6 @@ Biçim üzerinde değişiklikler yapıldı ve aşağıdaki dosya elde edildi, ba
 }
 ```
 
-## Sürüm 2'den Değişiklikler {#alterations-from-v2}
+## Sürüm 2'den Değişiklikler {#alterations-from-v2-2}
 
 Versiyon 2, çok sayıda hata içeren erken bir C++ uygulamasıydı. Bütün önemli kısımları aynı şekilde bırakıldı.

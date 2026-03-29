@@ -70,7 +70,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 Mari kita lihat bagaimana sebuah Standar sangat penting untuk memudahkan kita dalam memeriksa Kontrak Token ERC-20 apa pun di Ethereum.
 Kita hanya memerlukan Application Binary Interface (ABI) Kontrak untuk membuat antarmuka ke Token ERC-20 apa pun. Seperti yang dapat Anda lihat di bawah ini, kita akan menggunakan ABI yang disederhanakan, untuk menjadikannya contoh yang mudah dipahami.
 
-#### Contoh Web3.py {#web3py-example}
+#### Contoh Web3.py {#web3py-example-2}
 
 Pertama, pastikan Anda telah menginstal pustaka Python [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

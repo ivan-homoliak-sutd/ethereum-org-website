@@ -180,7 +180,7 @@ Per poter fare l'esempio sopra nel mondo della finanza tradizionale, avresti bis
 
 ### Iniziare a risparmiare con le criptovalute {#saving}
 
-#### Prestare {#lending}
+#### Prestare {#lending-2}
 
 Puoi guadagnare interessi sulle tue criptovalute prestandole e vedere i tuoi fondi crescere in tempo reale. In questo momento i tassi di interesse sono molto più alti di quelli che potresti ottenere presso la tua banca locale (se sei abbastanza fortunato da potervi accedere). Ecco un esempio:
 

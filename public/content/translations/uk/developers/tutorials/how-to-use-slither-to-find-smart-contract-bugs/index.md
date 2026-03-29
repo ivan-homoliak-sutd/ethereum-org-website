@@ -175,7 +175,7 @@ Slither має вбудовані можливості [залежності д�
 
 Приклад використання залежності даних можна знайти в [детекторі небезпечної суворої рівності](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities). Тут Slither шукатиме порівняння суворої рівності з небезпечним значенням ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)) і повідомить користувача, що слід використовувати `>=` або `<=` замість `==`, щоб не дати зловмиснику заблокувати контракт. Крім іншого, детектор вважатиме небезпечним значення, що повертається викликом `balanceOf(address)` ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)), і використовуватиме механізм залежності даних для відстеження його використання.
 
-#### Обчислення з нерухомою точкою {#fixed-point-computation}
+#### Обчислення з нерухомою точкою {#fixed-point-computation-2}
 
 Якщо ваш аналіз проходить через CFG і слідує за ребрами, ви, ймовірно, побачите вже відвідані вузли. Наприклад, якщо цикл представлений, як показано нижче:
 

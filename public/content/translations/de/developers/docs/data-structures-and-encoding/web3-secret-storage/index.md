@@ -194,6 +194,6 @@ Es wurden Änderungen am Format vorgenommen, um die folgende Datei zu erhalten, 
 }
 ```
 
-## Änderungen gegenüber Version 2 {#alterations-from-v2}
+## Änderungen gegenüber Version 2 {#alterations-from-v2-2}
 
 Version 2 war eine frühe C++-Implementierung mit einer Reihe von Fehlern. Alle wesentlichen Elemente bleiben davon unverändert.

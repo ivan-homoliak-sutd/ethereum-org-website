@@ -175,7 +175,7 @@ variable_a = variable_b + 1;
 
 డేటా డిపెండెన్సీ వినియోగం యొక్క ఉదాహరణ [ప్రమాదకరమైన కఠినమైన సమానత్వ డిటెక్టర్](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities)లో కనుగొనవచ్చు. ఇక్కడ స్లిథర్ ఒక ప్రమాదకరమైన విలువతో కఠినమైన సమానత్వ పోలిక కోసం చూస్తుంది ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)), మరియు దాడి చేసే వ్యక్తి కాంట్రాక్ట్‌ను ట్రాప్ చేయకుండా నిరోధించడానికి, `==`కి బదులుగా `>=` లేదా `<=`ని ఉపయోగించాలని వినియోగదారునికి తెలియజేస్తుంది. ఇతర వాటితో పాటు, డిటెక్టర్ `balanceOf(address)`కి కాల్ యొక్క రిటర్న్ విలువను ప్రమాదకరమైనదిగా పరిగణిస్తుంది ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)), మరియు దాని వినియోగాన్ని ట్రాక్ చేయడానికి డేటా డిపెండెన్సీ ఇంజిన్‌ను ఉపయోగిస్తుంది.
 
-#### ఫిక్స్‌డ్-పాయింట్ కంప్యూటేషన్ {#fixed-point-computation}
+#### ఫిక్స్‌డ్-పాయింట్ కంప్యూటేషన్ {#fixed-point-computation-2}
 
 మీ విశ్లేషణ CFG ద్వారా నావిగేట్ చేసి, ఎడ్జ్‌లను అనుసరిస్తే, మీరు ఇప్పటికే సందర్శించిన నోడ్స్‌ను చూసే అవకాశం ఉంది. ఉదాహరణకు, ఒక లూప్ క్రింద చూపిన విధంగా ఉంటే:
 

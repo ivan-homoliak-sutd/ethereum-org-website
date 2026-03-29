@@ -76,7 +76,7 @@ Zobaczmy, dlaczego standard jest tak ważny, aby ułatwić nam sprawdzanie dowol
 Potrzebujemy tylko interfejsu binarnego aplikacji (ABI) kontraktu, aby utworzyć interfejs dla dowolnego tokena ERC-20. Jak możesz
 zobaczyć poniżej, użyjemy uproszczonego ABI, aby zmniejszyć złożoność przykładu.
 
-#### Przykład Web3.py {#web3py-example}
+#### Przykład Web3.py {#web3py-example-2}
 
 Najpierw upewnij się, że masz zainstalowaną bibliotekę Pythona [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

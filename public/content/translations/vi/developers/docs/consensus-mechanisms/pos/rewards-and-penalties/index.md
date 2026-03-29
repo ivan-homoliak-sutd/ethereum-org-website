@@ -16,7 +16,7 @@ Tất cả các phần thưởng và hình phạt được áp dụng mỗi epoc
 
 ## Phần thưởng và hình phạt {#rewards}
 
-### Phần thưởng {#rewards}
+### Phần thưởng {#rewards-2}
 
 Trình xác thực nhận được phần thưởng khi họ thực hiện các phiếu bầu nhất quán với phần lớn các trình xác thực khác, khi họ đề xuất các khối và khi họ tham gia vào các ủy ban đồng bộ. Giá trị của phần thưởng trong mỗi epoch được tính từ `base_reward`. Đây là đơn vị cơ sở mà các phần thưởng khác được tính toán. `base_reward` đại diện cho phần thưởng trung bình mà một trình xác thực nhận được trong điều kiện tối ưu cho mỗi epoch. Điều này được tính từ số dư hiệu dụng của trình xác thực và tổng số trình xác thực đang hoạt động như sau:
 

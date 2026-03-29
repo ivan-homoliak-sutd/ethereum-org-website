@@ -58,7 +58,7 @@ Dari [EIP-721](https://eips.ethereum.org/EIPS/eip-721):
 
 Mari kita lihat bagaimana sebuah Standar sangat penting untuk memudahkan kita memeriksa Kontrak Token ERC-721 apa pun di Ethereum. Kita hanya memerlukan Antarmuka Biner Aplikasi (ABI) Kontrak untuk membuat antarmuka ke Token ERC-721 apa pun. Seperti yang dapat Anda lihat di bawah ini, kita akan menggunakan ABI yang disederhanakan, untuk menjadikannya contoh dengan hambatan rendah.
 
-#### Contoh Web3.py {#web3py-example}
+#### Contoh Web3.py {#web3py-example-2}
 
 Pertama, pastikan Anda telah menginstal pustaka Python [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

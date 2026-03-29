@@ -275,7 +275,7 @@ Mbinu ya RPC `eth_call` haina kikomo na itaruhusu uigaji wa miamala mikubwa kuli
 
 Wakusanyaji wa EVM kama Solidity watatekeleza na kutumia kazi mpya ya kuhesabu sifuri chinichini. Mikataba mipya inaweza kufaidika na uokoaji wa gesi ikiwa inategemea aina hii ya operesheni. Fuata matoleo na tangazo la kipengele cha lugha ya mikataba-erevu kwa nyaraka juu ya uwezekano wa kuokoa.
 
-### Je, kuna mabadiliko yoyote kwa mikataba-erevu yangu iliyopo? {#what-clz-means-for-developers}
+### Je, kuna mabadiliko yoyote kwa mikataba-erevu yangu iliyopo? {#what-clz-means-for-developers-2}
 
 Fusaka haina athari ya moja kwa moja ambayo ingevunja mikataba yoyote iliyopo au kubadilisha tabia zao. Mabadiliko yaliyoletwa kwenye safu ya utekelezaji yanafanywa kwa utangamano wa nyuma, hata hivyo, daima weka jicho kwenye kesi za pembezoni na athari zinazowezekana.
 

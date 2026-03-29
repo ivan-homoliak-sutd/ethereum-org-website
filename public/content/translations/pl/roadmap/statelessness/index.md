@@ -50,7 +50,7 @@ Podobnie jak w przypadku wygasania historii, w ramach wygasania stanu odpowiedzi
 
 Wygasanie stanu jest nadal w fazie badań i nie jest gotowe do wdrożenia. Wygasanie stanu może nastąpić później niż w przypadku bezstanowych klientów i wygasania historii, ponieważ te ulepszenia sprawiają, że duże rozmiary stanu stają się łatwe w zarządzaniu dla większości walidatorów.
 
-## Bezstanowość {#statelessness}
+## Bezstanowość {#statelessness-2}
 
 Bezstanowość jest nieco mylącym określeniem, ponieważ nie oznacza wyeliminowania pojęcia „stanu”, ale wiąże się ze zmianą sposobu, w jaki węzły Ethereum zarządzają danymi stanu. Sama bezstanowość występuje w dwóch wariantach: słabym oraz silnym. Słaba bezstanowość zezwala większości węzłów na przejście do bezstanowości poprzez przeniesienie odpowiedzialności za przechowywanie stanu na kilka innych węzłów. Silna bezstanowość całkowicie usuwa potrzebę przechowywania pełnych danych stanu przez każdy węzeł. Zarówno słaba, jak i silna bezstanowość oferują następujące korzyści dla normalnych walidatorów:
 

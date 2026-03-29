@@ -180,7 +180,7 @@ Pour pouvoir faire ce qui précède dans le monde de la finance traditionnelle, 
 
 ### Commencer à épargner en cryptomonnaies {#saving}
 
-#### Prêt {#lending}
+#### Prêt {#lending-2}
 
 Vous pouvez gagner de l'intérêt sur votre cryptomonnaie en le prêtant et en voyant vos fonds croître en temps réel. En ce moment, les taux d'intérêt sont beaucoup plus élevés que ce que vous pourriez obtenir à votre banque locale (si vous avez la chance d'en avoir une). Voici un exemple :
 

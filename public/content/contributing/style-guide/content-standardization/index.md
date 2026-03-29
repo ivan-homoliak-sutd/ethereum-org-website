@@ -220,7 +220,7 @@ When adding an image to a page, the image should be downloaded and placed in the
 
 This helps us ensure the image will be available.
 
-### Using emojis {#images}
+### Using emojis {#images-2}
 
 Everyone loves emojis <Emoji text="🥰" size={1} /> To standardize the appearance of all Emojis across browsers, ethereum.org uses an `<Emoji />` React component.
 

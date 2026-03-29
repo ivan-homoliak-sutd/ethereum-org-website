@@ -175,7 +175,7 @@ Slither ma wbudowane możliwości [analizy zależności danych](https://github.c
 
 Przykład wykorzystania zależności danych można znaleźć w detektorze [niebezpiecznych ścisłych równości](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities). W tym przypadku Slither będzie szukał porównania ścisłej równości z niebezpieczną wartością ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)) i poinformuje użytkownika, że powinien użyć `>=` lub `<=` zamiast `==`, aby uniemożliwić atakującemu zastawienie pułapki na kontrakt. Między innymi detektor uzna za niebezpieczną wartość zwracaną przez wywołanie `balanceOf(address)` ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)) i użyje silnika zależności danych do śledzenia jej użycia.
 
-#### Obliczanie punktu stałego {#fixed-point-computation}
+#### Obliczanie punktu stałego {#fixed-point-computation-2}
 
 Jeśli twoja analiza porusza się po CFG i podąża za krawędziami, prawdopodobnie zobaczysz już odwiedzone węzły. Na przykład, jeśli pętla jest przedstawiona jak poniżej:
 

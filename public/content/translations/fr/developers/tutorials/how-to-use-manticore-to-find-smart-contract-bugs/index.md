@@ -456,7 +456,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 Vous pouvez utiliser des contraintes de manière globale ou pour un état spécifique.
 
-#### Contrainte globale {#state-constraint}
+#### Contrainte globale {#state-constraint-2}
 
 Utilisez `m.constrain(constraint)` pour ajouter une contrainte globale.
 Par exemple, vous pouvez appeler un contrat depuis une adresse symbolique et restreindre cette adresse à des valeurs spécifiques :
@@ -470,7 +470,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### Contrainte d'état {#state-constraint}
+#### Contrainte d'état {#state-constraint-3}
 
 Utilisez [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) pour ajouter une contrainte à un état spécifique.
 Cela peut être utilisé pour contraindre l'état après son exploration afin de vérifier une propriété sur celui-ci.

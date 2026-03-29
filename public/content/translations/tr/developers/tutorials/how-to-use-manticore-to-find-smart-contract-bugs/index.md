@@ -456,7 +456,7 @@ last_return = Operators.CONCAT(256, *last_return)
 
 Kısıtlamaları genel olarak veya belirli bir durum için kullanabilirsiniz.
 
-#### Genel kısıtlama {#state-constraint}
+#### Genel kısıtlama {#state-constraint-2}
 
 Genel bir kısıtlama eklemek için `m.constrain(constraint)` kullanın.
 Örneğin, sembolik bir adresten bir sözleşme çağırabilir ve bu adresi belirli değerler olacak şekilde kısıtlayabilirsiniz:
@@ -470,7 +470,7 @@ m.transaction(caller=user_account,
               value=0)
 ```
 
-#### Durum kısıtlaması {#state-constraint}
+#### Durum kısıtlaması {#state-constraint-3}
 
 Belirli bir duruma kısıtlama eklemek için [state.constrain(constraint)](https://manticore.readthedocs.io/en/latest/states.html?highlight=StateBase#manticore.core.state.StateBase.constrain) kullanın.
 Üzerindeki bazı özellikleri kontrol etmek için keşfinden sonra durumu kısıtlamak için kullanılabilir.

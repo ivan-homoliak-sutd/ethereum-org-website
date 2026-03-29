@@ -180,7 +180,7 @@ Um das obige Beispiel in der traditionellen Finanzwelt durchführen zu können, 
 
 ### Mit Krypto-Sparen beginnen {#saving}
 
-#### Verleihen {#lending}
+#### Verleihen {#lending-2}
 
 Sie können Zinsen auf Ihre Kryptowährungen verdienen, indem Sie sie verleihen, und zusehen, wie Ihr Guthaben in Echtzeit wächst. Derzeit sind die Zinssätze viel höher als das, was Sie wahrscheinlich bei Ihrer örtlichen Bank bekommen (wenn Sie das Glück haben, Zugang zu einer zu haben). Hier ist ein Beispiel:
 

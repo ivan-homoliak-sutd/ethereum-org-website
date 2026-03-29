@@ -50,7 +50,7 @@ Tương tự như "history expiry", với "state expiry", trách nhiệm lưu tr
 
 "State expiry" vẫn đang trong giai đoạn nghiên cứu và chưa sẵn sàng để triển khai. Nó có thể được triển khai muộn hơn so với các client dạng "stateless" (không trạng thái) và "history expiry" vì những nâng cấp đó giúp việc quản lý dung lượng lưu trữ lớn dễ dàng hơn cho phần lớn các validators.
 
-## Statelessness {#statelessness}
+## Statelessness {#statelessness-2}
 
 Thuật ngữ "statelessness" có phần dễ gây hiểu lầm, bởi nó không có nghĩa là loại bỏ hoàn toàn khái niệm "trạng thái" (state) trong mạng lưới, mà thay vào đó, nó liên quan đến cách các node Ethereum xử lý dữ liệu trạng thái. Bản thân "statelessness" được chia thành hai dạng: "weak statelessness" và "strong statelessness". Weak statelessness cho phép phần lớn các node không cần lưu trữ trạng thái, bằng cách chuyển trách nhiệm lưu trữ đó cho một số node nhất định. Strong statelessness loại bỏ hoàn toàn nhu cầu lưu trữ dữ liệu trạng thái đầy đủ đối với bất kỳ node nào. Cả hai dạng statelessness đều mang lại những lợi ích sau cho các validator thông thường:
 

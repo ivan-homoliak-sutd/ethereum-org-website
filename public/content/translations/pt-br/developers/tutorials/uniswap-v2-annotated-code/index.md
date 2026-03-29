@@ -81,7 +81,7 @@ Este é o fluxo mais comum, usado por traders:
 5. Verificar se as quantias são aceitáveis (os chamadores podem especificar uma quantia mínima abaixo da qual preferem não adicionar liquidez)
 6. Chamar o contrato principal.
 
-#### No contrato principal (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-2}
+#### No contrato principal (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. Cunhar tokens de liquidez e enviá-los ao chamador
 8. Chamar `_update` para atualizar os valores da reserva
@@ -97,7 +97,7 @@ Este é o fluxo mais comum, usado por traders:
 
 3. Enviar os tokens de liquidez para o par de troca
 
-#### No contrato principal (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
+#### No contrato principal (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. Enviar para o endereço de destino os tokens subjacentes em proporção aos tokens queimados. Por exemplo, se houver 1.000 tokens A no pool, 500 tokens B e 90 tokens de liquidez, e recebermos 9 tokens para queimar, estamos queimando 10% dos tokens de liquidez, então enviamos de volta ao usuário 100 tokens A e 50 tokens B.
 5. Queimar os tokens de liquidez

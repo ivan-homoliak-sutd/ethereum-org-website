@@ -50,7 +50,7 @@ De manera similar al vencimiento del historial, la responsabilidad del vencimien
 
 El vencimiento del estado todavía está en la fase de investigación y aún no está lista para enviarla. El vencimiento del estado puede ocurrir más tarde que los clientes sin estado y el vencimiento del historial, porque esas actualizaciones hacen que la mayoría de los validadores puedan gestionar fácilmente los grandes tamaños de estado.
 
-## Sin estado {#statelessness}
+## Sin estado {#statelessness-2}
 
 El término sin estado no es del todo preciso, ya que no significa que se elimine el concepto de «estado», sino que implica cambios en la forma en que los nodos de Ethereum gestionan los datos de estado. Un estado sin estado en sí mismo tiene dos vertientes: el sin estado débil y el fuerte. La apátrida débil permite que la mayoría de los nodos se quede sin estado al poner la responsabilidad del almacenamiento estatal en unos pocos. La apátrida fuerte elimina por completo la necesidad de que cualquier nodo almacene los datos completos del estado. Tanto el sin estado debil como el fuerte ofrecen los siguientes beneficios a los validadores normales:
 

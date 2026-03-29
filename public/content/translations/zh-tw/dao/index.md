@@ -72,15 +72,15 @@ DAO 的骨幹是它的[智慧型合約](/glossary/#smart-contract)，它定義�
 
 #### 一個著名的例子 {#governance-example}
 
-### 自動交易管理體系 {#governance-example}
+### 自動交易管理體系 {#governance-example-2}
 
 在許多去中心化自治組織中，如達法定人數的成員投票同意，交易將自動執行。
 
-#### 一個著名的例子 {#governance-example}
+#### 一個著名的例子 {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – 在 Nouns DAO 中，如果達到法定票數且多數票投下贊成票，只要創辦人沒有否決，交易就會自動執行。
 
-### 多重簽名管理體系 {#governance-example}
+### 多重簽名管理體系 {#governance-example-4}
 
 雖然 DAO 可能有數千名投票成員，但資金可以存放在一個由 5-20 名受信任且通常身份公開（其公開身份為社群所知）的活躍社群成員所共享的[錢包](/glossary/#wallet)中。 投票後，[多重簽名](/glossary/#multisig)簽署人會執行社群的意願。
 

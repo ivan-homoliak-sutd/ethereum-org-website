@@ -70,7 +70,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 イーサリアムのERC-20トークンコントラクトのコードを詳しく見ることで、これらの規格がイーサリアムのシンプルさを保証する上でどれだけ重要なのかを理解しておきましょう。
 ERC-20トークンを扱うインターフェイスを開発するには、当該コントラクトのアプリケーション・バイナリー・インターフェイス（ABI）を用いればよいです。 理解しやすいように、以下では簡略化したABIを用いています。
 
-#### Web3.pyの例 {#web3py-example}
+#### Web3.pyの例 {#web3py-example-2}
 
 まず、[Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) Pythonライブラリがインストールされていることを確認してください:
 

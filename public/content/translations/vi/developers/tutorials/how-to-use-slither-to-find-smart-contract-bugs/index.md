@@ -175,7 +175,7 @@ Slither đi kèm với các khả năng [phụ thuộc dữ liệu](https://gith
 
 Một ví dụ về việc sử dụng phụ thuộc dữ liệu có thể được tìm thấy trong [công cụ dò tìm đẳng thức nghiêm ngặt nguy hiểm](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities). Ở đây Slither sẽ tìm kiếm so sánh đẳng thức nghiêm ngặt với một giá trị nguy hiểm ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)) và sẽ thông báo cho người dùng rằng nên sử dụng `>=` hoặc `<=` thay vì `==`, để ngăn kẻ tấn công bẫy hợp đồng. Trong số những thứ khác, công cụ dò tìm sẽ coi giá trị trả về của một lệnh gọi đến `balanceOf(address)` là nguy hiểm ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)) và sẽ sử dụng công cụ phụ thuộc dữ liệu để theo dõi việc sử dụng nó.
 
-#### Tính toán điểm cố định {#fixed-point-computation}
+#### Tính toán điểm cố định {#fixed-point-computation-2}
 
 Nếu phân tích của bạn điều hướng qua CFG và đi theo các cạnh, bạn có thể sẽ thấy các nút đã được truy cập. Ví dụ: nếu một vòng lặp được trình bày như hình dưới đây:
 

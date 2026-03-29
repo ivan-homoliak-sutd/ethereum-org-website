@@ -16,7 +16,7 @@ Daha fazla ayrıntı için okumaya devam edin...
 
 ## Ödüller ve cezalar {#rewards}
 
-### Ödüller {#rewards}
+### Ödüller {#rewards-2}
 
 Doğrulayıcılar diğer doğrulayıcıların çoğunluğu ile uyumlu oylar verdiklerinde, bloklar önerdiklerinde ve senkronizasyon kurullarına katıldıklarında ödüller alırlar. Her dönemdeki ödüllerin değeri bir `base_reward`'dan hesaplanır. Bu diğer ödüllerin hesaplandığı ana birimdir. `base_reward`, bir doğrulayıcının dönem başına optimal koşullar altında aldığı ortalama ödülü temsil eder. Bu, doğrulayıcının geçerli bakiyesi ve toplam doğrulayıcı sayısından yola çıkılarak şu şekilde hesaplanır:
 

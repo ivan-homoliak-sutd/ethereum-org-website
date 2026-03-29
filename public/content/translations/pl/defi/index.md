@@ -180,7 +180,7 @@ Aby móc dokonać transakcji z powyższego przykładu to w tradycyjnym świecie 
 
 ### Zacznij oszczędzać z kryptowalutami {#saving}
 
-#### Udzielanie pożyczek {#lending}
+#### Udzielanie pożyczek {#lending-2}
 
 Możesz zacząć zarabiać od swoich kryptowalut odsetki, które są naliczane w czasie rzeczywistym. Stopy zwrotu z kryptowalut są znacznie wyższe, niż te, które oferuje bank (jeżeli masz tyle szczęścia, by mieć do nich dostęp). Spójrz na poniższy przykład:
 

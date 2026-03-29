@@ -169,7 +169,7 @@ Slither அதன் இடைநிலை பிரதிநிதித்த�
 
 தரவு சார்பு பயன்பாட்டிற்கான ஒரு எடுத்துக்காட்டை [ஆபத்தான கண்டிப்பான சமத்துவ டிடெக்டரில் (dangerous strict equality detector)](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities) காணலாம். இங்கே Slither ஒரு ஆபத்தான மதிப்பிற்கான கண்டிப்பான சமத்துவ ஒப்பீட்டைத் தேடும் ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)), மேலும் தாக்குபவர் ஒப்பந்தத்தைப் பொறிக்குள் சிக்க வைப்பதைத் தடுக்க, `==` என்பதற்குப் பதிலாக `>=` அல்லது `<=`-ஐப் பயன்படுத்த வேண்டும் என்று பயனருக்குத் தெரிவிக்கும். மற்றவற்றுடன், `balanceOf(address)`-க்கான அழைப்பின் திரும்பப் பெறும் மதிப்பை டிடெக்டர் ஆபத்தானதாகக் கருதும் ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)), மேலும் அதன் பயன்பாட்டைக் கண்காணிக்க தரவு சார்பு இயந்திரத்தைப் பயன்படுத்தும்.
 
-#### நிலையான-புள்ளி கணக்கீடு {#fixed-point-computation}
+#### நிலையான-புள்ளி கணக்கீடு {#fixed-point-computation-2}
 
 உங்கள் பகுப்பாய்வு CFG வழியாகச் சென்று விளிம்புகளைப் பின்பற்றினால், ஏற்கனவே பார்வையிட்ட முனைகளை நீங்கள் காண வாய்ப்புள்ளது. எடுத்துக்காட்டாக, கீழே காட்டப்பட்டுள்ளபடி ஒரு லூப் (loop) வழங்கப்பட்டால்:
 

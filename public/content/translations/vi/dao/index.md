@@ -72,15 +72,15 @@ Sự ủy quyền giống như phiên bản DAO của nền dân chủ đại di
 
 #### Một ví dụ nổi tiếng {#governance-example}[ENS](https://claim.ens.domains/delegate-ranking) – những người nắm giữ ENS có thể ủy quyền phiếu bầu của họ cho các thành viên cộng đồng tích cực để đại diện cho họ.
 
-### Quản trị giao dịch tự động {#governance-example}
+### Quản trị giao dịch tự động {#governance-example-2}
 
 Ở nhiều DAO, các giao dịch sẽ được thực hiện tự động nếu một số thành viên bỏ phiếu đồng ý.
 
-#### Một ví dụ nổi tiếng {#governance-example}
+#### Một ví dụ nổi tiếng {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – Trong Nouns DAO, một giao dịch sẽ được thực thi tự động nếu đạt được số đại biểu và đa số phiếu tán thành, miễn là nó không bị những người sáng lập phủ quyết.
 
-### Quản trị đa chữ ký {#governance-example}
+### Quản trị đa chữ ký {#governance-example-4}
 
 Mặc dù các DAO có thể có hàng nghìn thành viên bỏ phiếu, nhưng các quỹ có thể nằm trong một [ví](/glossary/#wallet) được chia sẻ bởi 5-20 thành viên cộng đồng tích cực, những người đáng tin cậy và thường được doxxed (danh tính công khai được cộng đồng biết đến). Sau một cuộc bỏ phiếu, những người ký [đa chữ ký](/glossary/#multisig) sẽ thực hiện ý muốn của cộng đồng.
 

@@ -40,7 +40,7 @@ Untuk memastikan integritas data, EIP-4844 telah diimplementasikan dengan komitm
 
 DAS adalah mekanisme yang dibangun di atas hal ini dan memastikan data tersebut benar dan tersedia. Pengambilan sampel adalah proses di mana node hanya menanyakan sebagian kecil data dan memverifikasinya terhadap komitmen. KZG adalah skema komitmen polinomial yang berarti bahwa setiap titik tunggal pada kurva polinomial dapat diverifikasi. Dengan hanya memeriksa beberapa titik pada polinomial, klien yang melakukan pengambilan sampel dapat memiliki jaminan probabilistik yang kuat bahwa data tersebut tersedia. 
 
-## PeerDAS {#peer-das}
+## PeerDAS {#peer-das-2}
 
 [PeerDAS (EIP-7594)](https://eips.ethereum.org/EIPS/eip-7594) adalah proposal spesifik yang mengimplementasikan mekanisme DAS di Ethereum, yang mungkin menandai peningkatan terbesar sejak The Merge. PeerDAS dirancang untuk memperluas data blob, membaginya menjadi beberapa kolom dan mendistribusikan sebagian (subset) ke node.
 

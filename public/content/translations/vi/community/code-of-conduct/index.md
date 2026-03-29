@@ -29,7 +29,7 @@ Cộng đồng ethereum.org phấn đấu trở thành:
 - Một sàn giao dịch phi tập trung, sàn giao dịch tập trung hoặc bất kỳ hình thức nền tảng tài chính nào khác
 - Một nền tảng cung cấp lời khuyên tài chính hoặc pháp lý dưới bất kỳ hình thức nào
 
-## Quy tắc ứng xử {#code-of-conduct}
+## Quy tắc ứng xử {#code-of-conduct-2}
 
 ### Cam kết {#pledge}
 

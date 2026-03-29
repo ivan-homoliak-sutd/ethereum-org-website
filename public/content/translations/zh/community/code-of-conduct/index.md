@@ -29,7 +29,7 @@ ethereum.org 社区致力于实现：
 - DEX、CEX 或任何其他形式的金融平台
 - 提供任何类型财务或法律建议的平台
 
-## 行为准则 {#code-of-conduct}
+## 行为准则 {#code-of-conduct-2}
 
 ### 承诺 {#pledge}
 

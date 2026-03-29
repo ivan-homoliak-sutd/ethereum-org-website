@@ -63,7 +63,7 @@ Z [EIP-721](https://eips.ethereum.org/EIPS/eip-721):
 Podívejme se, proč je tento standard tak důležitý pro zjednodušení prohlížení jakéhokoliv kontraktu ERC-721 tokenu na Ethereu.
 Abychom mohli vytvořit rozhraní pro jakýkoliv ERC-721 token, stačí nám Contract Application Binary Interface (ABI). Jak můžete vidět níže, použijeme zjednodušené ABI, abychom vám to ukázali na jednoduchém příkladu.
 
-#### Příklad Web3.py {#web3py-example}
+#### Příklad Web3.py {#web3py-example-2}
 
 Nejprve se ujistěte, že máte nainstalovanou knihovnu Python [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

@@ -70,7 +70,7 @@ Vejamos por que um padrão é importante e como ele simplifica o controle de qua
 Só precisamos da Interface Binária de Aplicativos (ABI, pela sigla em inglês) do contrato para criar uma interface com qualquer token ERC-721. Como você pode
 ver abaixo, usaremos uma ABI simplificada, para torná-la um exemplo de fácil compreensão.
 
-#### Exemplo de Web3.py {#web3py-example}
+#### Exemplo de Web3.py {#web3py-example-2}
 
 Primeiro, certifique-se de que você instalou a biblioteca Python [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

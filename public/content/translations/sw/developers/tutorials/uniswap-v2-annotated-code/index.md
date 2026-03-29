@@ -81,7 +81,7 @@ Huu ndio mtiririko wa kawaida zaidi, unaotumiwa na wafanyabiashara:
 5. Angalia kama kiasi kinakubalika (wapigaji simu wanaweza kubainisha kiasi cha chini ambacho hawapendi kuongeza ukwasi chini yake)
 6. Piga simu mkataba wa msingi.
 
-#### Katika mkataba wa msingi (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-2}
+#### Katika mkataba wa msingi (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
 
 7. Zalisha tokeni za ukwasi na uzitumie kwa mwitaji
 8. Piga simu `_update` ili kusasisha kiasi cha akiba
@@ -97,7 +97,7 @@ Huu ndio mtiririko wa kawaida zaidi, unaotumiwa na wafanyabiashara:
 
 3. Tuma tokeni za ukwasi kwenye ubadilishaji wa jozi
 
-#### Katika mkataba wa msingi (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-3}
+#### Katika mkataba wa msingi (UniswapV2Pair.sol) {#in-the-core-contract-uniswapv2pairsol-4}
 
 4. Tuma kwenye anwani lengwa tokeni za msingi kulingana na tokeni zilizoondolewa. Kwa mfano ikiwa kuna tokeni 1000 za A kwenye bwawa, tokeni 500 za B, na tokeni 90 za ukwasi, na tunapokea tokeni 9 za kuondoa, tunaondoa 10% ya tokeni za ukwasi kwa hiyo tunamrudishia mtumiaji tokeni 100 za A na tokeni 50 za B.
 5. Ondoa tokeni za ukwasi

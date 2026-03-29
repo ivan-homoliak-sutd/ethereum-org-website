@@ -74,7 +74,7 @@ Vamos a ver cómo un estándar es tan importante para que las cosas sean sencill
 Sólo necesitamos la Interfaz binaria de aplicaciones de contrato (ABI) para crear una interfaz a cualquier token ER-20. Como puedes
 ver a continuación, usaremos una ABI simplificada, para que sea un ejemplo de fricción bajo.
 
-#### Ejemplo de Web3.py {#web3py-example}
+#### Ejemplo de Web3.py {#web3py-example-2}
 
 Primero, asegúrese de que ha instalado la librería de Python [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation):
 

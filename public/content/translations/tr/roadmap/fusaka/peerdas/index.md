@@ -40,7 +40,7 @@ Verilerin bütünlüğünü sağlamak için EIP-4844, KZG taahhütleriyle zaten 
 
 DAS, bunun üzerine inşa edilen ve verilerin hem doğru hem de kullanılabilir olmasını sağlayan bir mekanizmadır. Örnekleme, bir düğümün verilerin yalnızca küçük bir bölümünü sorguladığı ve bunu taahhüde göre doğruladığı bir süreçtir. KZG, polinom eğrisi üzerindeki herhangi bir tek noktanın doğrulanabileceği anlamına gelen bir polinom taahhüt şemasıdır. Polinom üzerindeki yalnızca birkaç noktayı kontrol ederek, örnekleme yapan istemci, verilerin mevcut olduğuna dair güçlü bir olasılıksal güvenceye sahip olabilir.
 
-## PeerDAS {#peer-das}
+## PeerDAS {#peer-das-2}
 
 [PeerDAS (EIP-7594)](https://eips.ethereum.org/EIPS/eip-7594), Ethereum'da DAS mekanizmasını uygulayan özel bir tekliftir ve muhtemelen Birleşim'den bu yana en büyük yükseltmeyi işaret eder. PeerDAS, blob verilerini genişletmek, sütunlara bölmek ve bir alt kümeyi düğümlere dağıtmak için tasarlanmıştır.
 

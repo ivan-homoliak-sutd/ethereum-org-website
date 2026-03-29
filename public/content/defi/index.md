@@ -180,7 +180,7 @@ To be able to do the above example in the traditional finance world, you'd need 
 
 ### Start saving with crypto {#saving}
 
-#### Lending {#lending}
+#### Lending {#lending-2}
 
 You can earn interest on your crypto by lending it and see your funds grow in real time. Right now interest rates are much higher than what you're likely to get at your local bank (if you're lucky enough to be able to access one). Here's an example:
 

@@ -58,7 +58,7 @@ Aus [EIP-721](https://eips.ethereum.org/EIPS/eip-721):
 
 Schauen wir uns an, warum ein Standard so wichtig ist, um es uns einfach zu machen, jeden ERC-721-Token-Vertrag auf Ethereum zu überprüfen. Wir benötigen lediglich das Contract Application Binary Interface (ABI), um eine Schnittstelle zu einem beliebigen ERC-721-Token zu erstellen. Wie Sie unten sehen können, werden wir ein vereinfachtes ABI verwenden, um es zu einem reibungslosen Beispiel zu machen.
 
-#### Web3.py-Beispiel {#web3py-example}
+#### Web3.py-Beispiel {#web3py-example-2}
 
 Stellen Sie zunächst sicher, dass Sie die Python-Bibliothek [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) installiert haben:
 

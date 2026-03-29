@@ -184,6 +184,6 @@ KECCAK(DK[16..31] ++ <ciphertext>)
 }
 ```
 
-## 第 2 版的改动 {#alterations-from-v2}
+## 第 2 版的改动 {#alterations-from-v2-2}
 
 第 2 版是早期 C++ 实现的版本，有很多漏洞。 所有重要内容保持不变。

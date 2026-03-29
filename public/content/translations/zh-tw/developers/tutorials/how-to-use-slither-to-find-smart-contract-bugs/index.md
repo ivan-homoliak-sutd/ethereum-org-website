@@ -169,7 +169,7 @@ variable_a = variable_b + 1;
 
 資料相依性用法的一個範例可以在 [危險的嚴格相等偵測器](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities) 中找到。 在這裡，Slither 會尋找與危險值進行的嚴格相等比較 ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87))，並通知使用者應該使用 `>=` 或 `<=` 而不是 `==`，以防止攻擊者困住合約。 此外，偵測器會將對 `balanceOf(address)` 的呼叫的傳回值視為危險 ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64))，並使用資料相依性引擎來追蹤其用法。
 
-#### 不動點運算 {#fixed-point-computation}
+#### 不動點運算 {#fixed-point-computation-2}
 
 如果您的分析遍歷 CFG 並沿著邊緣進行，您很可能會看到已經訪問過的節點。 例如，如果一個迴圈如下所示：
 

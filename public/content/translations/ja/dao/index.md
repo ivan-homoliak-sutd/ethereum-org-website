@@ -72,15 +72,15 @@ DAOのバックボーンは、組織のルールを定義し、グループの�
 
 #### 有名な例 {#governance-example}[ENS](https://claim.ens.domains/delegate-ranking) – ENS保有者は、自分たちの代表として、熱心なコミュニティメンバーに投票を委任できます。
 
-### 自動取引ガバナンス {#governance-example}
+### 自動取引ガバナンス {#governance-example-2}
 
 多くの分散型自律組織(DAO)では、メンバーの賛成票が定足数を満たせば自動的にトランザクションが実行されます。
 
-#### 有名な例 {#governance-example}
+#### 有名な例 {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – Nouns DAOでは、定足数を満たし、過半数が賛成票であれば、創設者が拒否権を行使しない限り、トランザクションは自動的に実行されます。
 
-### マルチシグ・ガバナンス {#governance-example}
+### マルチシグ・ガバナンス {#governance-example-4}
 
 DAOには何千人もの投票メンバーがいる場合がありますが、資金は信頼され、通常はdoxxed(コミュニティに身元が公開されている)状態の5～20人のアクティブなコミュニティメンバーが共有する[ウォレット](/glossary/#wallet)に存在することがあります。 投票後、[multisig](/glossary/#multisig)署名者はコミュニティの意思を実行します。
 

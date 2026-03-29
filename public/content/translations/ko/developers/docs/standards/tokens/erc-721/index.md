@@ -62,7 +62,7 @@ ERC-721(Ethereum Request for Comments 721)은 2018년 1월 William Entriken, Die
 표준이 이더리움의 모든 ERC-721 토큰 계약을 간단하게 검사하는 데 얼마나 중요한지 살펴보겠습니다.
 모든 ERC-721 토큰에 대한 인터페이스를 생성하려면 계약 애플리케이션 바이너리 인터페이스(ABI)만 있으면 됩니다. 아래 보이는 것처럼 우리는 잡음을 줄이기 위해 단순화된 ABI를 사용해 예제를 만들것이다.
 
-#### Web3.py 예시 {#web3py-example}
+#### Web3.py 예시 {#web3py-example-2}
 
 먼저, [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) 파이썬 라이브러리를 설치했는지 확인하세요.
 

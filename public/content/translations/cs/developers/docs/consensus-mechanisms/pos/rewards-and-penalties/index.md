@@ -16,7 +16,7 @@ Pro více podrobností čtěte dál...
 
 ## Odměny a tresty {#rewards}
 
-### Odměny {#rewards}
+### Odměny {#rewards-2}
 
 Validátoři dostávají odměny, když hlasují v souladu s většinou ostatních validátorů, když navrhují bloky a když se účastní synchronizačních výborů. Hodnota odměn v každé epoše se vypočítává ze `základní odměny` (`base_reward`). Jedná se o základní jednotku, ze které se počítají ostatní odměny. `base_reward` představuje průměrnou odměnu, kterou validátor obdrží za optimálních podmínek za epochu. Vypočítává se z efektivního zůstatku validátora a celkového počtu aktivních validátorů následovně:
 

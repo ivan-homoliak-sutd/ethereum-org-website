@@ -50,7 +50,7 @@ Da mesma forma que a expiração do histórico, na expiração do estado a respo
 
 A expiração de estado ainda está em fase de pesquisa e ainda não está pronta para implementação. A expiração do estado pode ocorrer mais tarde do que a dos clientes sem estado e a expiração do histórico, porque essas melhorias fazem com que a maioria dos validadores possam gerenciar facilmente grandes tamanhos de estado.
 
-## Sem estado {#statelessness}
+## Sem estado {#statelessness-2}
 
 O termo "sem estado" é um tanto equivocado, pois não significa que o conceito de "estado" seja eliminado, mas envolve alterações na maneira como os nós Ethereum processam os dados de estado. O conceito de "sem estado" ocorre em duas formas: sem estado fraco e sem estado forte. Sem estado fraco permite que a maioria dos nós se torne sem estado e coloca a responsabilidade pelo armazenamento do estado em alguns poucos nós. Sem estado forte remove completamente a necessidade de qualquer nó armazenar os dados de estado completos. Ambos os conceitos, sem estado fraco e forte, oferecem os seguintes benefícios aos validadores normais:
 

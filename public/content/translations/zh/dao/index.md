@@ -74,15 +74,15 @@ DAO 的支柱是其[智能合约](/glossary/#smart-contract)，它定义了组�
 
 [ENS](https://claim.ens.domains/delegate-ranking) – ENS 持有者可以将其投票委托给活跃的社区成员来代表他们。
 
-### 自动交易治理 {#governance-example}
+### 自动交易治理 {#governance-example-2}
 
 在很多去中心化自治组织中，如果达到法定人数的成员投票赞成，交易将自动执行。
 
-#### 一个著名的例子 {#governance-example}
+#### 一个著名的例子 {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – 在 Nouns DAO 中，只要未被创始人否决，如果达到法定票数且多数票赞成，交易就会自动执行。
 
-### 多签治理 {#governance-example}
+### 多签治理 {#governance-example-4}
 
 虽然 DAO 可能有数千名投票成员，但资金可以存放在一个由 5-20 名受信任且通常已公开身份（社区知道其公开身份）的活跃社区成员共享的[钱包](/glossary/#wallet)中。 投票后，[多签](/glossary/#multisig)签名者将执行社区的意愿。
 

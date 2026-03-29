@@ -280,7 +280,7 @@ Phương thức RPC `eth_call` không bị giới hạn và sẽ cho phép mô p
 
 Các trình biên dịch EVM như Solidity sẽ triển khai và sử dụng chức năng mới để đếm các số không ở bên trong. Các hợp đồng mới có thể được hưởng lợi từ việc tiết kiệm gas nếu chúng dựa vào loại hoạt động này. Theo dõi các bản phát hành và thông báo tính năng của ngôn ngữ hợp đồng thông minh để có tài liệu về các khoản tiết kiệm tiềm năng.
 
-### Có thay đổi nào cho các hợp đồng thông minh hiện có của tôi không? {#what-clz-means-for-developers}
+### Có thay đổi nào cho các hợp đồng thông minh hiện có của tôi không? {#what-clz-means-for-developers-2}
 
 Fusaka không có ảnh hưởng trực tiếp nào có thể phá vỡ bất kỳ hợp đồng hiện có nào hoặc thay đổi hành vi của chúng. Các thay đổi được giới thiệu cho lớp thực thi được thực hiện với khả năng tương thích ngược, tuy nhiên, hãy luôn để mắt đến các trường hợp đặc biệt và tác động tiềm tàng.
 

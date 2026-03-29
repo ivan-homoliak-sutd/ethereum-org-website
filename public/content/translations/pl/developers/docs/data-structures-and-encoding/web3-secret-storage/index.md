@@ -190,6 +190,6 @@ Wprowadzono zmiany w formacie, aby uzyskać następujący plik, funkcjonalnie r�
 }
 ```
 
-## Zmiany w stosunku do wersji 2 {#alterations-from-v2}
+## Zmiany w stosunku do wersji 2 {#alterations-from-v2-2}
 
 Wersja 2 była wczesną implementacją w C++ z wieloma błędami. Wszystkie podstawowe elementy pozostają w niej niezmienione.

@@ -40,7 +40,7 @@ Per garantire l'integrità dei dati, l'EIP-4844 è stato già implementato con g
 
 Il DAS è un meccanismo che si basa su questo e garantisce che i dati siano sia corretti che disponibili. Il campionamento è un processo in cui un nodo interroga solo una piccola parte dei dati e la verifica rispetto all'impegno. KZG è uno schema di impegno polinomiale, il che significa che qualsiasi singolo punto sulla curva polinomiale può essere verificato. Controllando solo un paio di punti sul polinomio, il client che esegue il campionamento può avere una forte garanzia probabilistica che i dati siano disponibili. 
 
-## PeerDAS {#peer-das}
+## PeerDAS {#peer-das-2}
 
 [PeerDAS (EIP-7594)](https://eips.ethereum.org/EIPS/eip-7594) è una proposta specifica che implementa il meccanismo DAS in Ethereum, segnando probabilmente il più grande aggiornamento da The Merge. PeerDAS è progettato per estendere i dati dei blob, dividendoli in colonne e distribuendone un sottoinsieme ai nodi.
 

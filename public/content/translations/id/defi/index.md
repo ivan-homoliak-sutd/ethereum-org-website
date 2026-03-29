@@ -180,7 +180,7 @@ Untuk dapat melakukan contoh di atas di dunia keuangan tradisional, Anda akan me
 
 ### Mulai menabung dengan kripto {#saving}
 
-#### Meminjamkan {#lending}
+#### Meminjamkan {#lending-2}
 
 Anda bisa mendapatkan bunga dari kripto Anda dengan meminjamkannya dan melihat dana Anda tumbuh secara waktu nyata. Saat ini suku bunga jauh lebih tinggi daripada yang mungkin Anda dapatkan di bank lokal Anda (jika Anda cukup beruntung dapat mengaksesnya). Berikut adalah contohnya:
 

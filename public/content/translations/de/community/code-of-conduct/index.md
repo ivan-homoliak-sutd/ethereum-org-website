@@ -29,7 +29,7 @@ Die Community von ethereum.org strebt danach, Folgendes zu sein:
 - Eine dezentralisierte Börse (DEX), zentralisierte Börse (CEX) oder jegliche andere Form einer Finanzplattform
 - Eine Plattform, die finanzielle oder rechtliche Beratung jeglicher Art anbietet
 
-## Verhaltenskodex {#code-of-conduct}
+## Verhaltenskodex {#code-of-conduct-2}
 
 ### Versprechen {#pledge}
 

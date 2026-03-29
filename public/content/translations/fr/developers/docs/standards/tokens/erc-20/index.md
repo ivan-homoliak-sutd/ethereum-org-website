@@ -71,7 +71,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 Voyons pourquoi une norme est importante et pourquoi elle nous facilite le contrôle de tout contrat de jeton ERC-20 sur Ethereum.
 Nous avons juste besoin de l'interface binaire-programme (ABI) du contrat pour créer une interface à n'importe quel jeton ERC-20. Comme vous pouvez le voir ci-dessous, nous utiliserons une ABI simplifiée, pour en faire un exemple facile à comprendre.
 
-#### Exemple Web3.py {#web3py-example}
+#### Exemple Web3.py {#web3py-example-2}
 
 Tout d'abord, assurez-vous d'avoir installé la bibliothèque Python [Web3.py](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) :
 

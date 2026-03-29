@@ -72,15 +72,15 @@ A delegação é como a versão DAO da democracia representativa. Os detentores 
 
 #### Um exemplo famoso {#governance-example}
 
-### Governança de transação automática {#governance-example}
+### Governança de transação automática {#governance-example-2}
 
 Em muitas DAOs, as transações serão executadas automaticamente se um quórum de membros votar a favor.
 
-#### Um exemplo famoso {#governance-example}
+#### Um exemplo famoso {#governance-example-3}
 
 [Nouns](https://nouns.wtf) – Na Nouns DAO, uma transação é executada automaticamente se um quórum de votos for atingido e a maioria votar afirmativamente, desde que não seja vetada pelos fundadores.
 
-### Governança Multisig {#governance-example}
+### Governança Multisig {#governance-example-4}
 
 Embora as DAOs possam ter milhares de membros votantes, os fundos podem ficar em uma [carteira](/glossary/#wallet) compartilhada por 5-20 membros ativos da comunidade que são confiáveis e geralmente têm suas identidades reveladas (identidades públicas conhecidas pela comunidade). Após uma votação, os signatários da [multisig](/glossary/#multisig) executam a vontade da comunidade.
 

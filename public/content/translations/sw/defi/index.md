@@ -183,7 +183,7 @@ Ili uweze kufanya mfano hapo juu katika ulimwengu wa jadi wa kifedha, wewe ingek
 
 ### Anza kuweka akiba kwa kutumia kripto {#saving}
 
-#### Kukopesha {#lending}
+#### Kukopesha {#lending-2}
 
 Unaweza pata riba kwenye kripto zako kwa kukopesha na kuona fedha zako zinakuwa kwa muda halisi. Kwa sasa kiwango cha riba ni kikubwa zaidi ya nini weza kupata kwenye benki ya mji wako (Kama una bahati kufikia moja wapo). Mfano huu hapa:
 

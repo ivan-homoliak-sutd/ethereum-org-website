@@ -76,7 +76,7 @@ event Approval(address indexed _owner, address indexed _spender, uint256 _value)
 हमें किसी भी ERC-20 टोकन के लिए एक इंटरफ़ेस बनाने के लिए कॉन्ट्रैक्ट एप्लिकेशन बाइनरी इंटरफ़ेस (ABI) की आवश्यकता है। जैसा आप कर सकते हैं
 नीचे देखें कि हम इसे कम घर्षण उदाहरण बनाने के लिए एक सरलीकृत एबीआई का उपयोग करेंगे।
 
-#### वेब3.पीवाई उदाहरण {#web3py-example}
+#### वेब3.पीवाई उदाहरण {#web3py-example-2}
 
 सबसे पहले, सुनिश्चित करें कि आपने [वेब3.पीवाई](https://web3py.readthedocs.io/en/stable/quickstart.html#installation) पायथन लाइब्रेरी इंस्टॉल कर ली है:
 

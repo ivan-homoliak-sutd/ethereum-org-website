@@ -29,7 +29,7 @@ Jumuiya ya ethereum.org inajitahidi kuwa:
 - DEX, CEX au aina nyingine yoyote ya jukwaa la kifedha
 - Jukwaa linalotoa ushauri wa kifedha au kisheria wa aina yoyote
 
-## Kanuni za maadili {#code-of-conduct}
+## Kanuni za maadili {#code-of-conduct-2}
 
 ### Ahadi {#pledge}
 

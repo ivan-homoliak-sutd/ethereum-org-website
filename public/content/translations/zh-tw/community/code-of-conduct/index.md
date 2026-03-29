@@ -29,7 +29,7 @@ ethereum.org 社群致力於成為：
 - 去中心化交易所 (DEX)、中心化交易所 (CEX) 或任何其他形式的金融平台
 - 提供任何形式的財務或法律建議的平台
 
-## 行為守則 {#code-of-conduct}
+## 行為守則 {#code-of-conduct-2}
 
 ### 承諾 {#pledge}
 

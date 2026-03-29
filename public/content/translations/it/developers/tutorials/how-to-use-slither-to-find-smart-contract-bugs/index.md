@@ -169,7 +169,7 @@ Slither è dotato di capacità integrate di [dipendenza dei dati](https://github
 
 Un esempio di utilizzo della dipendenza dei dati può essere trovato nel [rilevatore di uguaglianza stretta pericolosa](https://github.com/crytic/slither/wiki/Detector-Documentation#dangerous-strict-equalities). Qui Slither cercherà un confronto di uguaglianza stretta con un valore pericoloso ([incorrect_strict_equality.py#L86-L87](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L86-L87)) e informerà l'utente che dovrebbe usare `>=` o `<=` piuttosto che `==`, per impedire a un utente malintenzionato di intrappolare il contratto. Tra le altre cose, il rilevatore considererà come pericoloso il valore di ritorno di una chiamata a `balanceOf(address)` ([incorrect_strict_equality.py#L63-L64](https://github.com/crytic/slither/blob/6d86220a53603476f9567c3358524ea4db07fb25/slither/detectors/statements/incorrect_strict_equality.py#L63-L64)) e userà il motore di dipendenza dei dati per tracciarne l'utilizzo.
 
-#### Calcolo del punto fisso {#fixed-point-computation}
+#### Calcolo del punto fisso {#fixed-point-computation-2}
 
 Se la tua analisi naviga attraverso il CFG e segue gli archi, è probabile che tu veda nodi già visitati. Ad esempio, se è presente un ciclo come mostrato di seguito:
 

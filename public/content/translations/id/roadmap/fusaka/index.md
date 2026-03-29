@@ -280,7 +280,7 @@ Metode RPC `eth_call` tidak dibatasi dan akan memungkinkan simulasi transaksi ya
 
 Kompiler EVM seperti Solidity akan mengimplementasikan dan memanfaatkan fungsi baru untuk menghitung nol di balik layar. Kontrak baru mungkin mendapat manfaat dari penghematan gas jika mereka mengandalkan jenis operasi ini. Ikuti rilis dan pengumuman fitur dari bahasa kontrak pintar untuk dokumentasi tentang potensi penghematan.
 
-### Apakah ada perubahan untuk kontrak pintar saya yang sudah ada? {#what-clz-means-for-developers}
+### Apakah ada perubahan untuk kontrak pintar saya yang sudah ada? {#what-clz-means-for-developers-2}
 
 Fusaka tidak memiliki efek langsung yang akan merusak kontrak yang ada atau mengubah perilakunya. Perubahan yang diperkenalkan pada lapisan eksekusi dibuat dengan kompatibilitas mundur, namun, selalu perhatikan kasus ekstrem dan potensi dampaknya.
 
