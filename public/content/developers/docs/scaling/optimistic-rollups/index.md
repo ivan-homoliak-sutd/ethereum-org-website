@@ -253,7 +253,7 @@ More of a visual learner? Watch Finematics explain optimistic rollups:
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## Further reading on optimistic rollups
+## Further reading on optimistic rollups {#further-reading-on-optimistic-rollups}
 
 - [How do optimistic rollups work (The Complete guide)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [What is a Blockchain Rollup? A Technical Introduction](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

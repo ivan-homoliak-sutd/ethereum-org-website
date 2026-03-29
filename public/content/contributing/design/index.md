@@ -10,7 +10,7 @@ Design is a critical component of any project, and by devoting your time and des
 
 Ultimately, this is a great way to build a diverse and impressive portfolio that showcases your design skills.
 
-## How to contribute?
+## How to contribute? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;Provide feedback on early design prototypes {#design-critique}
 
