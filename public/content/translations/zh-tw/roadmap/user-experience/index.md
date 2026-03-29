@@ -17,7 +17,7 @@ template: roadmap
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">更多帳戶抽象相關資訊</ButtonLink>
 
-## 所有人都能運行的節點
+## 所有人都能運行的節點 {#nodes-for-everyone}
 
 運行 [節點](/glossary/#node) 的使用者不必信任第三方為其提供資料，他們無需許可即可快速、私密地與以太坊 [區塊鏈](/glossary/#blockchain) 互動。 然而，現在運行節點需要技術知識以及大量的磁碟空間，這意味著許多人必須信任中介。
 

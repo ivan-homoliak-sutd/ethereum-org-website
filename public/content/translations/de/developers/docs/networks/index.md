@@ -32,7 +32,7 @@ Die meisten Testnets begannen mit der Verwendung eines erlaubnispflichtigen Proo
 
 ETH in Testnets soll keinen echten Wert haben; es wurden jedoch Märkte für bestimmte Arten von Testnet-ETH geschaffen, die knapp oder schwer zu bekommen sind. Da Sie ETH benötigen, um tatsächlich mit Ethereum zu interagieren (auch in Testnets), erhalten die meisten Leute Testnet-ETH kostenlos von Faucets. Die meisten Faucets sind Web-Apps, in die Sie eine Adresse eingeben können, an die ETH gesendet werden soll.
 
-#### Welches Testnet sollte ich verwenden?
+#### Welches Testnet sollte ich verwenden? {#which-testnet-should-i-use}
 
 Die beiden öffentlichen Testnets, die Anwendungsentwickler derzeit pflegen, sind Sepolia und Hoodi. Sepolia ist ein Netzwerk für Vertrags- und Anwendungsentwickler, um ihre Anwendungen zu testen. Das Hoodi-Netzwerk ermöglicht es Protokollentwicklern, Netzwerk-Upgrades zu testen, und lässt Staker das Ausführen von Validatoren testen.
 
@@ -104,7 +104,7 @@ Ephemery ist eine einzigartige Art von Testnet, das jeden Monat vollständig zur
 - [Checkpoint Sync](https://checkpoint-sync.ephemery.ethpandaops.io)
 - [Launchpad](https://launchpad.ephemery.dev/)
 
-#### Faucets
+#### Faucets {#faucets}
 
 - [Bordel Faucet](https://faucet.bordel.wtf/)
 - [Pk910 PoW Faucet](https://ephemery-faucet.pk910.de/)

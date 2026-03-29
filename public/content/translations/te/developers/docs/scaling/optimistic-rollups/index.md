@@ -253,7 +253,7 @@ ii. ఆప్టిమిస్టిక్ రోలప్‌లను ఉప�
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## ఆప్టిమిస్టిక్ రోలప్‌లపై మరింత పఠనం
+## ఆప్టిమిస్టిక్ రోలప్‌లపై మరింత పఠనం {#further-reading-on-optimistic-rollups}
 
 - [ఆప్టిమిస్టిక్ రోలప్‌లు ఎలా పనిచేస్తాయి (పూర్తి గైడ్)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [ఒక బ్లాక్ చైను రోలప్ అంటే ఏమిటి? ఒక సాంకేతిక పరిచయం](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

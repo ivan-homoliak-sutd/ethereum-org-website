@@ -4,7 +4,7 @@ description: "關於如何在以太坊兌換代幣的指南。"
 lang: zh-tw
 ---
 
-# 如何兌換代幣
+# 如何兌換代幣 {#how-to-swap-tokens}
 
 你是否厭倦了尋找一個能列出你喜歡的所有代幣的交易所？ 你可以使用[去中心化交易所](/glossary/#dex)兌換大部分的代幣。
 
@@ -15,7 +15,7 @@ lang: zh-tw
 - 擁有一個[加密貨幣錢包](/glossary/#wallet)；若您沒有，可以參考這篇[如何建立以太坊帳戶](/guides/how-to-create-an-ethereum-account/)的指南
 - 在你的錢包中添加資金
 
-## 1. 連接你的錢包到所選擇的去中心化交易所 (DEX)
+## 1. 連接你的錢包到所選擇的去中心化交易所 (DEX) {#1-connect-your-wallet-to-the-decentralized-exchange-dex-of-your-choice}
 
 一些受歡迎的交易所：
 
@@ -26,24 +26,24 @@ lang: zh-tw
 
 有興趣嗎？ 進一步了解[去中心化金融 (DeFi)](/defi/) 的內容，以及這些新型交易所的運作方式。
 
-## 2. 選擇一對你想要兌換的代幣
+## 2. 選擇一對你想要兌換的代幣 {#2-select-the-pair-of-tokens-you-wish-to-swap}
 
 例如以太幣和 DAI。 確保兩種代幣中任意一種有資金。
 ![用於兌換的通用介面](./swap1.png)
 
-## 3 輸入要交易的代幣數量，點擊「兌換」
+## 3 輸入要交易的代幣數量，點擊「兌換」 {#3-enter-the-amount-of-tokens-you-want-to-trade-and-click-swap}
 
 交易所將自動計算你將獲得多少代幣。
 
 ![用於兌換的通用介面](./swap2.png)
 
-## 4 確認交易
+## 4 確認交易 {#4-confirm-the-transaction}
 
 查看交易的詳細資訊。 了解兌換率和其他費用，以避免出現不必要的「驚喜」。
 
 ![用於檢視交易的通用介面](./swap3.png)
 
-## 5 等待交易處理
+## 5 等待交易處理 {#5-wait-for-the-transaction-to-be-processed}
 
 你可以在任何區塊鏈瀏覽器上查看交易進度。 此過程不會超過 10 分鐘。
 
@@ -59,12 +59,12 @@ lang: zh-tw
 </AlertContent>
 </Alert>
 
-## 常見問題
+## 常見問題 {#frequently-asked-questions}
 
-### 我可以從我的錢包中將以太幣兌換成比特幣嗎？
+### 我可以從我的錢包中將以太幣兌換成比特幣嗎？ {#can-i-swap-eth-for-btc-from-my-wallet}
 
 不可以，你只能兌換以太坊網路原生的代幣，例如以太幣、ERC-20 代幣或非同質化代幣。 你只能兌換以太坊上以「打包」形式存在的比特幣。
 
-### 什麼是滑點？
+### 什麼是滑點？ {#what-is-slippage}
 
 這是指你所預期的兌換率與實際兌換率之間的差異。

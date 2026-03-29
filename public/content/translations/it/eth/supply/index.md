@@ -33,7 +33,7 @@ Nella finanza tradizionale, le banche centrali controllano l'offerta di moneta, 
 
 L'emissione di ETH si riferisce al processo di creazione di nuovi ETH come ricompense per i validatori che proteggono la rete di Ethereum. È separata dall'offerta totale, che è la quantità totale di ETH in circolazione.
 
-### In parole povere:
+### In parole povere: {#in-simple-terms}
 - L'**emissione** aggiunge nuovi ETH alla rete.
 - La **bruciatura** (introdotta dall'EIP-1559) rimuove ETH dalla rete distruggendo una parte delle commissioni della transazione.
 
@@ -45,7 +45,7 @@ Il sistema di Prova di stake (PoS) di Ethereum ha drasticamente ridotto l'emissi
 
 Tuttavia, questo numero è dinamico. Grazie all'EIP-1559, quando l'attività della rete è elevata, i tassi di bruciatura di ETH possono superare l'emissione, creando un effetto deflazionistico. Ad esempio, durante i periodi di forte domanda, come i lanci di NFT o l'attività DeFi, potrebbero essere bruciati più ETH di quanti ne vengano emessi.
 
-### Strumenti per monitorare l'offerta e l'emissione di ETH:
+### Strumenti per monitorare l'offerta e l'emissione di ETH: {#tools-to-track-eth-supply-and-issuance}
 - [Ultrasound Money](https://ultrasound.money) - Monitoraggio in tempo reale dell'offerta, dell'emissione e dei tassi di bruciatura di ETH
 - [Etherscan](https://etherscan.io) - Esploratore di blocchi con metriche sull'offerta
 

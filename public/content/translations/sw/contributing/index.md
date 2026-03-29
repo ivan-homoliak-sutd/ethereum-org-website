@@ -47,7 +47,7 @@ Sisi ni jumuiya karibishi ambayo itakusaidia kukua na kujifunza katika mfumo iko
 
 Maswali yoyote? 🤔 Jiunge na [seva yetu ya Discord](https://discord.gg/ethereum-org)
 
-## Kazi nzuri za kwanza za kuanza kuchangia
+## Kazi nzuri za kwanza za kuanza kuchangia {#good-first-tasks-to-start-contributing}
 
 Hizi ni kazi chache za sasa ambazo unaweza kutusaidia kutatua na kuwajibika nazo. Kwa nyingi utahitaji akaunti ya GitHub kwani mabadiliko mengi kwenye tovuti hufanywa kupitia GitHub.
 
@@ -95,7 +95,7 @@ Ikiwa mchango wako utaunganishwa kwenye ethereum.org, utapata fursa ya kudai bej
 
 [Zaidi kuhusu OAT](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### Jinsi ya kudai
+### Jinsi ya kudai {#how-to-claim-1}
 
 1. Jiunge na [seva yetu ya Discord](https://discord.gg/ethereum-org).
 2. Bandika kiungo cha mchango wako kwenye chaneli ya `#🥇 | proof-of-contribution`.

@@ -143,7 +143,7 @@ Prezzando le azioni di accesso allo stato in modo più accurato, Ethereum può e
 
 **Risorse**: [Specifica tecnica dell'EIP-8038](https://eips.ethereum.org/EIPS/eip-8038)
 
-## Resilienza della rete
+## Resilienza della rete {#network-resilience}
 
 I perfezionamenti ai compiti dei validatori e ai processi di uscita garantiscono la stabilità della rete durante eventi di slashing di massa e democratizzano la liquidità. Questi miglioramenti rendono la rete più stabile e assicurano che tutti i partecipanti, grandi e piccoli, siano trattati in modo equo.
 

@@ -22,15 +22,15 @@ En la mayoría de los casos, no hay forma de recuperar los fondos. Ethereum no e
 
 Sus opciones de recuperación dependen del tipo de billetera que utilice.
 
-### Si tiene su frase semilla (frase de recuperación)
+### Si tiene su frase semilla (frase de recuperación) {#if-you-have-your-seed-phrase-recovery-phrase}
 
 Puede restaurar su billetera en cualquier aplicación de billetera compatible usando su frase semilla. Por eso es fundamental que guarde su frase semilla de forma segura y sin conexión. Consulte la documentación de su proveedor de billetera para obtener instrucciones de restauración.
 
-### Si ha perdido su frase semilla
+### Si ha perdido su frase semilla {#if-you-have-lost-your-seed-phrase}
 
 Sin su frase semilla o claves privadas, no se pueden recuperar sus fondos. Nadie, incluido ethereum.org, puede restablecer su contraseña ni restaurar el acceso a una billetera de autocustodia.
 
-### Si su cuenta está en un intercambio
+### Si su cuenta está en un intercambio {#if-your-account-is-on-an-exchange}
 
 Si su cuenta está en un intercambio centralizado como Coinbase, Binance o Kraken, póngase en contacto directamente con el equipo de soporte del intercambio. Ellos controlan las cuentas en su plataforma y es posible que puedan ayudarle con el restablecimiento de la contraseña o la recuperación de la cuenta.
 
@@ -55,7 +55,7 @@ Las transacciones en Ethereum pueden atascarse cuando la tarifa de gas que estab
 - **Acelerar:** Vuelva a enviar la misma transacción con una tarifa de gas más alta
 - **Cancelar:** Envíe una transacción de 0 ETH a su propia dirección utilizando el mismo nonce que la transacción pendiente
 
-### Guías útiles
+### Guías útiles {#helpful-guides}
 
 - [Cómo acelerar o cancelar una transacción pendiente en MetaMask](https://support.metamask.io/transactions-and-gas/transactions/how-to-speed-up-or-cancel-a-pending-transaction/)
 - [Cómo cancelar transacciones pendientes de Ethereum](https://info.etherscan.com/how-to-cancel-ethereum-pending-transactions/)

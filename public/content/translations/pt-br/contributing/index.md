@@ -47,7 +47,7 @@ Nós somos uma comunidade de braços abertos que irá ajudá-lo a crescer e se i
 
 Alguma dúvida? 🤔 Junte-se ao nosso [servidor do Discord](https://discord.gg/ethereum-org)
 
-## Tarefas adequadas para começar a contribuir
+## Tarefas adequadas para começar a contribuir {#good-first-tasks-to-start-contributing}
 
 Estas são algumas tarefas atuais das que você poderia se encarregar e nos ajudar a resolver. Para a maioria delas, você precisará de uma conta no GitHub porque a maior parte das mudanças no site são feitas através do GitHub.
 
@@ -95,7 +95,7 @@ If your contribution gets merged into ethereum.org, you will have a chance to cl
 
 [More on OATs](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### How to claim
+### How to claim {#how-to-claim-1}
 
 1. Join our [Discord server](https://discord.gg/ethereum-org).
 2. Paste a link to your contribution in the `#🥇 | proof-of-contribution` channel.

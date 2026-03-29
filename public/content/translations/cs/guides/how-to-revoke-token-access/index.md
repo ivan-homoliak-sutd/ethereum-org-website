@@ -4,7 +4,7 @@ description: "Návod, jak odebrat přístup k vašim tokenům škodlivým smart 
 lang: cs
 ---
 
-# Jak zrušit přístup chytrého kontraktu k vašim krypto fondům
+# Jak zrušit přístup chytrého kontraktu k vašim krypto fondům {#how-to-revoke-smart-contract-access-to-your-crypto-funds}
 
 V tomto návodu zjistíte, jak zobrazit seznam všech [smart kontraktů](/glossary/#smart-contract), kterým jste povolili přístup k vašim finančním prostředkům, a jak je zrušit.
 
@@ -14,7 +14,7 @@ Jakmile platforma získá neomezená přístupová práva k tokenu ve vaší [pe
 
 Jedinou ochranou je vyhnout se interakci s neověřenými novými projekty, schvalovat pouze to, co potřebujete, případně pravidelně odebírat přístup službám, které už nevyužíváte. Takže, jak na to?
 
-## Krok 1: Používejte nástroje pro zrušení přístupu
+## Krok 1: Používejte nástroje pro zrušení přístupu {#step-1-use-revoke-access-tools}
 
 Hned několik webových stránek vám umožňuje zobrazit a zrušit přístup smart kontraktů spojených s vaší adresou. Běžte na některou k následujících stránek a připojte svoji peněženku:
 
@@ -24,19 +24,19 @@ Hned několik webových stránek vám umožňuje zobrazit a zrušit přístup sm
 - [Unrekt](https://app.unrekt.net/) (více sítí)
 - [EverRevoke](https://everrise.com/everrevoke/) (více sítí)
 
-## Krok 2: Připojte svoji peněženku
+## Krok 2: Připojte svoji peněženku {#step-2-connect-your-wallet}
 
 Jakmile budete na webové stránce, klikněte na možnost "Připojit peněženku". Webová stránka by vás měla vyzvat k připojení peněženky.
 
 Ujistěte se, že v peněžence a na webové stránce používáte stejnou síť. Zobrazí se vám pouze chytré kontrakty související s vybranou sítí. Pokud se například připojíte k Ethereum Mainnetu, uvidíte pouze kontrakty na Ethereu, nikoliv kontrakty na jiných blockchainech, jako je Polygon.
 
-## Krok 3: Vyberte smart kontrakt, kterému chcete zrušit přístup
+## Krok 3: Vyberte smart kontrakt, kterému chcete zrušit přístup {#step-3-select-a-smart-contract-you-wish-to-revoke}
 
 Měli byste vidět všechny kontrakty, které mají povolený přístup k tokenům, a jejich limit výdajů. Najděte ten, kterému chcete zrušit přístup.
 
 Pokud nevíte, který kontrakt vybrat, můžete zrušit přístup všem. To pro vás nebude znamenat žádné problémy, ale při příští interakci s některým z těchto kontraktů, jim budete muset znovu povolit přístup.
 
-## Krok 4: Zruště přístup k finančním prostředkům
+## Krok 4: Zruště přístup k finančním prostředkům {#step-4-revoke-access-to-your-funds}
 
 Po kliknutí na zrušení přístupu by se měl v peněžence zobrazit návrh nové transakce. To lze očekávat. Aby bylo zrušení přístupu úspěšně dokončeno, musíte zaplatit transakční poplatek. V závislosti na vytížení sítě může zpracování trvat až několik minut.
 
@@ -56,20 +56,20 @@ Doporučujeme vám po několika minutách obnovit nástroj na zrušení přístu
 </AlertContent>
 </Alert>
 
-## Často kladené dotazy
+## Často kladené dotazy {#frequently-asked-questions}
 
-### Ukončí zrušení přístupu k tokenům také staking, pooling, půjčky atd.?
+### Ukončí zrušení přístupu k tokenům také staking, pooling, půjčky atd.? {#does-revoking-token-access-also-terminate-staking-pooling-lending-etc}
 
 Ne, neovlivní to žádnou z vašich [DeFi](/glossary/#defi) strategií. Zůstanete na svých pozicích a budete dostávat odměny atd.
 
-### Je odpojení peněženky od projektu totéž jako odebrání povolení používat mé prostředky?
+### Je odpojení peněženky od projektu totéž jako odebrání povolení používat mé prostředky? {#is-disconnecting-a-wallet-from-a-project-the-same-as-removing-permission-to-use-my-funds}
 
 Ne, pokud svou peněženku od projektu odpojíte, ale udělili jste oprávnění k přístupu k tokenům, mohou tyto projekty vaše tokeny stále používat. Tento přístup musíte zrušit.
 
-### Kdy vyprší platnost povolení kontraktu k přístupu k mým prostředkům?
+### Kdy vyprší platnost povolení kontraktu k přístupu k mým prostředkům? {#when-will-the-contract-permission-expire}
 
 Platnost povolení k přístupu není omezena. Pokud udělíte kontraktu oprávění, může ho použít i několik let po jeho udělení.
 
-### Proč se v projektech dá nastavit přístup k neomezenému množství tokenů?
+### Proč se v projektech dá nastavit přístup k neomezenému množství tokenů? {#why-do-projects-set-unlimited-token-allowance}
 
 Projekty to často dělají proto, aby minimalizovaly počet žádostí, což znamená, že uživatel musí schválit přístup a zaplatit poplatek za transakci jen jednou. To je sice pohodlné, ale pro uživatele to může být nebezpečné při neopatrném udělování přístupu na stránkách, které nejsou prověřeny časem nebo které nejsou auditované. Některé peněženky umožňují ručně omezit množství schvalovaných tokenů, čímž se riziko zneužití prostředků snižuje. Další informace získáte u poskytovatele peněženky.

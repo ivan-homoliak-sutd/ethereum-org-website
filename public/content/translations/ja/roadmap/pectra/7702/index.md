@@ -4,7 +4,7 @@ description: "Pectraリリースにおける7702の詳細"
 lang: ja
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## 概要 {#abstract}
 

@@ -253,7 +253,7 @@ ii. आशावादी रोलअप्स वापरणारे डे�
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## आशावादी रोलअप्सवर पुढील वाचन
+## आशावादी रोलअप्सवर पुढील वाचन {#further-reading-on-optimistic-rollups}
 
 - [आशावादी रोलअप्स कसे काम करतात (संपूर्ण मार्गदर्शक)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [ब्लॉकचेन रोलअप म्हणजे काय? एक तांत्रिक ओळख](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

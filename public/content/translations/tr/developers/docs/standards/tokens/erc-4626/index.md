@@ -190,7 +190,7 @@ function balanceOf(address owner) public view returns (uint256)
 
 ### Olaylar {#events}
 
-#### Yatırma Olayları
+#### Yatırma Olayları {#deposit-event}
 
 Jetonlar, [`mint`](#mint) ve [`deposit`](#deposit) yöntemleriyle kasaya yatırıldığında **KESİNLİKLE** yayınlanmalıdır.
 
@@ -205,7 +205,7 @@ event Deposit(
 
 Burada `sender`, `assets`'i `shares` ile takas eden ve bu `shares`'i `owner`'a aktaran kullanıcıdır.
 
-#### Çekim Olayı
+#### Çekim Olayı {#withdraw-event}
 
 Paylar, bir mevduat sahibi tarafından [`redeem`](#redeem) veya [`withdraw`](#withdraw) yöntemlerinde kasadan çekildiğinde **KESİNLİKLE** yayınlanmalıdır.
 

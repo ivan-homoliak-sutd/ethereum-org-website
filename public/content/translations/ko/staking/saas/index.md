@@ -43,13 +43,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### SaaS 제공업체
+### SaaS 제공업체 {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 참고로, [클라이언트 다양성](/developers/docs/nodes-and-clients/client-diversity/)에 대한 지원은 네트워크의 보안을 강화하고 위험성을 최소화할 수 있으므로 매우 중요합니다. 다수 클라이언트의 사용을 제한하는 증거가 있는 서비스는 <em style={{ textTransform: "uppercase" }}>"실행 클라이언트 다양성"</em> 및 <em style={{ textTransform: "uppercase" }}>"합의 클라이언트 다양성"</em>으로 표시됩니다.
 
-### 키 생성기
+### 키 생성기 {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

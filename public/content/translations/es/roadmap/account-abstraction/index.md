@@ -52,7 +52,7 @@ La gestión del gas mejora considerablemente. Las aplicaciones puede pagar las t
 
 Actualmente, las carteras de contratos inteligentes son difíciles de implementar, ya que dependen de código complejo que recoge transacciones estándar. Ethereum puede cambiar esto permitiendo que los contratos inteligentes inicien transacciones directamente, incorporando la lógica en contratos inteligentes de Ethereum en vez de depender de transmisores externos.
 
-### EIP-4337: abstracción de cuenta sin cambios en el protocolo
+### EIP-4337: abstracción de cuenta sin cambios en el protocolo {#eip-4337-account-abstraction-without-protocol-changes}
 
 EIP-4337 permite un soporte nativo de carteras de contratos inteligentes sin modificar el protocolo base de Ethereum. Introduce objetos `UserOperation` recopilados en paquetes de transacciones por los validadores, lo que simplifica el desarrollo de billeteras. El contrato EntryPoint de EIP-4337 se desplegó en la red principal de Ethereum el 1 de marzo de 2023 y ha facilitado la creación de más de 26 millones de carteras inteligentes y 170 millones de UserOperations.
 

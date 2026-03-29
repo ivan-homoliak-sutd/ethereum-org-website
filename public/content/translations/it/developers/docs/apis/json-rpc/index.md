@@ -79,7 +79,7 @@ Le seguenti opzioni sono possibili per il parametro del blocco:
 - `Stringa "finalized"` - per l'ultimo blocco finalizzato
 - `Stringa "pending"` - per lo stato o le transazioni in sospeso
 
-## Esempi
+## Esempi {#examples}
 
 In questa pagina forniamo esempi di come utilizzare i singoli endpoint dell'API JSON_RPC usando lo strumento a riga di comando, [curl](https://curl.se). Questi esempi di singoli endpoint si trovano di seguito nella sezione [Esempi di curl](#curl-examples). Più in basso nella pagina, forniamo anche un [esempio end-to-end](#usage-example) per compilare e distribuire un contratto intelligente utilizzando un nodo Geth, l'API JSON_RPC e curl.
 
@@ -132,7 +132,7 @@ Una manciata di metodi JSON-RPC principali richiede dati dalla rete di Ethereum 
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## Playground dell'API JSON-RPC
+## Playground dell'API JSON-RPC {#json-rpc-api-playground}
 
 Puoi usare lo [strumento playground](https://ethereum-json-rpc.com) per scoprire e provare i metodi dell'API. Ti mostra anche quali metodi e reti sono supportati dai vari provider di nodi.
 

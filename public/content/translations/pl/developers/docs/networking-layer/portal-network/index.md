@@ -59,7 +59,7 @@ Korzyści płynące z tego projektu sieci to:
 
 Poniższa tabela przedstawia funkcje istniejących klientów, które mogą być dostarczane przez Sieć portali, umożliwiając użytkownikom dostęp do tych funkcji na urządzeniach o bardzo niskich zasobach.
 
-### Sieci portali
+### Sieci portali {#the-portal-networks}
 
 | Lekki klient Beacon  | Sieć stanu               | Plotkowanie transakcji | Sieć historii |
 | -------------------- | ------------------------ | ---------------------- | ------------- |

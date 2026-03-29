@@ -79,7 +79,7 @@ JSON-RPC API를 통해 이더리움 클라이언트와 직접 상호 작용하�
 - `문자열 "finalized"` - 최신 확정 블록
 - `문자열 "pending"` - 보류 중인 상태/트랜잭션
 
-## 예시
+## 예시 {#examples}
 
 이 페이지에서는 명령줄 도구인 [curl](https://curl.se)을 사용하여 개별 JSON_RPC API 엔드포인트를 사용하는 방법에 대한 예를 제공합니다. 이러한 개별 엔드포인트 예는 아래의 [Curl 예제](#curl-examples) 섹션에서 찾을 수 있습니다. 페이지의 뒷부분에서는 Geth 노드, JSON_RPC API 및 curl을 사용하여 스마트 계약을 컴파일하고 배포하는 [엔드투엔드 예제](#usage-example)도 제공합니다.
 
@@ -133,7 +133,7 @@ curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","metho
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## JSON-RPC API 플레이그라운드
+## JSON-RPC API 플레이그라운드 {#json-rpc-api-playground}
 
 [플레이그라운드 도구](https://ethereum-json-rpc.com)를 사용하여 API 메서드를 검색하고 사용해 볼 수 있습니다. 또한 다양한 노드 제공업체에서 지원하는 메서드와 네트워크를 보여줍니다.
 

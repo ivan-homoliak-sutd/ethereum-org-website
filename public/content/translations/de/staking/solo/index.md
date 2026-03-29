@@ -106,13 +106,13 @@ Es stehen verschiedene Optionen zur Verfügung, die Ihnen bei Ihrer Einrichtung 
 
 <ProductDisclaimer />
 
-### Tools für Blockchain-Knoten
+### Tools für Blockchain-Knoten {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 Bitte beachten Sie, wie wichtig die Auswahl eines [Minderheits-Clients](/developers/docs/nodes-and-clients/client-diversity/) ist, da dies die Sicherheit des Netzwerks verbessert und Ihr Risiko begrenzt. Tools, mit denen Sie einen Minderheits-Client einrichten können, sind als <em style={{ textTransform: "uppercase" }}>"Multi-Client"</em> gekennzeichnet.
 
-### Schlüsselgeneratoren
+### Schlüsselgeneratoren {#key-generators}
 
 Diese Tools können als Alternative zum [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) verwendet werden, um bei der Schlüsselgenerierung zu helfen.
 

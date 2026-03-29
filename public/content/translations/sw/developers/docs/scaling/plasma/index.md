@@ -14,13 +14,13 @@ Miti ya Merkle huwezesha uundaji wa rundo lisilo na mwisho la minyororo hii amba
 
 Unapaswa kuwa na ufahamu mzuri wa mada zote za msingi na uelewa wa hali ya juu wa [uongezwaji wa Ethereum](/developers/docs/scaling/).
 
-## Njozi ni nini?
+## Njozi ni nini? {#what-is-plasma}
 
 Njozi ni mfumo wa kuboresha uwezo wa kuongezeka kwa minyororo ya bloku ya umma kama Ethereum. Kama ilivyoelezwa katika [karatasi nyeupe ya Njozi](http://plasma.io/plasma.pdf) ya awali, minyororo ya Njozi hujengwa juu ya mnyororo mwingine wa bloku (unaoitwa "mnyororo mkuu"). Kila "mnyororo wa mtoto" hupanuka kutoka kwa mnyororo mkuu na kwa ujumla hudhibitiwa na mkataba-erevu uliotumwa kwenye mnyororo wa mzazi.
 
 Mkataba wa Njozi hufanya kazi, miongoni mwa mambo mengine, kama [daraja](/developers/docs/bridges/) linalowaruhusu watumiaji kuhamisha mali kati ya Mtandao Mkuu wa Ethereum na mnyororo wa njozi. Ingawa hii inazifanya kuwa sawa na [sidechains](/developers/docs/scaling/sidechains/), minyororo ya njozi hunufaika—angalau, kwa kiasi fulani—kutokana na usalama wa Mtandao Mkuu wa Ethereum. Hii ni tofauti na sidechains ambazo zinawajibika kikamilifu kwa usalama wao.
 
-## Njozi inafanyaje kazi?
+## Njozi inafanyaje kazi? {#how-does-plasma-work}
 
 Vipengele vya msingi vya mfumo wa Njozi ni:
 

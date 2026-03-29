@@ -47,7 +47,7 @@ incomplete: true
 - [Slither உடன் Solidity ஸ்மார்ட் ஒப்பந்தங்களை பகுப்பாய்வு செய்தல்](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [பிளாக்செயின் ஃபின்டெக் பயிற்சி: பைதானுடன் கடன் வழங்குதல் மற்றும் கடன் வாங்குதல்](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## காப்பகப்படுத்தப்பட்ட கட்டுரைகள்
+## காப்பகப்படுத்தப்பட்ட கட்டுரைகள் {#archived-articles}
 
 - [பைதான் மற்றும் Brownie உடன் உங்கள் சொந்த ERC20 டோக்கனைப் பயன்படுத்துங்கள்](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [ஸ்மார்ட் ஒப்பந்தங்களைப் பயன்படுத்த Brownie மற்றும் பைதானைப் பயன்படுத்துதல்](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

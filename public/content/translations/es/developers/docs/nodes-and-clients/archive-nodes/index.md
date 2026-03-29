@@ -11,7 +11,7 @@ Un nodo de archivo es una instancia de un cliente Ethereum configurado para cons
 
 Debe entender el concepto de un [nodo de Ethereum](/developers/docs/nodes-and-clients/), [su arquitectura](/developers/docs/nodes-and-clients/node-architecture/), [estrategias de sincronización](/developers/docs/nodes-and-clients/#sync-modes), las prácticas de [ejecutarlos](/developers/docs/nodes-and-clients/run-a-node/) y [usarlos](/developers/docs/apis/json-rpc/).
 
-## ¿Qué es un nodo de archivo?
+## ¿Qué es un nodo de archivo? {#what-is-an-archive-node}
 
 Para comprender la importancia de un nodo de archivo, aclaremos el concepto de «estado». Se puede hacer referencia a Ethereum como una _máquina de estado basada en transacciones_. Consiste en cuentas y aplicaciones que ejecutan transacciones que están cambiando su estado. Los datos globales con información sobre cada cuenta y contrato se almacenan en una base de datos de verificación llamada estado. La gestiona el cliente a través de la capa de ejecución (EL) e incluye:
 
@@ -29,7 +29,7 @@ No obstante, esto significa que el acceso a un estado histórico en un nodo comp
 
 Es importante tener en cuenta que la red no depende de los nodos de archivo para mantener y proporcionar todos los datos históricos. Como se mencionó anteriormente, todos los estados provisionales históricos se pueden derivar en un nodo completo. Las transacciones se almacenan en cualquier nodo completo (actualmente menos de 400G) y se pueden reproducir para construir todo el archivo.
 
-### Casos de uso
+### Casos de uso {#use-cases}
 
 El uso regular de Ethereum, como el envío de transacciones, el despliegue de contratos, la verificación del consenso, etc., no requiere acceso a estados históricos. Los usuarios nunca necesitan un nodo de archivo para una interacción estándar con la red.
 
@@ -48,17 +48,17 @@ Como se explicó anteriormente, un nodo completo tendría que generar estos dato
 
 Existen varios [servicios](/developers/docs/nodes-and-clients/nodes-as-a-service/) gratuitos que también permiten el acceso a datos históricos. Como es más exigente ejecutar un nodo de archivo, este acceso es en su mayoría limitado y solo funciona para el acceso ocasional. Si su proyecto requiere acceso constante a datos históricos, debería considerar ejecutar uno usted mismo.
 
-## Implementaciones y uso
+## Implementaciones y uso {#implementations-and-usage}
 
 Nodo de archivo en este contexto significa datos servidos por los clientes de la capa de ejecución del usuario, mientras maneja la base de datos de estado y proporciona terminales JSON-RPC. Las opciones de configuración, el tiempo de sincronización y el tamaño de la base de datos pueden variar según el cliente. Para obtener más información, consulte la documentación proporcionada por su cliente.
 
 Antes de iniciar su propio nodo de archivo, infórmese sobre las diferencias entre los clientes y, especialmente, sobre los diversos [requisitos de hardware](/developers/docs/nodes-and-clients/run-a-node/#requirements). La mayoría de los clientes no están optimizados para esta función y sus archivos requieren más de 12 TB de espacio. Por el contrario, implementaciones como Erigon pueden almacenar los mismos datos en menos de 3 Tb, lo que los convierte en la forma más efectiva de ejecutar un nodo de archivo.
 
-## Prácticas recomendadas
+## Prácticas recomendadas {#recommended-practices}
 
 Además de las [recomendaciones generales para ejecutar un nodo](/developers/docs/nodes-and-clients/run-a-node/), un nodo de archivo puede ser más exigente en cuanto a hardware y mantenimiento. Teniendo en cuenta las [características clave](https://github.com/ledgerwatch/erigon#key-features) de Erigon, el enfoque más práctico es usar la implementación del cliente [Erigon](/developers/docs/nodes-and-clients/#erigon).
 
-### Hardware
+### Hardware {#hardware}
 
 Asegúrese siempre de verificar los requisitos de hardware para un modo determinado en la documentación de un cliente.
 El mayor requisito para los nodos de archivo es el espacio en el disco. Dependiendo del cliente, varía de 3 TB a 12 TB. Incluso si el disco duro (HDD) podría considerarse una mejor solución para grandes cantidades de datos, sincronizarlo y actualizar constantemente la cabeza de la cadena requerirá unidades SSD de estado sólido. Las unidades [SATA](https://www.cleverfiles.com/help/sata-hard-drive.html) son lo suficientemente buenas, pero deben ser de una calidad fiable, como mínimo [TLC](https://blog.synology.com/tlc-vs-qlc-ssds-what-are-the-differences). Los discos se pueden instalar en un ordenador de escritorio o en un servidor con suficientes ranuras. Estos dispositivos dedicados son ideales para ejecutar un nodo de elevado tiempo de actividad. Es perfectamente posible ejecutarlo en un ordenador portátil, pero la portabilidad tendrá un coste adicional.

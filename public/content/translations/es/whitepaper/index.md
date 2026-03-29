@@ -451,7 +451,7 @@ El modelo de emisión será el siguiente:
 | Reserva usada en la posventa   | 8,26%                  | 6,79%      | 3,96%       |
 | Mineros                        | 0 %                    | 17,8%      | 52,0%       |
 
-#### Tasa de crecimiento del suministro a largo plazo (porcentaje)
+#### Tasa de crecimiento del suministro a largo plazo (porcentaje) {#long-term-supply-growth-rate-percent}
 
 ![Inflación de Ethereum](./ethereum-inflation.png)
 

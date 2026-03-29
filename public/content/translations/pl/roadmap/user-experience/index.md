@@ -17,7 +17,7 @@ Rozwiązaniem tego problemu jest wykorzystanie portfeli opartych na [inteligentn
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">Więcej na temat abstrakcji kont</ButtonLink>
 
-## Węzły dla każdego
+## Węzły dla każdego {#nodes-for-everyone}
 
 Użytkownicy uruchamiający [węzły](/glossary/#node) nie muszą ufać stronom trzecim w zakresie dostarczania im danych i mogą szybko, prywatnie i bez pozwolenia wchodzić w interakcje z [blockchainem](/glossary/#blockchain) Ethereum. Jednak obecnie uruchomienie węzła wymaga wiedzy technicznej i znacznej ilości miejsca na dysku, co oznacza, że wiele osób musi zaufać pośrednikom.
 

@@ -253,7 +253,7 @@ Tìm hiểu thêm từ video trực quan? Xem Finematics giải thích về các
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## Đọc thêm về các gộp giao dịch lạc quan
+## Đọc thêm về các gộp giao dịch lạc quan {#further-reading-on-optimistic-rollups}
 
 - [Các gộp giao dịch lạc quan hoạt động như thế nào (Hướng dẫn Toàn diện)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [Gộp giao dịch chuỗi khối là gì? Giới thiệu kỹ thuật](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

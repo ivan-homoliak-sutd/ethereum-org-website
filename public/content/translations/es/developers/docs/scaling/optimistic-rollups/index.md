@@ -253,7 +253,7 @@ Se espera que la introducción de la [fragmentación de datos](/roadmap/dankshar
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## Bibliografía para profundizar sobre los rollups optimistas
+## Bibliografía para profundizar sobre los rollups optimistas {#further-reading-on-optimistic-rollups}
 
 - [¿Cómo funcionan los rollups optimistas? (La guía completa)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [¿Qué es un rollup de cadena de bloques? Una introducción técnica](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

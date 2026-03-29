@@ -105,7 +105,7 @@ Bir merkeziyetsiz uygulama, bir köprü veya birleştirici entegrasyonu yolunu s
 
 Bir merkeziyetsiz uygulamayı birden çok zincire dağıtmak için geliştiriciler [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/) gibi geliştirme platformlarını kullanabilirler. Genellikle bu platformlar, merkeziyetsiz uygulamaların zincirler arası işlem yapmasını sağlayabilecek birleştirilebilir eklentilere sahiptir. Örneğin, geliştiriciler [hardhat-deploy eklentisi](https://github.com/wighawag/hardhat-deploy) tarafından sunulan deterministik bir dağıtım proxy'si kullanabilirler.
 
-#### Örnekler:
+#### Örnekler: {#examples}
 
 - [Zincirler arası merkeziyetsiz uygulamalar nasıl oluşturulur](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [Zincirler Arası bir NFT Pazar Yeri Oluşturma](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ Bir merkeziyetsiz uygulamayı birden çok zincire dağıtmak için geliştiricil
 
 Geliştiriciler, akıllı sözleşmelerin zincirler arasındaki etkinliğini izlemek için alt grafikleri ve Tenderly gibi geliştirici platformlarını kullanabilir. Bu tür platformlar, [sözleşmeler tarafından yayımlanan olayları](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events) kontrol etmek gibi zincirler arası faaliyetler için daha büyük veri izleme işlevselliği sunan araçlara da sahiptir.
 
-#### Araçlar
+#### Araçlar {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

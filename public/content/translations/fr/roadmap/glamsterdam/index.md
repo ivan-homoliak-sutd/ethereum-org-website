@@ -142,7 +142,7 @@ En évaluant plus précisément les actions d'accès à l'état, Ethereum peut �
 
 **Ressources**: [Spécification technique EIP-8038](https://eips.ethereum.org/EIPS/eip-8038)
 
-## Résilience du réseau 
+## Résilience du réseau {#network-resilience}
 
 Les améliorations apportées aux fonctions des validateur et aux processus de sortie garantissent la stabilité du réseau lors d'événements de slashing massifs et démocratisent la liquidité. Ces améliorations rendent le réseau plus stable et garantissent que tous les participants, petits et grands, sont traités équitablement.
 

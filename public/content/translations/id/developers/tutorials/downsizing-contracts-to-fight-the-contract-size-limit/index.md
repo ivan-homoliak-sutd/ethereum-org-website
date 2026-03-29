@@ -79,7 +79,7 @@ require(msg.sender == owner, "Only the owner of this contract can call this func
 require(msg.sender == owner, "OW1");
 ```
 
-### Gunakan kesalahan kustom alih-alih pesan kesalahan
+### Gunakan kesalahan kustom alih-alih pesan kesalahan {#use-custom-errors-instead-of-error-messages}
 
 Kesalahan kustom telah diperkenalkan di [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/). Ini adalah cara yang bagus untuk mengurangi ukuran kontrak Anda, karena mereka dienkode ABI sebagai pemilih (sama seperti fungsi).
 

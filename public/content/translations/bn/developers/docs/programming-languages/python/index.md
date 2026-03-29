@@ -47,7 +47,7 @@ incomplete: true
 - [Slither-এর সাহায্যে Solidity স্মার্ট কন্ট্রাক্ট বিশ্লেষণ করুন](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [ব্লকচেইন ফিনটেক টিউটোরিয়াল: পাইথনের সাহায্যে ঋণ দেওয়া এবং নেওয়া](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## আর্কাইভ করা আর্টিকেল
+## আর্কাইভ করা আর্টিকেল {#archived-articles}
 
 - [পাইথন এবং Brownie-এর সাহায্যে আপনার নিজস্ব ERC20 টোকেন ডেপ্লয় করুন](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [স্মার্ট কন্ট্রাক্ট ডেপ্লয় করতে Brownie এবং পাইথন ব্যবহার করা](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

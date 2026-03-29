@@ -22,15 +22,15 @@ In den meisten Fällen gibt es keine Möglichkeit, das Geld zurückzuerhalten. K
 
 Ihre Wiederherstellungsoptionen hängen von der Art der Wallet ab, die Sie verwenden.
 
-### Wenn Sie Ihre Seed-Phrase (Wiederherstellungsphrase) haben
+### Wenn Sie Ihre Seed-Phrase (Wiederherstellungsphrase) haben {#if-you-have-your-seed-phrase-recovery-phrase}
 
 Sie können Ihre Wallet in jeder kompatiblen Wallet-App mithilfe Ihrer Seed-Phrase wiederherstellen. Aus diesem Grund ist es von entscheidender Bedeutung, dass Sie Ihre Seed-Phrase sicher offline aufbewahren. Überprüfen Sie die Dokumentation Ihres Wallet-Anbieters auf Anweisungen zur Wiederherstellung.
 
-### Wenn Sie Ihre Seed-Phrase verloren haben
+### Wenn Sie Ihre Seed-Phrase verloren haben {#if-you-have-lost-your-seed-phrase}
 
 Ohne Ihre Seed-Phrase oder Ihre Private-Keys kann Ihr Geld nicht wiederhergestellt werden. Niemand, einschließlich ethereum.org, kann Ihr Passwort zurücksetzen oder den Zugriff auf eine selbstverwaltete Wallet wiederherstellen.
 
-### Wenn sich Ihr Konto bei einer Börse befindet
+### Wenn sich Ihr Konto bei einer Börse befindet {#if-your-account-is-on-an-exchange}
 
 Wenn sich Ihr Konto bei einer zentralisierten Börse wie Coinbase, Binance oder Kraken befindet, kontaktieren Sie das Support-Team der Börse direkt. Sie kontrollieren die Konten auf ihrer Plattform und können möglicherweise beim Zurücksetzen des Passworts oder bei der Kontowiederherstellung helfen.
 
@@ -56,7 +56,7 @@ Transaktionen auf Ethereum können stecken bleiben, wenn die von Ihnen festgeleg
 - **Beschleunigen:** Senden Sie dieselbe Transaktion mit einer höheren Gasgebühr erneut
 - **Abbrechen:** Senden Sie eine Transaktion über 0 ETH an Ihre eigene Adresse und verwenden Sie dabei dieselbe Nonce wie bei der ausstehenden Transaktion
 
-### Hilfreiche Leitfäden
+### Hilfreiche Leitfäden {#helpful-guides}
 
 - [Wie man eine ausstehende Transaktion auf MetaMask beschleunigt oder abbricht](https://support.metamask.io/transactions-and-gas/transactions/how-to-speed-up-or-cancel-a-pending-transaction/)
 - [Wie man ausstehende Ethereum-Transaktionen abbricht](https://info.etherscan.com/how-to-cancel-ethereum-pending-transactions/)

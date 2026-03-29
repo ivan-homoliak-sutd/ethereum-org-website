@@ -33,7 +33,7 @@ V tradičním finančnictví ovládají nabídku peněz centrální banky, čast
 
 Vydávání ETH označuje proces vytváření nového ETH jako odměn pro validátory, kteří zabezpečují síť Ethereum. To je odděleno od celkové nabídky, což je celkové množství ETH v oběhu.
 
-### Zjednodušeně:
+### Zjednodušeně: {#in-simple-terms}
 
 - **Vydávání** přidává nové ETH do sítě.
 - **Spalování** (zavedeno EIP-1559) odstraňuje ETH ze sítě tím, že ničí část transakčních poplatků.
@@ -46,7 +46,7 @@ Systém Proof-of-Stake (PoS) v Ethereu výrazně snížil emisi nových ETH opro
 
 Tento údaj je však dynamický. Díky EIP-1559 může v obdobích vysoké aktivity spalování ETH převýšit vydávání a vytvořit deflační efekt. Například během období vysoké poptávky, jako jsou spuštění NFT nebo aktivita v DeFi, se může spálit více ETH, než se vydá.
 
-### Nástroje pro sledování nabídky a vydávání ETH:
+### Nástroje pro sledování nabídky a vydávání ETH: {#tools-to-track-eth-supply-and-issuance}
 
 - [Ultrasound Money](https://ultrasound.money) – sledování nabídky, vydávání a spalování ETH v reálném čase
 - [Etherscan](https://etherscan.io) – blockchainový průzkumník s metrikami nabídky

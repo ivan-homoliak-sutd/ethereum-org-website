@@ -106,13 +106,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### নোড টুলস
+### নোড টুলস {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 অনুগ্রহ করে একটি [মাইনরিটি ক্লায়েন্ট](/developers/docs/nodes-and-clients/client-diversity/) বেছে নেওয়ার গুরুত্ব মনে রাখবেন কারণ এটি নেটওয়ার্ক-এর নিরাপত্তা উন্নত করে এবং আপনার ঝুঁকি সীমিত করে। যে টুলগুলো আপনাকে মাইনরিটি ক্লায়েন্ট সেটআপ করতে দেয় সেগুলোকে <em style={{ textTransform: "uppercase" }}>"মাল্টি-ক্লায়েন্ট"</em> হিসেবে চিহ্নিত করা হয়েছে।
 
-### কি জেনারেটরস
+### কি জেনারেটরস {#key-generators}
 
 কি তৈরিতে সাহায্য করার জন্য এই টুলগুলো [স্টেকিং ডিপোজিট সিএলআই (Staking Deposit CLI)](https://github.com/ethereum/staking-deposit-cli/)-এর বিকল্প হিসেবে ব্যবহার করা যেতে পারে।
 

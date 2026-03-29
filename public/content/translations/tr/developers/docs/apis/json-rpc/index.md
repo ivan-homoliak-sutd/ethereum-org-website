@@ -79,7 +79,7 @@ Blok parametresi için aşağıdaki seçenekler mevcuttur:
 - `"finalized" Dizesi` - en son kesinleşmiş blok için
 - `"pending" Dizesi` - bekleyen durum/işlemler için
 
-## Örnekler
+## Örnekler {#examples}
 
 Bu sayfada, komut satırı aracı olan [curl](https://curl.se) kullanarak bireysel JSON_RPC API uç noktalarının nasıl kullanılacağına dair örnekler sunuyoruz. Bu bireysel uç nokta örnekleri, aşağıdaki [Curl örnekleri](#curl-examples) bölümünde bulunmaktadır. Sayfanın ilerleyen bölümlerinde, bir Geth düğümü, JSON_RPC API'si ve curl kullanarak bir akıllı sözleşmeyi derlemek ve dağıtmak için bir [uçtan uca örnek](#usage-example) de sunuyoruz.
 
@@ -133,7 +133,7 @@ Birkaç temel JSON-RPC metodu, Ethereum ağından veri gerektirir ve üç ana ka
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## JSON-RPC API Deneme Alanı
+## JSON-RPC API Deneme Alanı {#json-rpc-api-playground}
 
 API metotlarını keşfetmek ve denemek için [oyun alanı aracını](https://ethereum-json-rpc.com) kullanabilirsiniz. Ayrıca, çeşitli düğüm sağlayıcıları tarafından hangi yöntemlerin ve ağların desteklendiğini de gösterir.
 

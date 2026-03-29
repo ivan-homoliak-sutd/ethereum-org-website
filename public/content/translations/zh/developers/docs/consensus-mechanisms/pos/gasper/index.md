@@ -8,7 +8,7 @@ Gasper 是友好的最终确定性工具 Gasper (Casper-FFG) 和 LMD-GHOST 分�
 
 **请注意**，Casper-FFG 的初始定义已稍作更新，以纳入 Gasper。 撰写此页面时，我们考量的是更新后的版本。
 
-## 前言
+## 前言 {#prerequisites}
 
 要理解此材料，必须阅读关于[权益证明](/developers/docs/consensus-mechanisms/pos/)的介绍页面。
 

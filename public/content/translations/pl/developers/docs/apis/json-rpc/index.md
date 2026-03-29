@@ -79,7 +79,7 @@ Dla parametru bloku możliwe są następujące opcje:
 - `Ciąg znaków "finalized"` – dla ostatniego sfinalizowanego bloku
 - `Ciąg znaków "pending"` – dla oczekującego stanu/transakcji
 
-## Przykłady
+## Przykłady {#examples}
 
 Na tej stronie przedstawiamy przykłady użycia poszczególnych punktów końcowych API JSON_RPC za pomocą narzędzia wiersza poleceń, [curl](https://curl.se). Te indywidualne przykłady punktów końcowych znajdują się poniżej w sekcji [Przykłady Curl](#curl-examples). W dalszej części strony przedstawiamy również [kompletny przykład](#usage-example) kompilowania i wdrażania inteligentnego kontraktu za pomocą węzła Geth, interfejsu API JSON_RPC i curl.
 
@@ -133,7 +133,7 @@ Kilka podstawowych metod JSON-RPC wymaga danych z sieci Ethereum i dzieli się n
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## Plac zabaw API JSON-RPC
+## Plac zabaw API JSON-RPC {#json-rpc-api-playground}
 
 Możesz użyć [narzędzia placu zabaw](https://ethereum-json-rpc.com), aby odkryć i wypróbować metody API. Pokazuje również, które metody i sieci są obsługiwane przez różnych dostawców węzłów.
 

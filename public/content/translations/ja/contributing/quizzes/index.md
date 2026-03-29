@@ -17,7 +17,7 @@ lang: ja
 - [イーサリアムとは](/what-is-ethereum/)
 - [ETHとは](/what-is-ether/)
 
-## 学習クイズの追加
+## 学習クイズの追加 {#adding-a-learn-quiz}
 
 学習クイズが作成されていないページがある場合は、[issueを開いて](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml)ください。
 
@@ -30,7 +30,7 @@ lang: ja
   - 1つの正解と正しい理由の説明
   - 3つの不正解と、各解答が間違っている理由の説明
 
-## クイズの追加
+## クイズの追加 {#adding-a-quiz-question}
 
 クイズの問題バンクに追加したい質問がある場合は、[issueを開いて](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml)、以下の情報を提供してください。
 
@@ -41,7 +41,7 @@ lang: ja
   - 1つの正解と正しい理由の説明
   - 3つの不正解と、各解答が間違っている理由の説明
 
-## クイズの更新
+## クイズの更新 {#updating-a-quiz-question}
 
 クイズの問題バンクにある質問を更新したい場合は、[issueを開いて](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml)、以下の情報を提供してください。
 
@@ -53,7 +53,7 @@ lang: ja
   - 1つの正解と正しい理由の説明
   - 3つの不正解と、各解答が間違っている理由の説明
 
-## クイズの削除
+## クイズの削除 {#removing-a-quiz-question}
 
 質問のコンテンツがページになく、削除が必要な場合は、質問を削除するために[issueを開いて](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml)、以下の情報を提供してください。
 

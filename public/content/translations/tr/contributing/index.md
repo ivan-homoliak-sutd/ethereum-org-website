@@ -47,7 +47,7 @@ Ethereum ekosisteminde büyümenize ve eğitim almanıza yardımcı olurken anla
 
 Sorunuz mu var? 🤔 [Discord sunucumuza](https://discord.gg/ethereum-org) katılın
 
-## Katkıda bulunmaya başlayanlar için uygun ilk görevler
+## Katkıda bulunmaya başlayanlar için uygun ilk görevler {#good-first-tasks-to-start-contributing}
 
 Bunlar, çözmemize yardımcı olabileceğiniz ve sorumluluğunu alabileceğiniz birkaç güncel görevdir. Çoğunuz için GitHub hesabına ihtiyacınız olacak çünkü web sitesi üzerindeki değişikliklerin çoğu GitHub üzerinden yapılıyor.
 
@@ -95,7 +95,7 @@ Katkınız ethereum.org ile birleştirilirse, [Galxe](https://app.galxe.com/ques
 
 [OAT'ler hakkında daha fazla bilgi](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### Nasıl Talep Edilir
+### Nasıl Talep Edilir {#how-to-claim-1}
 
 1. [Discord sunucumuza](https://discord.gg/ethereum-org) katılın.
 2. Katkınızın bağlantısını `#🥇 | proof-of-contribution` kanalına yapıştırın.

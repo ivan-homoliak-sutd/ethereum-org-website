@@ -47,7 +47,7 @@ Ethereum.org 是一個開源專案，擁有 **12,000+** 名貢獻者，他們協
 
 有問題嗎？ 🤔 加入我們的 [Discord 伺服器](https://discord.gg/ethereum-org)
 
-## 開始貢獻的首要任務
+## 開始貢獻的首要任務 {#good-first-tasks-to-start-contributing}
 
 目前這裡有些你可以助我們解決並負責的任務。 大致上說你將需要 GitHub 帳戶，因為幾乎所有網站變更都是透過 GitHub 進行的。
 
@@ -95,7 +95,7 @@ Ethereum.org 是一個開源專案，擁有 **12,000+** 名貢獻者，他們協
 
 [關於 OAT 的更多資訊](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### 如何領取
+### 如何領取 {#how-to-claim-1}
 
 1. 加入我們的 [Discord 伺服器](https://discord.gg/ethereum-org)。
 2. 將您貢獻內容的連結貼到 `#🥇 | proof-of-contribution` 頻道。

@@ -52,7 +52,7 @@ Gaz yönetimi önemli ölçüde iyileşir. Uygulamalar, kullanıcıların gaz ü
 
 Şu anda, akıllı sözleşme cüzdanlarını uygulamak zordur çünkü standart işlemleri sarmalayan karmaşık kodlara dayanırlar. Ethereum, akıllı sözleşmelerin doğrudan işlem başlatmasına izin vererek ve mantığı harici aktarıcılara dayanmak yerine Ethereum akıllı sözleşmelerine gömerek bunu değiştirebilir.
 
-### EIP-4337: Protokol değişiklikleri olmadan hesap soyutlama
+### EIP-4337: Protokol değişiklikleri olmadan hesap soyutlama {#eip-4337-account-abstraction-without-protocol-changes}
 
 EIP-4337, Ethereum'un çekirdek protokolünü değiştirmeden yerel akıllı sözleşme cüzdanı desteği sağlar. Doğrulayıcılar tarafından işlem paketleri halinde toplanan `UserOperation` nesnelerini tanıtarak cüzdan geliştirmeyi basitleştirir. EIP-4337 Giriş Noktası sözleşmesi 1 Mart 2023'te Ethereum Ana Ağı'na dağıtıldı ve 26 milyondan fazla akıllı cüzdan ile 170 milyon UserOperation'ın oluşturulmasını kolaylaştırdı.
 

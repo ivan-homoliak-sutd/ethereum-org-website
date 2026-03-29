@@ -444,7 +444,7 @@ Model penerbitan akan menjadi sebagai berikut:
 | Cadangan yang digunakan pasca-penjualan | 8.26% | 6.79% | 3.96% |
 | Penambang | 0% | 17.8% | 52.0% |
 
-#### Tingkat Pertumbuhan Pasokan Jangka Panjang (persen)
+#### Tingkat Pertumbuhan Pasokan Jangka Panjang (persen) {#long-term-supply-growth-rate-percent}
 
 ![Inflasi Ethereum](./ethereum-inflation.png)
 

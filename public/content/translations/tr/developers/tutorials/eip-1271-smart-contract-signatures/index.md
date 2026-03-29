@@ -19,7 +19,7 @@ published: 2023-01-12
 
 Bu öğreticide, dijital imzalara, EIP-1271'in arka planına ve [Safe](https://safe.global/) (eski adıyla Gnosis Safe) tarafından kullanılan özel EIP-1271 uygulamasına genel bir bakış sunuyoruz. Kısaca bu, EIP-1271'i kendi sözleşmelerinizde uygulayabilmek için bir başlangıç noktası olarak hizmet edebilir.
 
-## İmza nedir?
+## İmza nedir? {#what-is-a-signature}
 
 Bu bağlamda imza (daha doğrusu “dijital imza”), bir mesaj ve onunla birlikte mesajın belirli bir kişiden/göndericiden/adresten geldiğine ilişkin bir tür kanıttır.
 
@@ -35,7 +35,7 @@ Neden? Mesela bana imzalamam için bir sözleşme verseniz ve ben de imzalama sa
 
 Aynı nedenle, dijital imzalar da ilişkili bir mesaj olmadan bir hiçtir!
 
-## EIP-1271 neden var?
+## EIP-1271 neden var? {#why-does-eip-1271-exist}
 
 Ethereum tabanlı blokzincirlerde kullanılacak bir dijital imza oluşturmak için genelde kimsenin bilmediği gizli bir özel anahtara ihtiyacınız vardır. Bu, imzanızı sizin yapan şeydir (kimse gizli anahtarı bilmeden aynı imzayı yaratamaz).
 
@@ -49,7 +49,7 @@ EOA hesapları bir özel anahtara sahipken, akıllı sözleşme hesaplarının b
 
 EIP-1271'in çözmeyi hedeflediği problem: Eğer bir akıllı sözleşmenin imzanın içine yerleştirdiği bir "giz" yoksa akıllı sözleşmenin imzasının geçerli olduğunu nasıl anlarız?
 
-## EIP-1271 nasıl çalışır?
+## EIP-1271 nasıl çalışır? {#how-does-eip-1271-work}
 
 Akıllı sözleşmelerin mesaj imzalamak için kullanabilecekleri özel anahtarları yoktur. O zaman bir imzanın özgün olduğunu nasıl anlayabiliriz?
 
@@ -61,7 +61,7 @@ EIP-1271'i uygulayan bir sözleşmenin, bir mesaj ve bir imza alan `isValidSigna
 
 Eğer `isValidSignature` geçerli bir sonuç döndürürse, bu, sözleşmenin “evet, bu imzayı + mesajı onaylıyorum!” dediği anlamına gelir.
 
-### Arayüz
+### Arayüz {#interface}
 
 İşte EIP-1271 spesifikasyonundaki arayüzün tam hali (aşağıda `_hash` parametresinden bahsedeceğiz, ancak şimdilik bunu doğrulanan mesaj olarak düşünebilirsiniz):
 
@@ -91,7 +91,7 @@ contract ERC1271 {
 }
 ```
 
-## Örnek EIP-1271 Uygulaması: Safe
+## Örnek EIP-1271 Uygulaması: Safe {#example-eip-1271-implementation-safe}
 
 Sözleşmeler `isValidSignature` fonksiyonunu birçok farklı şekilde uygulayabilir — spesifikasyon tam olarak nasıl uygulanacağı hakkında pek bir şey söylemez.
 
@@ -106,17 +106,17 @@ Safe'in kodunda `isValidSignature`, imzaların [iki şekilde](https://ethereum.s
    1. Oluşturma: Bir Safe sahibi zincir dışı bir mesaj oluşturur, ardından çoklu imza onay eşiğini aşmak için yeterli imza olana kadar diğer Safe sahiplerinin her birinin mesajı ayrı ayrı imzalamasını sağlar.
    2. Doğrulama: `isValidSignature` fonksiyonunu çağırın. Mesaj parametresinde, doğrulanması gereken mesajı aktarın. İmza parametresinde, Safe sahiplerinin her birinin bireysel imzalarını sıralanmış şekilde arka arkaya aktarın. Safe, eşiği karşılamak için yeterli imza olup olmadığını **ve** her imzanın geçerli olup olmadığını kontrol edecektir. Eğer geçerliyse, imza doğrulamasının başarılı olduğunu belirten bir değer döndürecektir.
 
-## `_hash` parametresi tam olarak nedir? Neden tüm mesajı aktarmıyoruz?
+## `_hash` parametresi tam olarak nedir? Neden tüm mesajı aktarmıyoruz? {#what-exactly-is-the-hash-parameter-why-not-pass-the-whole-message}
 
 [EIP-1271 arayüzündeki](https://eips.ethereum.org/EIPS/eip-1271) `isValidSignature` fonksiyonunun mesajın kendisini değil, bunun yerine bir `_hash` parametresi aldığını fark etmiş olabilirsiniz. Bunun anlamı, `isValidSignature`'a değişken uzunluktaki mesajın tamamını geçmek yerine, mesajın 32 baytlık bir karmasını (genellikle keccak256) geçmemizdir.
 
 `calldata`nın her baytı — yani, bir akıllı sözleşme fonksiyonuna geçirilen fonksiyon parametre verileri — [16 gaz maliyetindedir (sıfır bayt ise 4 gaz)](https://eips.ethereum.org/EIPS/eip-2028), bu nedenle bir mesaj uzunsa çok fazla gaz tasarrufu sağlayabilir.
 
-### Önceki EIP-1271 Spesifikasyonları
+### Önceki EIP-1271 Spesifikasyonları {#previous-eip-1271-specifications}
 
 Piyasada, `isValidSignature` fonksiyonunun ilk parametresinin `message` adında ve `bytes` türünde (sabit uzunluklu `bytes32` yerine değişken uzunluklu) olduğu EIP-1271 spesifikasyonları bulunmaktadır. Bu, EIP-1271 standardının [eski bir sürümüdür](https://github.com/safe-global/safe-contracts/issues/391#issuecomment-1075427206).
 
-## EIP-1271 benim sözleşmelerime nasıl uygulanmalıdır?
+## EIP-1271 benim sözleşmelerime nasıl uygulanmalıdır? {#how-should-eip-1271-be-implemented-in-my-own-contracts}
 
 Burada spesifikasyon oldukça açık uçludur. Safe uygulamasının birkaç iyi fikri vardır:
 
@@ -125,6 +125,6 @@ Burada spesifikasyon oldukça açık uçludur. Safe uygulamasının birkaç iyi 
 
 Sonuçta, bu sözleşme geliştiricisi olarak size kalmış!
 
-## Sonuç
+## Sonuç {#conclusion}
 
 [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271), akıllı sözleşmelerin imzaları doğrulamasına olanak tanıyan çok yönlü bir standarttır. Akıllı sözleşmelerin EOA'lar gibi hareket edebilmelerini sağlar; örnek olarak, "Ethereum'la giriş yapın" ifadesinin akıllı sözleşmelerle çalışabilmesine olanak tanır ve birçok farklı şekilde uygulanabilir (Safe'in anlaşılması zor ve ilginç uygulamasını da göz önünde bulundurarak).

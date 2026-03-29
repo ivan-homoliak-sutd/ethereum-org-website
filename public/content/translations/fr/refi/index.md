@@ -73,7 +73,7 @@ Bien qu'il y ait actuellement une grande attention portée aux marchés du carbo
 
 En orientant le capital loin des pratiques extractives et vers un flux régénératif, les projets et les entreprises qui fournissent des avantages sociaux, environnementaux ou communautaires - et qui pourraient échouer à obtenir un financement dans la finance traditionnelle - peuvent démarrer et générer des externalités positives pour la société beaucoup plus rapidement et facilement. La transition vers ce modèle de financement ouvre également la voie à des systèmes économiques beaucoup plus inclusifs, où les personnes de toutes les catégories démographiques peuvent devenir des participants actifs plutôt que de simples observateurs passifs. ReFi propose une vision d'Ethereum en tant que mécanisme de coordination de l'action face aux défis existentiels auxquels notre espèce et toute vie sur notre planète sont confrontées - en tant que couche de base d'un nouveau paradigme économique, permettant un avenir plus inclusif et durable pour les siècles à venir.
 
-## Lectures complémentaires sur la ReFi
+## Lectures complémentaires sur la ReFi {#additional-reading-on-refi}
 
 - [Une vue d'ensemble des monnaies carbone et de leur place dans l'économie](https://www.klimadao.finance/resources/the-vision-of-a-carbon-currency)
 - [The Ministry for the Future, un roman décrivant le rôle d'une monnaie adossée au carbone dans la lutte contre le changement climatique](https://en.wikipedia.org/wiki/The_Ministry_for_the_Future)

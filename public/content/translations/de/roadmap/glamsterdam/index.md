@@ -143,7 +143,7 @@ Durch eine genauere Preisgestaltung von Statuszugriffsaktionen kann Ethereum wid
 
 **Ressourcen**: [Technische Spezifikation zu EIP-8038](https://eips.ethereum.org/EIPS/eip-8038)
 
-## Netzwerk-Widerstandsfähigkeit
+## Netzwerk-Widerstandsfähigkeit {#network-resilience}
 
 Verfeinerungen der Validator-Pflichten und Exit-Prozesse gewährleisten die Netzwerkstabilität bei Massen-Slashing-Ereignissen und demokratisieren die Liquidität. Diese Verbesserungen machen das Netzwerk stabiler und stellen sicher, dass alle Teilnehmer, ob groß oder klein, fair behandelt werden.
 

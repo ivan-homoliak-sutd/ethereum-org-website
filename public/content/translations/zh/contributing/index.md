@@ -47,7 +47,7 @@ Ethereum.org 是一个开源项目，有 **12,000** 多名贡献者帮助翻译�
 
 有疑问吗？ 🤔 加入我们的 [Discord 服务器](https://discord.gg/ethereum-org)
 
-## 适合新手的起步任务
+## 适合新手的起步任务 {#good-first-tasks-to-start-contributing}
 
 这些是你目前可以帮助我们解决和承担的部分任务。 对于大多数用户，你需要 GitHub 帐户，因为对网站的大多数更改都是通过 GitHub 进行的。
 
@@ -95,7 +95,7 @@ Ethereum.org 是一个开源项目，有 **12,000** 多名贡献者帮助翻译�
 
 [关于 OAT 的更多信息](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### 如何领取
+### 如何领取 {#how-to-claim-1}
 
 1. 加入我们的 [Discord 服务器](https://discord.gg/ethereum-org)。
 2. 在 `#🥇 | proof-of-contribution` 频道中粘贴你的贡献链接。

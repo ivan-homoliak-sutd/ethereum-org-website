@@ -8,7 +8,7 @@ Gasper 是由 Casper 友善最終確定性組件 (Casper-FFG) 及 LMD-GHOST 分�
 
 **請注意**，為了納入 Gasper，Casper-FFG 的原始定義略有更新。 此頁面中的定義為更新後的版本。
 
-## 先備知識
+## 先備知識 {#prerequisites}
 
 若要了解本資料，必須閱讀關於[權益證明](/developers/docs/consensus-mechanisms/pos/)的介紹頁面。
 

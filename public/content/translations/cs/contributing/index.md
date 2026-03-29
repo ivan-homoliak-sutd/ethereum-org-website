@@ -47,7 +47,7 @@ Jsme přátelská komunita, která vám pomůže rozvíjet se a vzdělávat v ek
 
 Nějaké dotazy? 🤔 Připojte se na náš [server na Discordu](https://discord.gg/ethereum-org)
 
-## Kde začít s příspíváním
+## Kde začít s příspíváním {#good-first-tasks-to-start-contributing}
 
 Toto je několik aktuálních úkolů, které byste nám mohli pomoci vyřešit a převzít za ně odpovědnost. Pro většinu z nich budete potřebovat GitHub účet, protože většina změn na webu se provádí prostřednictvím GitHubu.
 
@@ -95,7 +95,7 @@ Pokud bude váš příspěvek začleněn do ethereum.org, budete mít možnost s
 
 [Více o OAT](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### Jak si token vyzvednout
+### Jak si token vyzvednout {#how-to-claim-1}
 
 1. Připojte se na náš [server na Discordu](https://discord.gg/ethereum-org).
 2. Vložte odkaz na svůj příspěvek do kanálu `#🥇 | proof-of-contribution`.

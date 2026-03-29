@@ -33,7 +33,7 @@ Trong tài chính truyền thống, ngân hàng trung ương kiểm soát nguồ
 
 Phát hành ETH là quá trình tạo ra ETH mới như một phần thưởng cho nút xác thực những người mà bảo mật mạng lưới Ethereum. Nó khác với tổng cung, vốn là toàn bộ lượng ETH lưu hành trên thị trường.
 
-### Nói một cách đơn giản:
+### Nói một cách đơn giản: {#in-simple-terms}
 
 - **Phát hành** thêm ETH mới vào mạng lưới.
 - **Đốt cháy** (Được giới thiệu bởi EIP-1559) loại bỏ ETH khói mạng lưới và hủy một phần của phí giao dịch.
@@ -46,7 +46,7 @@ Hệ thống bằng chứng cổ phần (PoS) của Ethereum đã cắt giảm m
 
 Tuy nhiên, con số này luôn biến động. Nhờ có EIP-1559, khi mà mạng lưới hoạt động mạnh, lượng ETH đốt có thể vượt quá lượng phát hành, tạo ra hiệu ứng giảm phát. Ví dụ, trong giai đoạn nhu cầu tăng vọt, như ra mắt NFT hay hoạt động DeFi, ETH có thể bị đốt nhiều hơn phát hành.
 
-### Các công cụ để theo dõi nguồn cung và phát hành ETH:
+### Các công cụ để theo dõi nguồn cung và phát hành ETH: {#tools-to-track-eth-supply-and-issuance}
 
 - [Ultrasound Money](https://ultrasound.money) - Theo dõi thời gian thực nguồn cung, phát hành và tốc độ đốt của ETH
 - [Etherscan](https://etherscan.io) - Trình duyệt khối với chỉ số nguồn cung

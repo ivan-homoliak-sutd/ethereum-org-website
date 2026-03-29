@@ -17,7 +17,7 @@ Bunun çözümü, Ethereum ile etkileşim kurmak için [akıllı sözleşme](/gl
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">Hesap soyutlaması hakkında daha fazlası</ButtonLink>
 
-## Herkes için düğümler
+## Herkes için düğümler {#nodes-for-everyone}
 
 [Düğüm](/glossary/#node) çalıştıran kullanıcıların veri sağlamaları için üçüncü taraflara güvenmeleri gerekmez ve Ethereum [blokzinciri](/glossary/#blockchain) ile hızlı, özel ve izinsiz bir şekilde etkileşim kurabilirler. Ancak bir düğümü yürütmek, birçok insanın aracılara güven duymak zorunda kalacağı anlamına gelen teknik bilgi ve azımsanmayacak disk hacmi gerektirir.
 

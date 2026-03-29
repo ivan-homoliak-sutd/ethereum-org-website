@@ -254,7 +254,7 @@ ii. オプティミスティック・ロールアップを使用するデベロ�
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## オプティミスティック・ロールアップに関する参考文献
+## オプティミスティック・ロールアップに関する参考文献 {#further-reading-on-optimistic-rollups}
 
 - [オプティミスティック・ロールアップの仕組み（完全ガイド）](https://www.alchemy.com/overviews/optimistic-rollups)
 - [ブロックチェーン・ロールアップとは何か？ 技術的な紹介](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

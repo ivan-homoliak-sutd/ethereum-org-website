@@ -106,13 +106,13 @@ ETH 홈 스테이킹을 지원하는 도구와 서비스는 점점 많아지고 
 
 <ProductDisclaimer />
 
-### 노드 도구
+### 노드 도구 {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 네트워크 보안을 개선하고 위험을 제한하므로 [소수 클라이언트](/developers/docs/nodes-and-clients/client-diversity/)를 선택하는 것이 중요하다는 점에 유의하세요. 소수 클라이언트를 설정할 수 있는 도구는 <em style={{ textTransform: "uppercase" }}>'다중 클라이언트'</em>로 표시됩니다.
 
-### 키 생성기
+### 키 생성기 {#key-generators}
 
 이러한 도구는 키 생성에 도움이 되는 [스테이킹 예치금 CLI](https://github.com/ethereum/staking-deposit-cli/)의 대안으로 사용될 수 있습니다.
 

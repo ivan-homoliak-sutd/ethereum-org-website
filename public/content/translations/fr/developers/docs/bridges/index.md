@@ -105,7 +105,7 @@ Si une dapp emprunte la voie de l'intégration d'un pont ou d'un agrégateur, il
 
 Pour déployer une dapp sur plusieurs chaînes, les développeurs peuvent utiliser des plateformes de développement comme [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/), etc. En général, ces plateformes sont fournies avec des plugins composables qui permettent aux dApps de passer d'une chaîne à l'autre. Par exemple, les développeurs peuvent utiliser un proxy de déploiement déterministe proposé par le [plugin hardhat-deploy](https://github.com/wighawag/hardhat-deploy).
 
-#### Exemples :
+#### Exemples : {#examples}
 
 - [Comment créer des dapps inter-chaînes](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [Créer une place de marché NFT inter-chaînes](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ Pour déployer une dapp sur plusieurs chaînes, les développeurs peuvent utilis
 
 Pour surveiller l'activité des contrats dans les chaînes, les développeurs peuvent utiliser des sous-graphes et des plateformes de développement comme Tenderly pour observer les contrats intelligents en temps réel. Ces plateformes disposent également d'outils qui offrent une plus grande fonctionnalité de surveillance des données pour les activités inter-chaînes, comme la vérification des [événements émis par les contrats](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events), etc.
 
-#### Outils
+#### Outils {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

@@ -8,7 +8,7 @@ lang: zh-tw
 published: 2025-04-30
 ---
 
-## 簡介
+## 簡介 {#introduction}
 
 [SAML](https://www.onelogin.com/learn/saml) 是 Web2 上使用的一種標準，允許[身分提供者 (IdP)](https://en.wikipedia.org/wiki/Identity_provider#SAML_identity_provider) 為[服務提供者 (SP)](https://en.wikipedia.org/wiki/Service_provider_\(SAML\)) 提供使用者資訊。
 
@@ -21,7 +21,7 @@ published: 2025-04-30
 
 因此，本教學會包含許多您已知的入門資料。 您可以隨意跳過。
 
-### 為以太坊使用者介紹 SAML
+### 為以太坊使用者介紹 SAML {#saml-for-ethereum-people}
 
 SAML 是一種中心化協定。 只有在服務提供者 (SP) 與身分提供者 (IdP) 或簽署該 IdP 憑證的[憑證授權單位](https://www.ssl.com/article/what-is-a-certificate-authority-ca/)有預先存在的信任關係時，服務提供者才會接受身分提供者所做的斷言 (例如「這是我的使用者 John，他應該有權限執行 A、B 和 C」)。
 
@@ -31,7 +31,7 @@ SAML 是一種中心化協定。 只有在服務提供者 (SP) 與身分提供�
 
 這就是瀏覽器、SP 和 IdP 這三個實體協商存取權限的方式。 SP 不需要事先知道任何關於使用瀏覽器的使用者的資訊，只需要信任 IdP 即可。
 
-### 為 SAML 使用者介紹以太坊
+### 為 SAML 使用者介紹以太坊 {#ethereum-for-saml-people}
 
 以太坊是去中心化系統。
 
@@ -50,7 +50,7 @@ SAML 是一種中心化協定。 只有在服務提供者 (SP) 與身分提供�
 
 由於以太坊的去中心化性質，任何使用者都可以做出證明。 證明人的身分對於識別我們認為哪些證明是可靠的至關重要。
 
-## 設定
+## 設定 {#setup}
 
 第一步是讓 SAML SP 和 SAML IdP 能夠互相通訊。
 
@@ -82,13 +82,13 @@ SAML 是一種中心化協定。 只有在服務提供者 (SP) 與身分提供�
 
 5. 向 IdP 提供您的電子郵件地址，然後按一下「**登入服務提供者**」。 確認您已重新導向回服務提供者 (通訊埠 3000)，且服務提供者可透過您的電子郵件地址識別您的身分。
 
-### 詳細說明
+### 詳細說明 {#detailed-explanation}
 
 以下是逐步發生的情況：
 
 ![不含以太坊的一般 SAML 登入](./fig-04-saml-no-eth.png)
 
-#### src/config.mts
+#### src/config.mts {#srcconfigmts}
 
 此檔案包含身分提供者和服務提供者的組態。 通常這兩者是不同的實體，但為了簡便起見，我們在此共用程式碼。
 
@@ -166,7 +166,7 @@ export const idpPublicData = {
 
 身分提供者的公開資料是相似的。 它指定若要登入使用者，您需 POST 至 `http://localhost:3001/idp/login`，若要登出使用者，則 POST 至 `http://localhost:3001/idp/logout`。
 
-#### src/sp.mts
+#### src/sp.mts {#srcspmts}
 
 這是實作服務提供者的程式碼。
 
@@ -341,7 +341,7 @@ app.listen(config.spPort, () => {
 
 使用此 express 應用程式監聽 `spPort`。
 
-#### src/idp.mts
+#### src/idp.mts {#srcidpmts}
 
 這是身分提供者。 它與服務提供者非常相似，以下說明是針對不同的部分。
 
@@ -471,7 +471,7 @@ idpRouter.post(`/login`,
 
 我們應該能夠使用 [`idp.parseLoginRequest`](https://github.com/tngan/samlify/blob/master/src/entity-idp.ts#L127-L144) 來讀取驗證請求的 ID。 然而，我無法讓它正常運作，而且不值得花太多時間，所以我只使用[通用的 XML 解析器](https://www.npmjs.com/package/fast-xml-parser)。 我們需要的資訊是 `<samlp:AuthnRequest>` 標籤內的 `ID` 屬性，它位於 XML 的最上層。
 
-## 使用以太坊簽章
+## 使用以太坊簽章 {#using-ethereum-signatures}
 
 既然我們能夠將使用者身分傳送給服務提供者，下一步就是以受信任的方式取得使用者身分。 Viem 允許我們直接向錢包詢問使用者地址，但這表示要向瀏覽器索取資訊。 我們無法控制瀏覽器，所以不能自動信任從它那裡得到的回應。
 
@@ -489,7 +489,7 @@ pnpm start
 
 請注意，此時我們不知道如何從以太坊地址取得電子郵件地址，因此我們向 SP 回報 `<ethereum address>@bad.email.address`。
 
-### 詳細說明
+### 詳細說明 {#detailed-explanation-1}
 
 變更發生在先前圖表中的步驟 4-5。
 
@@ -699,7 +699,7 @@ idpRouter.post(`/login`,
 
 現在在步驟 3 的處理常式中使用 `getSignaturePage` 取代 `getLoginPage`。
 
-## 取得電子郵件地址
+## 取得電子郵件地址 {#getting-the-email-address}
 
 下一步是取得電子郵件地址，也就是服務提供者請求的識別碼。 為此，我們使用[以太坊證明服務 (EAS)](https://attest.org/)。
 
@@ -755,7 +755,7 @@ pnpm start
 
 無論哪種方式，完成後請瀏覽至 [http://localhost:3000](http://localhost:3000) 並依照指示操作。 如果您匯入了測試私密金鑰，您收到的電子郵件是 `test_addr_0@example.com`。 如果您使用自己的地址，它應該是您所證明的任何內容。
 
-### 詳細說明
+### 詳細說明 {#detailed-explanation-2}
 
 ![從以太坊地址取得電子郵件](./fig-06-saml-sig-n-email.png)
 
@@ -872,13 +872,13 @@ const ethereumAddressToEmail = async ethAddr => {
 
 使用新函數取得電子郵件地址。
 
-## 關於去中心化呢？
+## 關於去中心化呢？ {#what-about-decentralization}
 
 在此組態中，只要我們依賴可信的證明人進行以太坊到電子郵件地址的對應，使用者就無法冒充他人。 然而，我們的身分提供者仍然是一個中心化元件。 任何擁有身分提供者私密金鑰的人都可以向服務提供者傳送虛假資訊。
 
 使用[多方運算 (MPC)](https://en.wikipedia.org/wiki/Secure_multi-party_computation) 可能是一個解決方案。 我希望在未來的教學中寫到它。
 
-## 結論
+## 結論 {#conclusion}
 
 採用登入標準 (例如以太坊簽章) 會面臨雞生蛋、蛋生雞的問題。 服務提供者希望吸引盡可能廣泛的市場。 使用者希望能夠存取服務，而不用擔心支援其登入標準。
 建立適配器 (例如以太坊 IdP) 可以幫助我們克服這個障礙。

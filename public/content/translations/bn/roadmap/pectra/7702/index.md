@@ -4,7 +4,7 @@ description: "Pectra রিলিজে 7702 সম্পর্কে আরও 
 lang: bn
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## সারাংশ {#abstract}
 

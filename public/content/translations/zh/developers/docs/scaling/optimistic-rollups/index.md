@@ -253,7 +253,7 @@ ii. 使用乐观卷叠的开发者和项目团队可以利用以太坊的基础�
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## 阅读关于乐观卷叠的更多信息
+## 阅读关于乐观卷叠的更多信息 {#further-reading-on-optimistic-rollups}
 
 - [乐观卷叠如何运作（完整指南）](https://www.alchemy.com/overviews/optimistic-rollups)
 - [什么是区块链卷叠？ 技术介绍](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

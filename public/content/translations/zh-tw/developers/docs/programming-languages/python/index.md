@@ -47,7 +47,7 @@ incomplete: true
 - [使用 Slither 分析 Solidity 智能合約](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [區塊鏈金融科技教學：使用 Python 進行借貸](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## 封存的文章
+## 封存的文章 {#archived-articles}
 
 - [使用 Python 和 Brownie 部署您自己的 ERC20 代幣](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [使用 Brownie 和 Python 部署智能合約](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

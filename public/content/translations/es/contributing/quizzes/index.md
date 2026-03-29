@@ -17,7 +17,7 @@ He aquí algunos ejemplos de los tests actuales:
 - [¿Qué es Ethereum?](/what-is-ethereum/)
 - [¿Qué es ETH?](/what-is-ether/)
 
-## Añadir un test de aprendizaje
+## Añadir un test de aprendizaje {#adding-a-learn-quiz}
 
 Si hay una página para la que no se ha creado un cuestionario de aprendizaje, [abra una incidencia](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) para ello.
 
@@ -30,7 +30,7 @@ Sea tan amable de facilitar la siguiente información:
   - Una respuesta correcta con la explicación acerca de por qué es correcta.
   - Tres respuestas incorrectas, cada una de ellas con la explicación acerca de por qué son incorrectas.
 
-## Añadir una pregunta tipo test
+## Añadir una pregunta tipo test {#adding-a-quiz-question}
 
 Si hay una pregunta que quiera añadir al banco de preguntas para un cuestionario, [abra una incidencia](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) y proporcione la siguiente información:
 
@@ -41,7 +41,7 @@ Si hay una pregunta que quiera añadir al banco de preguntas para un cuestionari
   - Una respuesta correcta con la explicación acerca de por qué es correcta.
   - Tres respuestas incorrectas, cada una de ellas con la explicación acerca de por qué son incorrectas.
 
-## Actualizar una pregunta tipo test
+## Actualizar una pregunta tipo test {#updating-a-quiz-question}
 
 Si hay una pregunta que quiera actualizar en un banco de preguntas para un cuestionario, [abra una incidencia](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) y proporcione la siguiente información:
 
@@ -53,7 +53,7 @@ Si hay una pregunta que quiera actualizar en un banco de preguntas para un cuest
   - Una respuesta correcta con la explicación acerca de por qué es correcta.
   - Tres respuestas incorrectas, cada una de ellas con la explicación acerca de por qué son incorrectas.
 
-## Eliminar una pregunta tipo test
+## Eliminar una pregunta tipo test {#removing-a-quiz-question}
 
 Si el contenido de una pregunta ya no existe en la página y necesita eliminarse, [abra una incidencia](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) para eliminar la pregunta y proporcione la siguiente información:
 

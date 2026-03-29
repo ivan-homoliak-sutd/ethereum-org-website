@@ -106,13 +106,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### Инструменты для узлов
+### Инструменты для узлов {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 Обратите внимание на важность выбора [миноритарного клиента](/developers/docs/nodes-and-clients/client-diversity/), так как это повышает безопасность сети и ограничивает ваши риски. Инструменты, позволяющие настраивать миноритарный клиент, обозначаются как <em style={{ textTransform: "uppercase" }}>«мультиклиент»</em>.
 
-### Генераторы ключей
+### Генераторы ключей {#key-generators}
 
 Эти инструменты можно использовать как альтернативу [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) для помощи в генерации ключей.
 

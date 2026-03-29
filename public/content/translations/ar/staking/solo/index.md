@@ -106,13 +106,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### أدوات العقدة
+### أدوات العقدة {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 يرجى ملاحظة أهمية اختيار [عميل أقلية](/developers/docs/nodes-and-clients/client-diversity/) لأنه يحسن أمان الشبكة، ويحد من المخاطر التي تتعرض لها. يُشار إلى الأدوات التي تسمح لك بإعداد عميل أقلية باسم <em style={{ textTransform: "uppercase" }}>"multi-client."</em>
 
-### مكونات المفاتيح
+### مكونات المفاتيح {#key-generators}
 
 يمكن استخدام هذه الأدوات كبديل لـ [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) للمساعدة في إنشاء المفاتيح.
 

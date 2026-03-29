@@ -43,13 +43,13 @@ Níže uvádíme několik dostupných poskytovatelů SaaS. Pomocí výše uveden
 
 <ProductDisclaimer />
 
-### Poskytovatelé SaaS
+### Poskytovatelé SaaS {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 Vezměte prosím na vědomí důležitost podpory [rozmanitosti klientů](/developers/docs/nodes-and-clients/client-diversity/), protože zlepšuje zabezpečení sítě a omezuje vaše riziko. Služby, které prokazatelně omezují většinové klientské používání, jsou označeny <em style={{ textTransform: "uppercase" }}>"rozmanitost realizačního klienta"</em> a <em style={{ textTransform: "uppercase" }}>"rozmanitost klientů konsensu."</em>
 
-### Generátory klíčů
+### Generátory klíčů {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

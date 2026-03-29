@@ -79,7 +79,7 @@ lang: ru
 - `String "finalized"` — для последнего финализированного блока
 - `String "pending"` — для состояния/транзакций в ожидании
 
-## Примеры программ
+## Примеры программ {#examples}
 
 На этой странице мы приводим примеры того, как использовать отдельные конечные точки JSON_RPC API с помощью инструмента командной строки [curl](https://curl.se). Эти отдельные примеры конечных точек находятся ниже в разделе [Примеры Curl](#curl-examples). Далее на странице мы также приводим [сквозной пример](#usage-example) для компиляции и развертывания смарт-контракта с использованием узла Geth, JSON_RPC API и curl.
 
@@ -132,7 +132,7 @@ curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","metho
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## Песочница JSON-RPC API
+## Песочница JSON-RPC API {#json-rpc-api-playground}
 
 Вы можете использовать [инструмент-песочницу](https://ethereum-json-rpc.com), чтобы изучить и опробовать методы API. Он также показывает, какие методы и сети поддерживаются различными поставщиками узлов.
 

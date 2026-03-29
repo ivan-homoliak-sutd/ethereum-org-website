@@ -59,7 +59,7 @@ I vantaggi di questo design di rete sono:
 
 La tabella seguente mostra le funzioni dei client esistenti che possono essere fornite dalla Portal Network, consentendo agli utenti di accedere a queste funzioni su dispositivi con risorse molto limitate.
 
-### Le Reti Portal
+### Le Reti Portal {#the-portal-networks}
 
 | Client leggero Beacon | Rete di stato | Gossip delle transazioni | Rete storica |
 | ------------------- | ---------------------------- | ------------------- | --------------- |

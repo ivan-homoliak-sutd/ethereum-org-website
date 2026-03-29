@@ -20,7 +20,7 @@ summaryPoint3: "它以开放科学运动为基础。"
 
 去中心化科学允许更多样化的资金来源（从 [DAO](/glossary/#dao)、[二次捐赠](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531) 到众筹等等），让数据和方法更容易获取，并为可复现性提供激励。
 
-### Juan Benet - 去中心化科学运动
+### Juan Benet - 去中心化科学运动 {#juan-benet-the-desci-movement}
 
 <YouTube id="zkXM9H90g_E" />
 

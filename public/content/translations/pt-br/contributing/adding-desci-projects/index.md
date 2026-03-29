@@ -23,7 +23,7 @@ Qualquer um pode sugerir um projeto para listar na página DeSci no ethereum.org
 - **O projeto deve fazer parte do ecossistema Ethereum** - No ethereum.org, acreditamos que o Ethereum (e suas Camadas 2) é a camada de base apropriada para o movimento DeSci.
 - **O projeto está razoavelmente bem estabelecido** - O projeto tem usuários reais que conseguem acessar os serviços do projeto há vários meses.
 
-### Critérios opcionais
+### Critérios opcionais {#nice-to-haves}
 
 - **Disponível em vários idiomas** - Seu projeto é traduzido para vários idiomas, permitindo que usuários do mundo todo o acessem.
 - **Recursos educacionais** - Seu produto deve ter uma experiência de integração bem projetada para ajudar e educar os usuários. Ou então, oferecer conteúdo prático como artigos e vídeos.

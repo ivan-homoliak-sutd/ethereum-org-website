@@ -105,7 +105,7 @@ Pokud se dappka rozhodne pro integraci přemostění nebo agregátoru, má na v�
 
 K nasazení dapp na více řetězců mohou vývojáři používat vývojářské platformy jako [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/) atd. Tyto platformy obvykle přicházejí s pluginy, které umožňují dappkám fungovat napříč blockchainy. Vývojáři mohou například využít deterministickou nasazovací proxy nabízenou pluginem [hardhat-deploy](https://github.com/wighawag/hardhat-deploy).
 
-#### Příklady:
+#### Příklady: {#examples}
 
 - [Jak vytvářet meziřetězcové dapps](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [Vytvoření meziřetězcového tržiště s NFT](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ K nasazení dapp na více řetězců mohou vývojáři používat vývojářské
 
 Pro monitorování aktivity kontraktů napříč řetězci mohou vývojáři použít subgrafy a vývojové platformy jako je Tenderly, které umožňují monitorovat smart kontrakty v reálném čase. Tyto platformy také nabízejí nástroje s rozšířenou funkcionalitou pro sledování aktivit napříč řetězci, jako je kontrola [událostí emitovaných kontrakty](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events) atd.
 
-#### Nástroje
+#### Nástroje {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

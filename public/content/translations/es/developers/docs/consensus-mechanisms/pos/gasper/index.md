@@ -8,7 +8,7 @@ Gasper es una combinación de Casper apodado el cordial aparato de finalidad («
 
 **Nota**: La definición original de Casper-FFG se actualizó ligeramente para su inclusión en Gasper. En esta página consideramos la versión actualizada.
 
-## Pre-requisitos:
+## Pre-requisitos: {#prerequisites}
 
 Para comprender este material, es necesario leer la página de introducción sobre la [prueba de participación](/developers/docs/consensus-mechanisms/pos/).
 

@@ -106,13 +106,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### नोड टूल्स
+### नोड टूल्स {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 कृपया [माइनॉरिटी क्लाइंट](/developers/docs/nodes-and-clients/client-diversity/) चुनने के महत्व पर ध्यान दें क्योंकि यह नेटवर्क की सुरक्षा में सुधार करता है, और आपके जोखिम को सीमित करता है। वे टूल जो आपको माइनॉरिटी क्लाइंट सेटअप करने की अनुमति देते हैं, उन्हें <em style={{ textTransform: "uppercase" }}>"मल्टी-क्लाइंट"</em> के रूप में दर्शाया जाता है।
 
-### प्रमुख जनरेटर
+### प्रमुख जनरेटर {#key-generators}
 
 इन टूल का उपयोग की-जनरेशन में मदद करने के लिए [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) के विकल्प के रूप में किया जा सकता है।
 

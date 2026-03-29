@@ -190,7 +190,7 @@ function balanceOf(address owner) public view returns (uint256)
 
 ### Події {#events}
 
-#### Подія Deposit
+#### Подія Deposit {#deposit-event}
 
 **ПОВИННА** генеруватися, коли токени вносяться у сховище за допомогою методів [`mint`](#mint) та [`deposit`](#deposit).
 
@@ -205,7 +205,7 @@ event Deposit(
 
 Де `sender` – це користувач, який обміняв `assets` на `shares` і передав ці `shares` до `owner`.
 
-#### Подія Withdraw
+#### Подія Withdraw {#withdraw-event}
 
 **ПОВИННА** генеруватися, коли частки виводяться зі сховища вкладником за допомогою методів [`redeem`](#redeem) або [`withdraw`](#withdraw).
 

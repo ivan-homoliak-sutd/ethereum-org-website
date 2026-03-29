@@ -79,7 +79,7 @@ lang: zh
 - `String "finalized"` - 最新的最终确定的区块
 - `String "pending"` - 待处理状态/交易
 
-## 示例
+## 示例 {#examples}
 
 在此页面上，我们提供了如何通过命令行工具 [curl](https://curl.se) 使用单个 JSON_RPC API 端点的示例。 这些单独的端点示例位于下面的 [Curl 示例](#curl-examples)部分。 在页面下方，我们还提供了一个端到端示例，用于使用 Geth 节点、JSON_RPC API 和 curl 编译和部署智能合约。
 
@@ -132,7 +132,7 @@ curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","metho
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## JSON-RPC 应用程序接口实战
+## JSON-RPC 应用程序接口实战 {#json-rpc-api-playground}
 
 你可以使用[演练场工具](https://ethereum-json-rpc.com)来发现和试用 API 方法。 它还为你展示了各个节点提供商支持哪些方法和网络。
 

@@ -4,7 +4,7 @@ description: Saiba mais sobre 7702 no comunicado da Pectra
 lang: pt-br
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## Resumo {#abstract}
 

@@ -74,7 +74,7 @@ Aunque hay actualmente un gran énfasis en los mercados de carbono en general y 
 
 Al cambiar el rumbo del capital de las prácticas extractivas hacia un flujo regenerativo, los proyectos y empresas que proporcionan beneficios sociales, ambientales y comunales ―y que podrían no obtener fondos a través de finanzas tradicionales― pueden despegar y generar consecuencias positivas para la sociedad mucho más rápida y fácilmente. Pasar a este modelo de financiación también abre la puerta a sistemas económicos mucho más inclusivos, donde personas de todas las áreas demográficas pueden ser participantes activos en lugar de ser solo meros observadores pasivos. ReFi ofrece una visión de Ethereum como mecanismo para la acción coordinada en contra de los desafíos existenciales a los que se enfrenta nuestra especie y toda vida en nuestro planeta, como la capa base de un nuevo paradigma económico, permitiendo un futuro más inclusivo y sostenible por los siglos venideros.
 
-## Bibliografía para saber más sobre las ReFi
+## Bibliografía para saber más sobre las ReFi {#additional-reading-on-refi}
 
 - [Una visión general sobre las monedas de carbono y su lugar en la economía](https://www.klimadao.finance/resources/the-vision-of-a-carbon-currency)
 - [The Ministry for the Future, una novela que describe el papel de una moneda respaldada por carbono en la lucha contra el cambio climático](https://en.wikipedia.org/wiki/The_Ministry_for_the_Future)

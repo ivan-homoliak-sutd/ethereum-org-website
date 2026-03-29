@@ -9,7 +9,7 @@ lang: tr
 published: 2025-04-30
 ---
 
-## Giriş
+## Giriş {#introduction}
 
 [SAML](https://www.onelogin.com/learn/saml), bir [kimlik sağlayıcının (IdP)](https://en.wikipedia.org/wiki/Identity_provider#SAML_identity_provider), [hizmet sağlayıcılara (SP)](https://en.wikipedia.org/wiki/Service_provider_\(SAML\)) Kullanıcı bilgileri sağlamasına izin vermek için web2'de kullanılan bir standarttır.
 
@@ -22,7 +22,7 @@ Bu öğreticinin iki ayrı kitle için yazıldığını unutmayın:
 
 Sonuç olarak, zaten bildiğiniz birçok giriş materyali içerecektir. Atlamaktan çekinmeyin.
 
-### Ethereum meraklıları için SAML
+### Ethereum meraklıları için SAML {#saml-for-ethereum-people}
 
 SAML merkezi bir protokoldür. bir hizmet sağlayıcı (SP), bir kimlik sağlayıcıdan (IdP) gelen iddiaları (örneğin \
 
@@ -32,7 +32,7 @@ SAML merkezi bir protokoldür. bir hizmet sağlayıcı (SP), bir kimlik sağlay�
 
 Bu, üç varlığın, tarayıcının, SP'nin ve IdP'nin erişim için müzakere etme şeklidir. SP'nin tarayıcıyı kullanan Kullanıcı hakkında önceden bir şey bilmesine gerek yoktur, sadece IdP'ye güvenmesi yeterlidir.
 
-### SAML meraklıları için Ethereum
+### SAML meraklıları için Ethereum {#ethereum-for-saml-people}
 
 Ethereum merkeziyetsiz bir sistemdir.
 
@@ -51,7 +51,7 @@ Kullanıcıların bir özel anahtarı vardır (genellikle bir tarayıcı uzantı
 
 Ethereum'un merkeziyetsiz doğası nedeniyle, herhangi bir kullanıcı tasdik yapabilir. Tasdik edenin kimliği, hangi tasdikleri güvenilir olarak kabul ettiğimizi belirlemek için önemlidir.
 
-## Kurulum
+## Kurulum {#setup}
 
 İlk adım, kendi aralarında iletişim kuran bir SAML SP ve bir SAML IdP'ye sahip olmaktır.
 
@@ -83,13 +83,13 @@ Ethereum'un merkeziyetsiz doğası nedeniyle, herhangi bir kullanıcı tasdik ya
 
 5. IdP'ye e-posta adresinizi verin ve **Hizmet sağlayıcıda oturum aç**'a tıklayın. Hizmet sağlayıcıya geri yönlendirildiğinizi (bağlantı noktası 3000) ve sizi e-posta adresinizle tanıdığını görün.
 
-### Ayrıntılı açıklama
+### Ayrıntılı açıklama {#detailed-explanation}
 
 Adım adım olanlar şunlardır:
 
 ![Ethereum olmadan normal SAML girişi](./fig-04-saml-no-eth.png)
 
-#### src/config.mts
+#### src/config.mts {#srcconfigmts}
 
 Bu dosya hem Kimlik Sağlayıcı hem de Hizmet Sağlayıcı için yapılandırmayı içerir. Normalde bu ikisi farklı varlıklar olurdu, ancak burada basitlik için kodu paylaşabiliriz.
 
@@ -167,7 +167,7 @@ export const idpPublicData = {
 
 Kimlik sağlayıcı için genel veriler benzerdir. Bir kullanıcının oturumunu açmak için `http://localhost:3001/idp/login` adresine POST ve bir kullanıcının oturumunu kapatmak için `http://localhost:3001/idp/logout` adresine POST yapmanız gerektiğini belirtir.
 
-#### src/sp.mts
+#### src/sp.mts {#srcspmts}
 
 Bu, bir hizmet sağlayıcıyı uygulayan koddur.
 
@@ -342,7 +342,7 @@ app.listen(config.spPort, () => {
 
 Bu express uygulamasıyla `spPort`'u dinleyin.
 
-#### src/idp.mts
+#### src/idp.mts {#srcidpmts}
 
 Bu kimlik sağlayıcıdır. Hizmet sağlayıcıya çok benzer, aşağıdaki açıklamalar farklı olan kısımlar içindir.
 
@@ -472,7 +472,7 @@ Bu, hizmet sağlayıcıdan bir oturum açma isteği alan uç noktadır. Bu, yuka
 
 Kimlik doğrulama isteğinin kimliğini okumak için [`idp.parseLoginRequest`](https://github.com/tngan/samlify/blob/master/src/entity-idp.ts#L127-L144) kullanabilmeliyiz. Ancak, çalıştıramadım ve üzerinde çok fazla zaman harcamaya değmedi, bu yüzden sadece [genel amaçlı bir XML ayrıştırıcısı](https://www.npmjs.com/package/fast-xml-parser) kullanıyorum. İhtiyacımız olan bilgi, XML'in en üst düzeyinde bulunan `<samlp:AuthnRequest>` etiketinin içindeki `ID` özniteliğidir.
 
-## Ethereum imzalarını kullanma
+## Ethereum imzalarını kullanma {#using-ethereum-signatures}
 
 Artık hizmet sağlayıcıya bir kullanıcı kimliği gönderebildiğimize göre, bir sonraki adım kullanıcı kimliğini güvenilir bir şekilde elde etmektir. Viem, cüzdandan kullanıcı adresini istememize izin verir, ancak bu, bilgiyi tarayıcıdan istemek anlamına gelir. Tarayıcıyı kontrol etmiyoruz, bu yüzden ondan aldığımız yanıta otomatik olarak güvenemeyiz.
 
@@ -490,7 +490,7 @@ Ardından [SP'ye](http://localhost:3000) gidin ve yönergeleri izleyin.
 
 Bu noktada Ethereum adresinden e-posta adresini nasıl alacağımızı bilmediğimizi, bu yüzden SP'ye `<ethereum adresi>@bad.email.address` olarak rapor ettiğimizi unutmayın.
 
-### Ayrıntılı açıklama
+### Ayrıntılı açıklama {#detailed-explanation-1}
 
 Değişiklikler önceki diyagramdaki 4-5. adımlardadır.
 
@@ -700,7 +700,7 @@ idpRouter.post(`/login`,
 
 3. adım işleyicisinde `getLoginPage` yerine şimdi `getSignaturePage` kullanın.
 
-## E-posta adresini alma
+## E-posta adresini alma {#getting-the-email-address}
 
 Bir sonraki adım, hizmet sağlayıcı tarafından istenen tanımlayıcı olan e-posta adresini elde etmektir. Bunu yapmak için [Ethereum Tasdik Hizmetini (EAS)](https://attest.org/) kullanıyoruz.
 
@@ -756,7 +756,7 @@ Ardından e-posta adresinizi girin. Bunu yapmanın iki yolu var:
 
 Her iki durumda da, bunu yaptıktan sonra [http://localhost:3000](http://localhost:3000) adresine gidin ve yönergeleri izleyin. Test özel anahtarını içe aktardıysanız, aldığınız e-posta `test_addr_0@example.com`'dur. Kendi adresinizi kullandıysanız, tasdik ettiğiniz ne ise o olmalıdır.
 
-### Ayrıntılı açıklama
+### Ayrıntılı açıklama {#detailed-explanation-2}
 
 ![Ethereum adresinden e-postaya geçiş](./fig-06-saml-sig-n-email.png)
 
@@ -873,13 +873,13 @@ Bir değer varsa, verileri çözmek için `decodeData` kullanın. Sağladığı 
 
 E-posta adresini almak için yeni işlevi kullanın.
 
-## Peki ya merkeziyetsizlik?
+## Peki ya merkeziyetsizlik? {#what-about-decentralization}
 
 Bu yapılandırmada, Ethereum'dan e-posta adresine eşleme için güvenilir tasdik edicilere güvendiğimiz sürece, kullanıcılar olmadıkları biri gibi davranamazlar. Ancak, kimlik sağlayıcımız hala merkezi bir bileşendir. Kimlik sağlayıcısının özel anahtarına sahip olan herkes, hizmet sağlayıcıya yanlış bilgi gönderebilir.
 
 [Çok taraflı hesaplama (MPC)](https://en.wikipedia.org/wiki/Secure_multi-party_computation) kullanarak bir çözüm olabilir. Gelecekteki bir öğreticide bunun hakkında yazmayı umuyorum.
 
-## Sonuç
+## Sonuç {#conclusion}
 
 Ethereum imzaları gibi bir oturum açma standardının benimsenmesi, bir tavuk ve yumurta sorunuyla karşı karşıyadır. Hizmet sağlayıcılar mümkün olan en geniş pazara hitap etmek ister. Kullanıcılar, oturum açma standartlarını destekleme konusunda endişelenmeden hizmetlere erişebilmek ister.
 Bir Ethereum IdP gibi adaptörler oluşturmak, bu engeli aşmamıza yardımcı olabilir.

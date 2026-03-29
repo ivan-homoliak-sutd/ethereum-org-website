@@ -52,7 +52,7 @@ Zarządzanie gazem również ulega dużej poprawie. Aplikacje mogą płacić op�
 
 Obecnie wdrożenie portfeli inteligentnych kontraktów jest trudne, ponieważ opierają się one na złożonym kodzie opakowującym standardowe transakcje. Ethereum może to zmienić, umożliwiając inteligentnym kontraktom bezpośrednio inicjować transakcje, osadzając logikę w inteligentnych kontraktach Ethereum, zamiast polegać na zewnętrznych przekaźnikach.
 
-### EIP-4337: Abstrakcja kont bez zmian w protokole
+### EIP-4337: Abstrakcja kont bez zmian w protokole {#eip-4337-account-abstraction-without-protocol-changes}
 
 EIP-4337 umożliwia natywną obsługę portfeli inteligentnych kontraktów bez modyfikacji głównego protokołu Ethereum. Wprowadza obiekty `UserOperation`, które są zbierane w pakiety transakcji przez walidatorów, co upraszcza rozwój portfeli. Kontrakt EntryPoint EIP-4337 został wdrożony do sieci głównej Ethereum 1 marca 2023 roku i od tego czasu umożliwił stworzenie ponad 26 milionów inteligentnych portfeli oraz ponad 170 milionów obiektów UserOperation.
 

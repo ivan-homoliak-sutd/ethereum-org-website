@@ -10,7 +10,7 @@ Il design è un componente critico di qualsiasi progetto e, dedicando il tuo tem
 
 In definitiva, questo è un ottimo modo per costruire un portfolio diversificato e impressionante che metta in mostra le tue abilità di design.
 
-## Come contribuire?
+## Come contribuire? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;Fornire feedback sui primi prototipi di design {#design-critique}
 

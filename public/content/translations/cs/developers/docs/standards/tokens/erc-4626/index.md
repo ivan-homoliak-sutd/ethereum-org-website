@@ -190,7 +190,7 @@ Vrací celkové množství podílů v trezoru, které `owner` aktuálně má.
 
 ### Události {#events}
 
-#### Událost vkladu
+#### Událost vkladu {#deposit-event}
 
 **MUSÍ** být emitována při vložení tokenů do trezoru pomocí metod [`mint`](#mint) a [`deposit`](#deposit).
 
@@ -205,7 +205,7 @@ event Deposit(
 
 Kde `sender` je uživatel, který vyměnil `assets` za `shares` a převedl tyto `shares` na `owner`a.
 
-#### Událost výběru
+#### Událost výběru {#withdraw-event}
 
 **MUSÍ** být emitována, když jsou podíly vybrány z trezoru vkladatelem v metodách [`redeem`](#redeem) nebo [`withdraw`](#withdraw).
 

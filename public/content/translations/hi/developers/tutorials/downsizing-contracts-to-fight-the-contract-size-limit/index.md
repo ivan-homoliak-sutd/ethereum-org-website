@@ -78,7 +78,7 @@ require(msg.sender == owner, "Only the owner of this contract can call this func
 require(msg.sender == owner, "OW1");
 ```
 
-### त्रुटि संदेशों के बजाय कस्टम त्रुटियों का उपयोग करें
+### त्रुटि संदेशों के बजाय कस्टम त्रुटियों का उपयोग करें {#use-custom-errors-instead-of-error-messages}
 
 [सॉलिडिटी 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/) में कस्टम त्रुटियों को पेश किया गया है। वे आपके अनुबंधों के आकार को कम करने का एक शानदार तरीका हैं, क्योंकि वे ABI-एन्कोडेड चयनकर्ताओं के रूप में होते हैं (जैसे फंक्शन होते हैं)।
 

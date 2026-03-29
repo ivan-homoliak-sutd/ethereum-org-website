@@ -450,7 +450,7 @@ Muundo wa utoaji utakuwa kama ifuatavyo:
 | Akiba iliyotumika baada ya mauzo | 8.26%  | 6.79%  | 3.96%  |
 | Wachimbaji                       | 0%                     | 17.8%  | 52.0%  |
 
-#### Kiwango cha ukuaji wa ugavi wa muda mrefu (asilimia)
+#### Kiwango cha ukuaji wa ugavi wa muda mrefu (asilimia) {#long-term-supply-growth-rate-percent}
 
 ![Mfumo wa bei wa Ethereum](./ethereum-inflation.png)
 

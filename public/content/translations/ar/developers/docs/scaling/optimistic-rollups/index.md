@@ -253,7 +253,7 @@ lang: ar
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## قراءات إضافية حول الرول أب التفائلي
+## قراءات إضافية حول الرول أب التفائلي {#further-reading-on-optimistic-rollups}
 
 - [كيف يعمل الرول أب التفائلي (الدليل الشامل)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [ما هو الرول أب في البلوك تشين؟ مقدمة تقنية](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

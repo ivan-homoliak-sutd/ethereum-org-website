@@ -79,7 +79,7 @@ Pro parametr bloku jsou možné následující možnosti:
 - `String "finalized"` – pro poslední finalizovaný blok
 - `String "pending"` – pro nevyřízený stav/transakce
 
-## Příklady
+## Příklady {#examples}
 
 Na této stránce poskytujeme příklady použití jednotlivých koncových bodů JSON_RPC API pomocí nástroje příkazového řádku [curl](https://curl.se). Tyto jednotlivé příklady koncových bodů naleznete níže v sekci [Příklady s curl](#curl-examples). Dále na stránce také poskytujeme [kompletní příklad](#usage-example) kompilace a nasazení chytrého kontraktu pomocí uzlu Geth, rozhraní JSON_RPC API a curl.
 
@@ -133,7 +133,7 @@ Několik základních metod JSON-RPC vyžaduje data ze sítě Ethereum a přehle
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## JSON-RPC API Playground
+## JSON-RPC API Playground {#json-rpc-api-playground}
 
 K prozkoumání a vyzkoušení metod API můžete použít [nástroj playground](https://ethereum-json-rpc.com). Ukazuje vám také, které metody a sítě jsou podporovány různými poskytovateli síťových uzlů.
 

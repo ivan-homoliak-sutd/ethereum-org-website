@@ -47,7 +47,7 @@ Başlamadan önce daha temel bir bilgiye mi ihtiyacınız var? [ethereum.org/lea
 - [Slither ile Solidity Akıllı Sözleşmelerini Analiz Etme](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [Blokzincir Fintech Öğreticisi: Python ile Borç Verme ve Borç Alma](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## Arşivlenmiş makaleler
+## Arşivlenmiş makaleler {#archived-articles}
 
 - [Python ve Brownie ile kendi ERC20 Jetonunuzu Dağıtın](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Akıllı Sözleşmeleri dağıtmak için Brownie ve Python kullanma](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

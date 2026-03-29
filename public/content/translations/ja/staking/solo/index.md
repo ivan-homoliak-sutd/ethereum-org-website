@@ -106,13 +106,13 @@ ETHのホームステーキングを支援するツールやサービスは増�
 
 <ProductDisclaimer />
 
-### ノードツール
+### ノードツール {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 [マイノリティクライアント](/developers/docs/nodes-and-clients/client-diversity/)を選択することは、ネットワークのセキュリティを向上させ、リスクを限定するため、その重要性に注意してください。 マイノリティクライアントをセットアップできるツールは、<em style={{ textTransform: "uppercase" }}>"multi-client"</em>として示されています。
 
-### キージェネレーター
+### キージェネレーター {#key-generators}
 
 これらのツールは、[Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/)の代替として鍵生成に役立ちます。
 

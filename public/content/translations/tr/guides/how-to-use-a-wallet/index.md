@@ -5,15 +5,15 @@ description: "Nasıl token gönderiliip alındığını ve web3 projelerine nas�
 lang: tr
 ---
 
-# Cüzdan nasıl kullanılır?
+# Cüzdan nasıl kullanılır? {#how-to-use-a-wallet}
 
 Bir cüzdanın temel fonksiyonlarının nasıl kullanılacağını öğrenin. Henüz bir hesabınız yoksa [Bir Ethereum hesabı nasıl oluşturulur](/guides/how-to-create-an-ethereum-account/) kılavuzumuza göz atın.
 
-## Cüzdanınızı açın
+## Cüzdanınızı açın {#open-your-wallet}
 
 Bakiyenizi gösteren ve token gönderip almak için butonlar içeren bir panel görmelisiniz.
 
-## Kripto para alma
+## Kripto para alma {#receive-cryptocurrency}
 
 Cüzdanınıza kripto almak mı istiyorsunuz?
 
@@ -30,7 +30,7 @@ Farklı uygulamalar değişkenlik gösterebilir veya farklı diller kullanabilir
 3. Ethereum adresinizi panoya kopyalayın.
 4. Alıcı Ethereum adresinizi göndericiye verin.
 
-## Kripto para gönderme
+## Kripto para gönderme {#send-cryptocurrency}
 
 Başka bir cüzdana ETH göndermek ister miydiniz?
 
@@ -45,7 +45,7 @@ Başka bir cüzdana ETH göndermek ister miydiniz?
 6. Ağ durumuna göre değişen işlem ücretini karşılamak için cüzdanınızda yeterince ETH olduğundan emin olun. Çoğu cüzdan daha sonra onaylayabileceğiniz işleme önerilen ücreti otomatikmen ekleyecektir.
 7. İşleminiz gerçekleştirildiğinde, karşılık kripto miktarı alıcının hesabında görünecektir. Bu, ağın mevcut kullanımına göre birkaç saniye ila birkaç dakika arasında değişebilir.
 
-## Projelere bağlanmak
+## Projelere bağlanmak {#connecting-to-projects}
 
 Adresiniz tüm Ethereum projelerinde aynı olacaktır. Hiçbir projeye tek tek kaydolmanız gerekmez. Bir cüzdana sahip olduktan sonra, ek bir bilgi olmadan herhangi bir Ethereum projesine bağlanabilirsiniz. E-posta veya başka bir kişisel bilgi gerekmez.
 
@@ -72,20 +72,20 @@ Adresiniz tüm Ethereum projelerinde aynı olacaktır. Hiçbir projeye tek tek k
 </AlertContent>
 </Alert>
 
-## Sıkça sorulan sorular
+## Sıkça sorulan sorular {#frequently-asked-questions}
 
-### Bir ETH adresi sahibiysem, aynı adrese diğer blok zincirlerde de sahip miyim?
+### Bir ETH adresi sahibiysem, aynı adrese diğer blok zincirlerde de sahip miyim? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Tüm EVM uyumlu blok zincirlerde aynı adresi kullanabilirsiniz (Kurtarma ifadesi içeren bir cüzdan tipine sahipseniz). Bu [liste](https://chainlist.org/), size hangi blokzincirlerde aynı adresi kullanabileceğinizi gösterecektir. Bitcoin gibi bazı blok zincirlerde tamamen farklı ağ kuralları uygulanır ve farklı bir biçimde farklı bir adrese ihtiyaç duyacaksınız. Bir akıllı sözleşme cüzdanına sahipseniz, hangi blok zincirlerin desteklendiği hakkında bilgi almak için ürünün web sitesine bakmalısınız.
 
-### Aynı adresi birden fazla cihazda kullanabilir miyim?
+### Aynı adresi birden fazla cihazda kullanabilir miyim? {#can-i-use-the-same-address-on-multiple-devices}
 
 Evet, aynı adresi birden fazla cihazda kullanabilirsiniz. Cüzdanlar teknik olarak sadece size bakiyenizi göstermek ve işlemler yapmanız için bir arayüzdür, hesabınız cüzdanda değil, blok zincirde depolanır.
 
-### Kriptoyu almadım, bir işlemin durumunu nerede kontrol edebilirim?
+### Kriptoyu almadım, bir işlemin durumunu nerede kontrol edebilirim? {#i-have-not-received-the-crypto-where-can-i-check-the-status-of-a-transaction}
 
 Herhangi bir işlemin durumunu gerçek zamanlı olarak görmek için [blok arayıcılarını](/developers/docs/data-and-analytics/block-explorers/) kullanabilirsiniz. Tüm yapmanız gereken cüzdan adresinizi veya işlemin kimliğini aramaktır.
 
-### İşlemleri iptal veya iade edebilir miyim?
+### İşlemleri iptal veya iade edebilir miyim? {#can-i-cancel-or-return-transactions}
 
 Hayır, bir işlem onaylandığında, işlemi iptal edemezsiniz.

@@ -17,7 +17,7 @@ lang: mr
 - [इथेरियम म्हणजे काय?](/what-is-ethereum/)
 - [ETH म्हणजे काय?](/what-is-ether/)
 
-## एक शिकण्याची क्विझ जोडणे
+## एक शिकण्याची क्विझ जोडणे {#adding-a-learn-quiz}
 
 जर एखादे पान असेल ज्यासाठी शिकण्याची क्विझ तयार केली गेली नसेल, तर कृपया त्यासाठी [एक इश्यू उघडा](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml).
 
@@ -30,7 +30,7 @@ lang: mr
   - १ बरोबर उत्तर आणि ते बरोबर का आहे याचे स्पष्टीकरण
   - ३ चुकीची उत्तरे, प्रत्येकासह ते चुकीचे का आहेत याचे स्पष्टीकरण
 
-## एक क्विझ प्रश्न जोडणे
+## एक क्विझ प्रश्न जोडणे {#adding-a-quiz-question}
 
 जर तुम्हाला क्विझसाठी प्रश्न बँकेत एखादा प्रश्न जोडायचा असेल, तर कृपया [एक इश्यू उघडा](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) आणि खालील माहिती द्या:
 
@@ -41,7 +41,7 @@ lang: mr
   - १ बरोबर उत्तर आणि ते बरोबर का आहे याचे स्पष्टीकरण
   - ३ चुकीची उत्तरे, प्रत्येकासह ते चुकीचे का आहेत याचे स्पष्टीकरण
 
-## एक क्विझ प्रश्न अद्यतनित करणे
+## एक क्विझ प्रश्न अद्यतनित करणे {#updating-a-quiz-question}
 
 जर तुम्हाला क्विझसाठी प्रश्न बँकेतील एखादा प्रश्न अद्यतनित करायचा असेल, तर कृपया [एक इश्यू उघडा](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) आणि खालील माहिती द्या:
 
@@ -53,7 +53,7 @@ lang: mr
   - १ बरोबर उत्तर आणि ते बरोबर का आहे याचे स्पष्टीकरण
   - ३ चुकीची उत्तरे, प्रत्येकासह ते चुकीचे का आहेत याचे स्पष्टीकरण
 
-## एक क्विझ प्रश्न काढून टाकणे
+## एक क्विझ प्रश्न काढून टाकणे {#removing-a-quiz-question}
 
 जर एखाद्या प्रश्नासाठीचा मजकूर पानावर अस्तित्वात नसेल आणि तो काढून टाकण्याची आवश्यकता असेल, तर कृपया प्रश्न काढून टाकण्यासाठी [एक इश्यू उघडा](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) आणि खालील माहिती द्या:
 

@@ -4,7 +4,7 @@ description: "Узнайте больше о 7702 в выпуске Pectra"
 lang: ru
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## Аннотация {#abstract}
 

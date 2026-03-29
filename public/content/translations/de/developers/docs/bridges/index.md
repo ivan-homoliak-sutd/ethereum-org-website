@@ -105,7 +105,7 @@ Wenn eine Dapp den Weg der Integration einer Brücke oder eines Aggregators wäh
 
 Um eine Dapp auf mehreren Chains bereitzustellen, können Entwickler Entwicklungsplattformen wie [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/) usw. verwenden. In der Regel verfügen diese Plattformen über zusammensetzbare Plugins, die es Dapps ermöglichen, kettenübergreifend zu agieren. Beispielsweise können Entwickler einen deterministischen Bereitstellungs-Proxy verwenden, der vom [hardhat-deploy-Plugin](https://github.com/wighawag/hardhat-deploy) angeboten wird.
 
-#### Beispiele:
+#### Beispiele: {#examples}
 
 - [How to build cross-chain dapps](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [Building a Cross-Chain NFT Marketplace](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ Um eine Dapp auf mehreren Chains bereitzustellen, können Entwickler Entwicklung
 
 Um die Vertragsaktivität über Chains hinweg zu überwachen, können Entwickler Subgraphen und Entwicklerplattformen wie Tenderly verwenden, um Smart Contracts in Echtzeit zu beobachten. Solche Plattformen verfügen auch über Tools, die eine größere Datenüberwachungsfunktionalität für kettenübergreifende Aktivitäten bieten, wie z. B. die Überprüfung auf [von Verträgen ausgegebene Ereignisse](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events) usw.
 
-#### Tools
+#### Tools {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

@@ -47,7 +47,7 @@ Ethereum.org es un proyecto de código abierto gestionado por más de **12 000**
 
 ¿Alguna pregunta? 🤔 Únase a nuestro [servidor de Discord](https://discord.gg/ethereum-org)
 
-## Tareas apropiadas para empezar a contribuir
+## Tareas apropiadas para empezar a contribuir {#good-first-tasks-to-start-contributing}
 
 Estas son algunas tareas actuales de las que podría encargarse y ayudarnos a resolver. Para la mayoría necesitará una cuenta de GitHub, ya que muchos de los cambios al sitio se hacen a través de GitHub.
 
@@ -95,7 +95,7 @@ Si su contribución se integra en ethereum.org, podrá reclamar una insignia esp
 
 [Más sobre los OAT](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### Cómo reclamarlo
+### Cómo reclamarlo {#how-to-claim-1}
 
 1. Únase a nuestro [servidor de Discord](https://discord.gg/ethereum-org).
 2. Pegue un enlace a su contribución en el canal `#🥇 | proof-of-contribution`.

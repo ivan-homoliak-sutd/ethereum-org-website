@@ -59,7 +59,7 @@ Những lợi ích của thiết kế mạng này là:
 
 Bảng dưới đây hiển thị các chức năng của các máy khách hiện có mà Mạng Portal có thể cung cấp, cho phép người dùng truy cập các chức năng này trên các thiết bị có tài nguyên rất thấp.
 
-### Các Mạng Portal
+### Các Mạng Portal {#the-portal-networks}
 
 | Máy khách nhẹ Beacon | Mạng trạng thái               | Lant truyền giao dịch | Mạng lịch sử  |
 | -------------------- | ----------------------------- | --------------------- | ------------- |

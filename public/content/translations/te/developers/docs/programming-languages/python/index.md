@@ -47,7 +47,7 @@ incomplete: true
 - [Slitherతో సాలిడిటీ స్మార్ట్ కాంట్రాక్టులను విశ్లేషించండి](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [బ్లాక్ చైను ఫిన్‌టెక్ ట్యుటోరియల్: పైథాన్‌తో అప్పు ఇవ్వడం మరియు తీసుకోవడం](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## ఆర్కైవ్ చేయబడిన వ్యాసాలు
+## ఆర్కైవ్ చేయబడిన వ్యాసాలు {#archived-articles}
 
 - [పైథాన్ మరియు బ్రౌనీతో మీ స్వంత ERC20 టోకెన్‌ను డిప్లాయ్ చేయండి](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [స్మార్ట్ కాంట్రాక్టులను డిప్లాయ్ చేయడానికి బ్రౌనీ మరియు పైథాన్‌ను ఉపయోగించడం](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

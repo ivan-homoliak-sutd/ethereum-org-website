@@ -79,7 +79,7 @@ Ethereum இன் நிலையை வினவும் கோரிக்�
 - `String "finalized"` - சமீபத்திய இறுதி செய்யப்பட்ட பிளாக்கிற்கு
 - `String "pending"` - நிலுவையில் உள்ள நிலை/பரிவர்த்தனைகளுக்கு
 
-## எடுத்துக்காட்டுகள்
+## எடுத்துக்காட்டுகள் {#examples}
 
 இந்தப் பக்கத்தில், கட்டளை வரி கருவியான [curl](https://curl.se) ஐப் பயன்படுத்தி தனிப்பட்ட JSON_RPC API எண்ட்பாயிண்ட்களை எப்படிப் பயன்படுத்துவது என்பதற்கான எடுத்துக்காட்டுகளை நாங்கள் வழங்குகிறோம். இந்தத் தனிப்பட்ட எண்ட்பாயிண்ட் எடுத்துக்காட்டுகள் கீழே உள்ள [Curl எடுத்துக்காட்டுகள்](#curl-examples) பிரிவில் காணப்படுகின்றன. பக்கத்தின் மேலும் கீழே, Geth நோடு, JSON_RPC API மற்றும் curl ஆகியவற்றைப் பயன்படுத்தி ஒரு ஸ்மார்ட் ஒப்பந்தத்தை தொகுத்து மற்றும் வரிசைப்படுத்துவதற்கான ஒரு [முழுமையான எடுத்துக்காட்டையும்](#usage-example) நாங்கள் வழங்குகிறோம்.
 
@@ -132,7 +132,7 @@ curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","metho
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## JSON-RPC API Playground
+## JSON-RPC API Playground {#json-rpc-api-playground}
 
 API முறைகளைக் கண்டறியவும், அவற்றைச் சோதித்துப் பார்க்கவும் நீங்கள் [playground கருவியைப்](https://ethereum-json-rpc.com) பயன்படுத்தலாம். பல்வேறு நோடு வழங்குநர்களால் எந்தெந்த முறைகள் மற்றும் நெட்வொர்க்குகள் ஆதரிக்கப்படுகின்றன என்பதையும் இது உங்களுக்குக் காட்டுகிறது.
 

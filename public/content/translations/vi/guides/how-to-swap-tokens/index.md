@@ -4,7 +4,7 @@ description: "Những cách đơn giản nhất để hoán đổi tài sản tr
 lang: vi
 ---
 
-# Cách để hoán đổi token
+# Cách để hoán đổi token {#how-to-swap-tokens}
 
 Khó khăn để tìm được những sàn giao dịch cho những tài sản đang sở hữu? Bạn có thể hoán đổi hầu hết các token bằng cách sử dụng [sàn giao dịch phi tập trung](/glossary/#dex).
 
@@ -15,7 +15,7 @@ Hoán đổi token là việc trao đổi hai tài sản khác nhau tồn tại 
 - có một [ví tiền mã hóa](/glossary/#wallet); nếu bạn chưa có, bạn có thể làm theo hướng dẫn này về [cách tạo tài khoản Ethereum](/guides/how-to-create-an-ethereum-account/)
 - gửi tài sản vào ví đã tạo phía trên
 
-## 1. Kết nối ví lưu trữ tài sản của bạn tới bất kì sàn giao dịch phi tập trung(DEX) mà bạn mong muốn
+## 1. Kết nối ví lưu trữ tài sản của bạn tới bất kì sàn giao dịch phi tập trung(DEX) mà bạn mong muốn {#1-connect-your-wallet-to-the-decentralized-exchange-dex-of-your-choice}
 
 Những sàn giao dịch phổ biến:
 
@@ -26,24 +26,24 @@ Những sàn giao dịch phổ biến:
 
 Bạn có hứng thú? Tìm hiểu thêm về [tài chính phi tập trung (DeFi)](/defi/) là gì và cách hoạt động của các loại sàn giao dịch mới này.
 
-## 2. Chọn cặp tài sản để hoán đổi
+## 2. Chọn cặp tài sản để hoán đổi {#2-select-the-pair-of-tokens-you-wish-to-swap}
 
 Ví dụ, ETH và DAI. Hãy chắc chắn rằng ví lưu trữ của bạn đã có sẵn một trong hai loại tài sản này.
 ![Giao diện chung để hoán đổi](./swap1.png)
 
-## 3. Nhập vào số lượng tài sản mà bạn muốn hoán đổi và ấn vào swap
+## 3. Nhập vào số lượng tài sản mà bạn muốn hoán đổi và ấn vào swap {#3-enter-the-amount-of-tokens-you-want-to-trade-and-click-swap}
 
 Sàn giao dịch sẽ tự động thông báo số lượng tài sản bạn sẽ nhận được.
 
 ![Giao diện chung để hoán đổi](./swap2.png)
 
-## 4. Xác nhận giao dịch
+## 4. Xác nhận giao dịch {#4-confirm-the-transaction}
 
 Kiểm tra chi tiết giao dịch. Đồng thời, để ý về tỉ giá hoán đổi và chi phí phát sinh nếu có.
 
 ![Giao diện chung để xem lại giao dịch](./swap3.png)
 
-## 5. Đợi đến khi giao dịch được thực hiện
+## 5. Đợi đến khi giao dịch được thực hiện {#5-wait-for-the-transaction-to-be-processed}
 
 Bạn có thể xem quá trình thực hiện giao dịch trên bất kì trình khám phá blockchain nào. Thời gian thực hiện giao dịch không nên vượt quá 10 phút.
 
@@ -59,12 +59,12 @@ Khi giao dịch hoàn thành, bạn sẽ nhận được tài sản mà bạn đ
 </AlertContent>
 </Alert>
 
-## Những câu hỏi thường gặp
+## Những câu hỏi thường gặp {#frequently-asked-questions}
 
-### Có thể hoán đổi ETH với BTC ở ví lưu trữ vừa tạo hay không?
+### Có thể hoán đổi ETH với BTC ở ví lưu trữ vừa tạo hay không? {#can-i-swap-eth-for-btc-from-my-wallet}
 
 Không, bạn chỉ có thể hoán đổi những cặp tài sản được tạo ra trên mạng lưới Ethereum, như là ETH, token ERC20, hoặc là NFTs. Hoặc bạn có thể hoán đổi "wrapped" Bitcoin, một dạng tài sản đã được bảo chứng bằng Btc và chuyển đổi, đồng thời có sẵn trên mạng Ethereum.
 
-### Tỉ lệ trượt giá là gì?
+### Tỉ lệ trượt giá là gì? {#what-is-slippage}
 
 Đó là sự khác nhau giữa tỉ giá thực từ sàn giao dịch và tỉ giá bạn mong muốn.

@@ -47,7 +47,7 @@ incomplete: true
 - [Slither کے ساتھ Solidity اسمارٹ کانٹریکٹس کا تجزیہ کریں](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [بلاک چین فنٹیک ٹیوٹوریل: پائتھون کے ساتھ قرض دینا اور لینا](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## آرکائیو شدہ مضامین
+## آرکائیو شدہ مضامین {#archived-articles}
 
 - [Python اور Brownie کے ساتھ اپنا ERC20 ٹوکن ڈیپلائے کریں](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [اسمارٹ کانٹریکٹس کو ڈیپلائے کرنے کے لیے Brownie اور Python کا استعمال](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

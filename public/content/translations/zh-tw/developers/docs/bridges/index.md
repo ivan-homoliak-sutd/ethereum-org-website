@@ -105,7 +105,7 @@ lang: zh-tw
 
 若要在多條鏈上部署去中心化應用程式，開發者可以使用 [Alchemy](https://www.alchemy.com/)、[Hardhat](https://hardhat.org/)、[Moralis](https://moralis.io/) 等開發平台。 這些平台通常提供可組合的插件，能夠支援去中心化應用程式跨鏈。 例如，開發者可以使用 [hardhat-deploy 外掛程式](https://github.com/wighawag/hardhat-deploy)提供的確定性部署代理。
 
-#### 範例：
+#### 範例： {#examples}
 
 - [如何建立跨鏈去中心化應用程式](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [建立跨鏈 NFT 市場](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ lang: zh-tw
 
 要監控跨鏈合約活動，開發者可以使用子圖和 Tenderly 等開發者平台即時觀察智能合約。 這類平台也提供工具，為跨鏈活動提供更強大的資料監控功能，例如檢查[合約發出的事件](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events)等。
 
-#### 工具
+#### 工具 {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

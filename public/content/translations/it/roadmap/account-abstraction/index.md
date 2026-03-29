@@ -52,7 +52,7 @@ La gestione del gas migliora considerevolmente. Le applicazioni possono pagare l
 
 Attualmente, i portafogli di contratti intelligenti sono difficili da implementare poiché si basano su codice complesso che avvolge le transazioni standard. Ethereum può cambiare questa situazione consentendo ai contratti intelligenti di avviare direttamente le transazioni, incorporando la logica nei contratti intelligenti di Ethereum piuttosto che fare affidamento su relayer esterni.
 
-### EIP-4337: Astrazione dell'account senza modifiche al protocollo
+### EIP-4337: Astrazione dell'account senza modifiche al protocollo {#eip-4337-account-abstraction-without-protocol-changes}
 
 L'EIP-4337 abilita il supporto nativo per i portafogli di contratti intelligenti senza modificare il protocollo principale di Ethereum. Introduce gli oggetti `UserOperation` raccolti in pacchetti di transazioni dai validatori, semplificando lo sviluppo dei portafogli. Il contratto EntryPoint dell'EIP-4337 è stato distribuito sulla rete principale di Ethereum il 1° marzo 2023 e ha facilitato la creazione di oltre 26 milioni di portafogli intelligenti e 170 milioni di UserOperation.
 

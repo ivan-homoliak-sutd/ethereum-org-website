@@ -4,7 +4,7 @@ description: "指南：如何撤销恶意智能合约的代币配额权限"
 lang: zh
 ---
 
-# 如何撤销智能合约访问你的加密资金
+# 如何撤销智能合约访问你的加密资金 {#how-to-revoke-smart-contract-access-to-your-crypto-funds}
 
 本指南将引导你，查看所有对你的资金拥有配额权限的[智能合约](/glossary/#smart-contract)列表，以及如何撤销它们。
 
@@ -14,7 +14,7 @@ lang: zh
 
 唯一的保护措施是：不使用未经测试的新项目，只批准你需要的项目，或定期撤销权限。 所以，你应该怎么做呢？
 
-## 第 1 步：使用撤销权限工具
+## 第 1 步：使用撤销权限工具 {#step-1-use-revoke-access-tools}
 
 有几个网站允许你查看与你钱包地址关联的智能合约，并进行撤销。 访问以下网站并连接到你的钱包：
 
@@ -24,19 +24,19 @@ lang: zh
 - [Unrekt](https://app.unrekt.net/) (多个网络)
 - [EverRevoke](https://everrise.com/everrevoke/) (多个网络)
 
-## 第 2 步：连接到你的钱包
+## 第 2 步：连接到你的钱包 {#step-2-connect-your-wallet}
 
 进入网站后，点击“Connect wallet”。 网站会提示你连接到你的钱包。
 
 请确保你的钱包和网站使用相同的网络。 你将只能看到与所选网络相关的智能合约。 例如，如果你连接到以太坊主网，你将只能看到以太坊合约，而看不到其他链上的合约，例如 Polygon。
 
-## 第 3 步：选择你想要撤销的智能合约
+## 第 3 步：选择你想要撤销的智能合约 {#step-3-select-a-smart-contract-you-wish-to-revoke}
 
 你应该可以看到被允许访问你的代币的全部合约，以及支配数额上限。 找到你想要撤销的合约。
 
 如果你不知道选择哪个合约，你可以全部撤销。 这不会给你带来任何麻烦，但下次你想与这些合约互动时，必须重新授予一系列权限。
 
-## 第 4 步：撤销对你资金的权限
+## 第 4 步：撤销对你资金的权限 {#step-4-revoke-access-to-your-funds}
 
 一旦你点击撤销，你会在你的钱包中看到一个新的交易建议。 这是预料之中的。 你必须支付手续费，撤销才能成功。 可能需要一分钟到几分钟来处理，视网络而定。
 
@@ -56,20 +56,20 @@ lang: zh
 </AlertContent>
 </Alert>
 
-## 常见问题
+## 常见问题 {#frequently-asked-questions}
 
-### 撤销代币权限是否也会终止质押、进入质押池、借贷等？
+### 撤销代币权限是否也会终止质押、进入质押池、借贷等？ {#does-revoking-token-access-also-terminate-staking-pooling-lending-etc}
 
 不，它不会影响你的任何 [DeFi](/glossary/#defi) 策略。 你的投资仓位和奖励等都不会受到影响。
 
-### 把钱包与项目断开连接，和取消资产支配权限是一个意思吗？
+### 把钱包与项目断开连接，和取消资产支配权限是一个意思吗？ {#is-disconnecting-a-wallet-from-a-project-the-same-as-removing-permission-to-use-my-funds}
 
 不是，你断开了你的钱包与项目的连接，但如果你已经授予了代币配额权限，它们仍可以使用这些代币。 你需要撤销该权限。
 
-### 合约权限何时到期？
+### 合约权限何时到期？ {#when-will-the-contract-permission-expire}
 
 合约权限没有期限限制。 如果你授予合约权限，即使在几年之后，权限依然有效。
 
-### 为什么有些智能合约会设置无限代币配额呢？
+### 为什么有些智能合约会设置无限代币配额呢？ {#why-do-projects-set-unlimited-token-allowance}
 
 项目这样做通常是为了减少所需的请求次数，也就是说用户只需批准一次，并且仅需支付一次交易费。 这虽然方便，但有些网站没有经过时间检验，也没有经过审计，用户不经意地授予权限可能会带来风险。 一些钱包允许你手动限制可以批准的代币额，以降低你的风险。 可询问你的钱包提供者，以获取更多信息。

@@ -453,7 +453,7 @@ Bu, "dolar" ve "cent" veya "BTC" ve "satoshi" kavramının genişletilmiş bir v
 | Satış sonrası harcanan rezerv | %8,26                  | %6,79                  | %3,96                  |
 | Madenciler                    | %0                     | %17,8                  | %52,0                  |
 
-#### Uzun Vadeli Arz Büyüme Oranı (yüzde)
+#### Uzun Vadeli Arz Büyüme Oranı (yüzde) {#long-term-supply-growth-rate-percent}
 
 ![Ethereum enflasyonu](./ethereum-inflation.png)
 

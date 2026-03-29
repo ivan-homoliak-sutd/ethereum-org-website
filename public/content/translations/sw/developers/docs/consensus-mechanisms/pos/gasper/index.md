@@ -8,7 +8,7 @@ Gasper ni mchanganyiko wa Casper the Friendly Finality Gadget (Casper-FFG) na ka
 
 **Kumbuka** kwamba ufafanuzi wa awali wa Casper-FFG ulisasishwa kidogo ili ujumuishwe katika Gasper. Kwenye ukurasa huu tunazingatia toleo lililosasishwa.
 
-## Masharti
+## Masharti {#prerequisites}
 
 Ili kuelewa nyenzo hii ni muhimu kusoma ukurasa wa utangulizi kuhusu [uthibitisho-wa-hisa](/developers/docs/consensus-mechanisms/pos/).
 

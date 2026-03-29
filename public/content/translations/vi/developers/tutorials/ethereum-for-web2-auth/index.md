@@ -9,7 +9,7 @@ lang: vi
 published: 2025-04-30
 ---
 
-## Giới thiệu
+## Giới thiệu {#introduction}
 
 [SAML](https://www.onelogin.com/learn/saml) là một tiêu chuẩn được sử dụng trên web2 để cho phép một [nhà cung cấp danh tính (IdP)](https://en.wikipedia.org/wiki/Identity_provider#SAML_identity_provider) cung cấp thông tin người dùng cho [nhà cung cấp dịch vụ (SP)](https://en.wikipedia.org/wiki/Service_provider_\(SAML\)).
 
@@ -22,7 +22,7 @@ Lưu ý rằng hướng dẫn này được viết cho hai đối tượng riên
 
 Do đó, nó sẽ chứa rất nhiều tài liệu giới thiệu mà bạn đã biết. Hãy thoải mái bỏ qua nó.
 
-### SAML cho những người Ethereum
+### SAML cho những người Ethereum {#saml-for-ethereum-people}
 
 SAML là một giao thức tập trung. Một nhà cung cấp dịch vụ (SP) chỉ chấp nhận các xác nhận (chẳng hạn như "đây là người dùng John của tôi, anh ta nên có quyền thực hiện A, B và C") từ một nhà cung cấp danh tính (IdP) nếu nó có mối quan hệ tin cậy từ trước với nó, hoặc với [cơ quan cấp chứng chỉ](https://www.ssl.com/article/what-is-a-certificate-authority-ca/) đã ký chứng chỉ của IdP đó.
 
@@ -32,7 +32,7 @@ Ví dụ, SP có thể là một công ty du lịch cung cấp dịch vụ du l�
 
 Đây là cách ba thực thể, trình duyệt, SP và IdP, đàm phán để truy cập. SP không cần biết trước bất cứ điều gì về người dùng đang sử dụng trình duyệt, chỉ cần tin tưởng vào IdP.
 
-### Ethereum cho những người SAML
+### Ethereum cho những người SAML {#ethereum-for-saml-people}
 
 Ethereum là một hệ thống phi tập trung.
 
@@ -51,7 +51,7 @@ Chữ ký chỉ xác minh địa chỉ Ethereum. Để có được các thuộc
 
 Do bản chất phi tập trung của Ethereum, bất kỳ người dùng nào cũng có thể thực hiện sự chứng thực. Danh tính của người chứng thực rất quan trọng để xác định sự chứng thực nào chúng ta coi là đáng tin cậy.
 
-## Cài đặt
+## Cài đặt {#setup}
 
 Bước đầu tiên là có một SAML SP và một SAML IdP giao tiếp với nhau.
 
@@ -83,13 +83,13 @@ Bước đầu tiên là có một SAML SP và một SAML IdP giao tiếp với 
 
 5. Cung cấp cho IdP địa chỉ email của bạn và nhấp vào **Đăng nhập vào nhà cung cấp dịch vụ**. Xem rằng bạn được chuyển hướng trở lại nhà cung cấp dịch vụ (cổng 3000) và nó biết bạn qua địa chỉ email của bạn.
 
-### Giải thích chi tiết
+### Giải thích chi tiết {#detailed-explanation}
 
 Đây là những gì xảy ra, từng bước một:
 
 ![Đăng nhập SAML thông thường không có Ethereum](./fig-04-saml-no-eth.png)
 
-#### src/config.mts
+#### src/config.mts {#srcconfigmts}
 
 Tệp này chứa cấu hình cho cả Nhà cung cấp danh tính và Nhà cung cấp dịch vụ. Thông thường hai thực thể này sẽ khác nhau, nhưng ở đây chúng ta có thể chia sẻ mã cho đơn giản.
 
@@ -167,7 +167,7 @@ export const idpPublicData = {
 
 Dữ liệu công khai cho nhà cung cấp danh tính là tương tự. Nó chỉ định rằng để đăng nhập một người dùng, bạn POST đến `http://localhost:3001/idp/login` và để đăng xuất một người dùng, bạn POST đến `http://localhost:3001/idp/logout`.
 
-#### src/sp.mts
+#### src/sp.mts {#srcspmts}
 
 Đây là mã triển khai một nhà cung cấp dịch vụ.
 
@@ -342,7 +342,7 @@ app.listen(config.spPort, () => {
 
 Lắng nghe `spPort` với ứng dụng express này.
 
-#### src/idp.mts
+#### src/idp.mts {#srcidpmts}
 
 Đây là nhà cung cấp danh tính. Nó rất tương tự với nhà cung cấp dịch vụ, các giải thích dưới đây dành cho các phần khác nhau.
 
@@ -472,7 +472,7 @@ idpRouter.post(`/login`,
 
 Chúng ta nên có thể sử dụng [`idp.parseLoginRequest`](https://github.com/tngan/samlify/blob/master/src/entity-idp.ts#L127-L144) để đọc ID của yêu cầu xác thực. Tuy nhiên, tôi không thể làm cho nó hoạt động và không đáng để dành nhiều thời gian cho nó nên tôi chỉ sử dụng một [trình phân tích cú pháp XML đa năng](https://www.npmjs.com/package/fast-xml-parser). Thông tin chúng ta cần là thuộc tính `ID` bên trong thẻ `<samlp:AuthnRequest>`, nằm ở cấp cao nhất của XML.
 
-## Sử dụng chữ ký Ethereum
+## Sử dụng chữ ký Ethereum {#using-ethereum-signatures}
 
 Bây giờ chúng ta có thể gửi danh tính người dùng đến nhà cung cấp dịch vụ, bước tiếp theo là lấy danh tính người dùng một cách đáng tin cậy. Viem cho phép chúng ta chỉ cần yêu cầu ví cung cấp địa chỉ người dùng, nhưng điều này có nghĩa là yêu cầu trình duyệt cung cấp thông tin. Chúng ta không kiểm soát trình duyệt, vì vậy chúng ta không thể tự động tin tưởng vào phản hồi mà chúng ta nhận được từ nó.
 
@@ -490,7 +490,7 @@ Sau đó duyệt đến [SP](http://localhost:3000) và làm theo hướng dẫn
 
 Lưu ý rằng tại thời điểm này, chúng tôi không biết cách lấy địa chỉ email từ địa chỉ Ethereum, vì vậy thay vào đó, chúng tôi báo cáo `<địa chỉ ethereum>@bad.email.address` cho SP.
 
-### Giải thích chi tiết
+### Giải thích chi tiết {#detailed-explanation-1}
 
 Những thay đổi nằm ở bước 4-5 trong sơ đồ trước.
 
@@ -700,7 +700,7 @@ idpRouter.post(`/login`,
 
 Thay vì `getLoginPage`, bây giờ sử dụng `getSignaturePage` trong trình xử lý bước 3.
 
-## Lấy địa chỉ email
+## Lấy địa chỉ email {#getting-the-email-address}
 
 Bước tiếp theo là lấy địa chỉ email, mã định danh được yêu cầu bởi nhà cung cấp dịch vụ. Để làm điều đó, chúng tôi sử dụng [Dịch vụ Chứng thực Ethereum (EAS)](https://attest.org/).
 
@@ -756,7 +756,7 @@ Sau đó, cung cấp địa chỉ e-mail của bạn. Bạn có hai cách để 
 
 Dù bằng cách nào, sau khi bạn làm điều này, hãy duyệt đến [http://localhost:3000](http://localhost:3000) và làm theo hướng dẫn. Nếu bạn đã nhập khóa riêng tư thử nghiệm, e-mail bạn nhận được là `test_addr_0@example.com`. Nếu bạn đã sử dụng địa chỉ của riêng mình, nó phải là bất cứ điều gì bạn đã chứng thực.
 
-### Giải thích chi tiết
+### Giải thích chi tiết {#detailed-explanation-2}
 
 ![Lấy từ địa chỉ Ethereum sang e-mail](./fig-06-saml-sig-n-email.png)
 
@@ -873,13 +873,13 @@ Nếu có giá trị, hãy sử dụng `decodeData` để giải mã dữ liệu
 
 Sử dụng hàm mới để lấy địa chỉ e-mail.
 
-## Thế còn tính phi tập trung thì sao?
+## Thế còn tính phi tập trung thì sao? {#what-about-decentralization}
 
 Trong cấu hình này, người dùng không thể giả vờ là người mà họ không phải, miễn là chúng tôi dựa vào những người chứng thực đáng tin cậy cho việc ánh xạ địa chỉ Ethereum sang địa chỉ e-mail. Tuy nhiên, nhà cung cấp danh tính của chúng tôi vẫn là một thành phần tập trung. Bất cứ ai có khóa riêng tư của nhà cung cấp danh tính đều có thể gửi thông tin sai lệch cho nhà cung cấp dịch vụ.
 
 Có thể có một giải pháp sử dụng [tính toán đa bên (MPC)](https://en.wikipedia.org/wiki/Secure_multi-party_computation). Tôi hy vọng sẽ viết về nó trong một hướng dẫn trong tương lai.
 
-## Kết luận
+## Kết luận {#conclusion}
 
 Việc áp dụng một tiêu chuẩn đăng nhập, chẳng hạn như chữ ký Ethereum, phải đối mặt với vấn đề con gà và quả trứng. Các nhà cung cấp dịch vụ muốn thu hút thị trường rộng lớn nhất có thể. Người dùng muốn có thể truy cập các dịch vụ mà không cần phải lo lắng về việc hỗ trợ tiêu chuẩn đăng nhập của họ.
 Việc tạo các bộ điều hợp, chẳng hạn như một IdP Ethereum, có thể giúp chúng ta vượt qua trở ngại này.

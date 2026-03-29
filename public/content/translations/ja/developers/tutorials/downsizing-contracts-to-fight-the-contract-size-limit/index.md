@@ -79,7 +79,7 @@ require(msg.sender == owner, "このコントラクトのオーナーのみが�
 require(msg.sender == owner, "OW1");
 ```
 
-### エラーメッセージの代わりにカスタムエラーを使用する
+### エラーメッセージの代わりにカスタムエラーを使用する {#use-custom-errors-instead-of-error-messages}
 
 カスタムエラーは[Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/)で導入されました。 カスタムエラーは、コントラクトのサイズを削減するための優れた方法です。なぜなら、（関数と同様に）セレクターとしてABIエンコードされるためです。
 

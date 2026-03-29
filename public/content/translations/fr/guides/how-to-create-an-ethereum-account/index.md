@@ -4,13 +4,13 @@ description: "Un guide étape par étape sur la création d'un compte Ethereum �
 lang: fr
 ---
 
-# Comment créer un compte Ethereum
+# Comment créer un compte Ethereum {#how-to-create-an-ethereum-account}
 
 **Tout le monde peut créer un compte Ethereum gratuitement.** Il suffit d'installer une application de portefeuille cryptographique. Les portefeuilles créent et gèrent votre compte Ethereum. Ils permettent d'envoyer des transactions, de vérifier vos soldes et de vous connecter à d'autres applications construites sur Ethereum.
 
 Avec un portefeuille, vous pouvez également vous connecter instantanément à n'importe quel échange de jetons, à des jeux et à des places de marché de [NFT](/glossary/#nft). Il n'est pas nécessaire de s'inscrire individuellement, un seul compte est partagé pour toutes les applications construites sur Ethereum.
 
-## Étape 1 : Choisir un portefeuille
+## Étape 1 : Choisir un portefeuille {#step-1-choose-a-wallet}
 
 Un portefeuille est une application qui vous aide à gérer votre compte Ethereum. Il existe des dizaines de portefeuilles différents : mobiles, de bureau ou même des extensions de navigateur.
 
@@ -24,15 +24,15 @@ Si vous êtes novice, vous pouvez sélectionner le filtre "Débutant dans les cr
 
 Il y a aussi d'autres filtres de profil pour répondre à vos besoins. Il s'agit d'exemples de portefeuilles couramment utilisés - vous devez faire vos propres recherches avant de faire confiance à tout logiciel.
 
-## Étape 2: Téléchargez et installez votre application de portefeuille
+## Étape 2: Téléchargez et installez votre application de portefeuille {#step-2-download-and-install-your-wallet-app}
 
 Une fois que vous avez choisi votre portefeuille , visitez leur site Web officiel ou l'application officielle, téléchargez et installez-le. Ils devraient tous être gratuits.
 
-## Étape 3 : Ouvrez l'application et créez votre compte Ethereum
+## Étape 3 : Ouvrez l'application et créez votre compte Ethereum {#step-3-open-the-app-and-create-your-ethereum-account}
 
 La première fois que vous ouvrez votre nouveau portefeuille, il vous sera demandé de choisir entre créer un nouveau compte ou importer un compte existant. Cliquez sur la création d'un nouveau compte. **Il s'agit de l'étape au cours de laquelle le logiciel du portefeuille génère votre compte Ethereum.**
 
-## Étape 4 : Conservez votre phrase de récupération
+## Étape 4 : Conservez votre phrase de récupération {#step-4-store-your-recovery-phrase}
 
 Certaines applications vous demanderont d'enregistrer une "phrase de récupération" secrète (parfois appelée "phrase d'amorçage" ou "mnémonique"). Il est extrêmement important de sauvegarder cette phrase ! Elle est utilisée pour générer votre compte Ethereum et peut être utilisée pour soumettre des transactions.
 
@@ -52,25 +52,25 @@ Certaines applications vous demanderont d'enregistrer une "phrase de récupérat
 
 Êtes-vous intéressé par d'autres guides ? Consultez nos : [Guides étape par étape](/guides/)
 
-## Questions fréquemment posées
+## Questions fréquemment posées {#frequently-asked-questions}
 
-### Est-ce que mon portefeuille et mon compte Ethereum sont les mêmes ?
+### Est-ce que mon portefeuille et mon compte Ethereum sont les mêmes ? {#are-my-wallet-and-my-ethereum-account-the-same}
 
 Non. Le portefeuille est un outil de gestion qui vous aide à gérer vos comptes. Un simple portefeuille peut accéder à plusieurs comptes, et un simple compte peut être accessible par différents portefeuilles. La phrase de récupération est utilisée pour créer un compte et donne la permission à une application de portefeuille d'accéder aux ressources.
 
-### Puis-je envoyer des bitcoins à une adresse Ethereum, ou des ethers à une adresse Bitcoin ?
+### Puis-je envoyer des bitcoins à une adresse Ethereum, ou des ethers à une adresse Bitcoin ? {#can-i-send-bitcoin-to-an-ethereum-address-or-ether-to-a-bitcoin-address}
 
 Non, vous ne pouvez pas. Bitcoin et Ether existent sur deux réseaux différents (c'est-à-dire des blockchains différentes), chacun ayant ses propres registres et formats d'adresse. Il y a eu plusieurs tentatives pour établir un pont entre les deux réseaux différents, dont la plus active est actuellement le [Wrapped Bitcoin ou WBTC](https://www.bitcoin.com/get-started/what-is-wbtc/). Ceci n'est pas une recommandation, car WBTC est une solution de garde (ce qui signifie qu'un groupe restreint de personnes contrôle certaines fonctions critiques) et est fourni ici à titre informatif uniquement.
 
-### Si je possède une adresse ETH, est-ce que je peux l'utiliser sur d'autres blockchains ?
+### Si je possède une adresse ETH, est-ce que je peux l'utiliser sur d'autres blockchains ? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Vous pouvez utiliser la même [adresse](/glossary/#address) sur toutes les blockchains qui utilisent un logiciel sous-jacent similaire à Ethereum (connues sous le nom de "compatibles EVM"). Cette [liste](https://chainlist.org/) vous montrera quelles blockchains vous pouvez utiliser avec la même adresse. Certaines blockchains, comme Bitcoin, utilisent un ensemble de règles de réseau totalement différentes et vous aurez donc besoin d'une adresse différente fonctionnant sous un autre format. Si vous avez un portefeuille à contrat intelligent, vous devriez consulter son site internet pour vérifier les blockchains prises en charge, car celles-ci ont généralement un champ d'application limité mais plus sûr.
 
-### Est-il plus sûr de garder mes fonds sur mon portefeuille plutôt que sur un échange ?
+### Est-il plus sûr de garder mes fonds sur mon portefeuille plutôt que sur un échange ? {#is-having-my-own-wallet-safer-than-keeping-my-funds-on-an-exchange}
 
 Posséder son propre portefeuille signifie que l'on assume la responsabilité de la sécurité de ses biens. Il existe malheureusement de nombreux exemples d'échanges qui ont échoué et qui ont fait perdre de l'argent à leurs clients. La possession d'un portefeuille (avec une phrase de récupération) élimine le risque associé au fait de confier vos actifs à une entité quelconque. Cependant, vous devez le sécuriser vous-même et éviter les escroqueries par hameçonnage, l'approbation accidentelle de transactions ou l'exposition d'une phrase de récupération, l'interaction avec de faux sites web et d'autres risques liés à l'autogestion. Les risques et les avantages sont différents.
 
-### Si je perds mon portefeuille téléphone/matériel, dois-je utiliser à nouveau la même application de portefeuille pour récupérer les fonds perdus ?
+### Si je perds mon portefeuille téléphone/matériel, dois-je utiliser à nouveau la même application de portefeuille pour récupérer les fonds perdus ? {#if-i-lose-my-phonehardware-wallet-do-i-need-to-use-the-same-wallet-app-again-to-recover-the-lost-funds}
 
 Non, vous pouvez utiliser un autre portefeuille. Tant que vous possédez la phrase de récupération, vous pouvez la saisir dans la plupart des portefeuilles et cette action restaurera votre compte.
 Par contre, soyez prudent si vous avez besoin d'agir en ce sens : il est préférable de s'assurer que vous n'êtes pas connecté à Internet lorsque vous récupérez votre portefeuille, afin que votre phrase de récupération ne soit pas divulguée accidentellement. Il est souvent impossible de récupérer des fonds perdus sans la phrase de récupération.

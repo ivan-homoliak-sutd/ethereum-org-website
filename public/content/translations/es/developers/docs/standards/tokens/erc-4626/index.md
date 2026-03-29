@@ -190,7 +190,7 @@ Devuelve la cantidad total de shares de la bóveda que el `owner` tiene actualme
 
 ### Eventos {#events}
 
-#### Evento de depósito
+#### Evento de depósito {#deposit-event}
 
 **DEBE** emitirse cuando se depositan tokens en la bóveda a través de los métodos [`mint`](#mint) y [`deposit`](#deposit).
 
@@ -205,7 +205,7 @@ event Deposit(
 
 Donde `sender` es el usuario que intercambió `assets` por `shares`, y transfirió esos `shares` al `owner`.
 
-#### Evento de retiro
+#### Evento de retiro {#withdraw-event}
 
 **DEBE** emitirse cuando un depositante retira shares de la bóveda en los métodos [`redeem`](#redeem) o [`withdraw`](#withdraw).
 

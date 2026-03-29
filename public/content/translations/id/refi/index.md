@@ -73,7 +73,7 @@ Meskipun saat ini ada penekanan kuat pada pasar karbon secara umum dan transisi 
 
 Dengan mengalihkan arah modal dari praktik ekstraktif menuju aliran regeneratif, proyek dan perusahaan yang memberikan manfaat sosial, lingkungan, atau komunal—dan yang mungkin gagal mendapatkan pendanaan dalam keuangan tradisional—dapat dimulai dan menghasilkan eksternalitas positif bagi masyarakat dengan jauh lebih cepat dan mudah. Transisi ke model pendanaan ini juga membuka pintu ke sistem ekonomi yang jauh lebih inklusif, di mana orang-orang dari semua demografi dapat menjadi peserta aktif alih-alih hanya pengamat pasif. ReFi menawarkan visi Ethereum sebagai mekanisme untuk mengoordinasikan tindakan pada tantangan eksistensial yang dihadapi spesies kita dan semua kehidupan di planet kita—sebagai lapisan dasar dari paradigma ekonomi baru, memungkinkan masa depan yang lebih inklusif dan berkelanjutan selama berabad-abad yang akan datang.
 
-## Bacaan lebih lanjut tentang ReFi
+## Bacaan lebih lanjut tentang ReFi {#additional-reading-on-refi}
 
 - [Gambaran umum tingkat tinggi tentang mata uang karbon dan tempatnya dalam ekonomi](https://www.klimadao.finance/resources/the-vision-of-a-carbon-currency)
 - [The Ministry for the Future, sebuah novel yang menggambarkan peran mata uang yang didukung karbon dalam memerangi perubahan iklim](https://en.wikipedia.org/wiki/The_Ministry_for_the_Future)

@@ -19,7 +19,7 @@ Standard [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) umožňuje chytrým
 
 V tomto tutoriálu poskytneme přehled digitálních podpisů, pozadí EIP-1271 a specifické implementace EIP-1271 používané službou [Safe](https://safe.global/) (dříve Gnosis Safe). Celkově to může sloužit jako výchozí bod pro implementaci EIP-1271 ve vašich vlastních kontraktech.
 
-## Co je to podpis?
+## Co je to podpis? {#what-is-a-signature}
 
 V tomto kontextu je podpis (přesněji „digitální podpis“) zpráva plus nějaký druh důkazu, že zpráva pochází od konkrétní osoby/odesílatele/adresy.
 
@@ -35,7 +35,7 @@ Proč? Pokud byste mi například dali k podpisu smlouvu a já bych odtrhl strá
 
 Stejně tak digitální podpis bez přidružené zprávy nic neznamená!
 
-## Proč existuje EIP-1271?
+## Proč existuje EIP-1271? {#why-does-eip-1271-exist}
 
 Abyste mohli vytvořit digitální podpis pro použití na blockchainechech založených na Ethereu, obecně potřebujete tajný privátní klíč, který nikdo jiný nezná. Díky tomu je váš podpis skutečně váš (nikdo jiný nemůže vytvořit stejný podpis bez znalosti tajného klíče).
 
@@ -49,7 +49,7 @@ Zatímco účty EOA mají privátní klíč, účty chytrých kontraktů nemají
 
 Problém, který se EIP-1271 snaží vyřešit: jak můžeme poznat, že podpis chytrého kontraktu je platný, pokud chytrý kontrakt nemá žádné „tajemství“, které by mohl do podpisu začlenit?
 
-## Jak EIP-1271 funguje?
+## Jak EIP-1271 funguje? {#how-does-eip-1271-work}
 
 Chytré kontrakty nemají privátní klíče, které by se daly použít k podepisování zpráv. Jak tedy poznáme, zda je podpis autentický?
 
@@ -61,7 +61,7 @@ Kontrakt, který implementuje EIP-1271, musí mít funkci s názvem `isValidSign
 
 Pokud `isValidSignature` vrátí platný výsledek, je to v podstatě jako by kontrakt říkal „ano, schvaluji tento podpis + zprávu!“
 
-### Rozhraní
+### Rozhraní {#interface}
 
 Zde je přesné rozhraní ve specifikaci EIP-1271 (o parametru `_hash` budeme mluvit níže, ale prozatím si ho představte jako zprávu, která je ověřována):
 
@@ -91,7 +91,7 @@ contract ERC1271 {
 }
 ```
 
-## Příklad implementace EIP-1271: Safe
+## Příklad implementace EIP-1271: Safe {#example-eip-1271-implementation-safe}
 
 Kontrakty mohou implementovat `isValidSignature` mnoha způsoby — specifikace neříká mnoho o přesné implementaci.
 
@@ -106,17 +106,17 @@ V kódu Safe je `isValidSignature` [implementována](https://github.com/safe-glo
    1. Vytvoření: vlastník Safe vytvoří zprávu mimo blockchain, poté nechá ostatní vlastníky Safe podepsat zprávu jednotlivě, dokud nebude dostatek podpisů k překonání prahu schválení multisig.
    2. Ověření: zavolejte `isValidSignature`. Do parametru zprávy předejte zprávu k ověření. Do parametru podpisu předejte jednotlivé podpisy všech vlastníků Safe, všechny spojené za sebou. Safe zkontroluje, že je dostatek podpisů pro splnění prahu **a** že každý podpis je platný. Pokud ano, vrátí hodnotu označující úspěšné ověření podpisu.
 
-## Co přesně je parametr `_hash`? Proč nepředat celou zprávu?
+## Co přesně je parametr `_hash`? Proč nepředat celou zprávu? {#what-exactly-is-the-hash-parameter-why-not-pass-the-whole-message}
 
 Možná jste si všimli, že funkce `isValidSignature` v [rozhraní EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) nepřijímá samotnou zprávu, ale místo toho parametr `_hash`. To znamená, že místo předání celé zprávy libovolné délky do `isValidSignature` předáme 32bajtový haš zprávy (obvykle keccak256).
 
 Každý bajt calldata — tj. data parametrů funkce předaná funkci chytrého kontraktu — [stojí 16 jednotek paliva (4 jednotky paliva, pokud je to nulový bajt)](https://eips.ethereum.org/EIPS/eip-2028), takže to může ušetřit spoustu paliva, pokud je zpráva dlouhá.
 
-### Předchozí specifikace EIP-1271
+### Předchozí specifikace EIP-1271 {#previous-eip-1271-specifications}
 
 Existují specifikace EIP-1271, které mají funkci `isValidSignature` s prvním parametrem typu `bytes` (libovolná délka, místo pevné délky `bytes32`) a názvem parametru `message`. Toto je [starší verze](https://github.com/safe-global/safe-contracts/issues/391#issuecomment-1075427206) standardu EIP-1271.
 
-## Jak by měl být EIP-1271 implementován v mých vlastních kontraktech?
+## Jak by měl být EIP-1271 implementován v mých vlastních kontraktech? {#how-should-eip-1271-be-implemented-in-my-own-contracts}
 
 Specifikace je v tomto ohledu velmi otevřená. Implementace Safe má několik dobrých nápadů:
 
@@ -125,6 +125,6 @@ Specifikace je v tomto ohledu velmi otevřená. Implementace Safe má několik d
 
 Nakonec je to na vás jako na vývojáři kontraktu!
 
-## Závěr
+## Závěr {#conclusion}
 
 [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) je všestranný standard, který umožňuje chytrým kontraktům ověřovat podpisy. Otevírá dveře pro chytré kontrakty, aby se chovaly více jako EOA – například poskytuje způsob, jak "Přihlásit se pomocí Etherea" funguje s chytrými kontrakty – a může být implementován mnoha způsoby (Safe má netriviální, zajímavou implementaci k zvážení).

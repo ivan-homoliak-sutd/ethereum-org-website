@@ -105,7 +105,7 @@ Dappにブリッジやブリッジアグリゲーターを組み込む場合、�
 
 複数のチェーンにdappをデプロイするために、開発者は[Alchemy](https://www.alchemy.com/)、[Hardhat](https://hardhat.org/)、[Moralis](https://moralis.io/)などの開発プラットフォームを利用できます。 一般にこれらのプラットフォームには、Dappのクロスチェーン化を実現するコンポーザブルなプラグインが含まれています。 例えば、開発者は[hardhat-deployプラグイン](https://github.com/wighawag/hardhat-deploy)によって提供される決定論的デプロイメントプロキシを使用できます。
 
-#### 例：
+#### 例： {#examples}
 
 - [クロスチェーンdappsの構築方法](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [クロスチェーンNFTマーケットプレイスの構築](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ Dappにブリッジやブリッジアグリゲーターを組み込む場合、�
 
 コントラクトにおけるチェーン間のやりとりを監視するには、サブグラフや、Tenderly等の開発プラットフォームを用いて、スマートコントラクトの状態をリアルタイムで観察することができます。 このようなプラットフォームには、[コントラクトによって発行されたイベント](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events)のチェックなど、クロスチェーンアクティビティのためのより高度なデータ監視機能を提供するツールも含まれています。
 
-#### ツール
+#### ツール {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

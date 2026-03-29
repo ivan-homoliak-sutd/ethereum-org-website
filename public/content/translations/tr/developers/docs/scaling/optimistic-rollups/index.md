@@ -253,7 +253,7 @@ Görerek öğrenmeyi mi tercih ediyorsunuz? Finematics'in iyimser toplamalar hak
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## İyimser toplamalara dair daha fazlası
+## İyimser toplamalara dair daha fazlası {#further-reading-on-optimistic-rollups}
 
 - [İyimser toplamalar nasıl çalışır (Kapsamlı rehber)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [Blokzincir Toplaması nedir? Teknik Bir Giriş](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

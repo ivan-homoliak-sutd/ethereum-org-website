@@ -253,7 +253,7 @@ ii. Разработчики и проектные команды, исполь�
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## Дополнительные материалы об оптимистических ролл-апах
+## Дополнительные материалы об оптимистических ролл-апах {#further-reading-on-optimistic-rollups}
 
 - [Как работают оптимистические ролл-апы (полное руководство)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [Что такое ролл-ап в блокчейне? Техническое введение](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

@@ -23,7 +23,7 @@ Chacun est libre de proposer un projet à inscrire sur la page DeSci d'ethereum.
 - **Le projet devrait faire partie de l'écosystème Ethereum** - Sur ethereum.org, nous pensons qu'Ethereum (et ses couches 2) est la couche de base appropriée pour le mouvement DeSci.
 - **Le projet est assez bien établi** - Le projet a des utilisateurs réels qui ont pu accéder aux services du projet durant plusieurs mois.
 
-### Préférable, mais pas obligatoire
+### Préférable, mais pas obligatoire {#nice-to-haves}
 
 - **Disponible en plusieurs langues** - Votre projet est traduit en plusieurs langues, ce qui permet aux utilisateurs du monde entier d'y accéder.
 - **Ressources éducatives** - Votre produit doit avoir une expérience d'accueil bien conçue afin d'aider et d'éduquer les utilisateurs. Autrement, il doit justifier de son contenu pratique comme des articles ou des vidéos d'aide.

@@ -190,7 +190,7 @@ function balanceOf(address owner) public view returns (uint256)
 
 ### घटनाएँ {#events}
 
-#### जमा इवेंट
+#### जमा इवेंट {#deposit-event}
 
 जब टोकन [`mint`](#mint) और [`deposit`](#deposit) तरीकों के माध्यम से वॉल्ट में जमा किए जाते हैं तो **अवश्य** उत्सर्जित होना चाहिए।
 
@@ -205,7 +205,7 @@ event Deposit(
 
 जहाँ `sender` वह उपयोगकर्ता है जिसने `assets` के बदले `shares` का आदान-प्रदान किया, और उन `shares` को `owner` को हस्तांतरित किया।
 
-#### निकासी इवेंट
+#### निकासी इवेंट {#withdraw-event}
 
 जब एक जमाकर्ता द्वारा [`redeem`](#redeem) या [`withdraw`](#withdraw) विधियों में वॉल्ट से शेयर निकाले जाते हैं तो **अवश्य** उत्सर्जित होना चाहिए।
 

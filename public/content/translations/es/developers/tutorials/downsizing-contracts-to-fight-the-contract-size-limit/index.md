@@ -79,7 +79,7 @@ require(msg.sender == owner, "Solo el propietario de este contrato puede llamar 
 require(msg.sender == owner, "OW1");
 ```
 
-### Usa errores personalizados en lugar de mensajes de error
+### Usa errores personalizados en lugar de mensajes de error {#use-custom-errors-instead-of-error-messages}
 
 Los errores personalizados se introdujeron en [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/). Son una forma excelente de reducir el tamaño de tus contratos, porque se codifican en la ABI como selectores (igual que las funciones).
 

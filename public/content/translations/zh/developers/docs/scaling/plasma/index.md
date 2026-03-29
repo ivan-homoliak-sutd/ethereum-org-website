@@ -14,13 +14,13 @@ Plasma 链是一个锚定到以太坊主网的独立区块链，但却在链下�
 
 你应该对所有基础主题有很好的了解，并对[以太坊扩容](/developers/docs/scaling/)有较高层次的理解。
 
-## 什么是 Plasma？
+## 什么是 Plasma？ {#what-is-plasma}
 
 Plasma 是一个用于改善以太坊这类公共区块链的可扩展性的框架。 正如最初的 [Plasma 白皮书](http://plasma.io/plasma.pdf) 所述，Plasma 链构建于另一个区块链（称为“根链”）之上。 每个“子链”都从根链延伸而来，通常由部署在母链上的智能合约进行管理。
 
 Plasma 合约的功能之一是作为[链桥](/developers/docs/bridges/)，允许用户在以太坊主网和 Plasma 链之间转移资产。 虽然这使它们类似于[侧链](/developers/docs/scaling/sidechains/)，但 Plasma 链至少在某种程度上受益于以太坊主网的安全性。 这一点不同于单独负责其安全性的侧链。
 
-## Plasma 如何工作？
+## Plasma 如何工作？ {#how-does-plasma-work}
 
 Plasma 框架的基本组成部分包括：
 

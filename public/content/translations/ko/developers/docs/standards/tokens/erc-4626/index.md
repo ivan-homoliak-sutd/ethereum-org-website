@@ -190,7 +190,7 @@ function balanceOf(address owner) public view returns (uint256)
 
 ### 이벤트 {#events}
 
-#### 예치 이벤트
+#### 예치 이벤트 {#deposit-event}
 
 [`mint`](#mint) 및 [`deposit`](#deposit) 메서드를 통해 토큰이 볼트에 예치될 때 **반드시** 방출되어야 합니다.
 
@@ -205,7 +205,7 @@ event Deposit(
 
 여기서 `sender`는 `assets`를 `shares`로 교환하고 해당 `shares`를 `owner`에게 전송한 사용자입니다.
 
-#### 인출 이벤트
+#### 인출 이벤트 {#withdraw-event}
 
 [`redeem`](#redeem) 또는 [`withdraw`](#withdraw) 메서드에서 예금자가 볼트에서 지분을 인출할 때 **반드시** 방출되어야 합니다.
 

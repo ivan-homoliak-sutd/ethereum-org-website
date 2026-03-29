@@ -465,7 +465,7 @@ Model emisji będzie następujący:
 | Rezerwa wykorzystana po sprzedaży | 8,26%             | 6,79%     | 3,96%       |
 | Górnicy                           | 0%                | 17,8%     | 52,0%       |
 
-#### Długoterminowa stopa wzrostu podaży (w procentach)
+#### Długoterminowa stopa wzrostu podaży (w procentach) {#long-term-supply-growth-rate-percent}
 
 ![Inflacja Ethereum](./ethereum-inflation.png)
 

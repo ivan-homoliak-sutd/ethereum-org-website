@@ -10,7 +10,7 @@ Usanifu ni sehemu muhimu ya mradi wowote, na kwa kutumia muda wako na ujuzi wako
 
 Mwishowe, hii ni njia nzuri ya kujenga jalada mbalimbali na la kuvutia ambalo linaonyesha ujuzi wako wa usanifu.
 
-## Jinsi ya kuchangia?
+## Jinsi ya kuchangia? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;Toa maoni kuhusu mifano ya usanifu ya awali {#design-critique}
 

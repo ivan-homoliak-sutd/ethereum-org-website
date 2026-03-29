@@ -142,7 +142,7 @@ Přesnějším oceňováním akcí vyžadujících přístup ke stavu může bý
 
 **Zdroje**: [Technická specifikace EIP-8038](https://eips.ethereum.org/EIPS/eip-8038)
 
-## Odolnost sítě 
+## Odolnost sítě {#network-resilience}
 
 Vylepšení povinností validátor a výstupních procesů zajišťují stabilitu síť během hromadných penalizací a demokratizují likviditu. Tato vylepšení zvyšují stabilitu síť a zajišťují, že se se všemi účastníky, velkými i malými, zachází spravedlivě.
 

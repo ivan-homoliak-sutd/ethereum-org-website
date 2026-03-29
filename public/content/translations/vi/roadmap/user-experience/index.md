@@ -17,7 +17,7 @@ Giải pháp cho vấn đề này là sử dụng các ví [hợp đồng thông
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">Thêm thông tin về trừu tượng hóa tài khoản</ButtonLink>
 
-## Nút cho tất cả mọi người
+## Nút cho tất cả mọi người {#nodes-for-everyone}
 
 Người dùng chạy [nút](/glossary/#node) không phải tin tưởng các bên thứ ba cung cấp dữ liệu cho họ và họ có thể tương tác nhanh chóng, riêng tư và không cần cấp phép với [chuỗi khối](/glossary/#blockchain) Ethereum. Tuy nhiên, chạy một nút hiện nay cần khá nhiều kiến thức kỹ thuật và không gian lưu trữ lớn, nên nhiều người phải dựa vào bên trung gian thay vì tự làm.
 

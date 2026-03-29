@@ -79,7 +79,7 @@ Chaguo zifuatazo zinawezekana kwa kigezo cha kizuizi:
 - `String "finalized"` - kwa kizuizi cha hivi karibuni kilichokamilishwa
 - `String "pending"` - kwa hali/miamala inayosubiri
 
-## Mifano
+## Mifano {#examples}
 
 Katika ukurasa huu tunatoa mifano ya jinsi ya kutumia ncha za mwisho za API za JSON_RPC kwa kutumia zana ya mstari wa amri, [curl](https://curl.se). Mifano hii ya ncha za mwisho za kibinafsi inapatikana hapa chini katika sehemu ya [Mifano ya Curl](#curl-examples). Zaidi chini ya ukurasa, tunatoa pia [mfano wa mwanzo hadi mwisho](#usage-example) wa kuandaa na kupeleka mkataba-erevu kwa kutumia nodi ya Geth, API ya JSON_RPC na curl.
 
@@ -133,7 +133,7 @@ Mbinu chache za msingi za JSON-RPC zinahitaji data kutoka kwa mtandao wa Ethereu
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## Uwanja wa Michezo wa API ya JSON-RPC
+## Uwanja wa Michezo wa API ya JSON-RPC {#json-rpc-api-playground}
 
 Unaweza kutumia [zana ya uwanja wa michezo](https://ethereum-json-rpc.com) kugundua na kujaribu mbinu za API. Pia inakuonyesha ni mbinu na mitandao gani inasaidiwa na watoa huduma mbalimbali wa nodi.
 

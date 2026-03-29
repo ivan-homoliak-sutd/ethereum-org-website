@@ -190,7 +190,7 @@ function balanceOf(address owner) public view returns (uint256)
 
 ### イベント {#events}
 
-#### 入金イベント
+#### 入金イベント {#deposit-event}
 
 [`mint`](#mint)および[`deposit`](#deposit)メソッドを介してトークンがボールトに預け入れられる際に、**MUST**発行されなければなりません。
 
@@ -205,7 +205,7 @@ event Deposit(
 
 ここで`sender`は`assets`を`shares`に交換し、それらの`shares`を`owner`に転送したユーザーです。
 
-#### 出金イベント
+#### 出金イベント {#withdraw-event}
 
 預金者が[`redeem`](#redeem)または[`withdraw`](#withdraw)メソッドでボールトからシェアを引き出す際に、**MUST**発行されなければなりません。
 

@@ -13,7 +13,7 @@ Tiêu chuẩn [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) cho phép các
 
 Trong bài hướng dẫn này, chúng tôi cung cấp một cái nhìn tổng quan về chữ ký số, nền tảng của EIP-1271, và cách triển khai cụ thể của EIP-1271 được sử dụng bởi [Safe](https://safe.global/) (trước đây là Gnosis Safe). Tất cả những điều này có thể đóng vai trò là điểm khởi đầu để bạn triển khai EIP-1271 trong các hợp đồng của riêng mình.
 
-## Chữ ký là gì?
+## Chữ ký là gì? {#what-is-a-signature}
 
 Trong bối cảnh này, một chữ ký (chính xác hơn là “chữ ký số”) là một thông điệp cộng với một loại bằng chứng nào đó cho thấy thông điệp đến từ một người/người gửi/địa chỉ cụ thể.
 
@@ -29,7 +29,7 @@ Tại sao? Ví dụ: nếu bạn đưa cho tôi một hợp đồng để ký, v
 
 Tương tự như vậy, một chữ ký số sẽ không có ý nghĩa gì nếu không có thông điệp đi kèm!
 
-## Tại sao EIP-1271 lại tồn tại?
+## Tại sao EIP-1271 lại tồn tại? {#why-does-eip-1271-exist}
 
 Để tạo chữ ký số để sử dụng trên các blockchain dựa trên Ethereum, bạn thường cần một khóa riêng tư bí mật mà không ai khác biết. Đây là điều làm cho chữ ký của bạn là của bạn (không ai khác có thể tạo ra chữ ký tương tự nếu không biết khóa bí mật).
 
@@ -43,7 +43,7 @@ Mặc dù các tài khoản EOA có khóa riêng tư, các tài khoản hợp đ
 
 Vấn đề mà EIP-1271 nhằm giải quyết là: làm cách nào chúng ta có thể biết được chữ ký của hợp đồng thông minh là hợp lệ nếu hợp đồng thông minh không có “bí mật” nào để có thể đưa vào chữ ký?
 
-## EIP-1271 hoạt động như thế nào?
+## EIP-1271 hoạt động như thế nào? {#how-does-eip-1271-work}
 
 Các hợp đồng thông minh không có khóa riêng tư có thể được sử dụng để ký các thông điệp. Vậy làm thế nào chúng ta có thể biết được một chữ ký có xác thực hay không?
 
@@ -55,7 +55,7 @@ Một hợp đồng triển khai EIP-1271 phải có một hàm có tên là `is
 
 Nếu `isValidSignature` trả về một kết quả hợp lệ, điều đó gần như có nghĩa là hợp đồng đang nói “vâng, tôi chấp thuận chữ ký + thông điệp này!”
 
-### Giao diện
+### Giao diện {#interface}
 
 Đây là giao diện chính xác trong đặc tả EIP-1271 (chúng ta sẽ nói về tham số `_hash` bên dưới, nhưng hiện tại, hãy coi nó là thông điệp đang được xác minh):
 
@@ -85,7 +85,7 @@ contract ERC1271 {
 }
 ```
 
-## Ví dụ triển khai EIP-1271: Safe
+## Ví dụ triển khai EIP-1271: Safe {#example-eip-1271-implementation-safe}
 
 Các hợp đồng có thể triển khai `isValidSignature` theo nhiều cách — đặc tả không nói nhiều về cách triển khai chính xác.
 
@@ -100,17 +100,17 @@ Trong mã của Safe, `isValidSignature` [được triển khai](https://github.
    1. Tạo: một chủ sở hữu Safe tạo một thông điệp ngoài chuỗi, sau đó yêu cầu các chủ sở hữu Safe khác ký riêng lẻ vào thông điệp cho đến khi có đủ chữ ký để vượt qua ngưỡng phê duyệt đa chữ ký (multisig).
    2. Xác minh: gọi `isValidSignature`. Trong tham số thông điệp, hãy chuyển vào thông điệp cần được xác minh. Trong tham số chữ ký, hãy chuyển vào chữ ký riêng lẻ của mỗi chủ sở hữu Safe được nối lại với nhau, liên tiếp. Safe sẽ kiểm tra xem có đủ chữ ký để đáp ứng ngưỡng **và** mỗi chữ ký đều hợp lệ. Nếu vậy, nó sẽ trả về một giá trị cho biết xác minh chữ ký thành công.
 
-## Tham số `_hash` chính xác là gì? Tại sao không chuyển toàn bộ thông điệp?
+## Tham số `_hash` chính xác là gì? Tại sao không chuyển toàn bộ thông điệp? {#what-exactly-is-the-hash-parameter-why-not-pass-the-whole-message}
 
 Bạn có thể đã nhận thấy rằng hàm `isValidSignature` trong [giao diện EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) không nhận vào chính thông điệp đó, mà thay vào đó là một tham số `_hash`. Điều này có nghĩa là thay vì chuyển toàn bộ thông điệp có độ dài tùy ý cho `isValidSignature`, chúng ta thay vào đó chuyển một giá trị băm 32 byte của thông điệp (thường là keccak256).
 
 Mỗi byte calldata — tức là, dữ liệu tham số hàm được chuyển đến một hàm hợp đồng thông minh — [tốn 16 gas (4 gas nếu là byte không)](https://eips.ethereum.org/EIPS/eip-2028), vì vậy điều này có thể tiết kiệm rất nhiều gas nếu một thông điệp dài.
 
-### Các Đặc tả EIP-1271 trước đây
+### Các Đặc tả EIP-1271 trước đây {#previous-eip-1271-specifications}
 
 Có những đặc tả EIP-1271 ngoài thực tế có hàm `isValidSignature` với tham số đầu tiên thuộc loại `bytes` (độ dài tùy ý, thay vì `bytes32` có độ dài cố định) và tên tham số `message`. Đây là một [phiên bản cũ hơn](https://github.com/safe-global/safe-contracts/issues/391#issuecomment-1075427206) của tiêu chuẩn EIP-1271.
 
-## EIP-1271 nên được triển khai trong các hợp đồng của riêng tôi như thế nào?
+## EIP-1271 nên được triển khai trong các hợp đồng của riêng tôi như thế nào? {#how-should-eip-1271-be-implemented-in-my-own-contracts}
 
 Đặc tả ở đây rất mở. Việc triển khai Safe có một số ý tưởng hay:
 
@@ -119,6 +119,6 @@ Có những đặc tả EIP-1271 ngoài thực tế có hàm `isValidSignature` 
 
 Cuối cùng, điều đó tùy thuộc vào bạn với tư cách là nhà phát triển hợp đồng!
 
-## Kết luận
+## Kết luận {#conclusion}
 
 [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) là một tiêu chuẩn linh hoạt cho phép các hợp đồng thông minh xác minh chữ ký. Nó mở ra cánh cửa cho các hợp đồng thông minh hoạt động giống EOA hơn — ví dụ như cung cấp một cách để "Đăng nhập bằng Ethereum" hoạt động với các hợp đồng thông minh — và nó có thể được triển khai theo nhiều cách (Safe có một cách triển khai không hề đơn giản và thú vị đáng để cân nhắc).

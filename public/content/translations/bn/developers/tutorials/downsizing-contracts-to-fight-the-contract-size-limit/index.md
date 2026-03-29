@@ -79,7 +79,7 @@ require(msg.sender == owner, "Only the owner of this contract can call this func
 require(msg.sender == owner, "OW1");
 ```
 
-### এরর মেসেজের পরিবর্তে কাস্টম এরর ব্যবহার করুন
+### এরর মেসেজের পরিবর্তে কাস্টম এরর ব্যবহার করুন {#use-custom-errors-instead-of-error-messages}
 
 [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/)-এ কাস্টম এরর চালু করা হয়েছে। এগুলো আপনার কন্ট্রাক্টের সাইজ কমানোর একটি দুর্দান্ত উপায়, কারণ এগুলো সিলেক্টর হিসেবে ABI-এনকোড করা থাকে (ঠিক যেমন ফাংশনগুলো থাকে)।
 

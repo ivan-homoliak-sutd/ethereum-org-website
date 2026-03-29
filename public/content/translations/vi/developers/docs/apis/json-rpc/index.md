@@ -79,7 +79,7 @@ Các tùy chọn sau đây có thể có cho thông số khối:
 - `Chuỗi "finalized"` - cho khối đã hoàn tất mới nhất
 - `Chuỗi "pending"` - cho trạng thái/giao dịch đang chờ xử lý
 
-## Ví dụ
+## Ví dụ {#examples}
 
 Trên trang này, chúng tôi cung cấp các ví dụ về cách sử dụng các điểm cuối API JSON_RPC riêng lẻ bằng công cụ dòng lệnh, [curl](https://curl.se). Các ví dụ điểm cuối riêng lẻ này được tìm thấy bên dưới trong phần [Ví dụ về Curl](#curl-examples). Ở phần sau của trang, chúng tôi cũng cung cấp một [ví dụ từ đầu đến cuối](#usage-example) để biên dịch và triển khai một hợp đồng thông minh bằng cách sử dụng một nút Geth, Giao diện Lập trình Ứng dụng JSON_RPC và curl.
 
@@ -133,7 +133,7 @@ Một số phương pháp JSON-RPC cốt lõi yêu cầu dữ liệu từ mạng
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## Sân chơi API JSON-RPC
+## Sân chơi API JSON-RPC {#json-rpc-api-playground}
 
 Bạn có thể sử dụng [công cụ sân chơi](https://ethereum-json-rpc.com) để khám phá và dùng thử các phương thức Giao diện Lập trình Ứng dụng. Nó cũng cho bạn thấy những phương pháp và mạng nào được hỗ trợ bởi các nhà cung cấp nút khác nhau.
 

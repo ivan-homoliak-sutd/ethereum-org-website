@@ -253,7 +253,7 @@ ii. 使用樂觀卷軸的開發者和專案團隊可以利用以太坊的基礎�
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## 有關樂觀卷軸的延伸閲讀
+## 有關樂觀卷軸的延伸閲讀 {#further-reading-on-optimistic-rollups}
 
 - [樂觀卷軸如何運作 (完整指南)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [什麼是區塊鏈卷軸？ 技術簡介](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

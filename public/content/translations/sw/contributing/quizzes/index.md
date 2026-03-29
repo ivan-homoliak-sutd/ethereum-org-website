@@ -17,7 +17,7 @@ Baadhi ya mifano ya maswali ya sasa inaweza kupatikana hapa:
 - [Ethereum ni nini?](/what-is-ethereum/)
 - [ETH ni nini?](/what-is-ether/)
 
-## Kuongeza kujifunza jaribio
+## Kuongeza kujifunza jaribio {#adding-a-learn-quiz}
 
 Kama kuna ukurasa ambao haujatengenezewa maswali ya kujifunza, tafadhali [fungua suala](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) kwa ajili yake.
 
@@ -30,7 +30,7 @@ Tafadhali toa taarifa kufuatia:
   - 1 jibu sahihi na maelezo ya kwa nini ni sahihi
   - Majibu 3 yasiyo sahihi, kila moja ikiwa na ufafanuzi wa kwa nini si sahihi
 
-## Kuongeza swali la jaribio
+## Kuongeza swali la jaribio {#adding-a-quiz-question}
 
 Kama kuna swali ambalo ungependa kuliongeza kwenye benki ya maswali kwa ajili ya jaribio, tafadhali [fungua suala](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) na utoe taarifa zifuatazo:
 
@@ -41,7 +41,7 @@ Kama kuna swali ambalo ungependa kuliongeza kwenye benki ya maswali kwa ajili ya
   - 1 jibu sahihi na maelezo ya kwa nini ni sahihi
   - Majibu 3 yasiyo sahihi, kila moja ikiwa na ufafanuzi wa kwa nini si sahihi
 
-## Tengeneza swali jaribio
+## Tengeneza swali jaribio {#updating-a-quiz-question}
 
 Kama kuna swali ambalo ungependa kulisasisha katika benki ya maswali kwa ajili ya jaribio, tafadhali [fungua suala](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) na utoe taarifa zifuatazo:
 
@@ -53,7 +53,7 @@ Kama kuna swali ambalo ungependa kulisasisha katika benki ya maswali kwa ajili y
   - 1 jibu sahihi na maelezo ya kwa nini ni sahihi
   - Majibu 3 yasiyo sahihi, kila moja ikiwa na ufafanuzi wa kwa nini si sahihi
 
-## Kuondoa swali jaribio
+## Kuondoa swali jaribio {#removing-a-quiz-question}
 
 Kama maudhui hayapo tena kwenye ukurasa kwa ajili ya swali na linahitaji kuondolewa, tafadhali [fungua suala](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) ili kuondoa swali na utoe taarifa zifuatazo:
 

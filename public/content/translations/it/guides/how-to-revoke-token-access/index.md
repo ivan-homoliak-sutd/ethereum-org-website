@@ -4,7 +4,7 @@ description: Una guida pratica su come revocare l'accesso ai token da parte di c
 lang: it
 ---
 
-# Come revocare l'accesso dei contratti intelligenti ai tuoi fondi in criptovaluta
+# Come revocare l'accesso dei contratti intelligenti ai tuoi fondi in criptovaluta {#how-to-revoke-smart-contract-access-to-your-crypto-funds}
 
 Questa guida ti insegnerà come visualizzare un elenco di tutti i [contratti intelligenti](/glossary/#smart-contract) a cui hai consentito l'accesso ai tuoi fondi e come annullarlo.
 
@@ -14,7 +14,7 @@ Una volta che una piattaforma ha diritti di accesso illimitati a un token sul tu
 
 Le uniche protezioni consistono nell'astenersi dall'utilizzare nuovi progetti non testati, approvare solo ciò di cui si ha bisogno o revocare regolarmente l'accesso. Quindi, come si fa?
 
-## Passaggio 1: Usa gli strumenti di revoca dell'accesso
+## Passaggio 1: Usa gli strumenti di revoca dell'accesso {#step-1-use-revoke-access-tools}
 
 Diversi siti web ti consentono di visualizzare e revocare i contratti intelligenti connessi al tuo indirizzo. Visita il sito web e connetti il tuo portafoglio:
 
@@ -24,19 +24,19 @@ Diversi siti web ti consentono di visualizzare e revocare i contratti intelligen
 - [Unrekt](https://app.unrekt.net/) (reti multiple)
 - [EverRevoke](https://everrise.com/everrevoke/) (reti multiple)
 
-## Passaggio 2: Connetti il tuo portafoglio
+## Passaggio 2: Connetti il tuo portafoglio {#step-2-connect-your-wallet}
 
 Una volta sul sito web, clicca su "Connect wallet" (Connetti portafoglio). Il sito web dovrebbe chiederti di connettere il tuo portafoglio.
 
 Assicurati di utilizzare la stessa rete nel tuo portafoglio e nel sito web. Vedrai solo i contratti intelligenti relativi alla rete selezionata. Ad esempio, se ti connetti alla rete principale di Ethereum, vedrai solo i contratti di Ethereum, non i contratti di altre catene come Polygon.
 
-## Passaggio 3: Seleziona un contratto intelligente che desideri revocare
+## Passaggio 3: Seleziona un contratto intelligente che desideri revocare {#step-3-select-a-smart-contract-you-wish-to-revoke}
 
 Dovresti vedere tutti i contratti a cui è consentito l'accesso ai tuoi token e il loro limite di spesa. Trova quello che desideri terminare.
 
 Se non sai quale contratto scegliere, puoi revocarli tutti. Non ti creerà alcun problema, ma dovrai concedere un nuovo set di permessi la prossima volta che interagirai con uno qualsiasi di questi contratti.
 
-## Passaggio 4: Revoca l'accesso ai tuoi fondi
+## Passaggio 4: Revoca l'accesso ai tuoi fondi {#step-4-revoke-access-to-your-funds}
 
 Una volta cliccato su revoca, dovresti vedere un nuovo suggerimento di transazione nel tuo portafoglio. Questo è normale. Dovrai pagare la commissione affinché l'annullamento vada a buon fine. A seconda della rete, l'elaborazione può richiedere da un minuto a diversi minuti.
 
@@ -56,20 +56,20 @@ Ti consigliamo di aggiornare lo strumento di revoca dopo qualche minuto e di con
 </AlertContent>
 </Alert>
 
-## Domande frequenti
+## Domande frequenti {#frequently-asked-questions}
 
-### La revoca dell'accesso ai token interrompe anche lo staking, il pooling, il prestito, ecc.?
+### La revoca dell'accesso ai token interrompe anche lo staking, il pooling, il prestito, ecc.? {#does-revoking-token-access-also-terminate-staking-pooling-lending-etc}
 
 No, non influenzerà nessuna delle tue strategie [DeFi](/glossary/#defi). Manterrai le tue posizioni e continuerai a ricevere ricompense, ecc.
 
-### Disconnettere un portafoglio da un progetto è la stessa cosa che rimuovere il permesso di usare i miei fondi?
+### Disconnettere un portafoglio da un progetto è la stessa cosa che rimuovere il permesso di usare i miei fondi? {#is-disconnecting-a-wallet-from-a-project-the-same-as-removing-permission-to-use-my-funds}
 
 No, se disconnetti il tuo portafoglio dal progetto, ma hai concesso i permessi di utilizzo dei token, possono ancora usare quei token. Devi revocare quell'accesso.
 
-### Quando scadrà il permesso del contratto?
+### Quando scadrà il permesso del contratto? {#when-will-the-contract-permission-expire}
 
 Non ci sono date di scadenza sui permessi dei contratti. Se concedi i permessi a un contratto, possono essere utilizzati, anche ad anni di distanza dalla loro concessione.
 
-### Perché i progetti impostano un limite di spesa dei token illimitato?
+### Perché i progetti impostano un limite di spesa dei token illimitato? {#why-do-projects-set-unlimited-token-allowance}
 
 I progetti spesso lo fanno per ridurre al minimo il numero di richieste necessarie, il che significa che l'utente deve approvare solo una volta e pagare la commissione della transazione solo una volta. Sebbene sia conveniente, può essere pericoloso per gli utenti approvare con noncuranza, su siti che non sono stati collaudati nel tempo o verificati. Alcuni portafogli ti consentono di limitare manualmente la quantità di token approvati per limitare il rischio. Verifica con il fornitore del tuo portafoglio per maggiori informazioni.

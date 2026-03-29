@@ -20,7 +20,7 @@ DeSci bertujuan untuk menciptakan ekosistem di mana para ilmuwan diberi insentif
 
 Sains terdesentralisasi memungkinkan sumber pendanaan yang lebih beragam (dari [DAO](/glossary/#dao), [donasi kuadratik](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531) hingga urun dana dan banyak lagi), data dan metode yang lebih mudah diakses, dan dengan memberikan insentif untuk reproduktibilitas.
 
-### Juan Benet - Gerakan DeSci
+### Juan Benet - Gerakan DeSci {#juan-benet-the-desci-movement}
 
 <YouTube id="zkXM9H90g_E" />
 

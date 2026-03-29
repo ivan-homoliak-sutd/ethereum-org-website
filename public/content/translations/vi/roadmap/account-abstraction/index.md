@@ -52,7 +52,7 @@ Quản lý phí gas được cải thiện đáng kể. Các ứng dụng có th
 
 Hiện tại, việc triển khai ví hợp đồng thông minh còn khó khăn vì chúng dựa vào mã phức tạp để thực hiện các giao dịch cơ bản. Ethereum có thể thay đổi điều này bằng cách cho phép các hợp đồng thông minh tự trực tiếp khởi tạo giao dịch, nhúng logic vào hợp đồng thông minh thay vì phụ thuộc vào các bên trung gian bên ngoài.
 
-### EIP-4337: Trừu tượng hoá tài khoản mà không thay đổi giao thức
+### EIP-4337: Trừu tượng hoá tài khoản mà không thay đổi giao thức {#eip-4337-account-abstraction-without-protocol-changes}
 
 EIP-4337 cho phép hỗ trợ ví hợp đồng thông minh một cách trực tiếp mà không cần sửa đổi giao thức cốt lõi của Ethereum. Nó giới thiệu các đối tượng `UserOperation` được các trình xác thực thu thập vào các gói giao dịch, giúp đơn giản hóa việc phát triển ví. Hợp đồng EntryPoint của EIP-4337 đã được triển khai trên Ethereum Mainnet vào ngày 1 tháng 3 năm 2023 và đã hỗ trợ tạo ra hơn 26 triệu ví hợp đồng thông minh và 170 triệu UserOperation.
 

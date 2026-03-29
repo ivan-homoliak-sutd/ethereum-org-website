@@ -190,7 +190,7 @@ function balanceOf(address owner) public view returns (uint256)
 
 ### الأحداث {#events}
 
-#### حدث الإيداع
+#### حدث الإيداع {#deposit-event}
 
 **يجب** أن يتم إصدارها عند إيداع الرموز في المخزن عبر طريقتي [`mint`](#mint) و[`deposit`](#deposit).
 
@@ -205,7 +205,7 @@ event Deposit(
 
 حيث `sender` (المرسل) هو المستخدم الذي استبدل `assets` (الأصول) مقابل `shares` (الحصص)، ونقل تلك `shares` (الحصص) إلى `owner` (المالك).
 
-#### سحب الحدث
+#### سحب الحدث {#withdraw-event}
 
 **يجب** أن يتم إصدارها عند سحب الحصص من المخزن بواسطة المودع في طريقتي [`redeem`](#redeem) أو [`withdraw`](#withdraw).
 

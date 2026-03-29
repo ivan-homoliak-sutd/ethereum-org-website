@@ -4,7 +4,7 @@ description: "Hướng dẫn thu hồi quyền truy cập token hợp đồng th
 lang: vi
 ---
 
-# Cách thu hồi quyền truy cập hợp đồng thông minh vào tài sản tiền mã hóa của bạn
+# Cách thu hồi quyền truy cập hợp đồng thông minh vào tài sản tiền mã hóa của bạn {#how-to-revoke-smart-contract-access-to-your-crypto-funds}
 
 Hướng dẫn này sẽ chỉ cho bạn cách xem danh sách tất cả các [hợp đồng thông minh](/glossary/#smart-contract) mà bạn đã cho phép truy cập vào quỹ tiền của mình và cách hủy các quyền đó.
 
@@ -14,7 +14,7 @@ Khi một nền tảng có quyền truy cập không giới hạn vào token tr�
 
 Các biện pháp bảo vệ duy nhất là hạn chế sử dụng các dự án mới chưa được kiểm tra, chỉ phê duyệt những gì bạn cần hoặc thường xuyên thu hồi quyền truy cập. Thế, bạn làm điều đó như thế nào?
 
-## Bước 1: Sử dụng thu hồi các công cụ truy cập
+## Bước 1: Sử dụng thu hồi các công cụ truy cập {#step-1-use-revoke-access-tools}
 
 Một số trang web cho phép bạn xem và thu hồi các hợp đồng thông minh được kết nối với địa chỉ của bạn. Truy cập trang web và kết nối ví của bạn:
 
@@ -24,19 +24,19 @@ Một số trang web cho phép bạn xem và thu hồi các hợp đồng thông
 - [Unrekt](https://app.unrekt.net/) (nhiều mạng)
 - [EverRevoke](https://everrise.com/everrevoke/) (nhiều mạng)
 
-## Bước 2: Kết nối ví của bạn
+## Bước 2: Kết nối ví của bạn {#step-2-connect-your-wallet}
 
 Once you are on the website, click on “Connect wallet”. Trang web sẽ nhắc bạn kết nối ví của mình.
 
 . Bạn chỉ thấy các hợp đồng thông minh liên quan đến mạng đã chọn. Ví dụ, nếu bạn kết nối với Ethereum Mainnet, bạn chỉ thấy hợp đồng Ethereum, chứ không thấy hợp đồng từ các chuỗi khác như Polygon.
 
-## Bước 3: Chọn hợp đồng thông minh bạn thu hồi
+## Bước 3: Chọn hợp đồng thông minh bạn thu hồi {#step-3-select-a-smart-contract-you-wish-to-revoke}
 
 Bạn sẽ thấy tất cả các hợp đồng được phép truy cập vào token của bạn và hạn mức chi tiêu của chúng. Tìm hợp đồng mà bạn muốn chấm dứt.
 
 Nếu bạn không biết chọn hợp đồng nào, bạn có thể chấm dứt tất cả chúng. Điều này sẽ không tạo ra bất kì vấn đề gì cho bạn, nhưng bạn sẽ phải trao quyền mới lần tới bạn tương tác với bất kì hợp đồng này.
 
-## Bước 4: Hủy truy cập vào quỹ của bạn
+## Bước 4: Hủy truy cập vào quỹ của bạn {#step-4-revoke-access-to-your-funds}
 
 Một khi bạn bấm thu hồi, bạn sẽ thấy một giao dịch gợi ý mới trong ví của bạn. Điều này là bình thường. Bạn sẽ phải trả phí thì việc hủy bỏ mới thành công. Tùy thuộc vào mạng lưới mà quá trình sẽ tốn một hoặc vài phút để xử lí.
 
@@ -56,20 +56,20 @@ Chúng tôi khuyên bạn nên làm mới công cụ thu hồi sau vài phút v�
 </AlertContent>
 </Alert>
 
-## Những câu hỏi thường gặp
+## Những câu hỏi thường gặp {#frequently-asked-questions}
 
-### Việc thu hồi quyền truy cập token có chấm dứt Staking, góp chung, cho vay… hay không?
+### Việc thu hồi quyền truy cập token có chấm dứt Staking, góp chung, cho vay… hay không? {#does-revoking-token-access-also-terminate-staking-pooling-lending-etc}
 
 Không, điều này sẽ không ảnh hưởng đến bất kỳ chiến lược [DeFi](/glossary/#defi) nào của bạn. Bạn sẽ vẫn giữ vị thế của mình và tiếp tục nhận phần thưởng,...
 
-### Ngắt kết nối ví khỏi một dự án có giống với việc xóa quyền sử dụng tiền của tôi không?
+### Ngắt kết nối ví khỏi một dự án có giống với việc xóa quyền sử dụng tiền của tôi không? {#is-disconnecting-a-wallet-from-a-project-the-same-as-removing-permission-to-use-my-funds}
 
 Không, nếu bạn ngắt kết nối ví khỏi dự án, nhưng đã cấp quyền truy cập Token, thì nó vẫn có thể sử dụng những Token đó. Bạn phải thu hồi quyền truy cập lại.
 
-### Khi nào quyền hạn của hợp đồng sẽ hết hạn?
+### Khi nào quyền hạn của hợp đồng sẽ hết hạn? {#when-will-the-contract-permission-expire}
 
 Quyền truy cập của hợp đồng không có ngày hết hạn. Nếu bạn trao quyền truy cập cho hợp đồng, chúng có thể được sử dụng, ngay cả khi đã nhiều năm kể từ ngày được trao quyền.
 
-### Tại sao một số dự án cho phép quyền truy cập không giới hạn Token?
+### Tại sao một số dự án cho phép quyền truy cập không giới hạn Token? {#why-do-projects-set-unlimited-token-allowance}
 
 Các dự án thường làm vậy để giảm số lượng yêu cầu, nghĩa là người dùng chỉ phải phê duyệt một lần và chỉ trả phí giao dịch một lần. Mặc dù tiện lợi, nhưng nó đầy rẫy nguy hiểm cho người dùng khi ủy quyền cẩu thả trên những trang chưa được kiểm chứng qua thời gian hoặc kiểm toán. Một số ví cho phép bạn tự giới hạn lượng Token phê duyệt để giảm rủi ro. Hãy kiểm tra nhà cung cấp ví để biết thêm thông tin.

@@ -8,7 +8,7 @@ Gasper는 Casper the Friendly Finality Gadget(Casper-FFG)과 LMD-GHOST 포크 �
 
 **참고** Casper-FFG의 원래 정의는 Gasper에 포함되기 위해 약간 업데이트되었습니다. 이 페이지에서는 업데이트된 버전을 다룹니다.
 
-## 필수 자료
+## 필수 자료 {#prerequisites}
 
 이 자료를 이해하려면 [지분 증명](/developers/docs/consensus-mechanisms/pos/)에 대한 소개 페이지를 읽어야 합니다.
 

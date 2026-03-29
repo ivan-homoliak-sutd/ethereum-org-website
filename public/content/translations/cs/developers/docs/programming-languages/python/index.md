@@ -47,7 +47,7 @@ Potřebujete nejdříve úplně základní informace? Podívejte se na [ethereum
 - [Analyzujte chytré kontrakty Solidity pomocí Slither](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [Blockchain Fintech Tutoriál: Půjčování a vypůjčování s Pythonem](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## Archivované články
+## Archivované články {#archived-articles}
 
 - [Nasaďte svůj vlastní ERC20 token s Pythonem a Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Použití Brownie a Pythonu k nasazení chytrých kontraktů](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

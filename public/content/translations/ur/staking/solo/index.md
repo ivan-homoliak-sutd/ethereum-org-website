@@ -106,13 +106,13 @@ Staking Launchpad ایک اوپن سورس ایپلی کیشن ہے جو آپ ک
 
 <ProductDisclaimer />
 
-### نوڈ ٹولز
+### نوڈ ٹولز {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 براہ کرم [اقلیتی کلائنٹ (minority client)](/developers/docs/nodes-and-clients/client-diversity/) کو منتخب کرنے کی اہمیت کو نوٹ کریں کیونکہ یہ نیٹ ورک کی سیکیورٹی کو بہتر بناتا ہے، اور آپ کے خطرے کو محدود کرتا ہے۔ وہ ٹولز جو آپ کو اقلیتی کلائنٹ سیٹ اپ کرنے کی اجازت دیتے ہیں انہیں <em style={{ textTransform: "uppercase" }}>"multi-client"</em> کے طور پر ظاہر کیا گیا ہے۔
 
-### کی جنریٹرز (Key Generators)
+### کی جنریٹرز (Key Generators) {#key-generators}
 
 ان ٹولز کو کی جنریشن میں مدد کے لیے [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) کے متبادل کے طور پر استعمال کیا جا سکتا ہے۔
 

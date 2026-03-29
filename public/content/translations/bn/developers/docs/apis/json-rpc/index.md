@@ -79,7 +79,7 @@ JSON-এর মাধ্যমে দুটি মূল ডাটা টাই�
 - `String "finalized"` - সর্বশেষ চূড়ান্ত হওয়া ব্লকের জন্য
 - `String "pending"` - পেন্ডিং স্টেট/লেনদেন এর জন্য
 
-## উদাহরণ
+## উদাহরণ {#examples}
 
 এই পৃষ্ঠায় আমরা কমান্ড লাইন টুল, [curl](https://curl.se) ব্যবহার করে স্বতন্ত্র JSON_RPC API এন্ডপয়েন্টগুলো কীভাবে ব্যবহার করতে হয় তার উদাহরণ প্রদান করি। এই স্বতন্ত্র এন্ডপয়েন্টের উদাহরণগুলো নিচে [Curl উদাহরণ](#curl-examples) বিভাগে পাওয়া যাবে। পৃষ্ঠার আরও নিচের দিকে, একটি Geth নোড, JSON_RPC API এবং curl ব্যবহার করে একটি স্মার্ট কন্ট্রাক্ট কম্পাইল এবং ডিপ্লয় করার জন্য আমরা একটি [এন্ড-টু-এন্ড উদাহরণ](#usage-example)-ও প্রদান করি।
 
@@ -132,7 +132,7 @@ curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","metho
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## JSON-RPC API প্লেগ্রাউন্ড
+## JSON-RPC API প্লেগ্রাউন্ড {#json-rpc-api-playground}
 
 API মেথডগুলো আবিষ্কার করতে এবং পরীক্ষা করে দেখতে আপনি [প্লেগ্রাউন্ড টুল](https://ethereum-json-rpc.com) ব্যবহার করতে পারেন। এটি আপনাকে আরও দেখায় যে বিভিন্ন নোড প্রোভাইডার দ্বারা কোন মেথড এবং নেটওয়ার্কগুলো সমর্থিত।
 

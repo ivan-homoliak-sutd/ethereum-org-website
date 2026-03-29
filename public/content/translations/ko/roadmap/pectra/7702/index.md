@@ -4,7 +4,7 @@ description: "Pectra 릴리스의 7702에 대해 자세히 알아보기"
 lang: ko
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## 추상적인 {#abstract}
 

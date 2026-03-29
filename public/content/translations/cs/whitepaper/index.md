@@ -451,7 +451,7 @@ Model vydávání bude následující:
 | Rezerva použitá po prodeji     | 8,26 %       | 6,79 %    | 3,96 %      |
 | Těžaři                         | 0%           | 17,8 %    | 52,0 %      |
 
-#### Dlouhodobá míra růstu nabídky (v procentech)
+#### Dlouhodobá míra růstu nabídky (v procentech) {#long-term-supply-growth-rate-percent}
 
 ![Inflace Etherea](./ethereum-inflation.png)
 

@@ -11,7 +11,7 @@ Ein Archivknoten (Archive Node) ist eine Instanz einer [Ethereum](/)-Anwendung (
 
 Sie sollten das Konzept eines [Ethereum-Blockchain-Knotens](/developers/docs/nodes-and-clients/), [seiner Architektur](/developers/docs/nodes-and-clients/node-architecture/), [Synchronisierungsstrategien](/developers/docs/nodes-and-clients/#sync-modes) sowie die Praktiken für [deren Betrieb](/developers/docs/nodes-and-clients/run-a-node/) und [Nutzung](/developers/docs/apis/json-rpc/) verstehen.
 
-## Was ist ein Archivknoten?
+## Was ist ein Archivknoten? {#what-is-an-archive-node}
 
 Um die Bedeutung eines Archivknotens zu verstehen, lassen Sie uns das Konzept des „Zustands“ (State) klären. Ethereum kann als _transaktionsbasierte Zustandsmaschine_ bezeichnet werden. Es besteht aus Konten und Anwendungen, die Transaktionen ausführen, welche ihren Zustand ändern. Die globalen Daten mit Informationen über jedes Konto und jeden Vertrag werden in einer Trie-Datenbank gespeichert, die als Zustand bezeichnet wird. Dies wird vom Ausführungs-Client der Ausführungsebene (EL) gehandhabt und umfasst:
 
@@ -29,7 +29,7 @@ Dies bedeutet jedoch, dass der Zugriff auf einen historischen Zustand auf einem 
 
 Es ist wichtig zu beachten, dass das Netzwerk nicht von Archivknoten abhängig ist, um alle historischen Daten aufzubewahren und bereitzustellen. Wie oben erwähnt, können alle historischen Zwischenzustände auf einem vollständigen Blockchain-Knoten abgeleitet werden. Transaktionen werden von jedem vollständigen Blockchain-Knoten gespeichert (derzeit weniger als 400 GB) und können wiederholt werden, um das gesamte Archiv aufzubauen.
 
-### Anwendungsfälle
+### Anwendungsfälle {#use-cases}
 
 Die reguläre Nutzung von Ethereum wie das Senden von Transaktionen, das Bereitstellen von Verträgen, das Verifizieren des Konsenses usw. erfordert keinen Zugriff auf historische Zustände. Benutzer benötigen für eine Standardinteraktion mit dem Netzwerk niemals einen Archivknoten.
 
@@ -48,17 +48,17 @@ Wie oben erklärt, müsste ein vollständiger Blockchain-Knoten diese Daten durc
 
 Es gibt verschiedene kostenlose [Dienste](/developers/docs/nodes-and-clients/nodes-as-a-service/), die ebenfalls Zugriff auf historische Daten ermöglichen. Da der Betrieb eines Archivknotens anspruchsvoller ist, ist dieser Zugriff meist begrenzt und funktioniert nur für gelegentlichen Zugriff. Wenn Ihr Projekt ständigen Zugriff auf historische Daten erfordert, sollten Sie in Betracht ziehen, selbst einen zu betreiben.
 
-## Implementierungen und Nutzung
+## Implementierungen und Nutzung {#implementations-and-usage}
 
 Archivknoten in diesem Kontext bedeutet Daten, die von benutzerorientierten Ausführungs-Clients bereitgestellt werden, da diese die Zustandsdatenbank verwalten und JSON-RPC-Endpunkte bereitstellen. Konfigurationsoptionen, Synchronisierungszeit und Datenbankgröße können je nach Anwendung variieren. Weitere Details finden Sie in der Dokumentation Ihrer Anwendung.
 
 Bevor Sie Ihren eigenen Archivknoten starten, informieren Sie sich über die Unterschiede zwischen den Anwendungen und insbesondere über die verschiedenen [Hardwareanforderungen](/developers/docs/nodes-and-clients/run-a-node/#requirements). Die meisten Anwendungen sind nicht für diese Funktion optimiert und ihre Archive benötigen mehr als 12 TB Speicherplatz. Im Gegensatz dazu können Implementierungen wie Erigon dieselben Daten in unter 3 TB speichern, was sie zur effektivsten Möglichkeit macht, einen Archivknoten zu betreiben.
 
-## Empfohlene Praktiken
+## Empfohlene Praktiken {#recommended-practices}
 
 Abgesehen von allgemeinen [Empfehlungen für den Betrieb eines Blockchain-Knotens](/developers/docs/nodes-and-clients/run-a-node/) kann ein Archivknoten anspruchsvoller in Bezug auf Hardware und Wartung sein. In Anbetracht der [Hauptmerkmale](https://github.com/ledgerwatch/erigon#key-features) von Erigon ist der praktischste Ansatz die Verwendung der [Erigon](/developers/docs/nodes-and-clients/#erigon)-Anwendungsimplementierung.
 
-### Hardware
+### Hardware {#hardware}
 
 Stellen Sie immer sicher, dass Sie die Hardwareanforderungen für einen bestimmten Modus in der Dokumentation einer Anwendung überprüfen.
 Die größte Anforderung für Archivknoten ist der Speicherplatz. Je nach Anwendung variiert dieser von 3 TB bis 12 TB. Auch wenn eine HDD als bessere Lösung für große Datenmengen angesehen werden könnte, erfordert die Synchronisierung und ständige Aktualisierung der Spitze der Chain SSD-Laufwerke. [SATA](https://www.cleverfiles.com/help/sata-hard-drive.html)-Laufwerke sind gut genug, sollten aber von zuverlässiger Qualität sein, mindestens [TLC](https://blog.synology.com/tlc-vs-qlc-ssds-what-are-the-differences). Festplatten können in einen Desktop-Computer oder einen Server mit genügend Steckplätzen eingebaut werden. Solche dedizierten Geräte sind ideal für den Betrieb eines Blockchain-Knotens mit hoher Verfügbarkeit. Es ist durchaus möglich, ihn auf einem Laptop auszuführen, aber die Portabilität ist mit zusätzlichen Kosten verbunden.

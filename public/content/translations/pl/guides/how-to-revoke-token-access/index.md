@@ -4,7 +4,7 @@ description: "Przewodnik na temat unieważnienia dostępu do tokenów inteligent
 lang: pl
 ---
 
-# Jak unieważnić dostęp inteligentnych kontraktów do środków kryptowaluty
+# Jak unieważnić dostęp inteligentnych kontraktów do środków kryptowaluty {#how-to-revoke-smart-contract-access-to-your-crypto-funds}
 
 W tym przewodniku dowiesz się, jak wyświetlić listę wszystkich [inteligentnych kontraktów](/glossary/#smart-contract), którym udzielono dostępu do Twoich środków, oraz jak je anulować.
 
@@ -14,7 +14,7 @@ Gdy platforma ma nieograniczone prawa dostępu do tokena w Twoim [portfelu](/glo
 
 Jedynym zabezpieczeniem jest powstrzymanie się od korzystania z niesprawdzonych nowych projektów, zatwierdzanie tylko tych, które są potrzebne, lub regularne cofanie dostępu. Jak więc to zrobić?
 
-## Krok 1: Użyj narzędzi do cofania dostępu
+## Krok 1: Użyj narzędzi do cofania dostępu {#step-1-use-revoke-access-tools}
 
 Istnieje kilka stron umożliwiających przeglądanie i unieważnianie inteligentnych kontraktów powiązanych z adresem użytkownika. Odwiedź stronę i podłącz swój portfel:
 
@@ -24,19 +24,19 @@ Istnieje kilka stron umożliwiających przeglądanie i unieważnianie inteligent
 - [Unrekt](https://app.unrekt.net/) (wiele sieci)
 - [EverRevoke](https://everrise.com/everrevoke/) (wiele sieci)
 
-## Krok 2: Połącz swój portfel
+## Krok 2: Połącz swój portfel {#step-2-connect-your-wallet}
 
 Po wejściu na stronę kliknij "Połącz portfel". Strona powinna wyświetlić komunikat o podłączeniu portfela.
 
 Upewnij się, że korzystasz z tej samej sieci w portfelu i na stronie internetowej. Wyświetlone zostaną tylko inteligentne kontrakty powiązane z wybraną siecią. Na przykład, jeśli połączysz się z siecią główną Ethereum (Mainnet), zobaczysz tylko kontrakty Ethereum, a nie kontrakty z innych łańcuchów, takich jak Polygon.
 
-## Krok 3: Wybierz inteligenty kontrakt, który chcesz unieważnić
+## Krok 3: Wybierz inteligenty kontrakt, który chcesz unieważnić {#step-3-select-a-smart-contract-you-wish-to-revoke}
 
 Powinieneś zobaczyć wszystkie kontrakty, które mają dostęp do twoich tokenów i ich limit wydatków. Znajdź ten, który chcesz unieważnić.
 
 Jeśli nie wiesz, który kontrakt wybrać, możesz unieważnić wszystkie. Nie spowoduje to żadnych problemów, ale będziesz musiał przyznać nowy zestaw uprawnień przy następnej interakcji z którymkolwiek z tych kontraktów.
 
-## Krok 4: Unieważnienie dostępu do środków
+## Krok 4: Unieważnienie dostępu do środków {#step-4-revoke-access-to-your-funds}
 
 Po kliknięciu przycisku unieważnienia, w portfelu powinna pojawić się sugestia nowej transakcji. Należy się tego spodziewać. Aby anulowanie było skuteczne, należy uiścić opłatę. W zależności od sieci może to zająć od minuty do kilku minut.
 
@@ -56,20 +56,20 @@ Zalecamy odświeżenie narzędzia do unieważniania po kilku minutach i ponowne 
 </AlertContent>
 </Alert>
 
-## Często zadawane pytania
+## Często zadawane pytania {#frequently-asked-questions}
 
-### Czy unieważnienie dostępu do tokenów powoduje również zakończenie stakowania, poolingu, pożyczek itp?
+### Czy unieważnienie dostępu do tokenów powoduje również zakończenie stakowania, poolingu, pożyczek itp? {#does-revoking-token-access-also-terminate-staking-pooling-lending-etc}
 
 Nie, nie wpłynie to na żadną z Twoich strategii [DeFi](/glossary/#defi). Twoje pozycje pozostają niezmienione i nadal będziesz otrzymywać nagrody itp.
 
-### Czy odłączenie portfela od projektu jest równoznaczne z usunięciem uprawnień na korzystanie z moich środków?
+### Czy odłączenie portfela od projektu jest równoznaczne z usunięciem uprawnień na korzystanie z moich środków? {#is-disconnecting-a-wallet-from-a-project-the-same-as-removing-permission-to-use-my-funds}
 
 Nie, jeśli odłączysz swój portfel od projektu, ale przyznałeś uprawnienia do tokenów, nadal mogą one korzystać z tych tokenów. Musisz usunąć ten dostęp.
 
-### Kiedy wygasną uprawnienia kontraktu?
+### Kiedy wygasną uprawnienia kontraktu? {#when-will-the-contract-permission-expire}
 
 Nie ma dat wygaśnięcia uprawnień kontraktu. Jeśli udzielisz uprawnień kontraktowi, mogą one zostać wykorzystane nawet wiele lat po ich udzieleniu.
 
-### Dlaczego projekty ustawiają nieograniczony limit tokenów?
+### Dlaczego projekty ustawiają nieograniczony limit tokenów? {#why-do-projects-set-unlimited-token-allowance}
 
 Projekty często robią to, aby zminimalizować liczbę wymaganych żądań, co oznacza, że użytkownik musi zatwierdzić tylko raz i zapłacić opłatę transakcyjną tylko raz. Chociaż jest to wygodne, może być niebezpieczne dla użytkowników, którzy zatwierdzają nieostrożnie, na stronach, które nie zostały sprawdzone w czasie lub poddane audytowi. Niektóre portfele umożliwiają ręczne ograniczenie ilości zatwierdzanych tokenów w celu ograniczenia ryzyka. Więcej informacji można uzyskać u dostawcy portfela.

@@ -8,7 +8,7 @@ lang: ja
 
 **注** Casper-FFGの元の定義は、Gasperに含めるために若干更新されました。 このページでは、更新されたバージョンを考慮しています。
 
-## 事前に必要な環境
+## 事前に必要な環境 {#prerequisites}
 
 この資料を理解するには、[プルーフ・オブ・ステーク](/developers/docs/consensus-mechanisms/pos/)の入門ページを読む必要があります。
 

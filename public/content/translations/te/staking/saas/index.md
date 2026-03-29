@@ -43,13 +43,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### SaaS ప్రొవైడర్లు
+### SaaS ప్రొవైడర్లు {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 [క్లయింట్ వైవిధ్యం](/developers/docs/nodes-and-clients/client-diversity/)కి మద్దతు ఇవ్వడం యొక్క ప్రాముఖ్యతను దయచేసి గమనించండి, ఎందుకంటే ఇది నెట్‌వర్క్ భద్రతను మెరుగుపరుస్తుంది మరియు మీ నష్టాన్ని పరిమితం చేస్తుంది. మెజారిటీ క్లయింట్ వినియోగాన్ని పరిమితం చేస్తున్నట్లు రుజువులు ఉన్న సేవలు <em style={{ textTransform: "uppercase" }}>"ఎగ్జిక్యూషన్ క్లయింట్ వైవిధ్యం"</em> మరియు <em style={{ textTransform: "uppercase" }}>"ఏకాభిప్రాయం క్లయింట్ వైవిధ్యం."</em>తో సూచించబడతాయి.
 
-### కీ జనరేటర్లు
+### కీ జనరేటర్లు {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

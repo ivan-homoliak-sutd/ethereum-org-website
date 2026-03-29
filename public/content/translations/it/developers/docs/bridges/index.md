@@ -104,7 +104,7 @@ Se una dApp intraprende la strada dell'integrazione di un ponte o di un aggregat
 
 Per distribuire una dApp su più catene, gli sviluppatori possono utilizzare piattaforme di sviluppo come [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/), ecc. In genere, queste piattaforme sono dotate di plugin componibili che possono consentire alle dApp di diventare cross-chain. Ad esempio, gli sviluppatori possono utilizzare un proxy di distribuzione deterministico offerto dal [plugin hardhat-deploy](https://github.com/wighawag/hardhat-deploy).
 
-#### Esempi:
+#### Esempi: {#examples}
 
 - [Come costruire dApp cross-chain](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [Costruire un marketplace NFT cross-chain](https://youtu.be/WZWCzsB1xUE)
@@ -114,7 +114,7 @@ Per distribuire una dApp su più catene, gli sviluppatori possono utilizzare pia
 
 Per monitorare l'attività dei contratti tra le catene, gli sviluppatori possono utilizzare sottografi e piattaforme per sviluppatori come Tenderly per osservare i contratti intelligenti in tempo reale. Tali piattaforme dispongono anche di strumenti che offrono maggiori funzionalità di monitoraggio dei dati per le attività cross-chain, come il controllo degli [eventi emessi dai contratti](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events), ecc.
 
-#### Strumenti
+#### Strumenti {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

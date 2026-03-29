@@ -17,7 +17,7 @@ lang: zh
 - [什么是以太坊？](/what-is-ethereum/)
 - [什么是 ETH？](/what-is-ether/)
 
-## 添加学习测验
+## 添加学习测验 {#adding-a-learn-quiz}
 
 如果某个页面还没有为其创建学习测验，请为此 [创建议题](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml)。
 
@@ -30,7 +30,7 @@ lang: zh
   - 1 个正确答案以及为什么正确的解释
   - 3 个错误答案，每一个答案都有为什么错误的解释
 
-## 添加测验问题
+## 添加测验问题 {#adding-a-quiz-question}
 
 如果您想向测验题库中添加问题，请 [创建议题](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) 并提供以下信息：
 
@@ -41,7 +41,7 @@ lang: zh
   - 1 个正确答案以及为什么正确的解释
   - 3 个错误答案，每一个答案都有为什么错误的解释
 
-## 更新测验问题
+## 更新测验问题 {#updating-a-quiz-question}
 
 如果您想更新测验题库中的问题，请 [创建议题](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) 并提供以下信息：
 
@@ -53,7 +53,7 @@ lang: zh
   - 1 个正确答案以及为什么正确的解释
   - 3 个错误答案，每一个答案都有为什么错误的解释
 
-## 删除测验问题
+## 删除测验问题 {#removing-a-quiz-question}
 
 如果页面上已不存在某个问题的内容，且该问题需要被删除，请 [创建议题](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) 以删除该问题，并提供以下信息：
 

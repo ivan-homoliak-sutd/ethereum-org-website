@@ -448,7 +448,7 @@ Le modèle d'émission sera le suivant :
 | Réserve utilisée après vente | 8,26 %       | 6,79 %     | 3,96 %      |
 | Mineurs                      | 0 %          | 17,8 %     | 52,0 %      |
 
-#### Taux de croissance de l'offre à long terme (en pourcentage)
+#### Taux de croissance de l'offre à long terme (en pourcentage) {#long-term-supply-growth-rate-percent}
 
 ![Inflation d'Ethereum](./ethereum-inflation.png)
 

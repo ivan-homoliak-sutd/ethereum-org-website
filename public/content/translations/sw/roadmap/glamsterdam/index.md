@@ -142,7 +142,7 @@ Kwa kuweka bei sahihi zaidi kwa vitendo vinavyohitaji ufikiaji wa hali ya mtanda
 
 **Rasilimali**: [Maelezo ya kiufundi ya EIP-8038](https://eips.ethereum.org/EIPS/eip-8038)
 
-## Uthabiti wa mtandao 
+## Uthabiti wa mtandao {#network-resilience}
 
 Marekebisho ya majukumu Mthibitishaji na michakato ya kutoka yanahakikisha uthabiti wa mtandao wakati wa matukio ya kupunguza kwa wingi na kuleta usawa katika upatikanaji wa fedha. Maboresho haya hufanya mtandao kuwa thabiti zaidi na kuhakikisha kwamba washiriki wote, wakubwa kwa wadogo, wanashughulikiwa kwa usawa.
 

@@ -4,7 +4,7 @@ description: "Tìm hiểu thêm về 7702 trong bản phát hành Pectra"
 lang: vi
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## Tóm tắt {#abstract}
 

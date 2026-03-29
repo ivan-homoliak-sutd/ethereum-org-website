@@ -14,13 +14,13 @@ Pohon Merkle (Merkle trees) memungkinkan pembuatan tumpukan rantai tanpa akhir y
 
 Anda harus memiliki pemahaman yang baik tentang semua topik dasar dan pemahaman tingkat tinggi tentang [peningkatan Ethereum](/developers/docs/scaling/).
 
-## Apa itu Plasma?
+## Apa itu Plasma? {#what-is-plasma}
 
 Plasma adalah kerangka kerja untuk meningkatkan skalabilitas dalam blockchain publik seperti Ethereum. Seperti yang dijelaskan dalam [buku putih Plasma](http://plasma.io/plasma.pdf) asli, rantai Plasma dibangun di atas blockchain lain (disebut "rantai akar"). Setiap "rantai anak" meluas dari rantai akar dan umumnya dikelola oleh kontrak pintar yang disebarkan di rantai induk.
 
 Kontrak Plasma berfungsi, antara lain, sebagai [jembatan](/developers/docs/bridges/) yang memungkinkan pengguna untuk memindahkan aset antara Mainnet Ethereum dan rantai plasma. Meskipun ini membuatnya mirip dengan [sidechain](/developers/docs/scaling/sidechains/), rantai plasma mendapat manfaat—setidaknya, sampai batas tertentu—dari keamanan Mainnet Ethereum. Hal ini berbeda dengan sidechain yang bertanggung jawab penuh atas keamanannya sendiri.
 
-## Bagaimana cara kerja Plasma?
+## Bagaimana cara kerja Plasma? {#how-does-plasma-work}
 
 Komponen dasar dari kerangka kerja Plasma adalah:
 

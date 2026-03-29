@@ -59,7 +59,7 @@ Výhody tohoto síťového designu jsou:
 
 Níže uvedená tabulka ukazuje funkce stávajících klientů, které může poskytovat síť Portal, což uživatelům umožňuje přístup k těmto funkcím na zařízeních s velmi malými zdroji.
 
-### Sítě Portal
+### Sítě Portal {#the-portal-networks}
 
 | Lehký klient Beaconu        | Stavová síť           | Gossip transakcí  | Historická síť |
 | --------------------------- | --------------------- | ----------------- | -------------- |

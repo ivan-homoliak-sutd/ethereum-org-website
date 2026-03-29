@@ -14,13 +14,13 @@ Cây Merkle cho phép tạo ra một chồng chuỗi vô tận có thể hoạt 
 
 Bạn nên có hiểu biết tốt về tất cả các chủ đề nền tảng và hiểu biết ở cấp độ cao về [việc thay đổi quy mô của Ethereum](/developers/docs/scaling/).
 
-## Plasma là gì?
+## Plasma là gì? {#what-is-plasma}
 
 Plasma là một khuôn khổ để cải thiện khả năng mở rộng trong các chuỗi khối công khai như Ethereum. Như được mô tả trong [sách trắng Plasma](http://plasma.io/plasma.pdf) ban đầu, các chuỗi Plasma được xây dựng trên một chuỗi khối khác (được gọi là "chuỗi gốc"). Mỗi "chuỗi con" kéo dài từ chuỗi gốc và thường được quản lý bởi một hợp đồng thông minh được triển khai trên chuỗi mẹ.
 
 Hợp đồng Plasma hoạt động, cùng với các chức năng khác, như một [cầu nối](/developers/docs/bridges/) cho phép người dùng di chuyển tài sản giữa Mạng chính Ethereum và chuỗi Plasma. Mặc dù điều này làm cho chúng tương tự như [các chuỗi bên](/developers/docs/scaling/sidechains/), các chuỗi plasma được hưởng lợi — ít nhất là ở một mức độ nào đó — từ tính bảo mật của Mạng chính Ethereum. Điều này không giống như các chuỗi bên hoàn toàn chịu trách nhiệm về tính bảo mật của chúng.
 
-## Plasma hoạt động như thế nào?
+## Plasma hoạt động như thế nào? {#how-does-plasma-work}
 
 Các thành phần cơ bản của khuôn khổ Plasma là:
 

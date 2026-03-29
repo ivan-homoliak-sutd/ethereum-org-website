@@ -23,7 +23,7 @@ Mtu yeyote yuko huru kupendekeza mradi wa kuorodhesha kwenye ukurasa wa DeSci kw
 - **Mradi unapaswa kuwa sehemu ya mfumo ikolojia wa Ethereum** - Katika ethereum.org tunaamini Ethereum (na Tabaka zake za 2) kuwa ndio tabaka la msingi linalofaa kwa vuguvugu la DeSci.
 - **Mradi umeimarika vizuri** - Mradi una watumiaji halisi ambao wameweza kupata huduma za mradi kwa miezi kadhaa.
 
-### Sifa za ziada
+### Sifa za ziada {#nice-to-haves}
 
 - **Inapatikana katika lugha nyingi** - Mradi wako umetafsiriwa katika lugha nyingi, kuruhusu watumiaji kote ulimwenguni kuufikia.
 - **Rasilimali za kielimu** - Bidhaa yako inapaswa kuwa na uzoefu mzuri wa kuanzisha mtumiaji ili kusaidia na kuwaelimisha watumiaji. Au ushahidi wa jinsi-ya maudhui kama makala au filamu.

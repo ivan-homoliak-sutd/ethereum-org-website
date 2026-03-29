@@ -79,7 +79,7 @@ require(msg.sender == owner, "Chỉ chủ sở hữu của hợp đồng này m�
 require(msg.sender == owner, "OW1");
 ```
 
-### Sử dụng các lỗi tùy chỉnh thay vì thông báo lỗi
+### Sử dụng các lỗi tùy chỉnh thay vì thông báo lỗi {#use-custom-errors-instead-of-error-messages}
 
 Các lỗi tùy chỉnh đã được giới thiệu trong [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/). Chúng là một cách tuyệt vời để giảm kích thước hợp đồng của bạn, bởi vì chúng được mã hóa ABI dưới dạng các bộ chọn (giống như các chức năng).
 

@@ -32,7 +32,7 @@ Většina testovacích sítí začala používáním povoleného mechanismu kons
 
 ETH na testovacích sítích nemá mít žádnou skutečnou hodnotu. Přesto vznikly trhy vytvořené pro některé druhy testovacích ETH, které jsou nedostatkové nebo je těžké je získat. Protože k interakci s Ethereem (dokonce i na testovacích sítích) potřebujete ETH, většina lidí dostává testovací ETH zdarma z faucetů. Většina faucetů jsou webové aplikace, kde můžete zadat adresu, na kterou chcete ETH obdržet.
 
-#### Kterou testovací síť bych měl/a použít?
+#### Kterou testovací síť bych měl/a použít? {#which-testnet-should-i-use}
 
 Dva veřejné testnety, které vývojáři klientů v současné době udržují, jsou Sepolia a Hoodi. Sepolia je síť pro vývojáře kontraktů a aplikací, kteří je chtějí otestovat. Síť Hoodi umožňuje vývojářům protokolů testovat vylepšení sítě a stakerům testovat provoz validátorů.
 
@@ -104,7 +104,7 @@ Ephemery je jedinečný druh testnetu, který se každý měsíc plně resetuje.
 - [Checkpoint Sync](https://checkpoint-sync.ephemery.ethpandaops.io)
 - [Launchpad](https://launchpad.ephemery.dev/)
 
-#### Faucety
+#### Faucety {#faucets}
 
 - [Bordel Faucet](https://faucet.bordel.wtf/)
 - [Pk910 PoW Faucet](https://ephemery-faucet.pk910.de/)

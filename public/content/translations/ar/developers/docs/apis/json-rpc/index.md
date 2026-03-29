@@ -79,7 +79,7 @@ lang: ar
 - `String "finalized"` - لأحدث بلوك نهائي
 - `String "pending"` - للحالة/المعاملات المعلقة
 
-## أمثلة
+## أمثلة {#examples}
 
 نقدم في هذه الصفحة أمثلة على كيفية استخدام نقاط نهاية واجهة برمجة تطبيقات JSON_RPC الفردية باستخدام أداة سطر الأوامر، [curl](https://curl.se). توجد أمثلة نقاط النهاية الفردية هذه أدناه في قسم [أمثلة Curl](#curl-examples). وفي أسفل الصفحة، نقدم أيضًا [مثالاً شاملاً](#usage-example) لتجميع ونشر عقد ذكي باستخدام عقدة Geth، وواجهة برمجة تطبيقات JSON_RPC، وcurl.
 
@@ -132,7 +132,7 @@ curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","metho
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## ساحة تجارب واجهة برمجة تطبيقات JSON-RPC
+## ساحة تجارب واجهة برمجة تطبيقات JSON-RPC {#json-rpc-api-playground}
 
 يمكنك استخدام [أداة ساحة التجارب](https://ethereum-json-rpc.com) لاكتشاف وتجربة طرق واجهة برمجة التطبيقات (API). كما توضح لك الطرق والشبكات المدعومة من قِبل مختلف مزودي العقد.
 

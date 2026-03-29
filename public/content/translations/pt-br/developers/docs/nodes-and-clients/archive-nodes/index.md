@@ -11,7 +11,7 @@ Um nó de arquivo é uma instância de um cliente Ethereum configurado para cons
 
 Você deve entender o conceito de um [nó Ethereum](/developers/docs/nodes-and-clients/), [sua arquitetura](/developers/docs/nodes-and-clients/node-architecture/), [estratégias de sincronização](/developers/docs/nodes-and-clients/#sync-modes), práticas de [executá-los](/developers/docs/nodes-and-clients/run-a-node/) e [usá-los](/developers/docs/apis/json-rpc/).
 
-## O que é um nó de arquivo
+## O que é um nó de arquivo {#what-is-an-archive-node}
 
 Para compreender a importância de um nó de arquivo, vamos esclarecer o conceito de "estado". O Ethereum pode ser chamado de uma _máquina de estado baseada em transações_. Consiste em contas e aplicativos que executam transações que estão mudando o seu estado. Os dados globais com informações sobre cada conta e contrato são armazenados em uma árvore de banco de dados chamado estado. Isso é tratado pelo cliente da camada de execução (EL) e inclui:
 
@@ -29,7 +29,7 @@ No entanto, isso significa que acessar um estado histórico em um nó completo c
 
 É importante notar que a rede não depende de nós de arquivo para manter e fornecer todos os dados históricos. Conforme mencionado acima, todos os estados históricos provisórios podem ser derivados de um nó completo. As transações são armazenadas por qualquer nó completo (atualmente com menos de 400G) e podem ser reproduzidas para construir todo o arquivo.
 
-### Casos de uso
+### Casos de uso {#use-cases}
 
 O uso regular do Ethereum, como envio de transações, implantação de contratos, verificação de consenso, etc., não requer acesso a estados históricos. Os usuários nunca precisam de um nó de arquivo para uma interação padrão com a rede.
 
@@ -48,17 +48,17 @@ Conforme explicado acima, um nó completo precisaria gerar esses dados pela exec
 
 Existem vários [serviços](/developers/docs/nodes-and-clients/nodes-as-a-service/) gratuitos que também permitem o acesso a dados históricos. Como é mais exigente administrar um nó de arquivo, esse acesso é, na maioria das vezes, limitado e funciona apenas para acesso ocasional. Se o seu projeto requer acesso constante a dados históricos, considere a possibilidade de executar um você mesmo.
 
-## Implementações e uso
+## Implementações e uso {#implementations-and-usage}
 
 O nó de arquivo, neste contexto, significa dados servidos pelos clientes da camada de execução voltados para o usuário, enquanto eles lidam com o banco de dados de estado e fornecem pontos de extremidade JSON-RPC. As opções de configuração, tempo de sincronização e tamanho do banco de dados podem variar conforme o cliente. Para mais detalhes, consulte a documentação fornecida pelo seu cliente.
 
 Antes de iniciar seu próprio nó de arquivo, aprenda sobre as diferenças entre os clientes e especialmente os vários [requisitos de hardware](/developers/docs/nodes-and-clients/run-a-node/#requirements). A maioria dos clientes não estão otimizados para este recurso e seus arquivos exigem mais de 12 TB de espaço. Por outro lado, implementações como Erigon podem armazenar os mesmos dados em menos de 3 TB, o que as torna a forma mais eficaz de executar um nó de arquivo.
 
-## Práticas recomendadas
+## Práticas recomendadas {#recommended-practices}
 
 Além das [recomendações gerais para executar um nó](/developers/docs/nodes-and-clients/run-a-node/), um nó de arquivo pode exigir mais hardware e manutenção. Considerando os [principais recursos](https://github.com/ledgerwatch/erigon#key-features) do Erigon, a abordagem mais prática é usar a implementação do cliente [Erigon](/developers/docs/nodes-and-clients/#erigon).
 
-### Hardware
+### Hardware {#hardware}
 
 Sempre verifique os requisitos de hardware para um determinado modo na documentação de um cliente.
 O maior requisito para nós de arquivo é o espaço em disco. Dependendo do cliente, varia de 3 TB a 12 TB. Mesmo que o HDD possa ser considerado uma solução melhor para grandes quantidades de dados, sincronizá-lo e atualizar constantemente o topo da cadeia exigirá unidades SSD. Unidades [SATA](https://www.cleverfiles.com/help/sata-hard-drive.html) são boas o suficiente, mas devem ser de qualidade confiável, pelo menos [TLC](https://blog.synology.com/tlc-vs-qlc-ssds-what-are-the-differences). Os discos podem ser inseridos em um computador ou servidor com slots suficientes. Esses dispositivos dedicados são ideais para executar um nó de alto tempo de atividade. É totalmente possível executá-lo em um laptop, mas a portabilidade virá com um custo adicional.

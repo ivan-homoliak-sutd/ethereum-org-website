@@ -253,7 +253,7 @@ Jesteś raczej wzrokowcem? Zobacz, jak Finematics wyjaśnia rollupy optymistyczn
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## Dalsze informacje na temat rollupów optymistycznych
+## Dalsze informacje na temat rollupów optymistycznych {#further-reading-on-optimistic-rollups}
 
 - [Jak działają rollupy optymistyczne (Kompletny przewodnik)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [Czym jest rollup blockchain? Wprowadzenie techniczne](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

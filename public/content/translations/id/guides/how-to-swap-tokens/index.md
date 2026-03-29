@@ -4,7 +4,7 @@ description: Panduan tentang cara menukar token di Ethereum.
 lang: id
 ---
 
-# Cara menukar token
+# Cara menukar token {#how-to-swap-tokens}
 
 Apakah Anda lelah mencari bursa yang mencantumkan semua token favorit Anda? Anda dapat menukar sebagian besar token menggunakan [pertukaran terdesentralisasi](/glossary/#dex).
 
@@ -15,7 +15,7 @@ Pertukaran token melibatkan pertukaran dua aset berbeda yang ada di jaringan Eth
 - memiliki [dompet kripto](/glossary/#wallet); jika Anda tidak memilikinya, Anda dapat mengikuti panduan ini tentang [cara membuat akun Ethereum](/guides/how-to-create-an-ethereum-account/)
 - menambahkan dana ke dompet Anda
 
-## 1. Hubungkan dompet Anda ke pertukaran terdesentralisasi (DEX) pilihan Anda
+## 1. Hubungkan dompet Anda ke pertukaran terdesentralisasi (DEX) pilihan Anda {#1-connect-your-wallet-to-the-decentralized-exchange-dex-of-your-choice}
 
 Beberapa pertukaran populer adalah:
 
@@ -26,24 +26,24 @@ Beberapa pertukaran populer adalah:
 
 Menarik? Pelajari lebih lanjut tentang apa itu [keuangan terdesentralisasi (DeFi)](/defi/) dan bagaimana jenis pertukaran baru ini bekerja.
 
-## 2. Pilih pasangan token yang ingin Anda tukar
+## 2. Pilih pasangan token yang ingin Anda tukar {#2-select-the-pair-of-tokens-you-wish-to-swap}
 
 Misalnya, ETH dan DAI. Pastikan Anda memiliki dana di salah satu dari kedua token tersebut.
 ![Antarmuka umum untuk menukar](./swap1.png)
 
-## 3. Masukkan jumlah token yang ingin Anda perdagangkan dan klik tukar
+## 3. Masukkan jumlah token yang ingin Anda perdagangkan dan klik tukar {#3-enter-the-amount-of-tokens-you-want-to-trade-and-click-swap}
 
 Pertukaran akan secara otomatis menghitung berapa banyak token yang akan Anda dapatkan.
 
 ![Antarmuka umum untuk menukar](./swap2.png)
 
-## 4. Konfirmasi transaksi
+## 4. Konfirmasi transaksi {#4-confirm-the-transaction}
 
 Tinjau detail transaksi. Periksa nilai tukar dan biaya lainnya untuk mencegah kejutan yang tidak menyenangkan.
 
 ![Antarmuka umum untuk meninjau transaksi](./swap3.png)
 
-## 5. Tunggu hingga transaksi diproses
+## 5. Tunggu hingga transaksi diproses {#5-wait-for-the-transaction-to-be-processed}
 
 Anda dapat melihat kemajuan transaksi di penjelajah blockchain mana pun. Proses ini seharusnya tidak memakan waktu lebih dari 10 menit.
 
@@ -60,12 +60,12 @@ Anda akan secara otomatis menerima token yang ditukar di dompet Anda setelah tra
 </AlertContent>
 </Alert>
 
-## Pertanyaan yang sering diajukan
+## Pertanyaan yang sering diajukan {#frequently-asked-questions}
 
-### Bisakah saya menukar ETH dengan BTC dari dompet saya?
+### Bisakah saya menukar ETH dengan BTC dari dompet saya? {#can-i-swap-eth-for-btc-from-my-wallet}
 
 Tidak, Anda hanya dapat menukar token yang asli dari jaringan Ethereum, seperti ETH, token ERC-20, atau NFT. Anda hanya dapat menukar bentuk Bitcoin "terbungkus" yang ada di Ethereum.
 
-### Apa itu slippage?
+### Apa itu slippage? {#what-is-slippage}
 
 Ini adalah perbedaan antara nilai tukar yang Anda harapkan dan nilai tukar yang sebenarnya.

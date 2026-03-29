@@ -11,7 +11,7 @@ Węzeł archiwalny to instancja klienta Ethereum skonfigurowanego do tworzenia a
 
 Należy rozumieć koncepcję [węzła Ethereum](/developers/docs/nodes-and-clients/), [jego architekturę](/developers/docs/nodes-and-clients/node-architecture/), [strategie synchronizacji](/developers/docs/nodes-and-clients/#sync-modes), praktyki [uruchamiania](/developers/docs/nodes-and-clients/run-a-node/) i [korzystania z nich](/developers/docs/apis/json-rpc/).
 
-## Czym jest węzeł archiwalny
+## Czym jest węzeł archiwalny {#what-is-an-archive-node}
 
 Aby zrozumieć znaczenie węzła archiwalnego, wyjaśnijmy pojęcie „stanu”. Ethereum można określić jako _maszynę stanową opartą na transakcjach_. Składa się kont i aplikacji wykonujących transakcje, które zmieniają jego stan. Globalne dane zwierające informacje o każdym koncie i kontrakcie są przechowywanie w bazie danych o strukturze drzewa trie, nazywanej stanem. Zajmuje się tym klient warstwy wykonawczej (EL) i obejmuje:
 
@@ -29,7 +29,7 @@ Jednak oznacza to, że dostęp do historycznego stanu na pełnym węźle zużywa
 
 Należy zapamiętać, że siec nie zależy od węzłów archiwalnych na przechowywaniu i dostarczaniu wszystkich historycznych danych. Jak wspomniano wyżej, wszystkie historyczne stany pośrednie mogą zostać pozyskane na pełnym węźle. Transakcje są przechowywane przez dowolny pełny węzeł (obecnie mniej niż 400 GB) i mogą być odtworzone do utworzenia całego archiwum.
 
-### Przypadki użycia
+### Przypadki użycia {#use-cases}
 
 Zwykłe korzystanie z Ethereum takie jak wysyłanie transakcji, wdrażanie kontraktów, weryfikowanie konsensusu itp. nie wymaga dostępu do historycznych stanów. Użytkownicy nigdy nie potrzebują węzła archiwalnego do standardowych interakcji z siecią.
 
@@ -48,17 +48,17 @@ Jak już wyjaśniono powyżej, pełny węzeł potrzebowałby wygenerować te dan
 
 Istnieją różne bezpłatne [usługi](/developers/docs/nodes-and-clients/nodes-as-a-service/), które również umożliwiają dostęp do danych historycznych. Ponieważ uruchomienie węzła archiwalnego staje się coraz bardziej wymagające, dostęp ten jest w większości ograniczony i działa tylko w przypadku okazjonalnego dostępu. Jeśli Twój projekt wymaga ciągłego dostępu do historycznych danych, to zastanów się, czy nie uruchomić własnego węzła archiwalnego.
 
-## Implementacja i użycie
+## Implementacja i użycie {#implementations-and-usage}
 
 W tym kontekście węzeł archiwalny oznacza dane obsługiwane przez klienty warstwy wykonawczej skierowane do użytkownika, ponieważ obsługują one bazą danych stanu oraz zapewniają punkty końcowe JSON-RPC. Opcje konfiguracji, czas synchronizacji i rozmiar bazy danych mogą różnić się w zależności od klienta. Szczegóły znajdziesz w dokumentacji swojego klienta.
 
 Przed uruchomieniem własnego węzła archiwalnego, zapoznaj się z różnicami między klientami, a w szczególności z różnymi [wymaganiami sprzętowymi](/developers/docs/nodes-and-clients/run-a-node/#requirements). Większość klientów nie jest zoptymalizowana pod względem tej funkcji, a ich archiwa mogą wymagać ponad 12 TB pamięci. W przeciwieństwie, implementacje takie jak Erigon mogą przechowywać te same dane, zajmując mniej niż 3 TB pamięci, co czyni je najbardziej efektywnym sposobem uruchamiania węzła archiwalnego.
 
-## Zalecane praktyki
+## Zalecane praktyki {#recommended-practices}
 
 Poza ogólnymi [zaleceniami dotyczącymi uruchamiania węzła](/developers/docs/nodes-and-clients/run-a-node/) węzeł archiwalny może być bardziej wymagający pod względem sprzętu i konserwacji. Biorąc pod uwagę [kluczowe funkcje](https://github.com/ledgerwatch/erigon#key-features) Erigona, najbardziej praktycznym podejściem jest użycie implementacji klienta [Erigon](/developers/docs/nodes-and-clients/#erigon).
 
-### Sprzęt
+### Sprzęt {#hardware}
 
 Zawsze weryfikuj wymagania sprzętowe dla konkretnego trybu w dokumentacji klienta.
 Największym wymaganiem dla węzłów archiwalnych jest przestrzeń dyskowa. W zależności od klienta wacha się ona od 3 TB do 12 TB. Nawet jeśli dysk HDD może być lepszym rozwiązaniem do przechowywania dużych ilości danych, to synchronizacja ich oraz ciągłe aktualizowanie początku łańcucha będzie wymagało dysków SSD. Dyski [SATA](https://www.cleverfiles.com/help/sata-hard-drive.html) są wystarczająco dobre, ale powinny być niezawodnej jakości, co najmniej [TLC](https://blog.synology.com/tlc-vs-qlc-ssds-what-are-the-differences). Dyski mogą zostać zamontowane w komputerze stacjonarnym lub serwerze z odpowiednią liczbą gniazd. Takie dedykowane urządzenia są idealnie do uruchamiania węzłów, które mają pracować nieprzerwanie przez długi czas. Całkowicie możliwe jest również uruchomienie go na laptopie, ale możliwość przenoszenia wiąże się z dodatkowymi kosztami.

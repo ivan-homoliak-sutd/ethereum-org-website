@@ -11,7 +11,7 @@ Archivní uzel je instancí klienta sítě Ethereum, který je nakonfigurován k
 
 Měli byste rozumět konceptu [uzlu sítě Ethereum](/developers/docs/nodes-and-clients/), [jeho architektuře](/developers/docs/nodes-and-clients/node-architecture/), [strategiím synchronizace](/developers/docs/nodes-and-clients/#sync-modes) a postupům pro jejich [provoz](/developers/docs/nodes-and-clients/run-a-node/) a [používání](/developers/docs/apis/json-rpc/).
 
-## Co je to archivní uzel
+## Co je to archivní uzel {#what-is-an-archive-node}
 
 Abychom pochopili důležitost archivního uzlu, objasněme si pojem "stav". O Ethereu lze mluvit jako o _stavovém automatu založeném na transakcích_. Skládá se z účtů a aplikací, které provádějí transakce měnící jejich stav. Globální data s informacemi o každém účtu a kontraktu jsou uložena v databázi trie nazývané stav. O to se stará klient exekuční vrstvy (EL) a zahrnuje to:
 
@@ -29,7 +29,7 @@ To však znamená, že přístup k historickému stavu na plném uzlu spotřebuj
 
 Je důležité si uvědomit, že síť nezávisí na archivních uzlech, které by uchovávaly a poskytovaly všechna historická data. Jak již bylo zmíněno, všechny historické přechodné stavy lze odvodit na plném uzlu. Transakce jsou uloženy na každém plném uzlu (v současnosti méně než 400 GB) a lze je znovu přehrát a vytvořit tak celý archiv.
 
-### Případy použití
+### Případy použití {#use-cases}
 
 Běžné používání Etherea, jako je odesílání transakcí, nasazování kontraktů, ověřování konsensu atd., nevyžaduje přístup k historickým stavům. Uživatelé nikdy nepotřebují archivní uzel pro standardní interakci se sítí.
 
@@ -48,17 +48,17 @@ Jak bylo vysvětleno výše, plný uzel by musel tato data generovat provedením
 
 Existují různé bezplatné [služby](/developers/docs/nodes-and-clients/nodes-as-a-service/), které také umožňují přístup k historickým datům. Vzhledem k tomu, že provoz archivního uzlu je náročnější, je tento přístup většinou omezený a funguje pouze pro příležitostný přístup. Pokud váš projekt vyžaduje neustálý přístup k historickým datům, měli byste zvážit provoz vlastního uzlu.
 
-## Implementace a použití
+## Implementace a použití {#implementations-and-usage}
 
 Archivní uzel v tomto kontextu znamená data poskytovaná klienty exekuční vrstvy, kteří se starají o databázi stavů a poskytují koncové body JSON-RPC. Možnosti konfigurace, doba synchronizace a velikost databáze se mohou u jednotlivých klientů lišit. Podrobnosti naleznete v dokumentaci poskytnuté vaším klientem.
 
 Než spustíte vlastní archivní uzel, seznamte se s rozdíly mezi klienty a zejména s různými [hardwarovými požadavky](/developers/docs/nodes-and-clients/run-a-node/#requirements). Většina klientů není pro tuto funkci optimalizována a jejich archivy vyžadují více než 12 TB místa. Naproti tomu implementace jako Erigon mohou ukládat stejná data na méně než 3 TB, což z nich činí nejefektivnější způsob provozu archivního uzlu.
 
-## Doporučené postupy
+## Doporučené postupy {#recommended-practices}
 
 Kromě obecných [doporučení pro provoz uzlu](/developers/docs/nodes-and-clients/run-a-node/) může být archivní uzel náročnější na hardware a údržbu. S ohledem na [klíčové funkce](https://github.com/ledgerwatch/erigon#key-features) Erigonu je nejpraktičtějším přístupem použití klientské implementace [Erigon](/developers/docs/nodes-and-clients/#erigon).
 
-### Hardware
+### Hardware {#hardware}
 
 Vždy si ověřte hardwarové požadavky pro daný režim v dokumentaci klienta.
 Největším požadavkem pro archivní uzly je místo na disku. V závislosti na klientovi se pohybuje od 3 TB do 12 TB. I když by se pro velké objemy dat mohl disk HDD považovat za lepší řešení, jeho synchronizace a neustálá aktualizace špičky řetězce budou vyžadovat disky SSD. Disky [SATA](https://www.cleverfiles.com/help/sata-hard-drive.html) jsou dostatečně dobré, ale měly by být spolehlivé kvality, alespoň [TLC](https://blog.synology.com/tlc-vs-qlc-ssds-what-are-the-differences). Disky lze umístit do stolního počítače nebo serveru s dostatečným počtem slotů. Tato vyhrazená zařízení jsou ideální pro provoz uzlu s vysokou dostupností. Je zcela možné jej provozovat na notebooku, ale přenosnost bude spojena s dalšími náklady.

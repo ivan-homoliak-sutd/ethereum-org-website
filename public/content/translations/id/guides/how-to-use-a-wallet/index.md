@@ -5,15 +5,15 @@ description: Panduan yang menjelaskan cara mengirim, menerima token, dan terhubu
 lang: id
 ---
 
-# Cara menggunakan dompet
+# Cara menggunakan dompet {#how-to-use-a-wallet}
 
 Pelajari cara mengoperasikan semua fungsi dasar dompet. Jika Anda belum memilikinya, lihat [Cara membuat akun Ethereum](/guides/how-to-create-an-ethereum-account/) kami.
 
-## Buka dompet Anda
+## Buka dompet Anda {#open-your-wallet}
 
 Anda akan melihat dasbor yang kemungkinan akan menampilkan saldo Anda dan berisi tombol untuk mengirim dan menerima token.
 
-## Menerima mata uang kripto
+## Menerima mata uang kripto {#receive-cryptocurrency}
 
 Apakah Anda ingin menerima kripto ke dalam dompet Anda?
 
@@ -30,7 +30,7 @@ Aplikasi yang berbeda mungkin bervariasi atau menggunakan bahasa yang berbeda, t
 3. Salin alamat Ethereum Anda ke papan klip.
 4. Berikan alamat Ethereum penerima Anda kepada pengirim.
 
-## Mengirim mata uang kripto
+## Mengirim mata uang kripto {#send-cryptocurrency}
 
 Apakah Anda ingin mengirim ETH ke dompet lain?
 
@@ -46,7 +46,7 @@ Apakah Anda ingin mengirim ETH ke dompet lain?
 6. Pastikan dompet Anda memiliki ETH yang cukup untuk menutupi biaya transaksi, yang bervariasi tergantung pada kondisi jaringan. Sebagian besar dompet akan secara otomatis menambahkan biaya yang disarankan ke transaksi yang kemudian dapat Anda konfirmasi.
 7. Setelah transaksi Anda diproses, jumlah kripto yang sesuai akan muncul di akun penerima. Ini mungkin memakan waktu mulai dari beberapa detik hingga beberapa menit tergantung pada seberapa banyak jaringan sedang digunakan saat ini.
 
-## Terhubung ke proyek
+## Terhubung ke proyek {#connecting-to-projects}
 
 Alamat Anda akan sama di semua proyek Ethereum. Anda tidak perlu mendaftar secara individual di proyek mana pun. Setelah Anda memiliki dompet, Anda dapat terhubung ke proyek Ethereum mana pun tanpa informasi tambahan apa pun. Tidak diperlukan email atau informasi pribadi lainnya.
 
@@ -74,20 +74,20 @@ Alamat Anda akan sama di semua proyek Ethereum. Anda tidak perlu mendaftar secar
 </AlertContent>
 </Alert>
 
-## Pertanyaan yang sering diajukan
+## Pertanyaan yang sering diajukan {#frequently-asked-questions}
 
-### Jika saya memiliki alamat ETH, apakah saya memiliki alamat yang sama di blockchain lain?
+### Jika saya memiliki alamat ETH, apakah saya memiliki alamat yang sama di blockchain lain? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Anda dapat menggunakan alamat yang sama di semua blockchain yang kompatibel dengan EVM (jika Anda memiliki jenis dompet dengan frasa pemulihan). [Daftar](https://chainlist.org/) ini akan menunjukkan kepada Anda blockchain mana yang dapat Anda gunakan dengan alamat yang sama. Beberapa blockchain, seperti Bitcoin, menerapkan seperangkat aturan jaringan yang sama sekali terpisah dan Anda akan memerlukan alamat yang berbeda dengan format yang berbeda. Jika Anda memiliki dompet kontrak pintar, Anda harus memeriksa situs web produknya untuk info lebih lanjut tentang blockchain mana yang didukung.
 
-### Bisakah saya menggunakan alamat yang sama di beberapa perangkat?
+### Bisakah saya menggunakan alamat yang sama di beberapa perangkat? {#can-i-use-the-same-address-on-multiple-devices}
 
 Ya, Anda dapat menggunakan alamat yang sama di beberapa perangkat. Dompet secara teknis hanyalah antarmuka untuk menunjukkan saldo Anda dan untuk melakukan transaksi, akun Anda tidak disimpan di dalam dompet, tetapi di blockchain.
 
-### Saya belum menerima kripto, di mana saya dapat memeriksa status transaksi?
+### Saya belum menerima kripto, di mana saya dapat memeriksa status transaksi? {#i-have-not-received-the-crypto-where-can-i-check-the-status-of-a-transaction}
 
 Anda dapat menggunakan [penjelajah blok](/developers/docs/data-and-analytics/block-explorers/) untuk melihat status transaksi apa pun secara waktu nyata. Yang perlu Anda lakukan hanyalah mencari alamat dompet Anda atau ID transaksi.
 
-### Bisakah saya membatalkan atau mengembalikan transaksi?
+### Bisakah saya membatalkan atau mengembalikan transaksi? {#can-i-cancel-or-return-transactions}
 
 Tidak, setelah transaksi dikonfirmasi, Anda tidak dapat membatalkan transaksi tersebut.

@@ -43,13 +43,13 @@ Nachfolgend finden Sie einige verfügbare SaaS-Anbieter. Verwenden Sie die obige
 
 <ProductDisclaimer />
 
-### SaaS-Anbieter
+### SaaS-Anbieter {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 Bitte beachten Sie, wie wichtig die Unterstützung der [Client-Vielfalt](/developers/docs/nodes-and-clients/client-diversity/) ist, da sie die Sicherheit des Netzwerks verbessert und Ihr Risiko begrenzt. Dienste, bei denen es Anzeichen dafür gibt, dass sie die Nutzung von Mehrheits-Clients einschränken, sind mit <em style={{ textTransform: "uppercase" }}>"Ausführungs-Client-Vielfalt"</em> und <em style={{ textTransform: "uppercase" }}>"Konsens-Client-Vielfalt"</em> gekennzeichnet.
 
-### Schlüsselgeneratoren
+### Schlüsselgeneratoren {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

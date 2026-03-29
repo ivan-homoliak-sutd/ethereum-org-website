@@ -79,7 +79,7 @@ require(msg.sender == owner, "Only the owner of this contract can call this func
 require(msg.sender == owner, "OW1");
 ```
 
-### ایرر میسجز کے بجائے کسٹم ایررز کا استعمال کریں
+### ایرر میسجز کے بجائے کسٹم ایررز کا استعمال کریں {#use-custom-errors-instead-of-error-messages}
 
 کسٹم ایررز کو [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/) میں متعارف کرایا گیا ہے۔ یہ آپ کے کانٹریکٹس کے سائز کو کم کرنے کا ایک بہترین طریقہ ہیں، کیونکہ وہ سلیکٹرز کے طور پر ABI-encoded ہوتے ہیں (بالکل فنکشنز کی طرح)۔
 

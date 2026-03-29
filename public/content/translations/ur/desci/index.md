@@ -20,7 +20,7 @@ DeSci کا مقصد ایک ایسا ایکو سسٹم بنانا ہے جہاں �
 
 ڈی سینٹرلائزڈ سائنس فنڈنگ کے زیادہ متنوع ذرائع ([DAOs](/glossary/#dao)، [quadratic donations](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531) سے لے کر کراؤڈ فنڈنگ اور بہت کچھ)، زیادہ قابل رسائی ڈیٹا اور طریقوں کی اجازت دیتی ہے، اور تولیدی صلاحیت (reproducibility) کے لیے ترغیبات فراہم کرتی ہے۔
 
-### Juan Benet - DeSci موومنٹ
+### Juan Benet - DeSci موومنٹ {#juan-benet-the-desci-movement}
 
 <YouTube id="5ORvbCIW39o" />
 

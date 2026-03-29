@@ -190,7 +190,7 @@ Renvoie le montant total de parts de coffre-fort que le `propriétaire` détient
 
 ### Événements {#events}
 
-#### Événement de dépôt
+#### Événement de dépôt {#deposit-event}
 
 **DOIT** être émis lorsque des jetons sont déposés dans le coffre-fort via les méthodes [`mint`](#mint) et [`deposit`](#deposit).
 
@@ -200,7 +200,7 @@ event Deposit(\n    address indexed sender,\n    address indexed owner,\n    uin
 
 Où `sender` est l'utilisateur qui a échangé des `assets` contre des `shares`, et a transféré ces `shares` à `owner`.
 
-#### Évènement de retrait
+#### Évènement de retrait {#withdraw-event}
 
 **DOIT** être émis lorsque des parts sont retirées du coffre-fort par un déposant dans les méthodes [`redeem`](#redeem) ou [`withdraw`](#withdraw).
 

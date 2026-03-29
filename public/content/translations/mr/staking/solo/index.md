@@ -106,13 +106,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### नोड साधने
+### नोड साधने {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 कृपया [मायनॉरिटी क्लायंट](/developers/docs/nodes-and-clients/client-diversity/) निवडण्याचे महत्त्व लक्षात घ्या, कारण ते नेटवर्कची सुरक्षा सुधारते आणि तुमची जोखीम मर्यादित करते. तुम्हाला मायनॉरिटी क्लायंट सेटअप करण्याची परवानगी देणारी साधने <em style={{ textTransform: "uppercase" }}>"मल्टी-क्लायंट"</em> म्हणून दर्शविली जातात.
 
-### की जनरेटर
+### की जनरेटर {#key-generators}
 
 की जनरेशनमध्ये मदत करण्यासाठी ही साधने [स्टेकिंग डिपॉझिट CLI](https://github.com/ethereum/staking-deposit-cli/) ला पर्याय म्हणून वापरली जाऊ शकतात.
 

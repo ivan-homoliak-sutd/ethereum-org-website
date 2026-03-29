@@ -4,7 +4,7 @@ description: Eine Anleitung zum Widerrufen des ausbeuterischen Smart-Contract-To
 lang: de
 ---
 
-# So widerrufen Sie den Smart-Contract-Zugriff auf Ihr Krypto-Guthaben
+# So widerrufen Sie den Smart-Contract-Zugriff auf Ihr Krypto-Guthaben {#how-to-revoke-smart-contract-access-to-your-crypto-funds}
 
 Dieser Leitfaden zeigt Ihnen, wie Sie eine Liste aller [Smart Contracts](/glossary/#smart-contract) anzeigen können, denen Sie Zugriff auf Ihr Guthaben gewährt haben, und wie Sie diese widerrufen können.
 
@@ -14,7 +14,7 @@ Sobald eine Plattform unbegrenzte Zugriffsrechte auf einen Token in Ihrem [Walle
 
 Der einzige Schutz besteht darin, auf die Nutzung ungetesteter neuer Projekte zu verzichten, nur das zu genehmigen, was Sie benötigen, oder den Zugriff regelmäßig zu widerrufen. Wie machen Sie das also?
 
-## Schritt 1: Tools zum Widerrufen des Zugriffs verwenden
+## Schritt 1: Tools zum Widerrufen des Zugriffs verwenden {#step-1-use-revoke-access-tools}
 
 Auf mehreren Websites können Sie Smart Contracts anzeigen und widerrufen, die mit Ihrer Adresse verbunden sind. Besuchen Sie die Website und verbinden Sie Ihr Wallet:
 
@@ -24,19 +24,19 @@ Auf mehreren Websites können Sie Smart Contracts anzeigen und widerrufen, die m
 - [Unrekt](https://app.unrekt.net/) (mehrere Netzwerke)
 - [EverRevoke](https://everrise.com/everrevoke/) (mehrere Netzwerke)
 
-## Schritt 2: Verbinden Sie Ihr Wallet
+## Schritt 2: Verbinden Sie Ihr Wallet {#step-2-connect-your-wallet}
 
 Sobald Sie auf der Website sind, klicken Sie auf „Connect wallet“. Die Website sollte Sie auffordern, Ihr Wallet zu verbinden.
 
 Stellen Sie sicher, dass Sie in Ihrem Wallet und auf der Website dasselbe Netzwerk verwenden. Sie sehen nur Smart Contracts, die sich auf das ausgewählte Netzwerk beziehen. Wenn Sie sich beispielsweise mit dem Ethereum-Mainnet verbinden, sehen Sie nur Ethereum-Verträge, keine Verträge von anderen Chains wie Polygon.
 
-## Schritt 3: Wählen Sie einen Smart Contract aus, den Sie widerrufen möchten
+## Schritt 3: Wählen Sie einen Smart Contract aus, den Sie widerrufen möchten {#step-3-select-a-smart-contract-you-wish-to-revoke}
 
 Sie sollten alle Verträge sehen, die Zugriff auf Ihre Token haben, sowie deren Ausgabenlimit. Suchen Sie den Vertrag, den Sie beenden möchten.
 
 Wenn Sie nicht wissen, welchen Vertrag Sie wählen sollen, können Sie alle widerrufen. Das wird Ihnen keine Probleme bereiten, aber Sie müssen beim nächsten Mal, wenn Sie mit einem dieser Verträge interagieren, neue Berechtigungen erteilen.
 
-## Schritt 4: Widerrufen Sie den Zugriff auf Ihr Guthaben
+## Schritt 4: Widerrufen Sie den Zugriff auf Ihr Guthaben {#step-4-revoke-access-to-your-funds}
 
 Sobald Sie auf Widerrufen klicken, sollten Sie einen neuen Transaktionsvorschlag in Ihrem Wallet sehen. Das ist zu erwarten. Sie müssen die Gebühr bezahlen, damit die Stornierung erfolgreich ist. Je nach Netzwerk kann die Verarbeitung eine bis mehrere Minuten dauern.
 
@@ -56,20 +56,20 @@ Wir empfehlen Ihnen, das Widerrufs-Tool nach einigen Minuten zu aktualisieren un
 </AlertContent>
 </Alert>
 
-## Häufig gestellte Fragen
+## Häufig gestellte Fragen {#frequently-asked-questions}
 
-### Beendet der Widerruf des Token-Zugriffs auch Staking, Pooling, Lending usw.?
+### Beendet der Widerruf des Token-Zugriffs auch Staking, Pooling, Lending usw.? {#does-revoking-token-access-also-terminate-staking-pooling-lending-etc}
 
 Nein, es hat keine Auswirkungen auf Ihre [DeFi](/glossary/#defi)-Strategien. Sie behalten Ihre Positionen und erhalten weiterhin Belohnungen usw.
 
-### Ist das Trennen eines Wallets von einem Projekt dasselbe wie das Entziehen der Berechtigung zur Nutzung meines Guthabens?
+### Ist das Trennen eines Wallets von einem Projekt dasselbe wie das Entziehen der Berechtigung zur Nutzung meines Guthabens? {#is-disconnecting-a-wallet-from-a-project-the-same-as-removing-permission-to-use-my-funds}
 
 Nein, wenn Sie Ihr Wallet vom Projekt trennen, aber Token-Zugriffsberechtigungen erteilt haben, können diese Token weiterhin verwendet werden. Sie müssen diesen Zugriff widerrufen.
 
-### Wann läuft die Vertragsberechtigung ab?
+### Wann läuft die Vertragsberechtigung ab? {#when-will-the-contract-permission-expire}
 
 Es gibt keine Ablaufdaten für Vertragsberechtigungen. Wenn Sie Vertragsberechtigungen erteilen, können diese auch Jahre nach der Erteilung noch verwendet werden.
 
-### Warum legen Projekte unbegrenzte Token-Berechtigungen fest?
+### Warum legen Projekte unbegrenzte Token-Berechtigungen fest? {#why-do-projects-set-unlimited-token-allowance}
 
 Projekte tun dies oft, um die Anzahl der erforderlichen Anfragen zu minimieren, was bedeutet, dass der Benutzer nur einmal zustimmen und die Transaktionsgebühr nur einmal bezahlen muss. Obwohl dies bequem ist, kann es für Benutzer gefährlich sein, unvorsichtig auf Websites zuzustimmen, die sich nicht über die Zeit bewährt haben oder geprüft wurden. Einige Wallets ermöglichen es Ihnen, die Menge der genehmigten Token manuell einzuschränken, um Ihr Risiko zu begrenzen. Erkundigen Sie sich bei Ihrem Wallet-Anbieter nach weiteren Informationen.

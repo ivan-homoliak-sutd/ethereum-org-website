@@ -106,13 +106,13 @@ Ada berbagai opsi yang tersedia untuk membantu Anda dengan pengaturan Anda. Guna
 
 <ProductDisclaimer />
 
-### Alat node
+### Alat node {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 Harap perhatikan pentingnya memilih [klien minoritas](/developers/docs/nodes-and-clients/client-diversity/) karena ini meningkatkan keamanan jaringan, dan membatasi risiko Anda. Alat yang memungkinkan Anda mengatur klien minoritas dilambangkan sebagai <em style={{ textTransform: "uppercase" }}>"multi-klien."</em>
 
-### Pembuat Kunci
+### Pembuat Kunci {#key-generators}
 
 Alat-alat ini dapat digunakan sebagai alternatif dari [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) untuk membantu pembuatan kunci.
 

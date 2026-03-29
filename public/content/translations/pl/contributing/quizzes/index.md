@@ -17,7 +17,7 @@ Przykłady aktualnych quizów można znaleźć tutaj:
 - [Czym jest Ethereum?](/what-is-ethereum/)
 - [Czym jest ETH?](/what-is-ether/)
 
-## Dodawanie quizu edukacyjnego
+## Dodawanie quizu edukacyjnego {#adding-a-learn-quiz}
 
 Jeśli istnieje strona, dla której nie został jeszcze utworzony quiz edukacyjny, prosimy o [otwarcie zgłoszenia](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) w tej sprawie.
 
@@ -30,7 +30,7 @@ Prosimy o podanie następujących informacji:
   - 1 prawidłowa odpowiedź z wyjaśnieniem, dlaczego jest prawidłowa
   - 3 nieprawidłowe odpowiedzi, każda z wyjaśnieniem, dlaczego są nieprawidłowe
 
-## Dodawanie pytania quizowego
+## Dodawanie pytania quizowego {#adding-a-quiz-question}
 
 Jeśli chcesz dodać pytanie do banku pytań do quizu, prosimy o [otwarcie zgłoszenia](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) i podanie następujących informacji:
 
@@ -41,7 +41,7 @@ Jeśli chcesz dodać pytanie do banku pytań do quizu, prosimy o [otwarcie zgło
   - 1 prawidłowa odpowiedź z wyjaśnieniem, dlaczego jest prawidłowa
   - 3 nieprawidłowe odpowiedzi, każda z wyjaśnieniem, dlaczego są nieprawidłowe
 
-## Aktualizowanie pytania quizowego
+## Aktualizowanie pytania quizowego {#updating-a-quiz-question}
 
 Jeśli chcesz zaktualizować pytanie w banku pytań do quizu, prosimy o [otwarcie zgłoszenia](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) i podanie następujących informacji:
 
@@ -53,7 +53,7 @@ Jeśli chcesz zaktualizować pytanie w banku pytań do quizu, prosimy o [otwarci
   - 1 prawidłowa odpowiedź z wyjaśnieniem, dlaczego jest prawidłowa
   - 3 nieprawidłowe odpowiedzi, każda z wyjaśnieniem, dlaczego są nieprawidłowe
 
-## Usuwanie pytania quizowego
+## Usuwanie pytania quizowego {#removing-a-quiz-question}
 
 Jeśli treść pytania nie istnieje już na stronie i należy je usunąć, prosimy [otworzyć zgłoszenie](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml), aby usunąć pytanie, i podać następujące informacje:
 

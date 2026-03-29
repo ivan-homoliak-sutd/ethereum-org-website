@@ -43,13 +43,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### SaaS வழங்குநர்கள்
+### SaaS வழங்குநர்கள் {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 [கிளையண்ட் பன்முகத்தன்மையை](/developers/docs/nodes-and-clients/client-diversity/) ஆதரிப்பதன் முக்கியத்துவத்தை நினைவில் கொள்ளவும், ஏனெனில் இது நெட்வொர்க்கின் பாதுகாப்பை மேம்படுத்துகிறது மற்றும் உங்கள் அபாயத்தைக் கட்டுப்படுத்துகிறது. பெரும்பான்மை கிளையண்ட் பயன்பாட்டைக் கட்டுப்படுத்துவதற்கான ஆதாரங்களைக் கொண்ட சேவைகள் <em style={{ textTransform: "uppercase" }}>"எக்ஸிகியூஷன் கிளையண்ட் பன்முகத்தன்மை"</em> மற்றும் <em style={{ textTransform: "uppercase" }}>"கருத்தொற்றுமை கிளையண்ட் பன்முகத்தன்மை"</em> எனக் குறிக்கப்படுகின்றன.
 
-### திறவுகோல் உருவாக்கிகள்
+### திறவுகோல் உருவாக்கிகள் {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

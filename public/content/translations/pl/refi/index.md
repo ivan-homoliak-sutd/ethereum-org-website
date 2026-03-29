@@ -73,7 +73,7 @@ Chociaż obecnie kładzie się z reguły duży nacisk na rynki emisji dwutlenku 
 
 Zmieniając kierunek kapitału z praktyk wydobywczych na regeneracyjne, projekty i firmy, które zapewniają korzyści społeczne, środowiskowe lub komunalne — i które mogą nie uzyskać finansowania w tradycyjnych finansach — mogą znacznie szybciej i łatwiej rozpocząć działalność i generować pozytywne efekty zewnętrzne dla społeczeństwa. Przejście na ten model finansowania otwiera również drzwi do znacznie bardziej inkluzywnych systemów ekonomicznych, w których ludzie ze wszystkich grup demograficznych mogą stać się aktywnymi uczestnikami, a nie tylko biernymi obserwatorami. ReFi oferuje wizję Ethereum jako mechanizmu koordynującego działania w zakresie egzystencjalnych wyzwań stojących przed naszym gatunkiem i całym życiem na naszej planecie — jako podstawowej warstwy nowego paradygmatu ekonomicznego, umożliwiającego bardziej inkluzywną i zrównoważoną przyszłość na nadchodzące stulecia.
 
-## Dodatkowe informacje na temat ReFi
+## Dodatkowe informacje na temat ReFi {#additional-reading-on-refi}
 
 - [Ogólny zarys walut węglowych i ich miejsca w gospodarce](https://www.klimadao.finance/resources/the-vision-of-a-carbon-currency)
 - [The Ministry for the Future, powieść przedstawiająca rolę waluty opartej na węglu w walce ze zmianami klimatu](https://en.wikipedia.org/wiki/The_Ministry_for_the_Future)

@@ -190,7 +190,7 @@ Trả về tổng số lượng cổ phần kho lưu trữ mà `chủ sở hữu
 
 ### Sự kiện {#events}
 
-#### Sự kiện Gửi tiền
+#### Sự kiện Gửi tiền {#deposit-event}
 
 **PHẢI** được phát ra khi các token được gửi vào kho lưu trữ thông qua các phương thức [`đúc`](#mint) và [`gửi tiền`](#deposit).
 
@@ -205,7 +205,7 @@ event Deposit(
 
 Trong đó `người gửi` là người dùng đã trao đổi `tài sản` lấy `cổ phần` và đã chuyển những `cổ phần` đó cho `chủ sở hữu`.
 
-#### Sự kiện Rút tiền
+#### Sự kiện Rút tiền {#withdraw-event}
 
 **PHẢI** được phát ra khi cổ phần được rút từ kho lưu trữ bởi một người gửi tiền trong các phương thức [`quy đổi`](#redeem) hoặc [`rút`](#withdraw).
 

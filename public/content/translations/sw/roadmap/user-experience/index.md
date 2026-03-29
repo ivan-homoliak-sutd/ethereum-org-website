@@ -17,7 +17,7 @@ Suluhisho la hili ni kutumia mikoba ya [mkataba-erevu](/glossary/#smart-contract
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">Maelezo zaidi kuhusu account abstraction</ButtonLink>
 
-## Nodi kwa kila mtu
+## Nodi kwa kila mtu {#nodes-for-everyone}
 
 Watumiaji wanaoendesha [nodi](/glossary/#node) hawahitaji kuamini wahusika wengine kuwapa data, na wanaweza kuingiliana haraka, kwa faragha, na bila ruhusa na [mnyororo wa bloku](/glossary/#blockchain) wa Ethereum. Hata hivyo, kuendesha nodi kwa sasa kunahitaji maarifa ya kiufundi na nafasi kubwa kwenye diski. Hii inamaanisha watu wengi lazima waamini wapatanishi badala yake.
 

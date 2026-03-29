@@ -5,15 +5,15 @@ description: Mwongozo unaoelezea jinsi ya kutuma, kupokea tokeni na kuunganisha 
 lang: sw
 ---
 
-# Jinsi ya kutumia pochi
+# Jinsi ya kutumia pochi {#how-to-use-a-wallet}
 
 Pata maelezo ya jinsi ya kutumia vipengele vyote vya msingi vya pochi. Ikiwa bado huna, angalia [Jinsi ya kuunda akaunti ya Ethereum](/guides/how-to-create-an-ethereum-account/).
 
-## Fungua pochi yako
+## Fungua pochi yako {#open-your-wallet}
 
 Unapaswa kuona dashibodi ambayo itaonyesha salio lako na iwe na vitufe vya kutuma na kupokea tokeni.
 
-## Pokea sarafu za kidikitali
+## Pokea sarafu za kidikitali {#receive-cryptocurrency}
 
 Je! ungependa kupokea sarafu ya kidigitali kwenye pochi yako?
 
@@ -30,7 +30,7 @@ Unahitaji kumpa yeyote anayetaka kukutumia pesa na anwani yako ya umma. Programu
 3. Nakili anwani yako ya Ethereum kwenye ubao wa kunakili.
 4. Mpe mtumaji anwani yako ya kupokea ya Ethereum.
 
-## Tuma sarafu ya kidigitali
+## Tuma sarafu ya kidigitali {#send-cryptocurrency}
 
 Je, ungependa kutuma ETH kwa pochi nyingine?
 
@@ -45,7 +45,7 @@ Je, ungependa kutuma ETH kwa pochi nyingine?
 6. Hakikisha kuwa pochi yako ina ETH ya kutosha kulipia ada ya muamala, ambayo inatofautiana kulingana na hali ya mtandao. Pochi nyingi zitaongeza kiotomatiki ada iliyopendekezwa kwenye shughuli ambayo unaweza kuthibitisha.
 7. Muamala wako ukishachakatwa, kiasi kinacholingana cha sarafu ya kidigitali kitaonekana kwenye akaunti ya mpokeaji. Hii inaweza kuchukua popote kutoka sekunde chache hadi dakika chache kulingana na kiasi gani mtandao unatumika kwa sasa.
 
-## Kuunganisha kwa miradi
+## Kuunganisha kwa miradi {#connecting-to-projects}
 
 Anwani yako itakuwa sawa katika miradi yote ya Ethereum. Huhitaji kujiandikisha kibinafsi kwenye mradi wowote. Mara tu ukiwa na pochi, unaweza kuunganisha kwenye mradi wowote wa Ethereum bila maelezo yoyote ya ziada. Hakuna barua pepe au taarifa nyingine yoyote ya kibinafsi inahitajika.
 
@@ -72,20 +72,20 @@ Anwani yako itakuwa sawa katika miradi yote ya Ethereum. Huhitaji kujiandikisha 
 </AlertContent>
 </Alert>
 
-## Maswali yanayoulizwa mara kwa mara
+## Maswali yanayoulizwa mara kwa mara {#frequently-asked-questions}
 
-### Ikiwa ninamiliki anwani ya ETH, nawezaje miliki anwani sawa kwenye blockchain zingine?
+### Ikiwa ninamiliki anwani ya ETH, nawezaje miliki anwani sawa kwenye blockchain zingine? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 “Unaweza kutumia anwani ile ile kwenye kiambajengo zote zinazolingana na EVM (ikiwa una pochi ya aina iliyo na kifungu cha urejeshaji.” Hii [orodha](https://chainlist.org/) itakuonyesha minyororo ya bloku ambazo unaweza kutumia na anwani sawa. Baadhi mlolongo wa vitalu, kama Bitcoin, kutekeleza seti tofauti kabisa ya Mtandao Kanuni na unahitaji anwani tofauti na muundo tofauti. Ikiwa una mkoba mzuri wa mkataba unapaswa kuangalia tovuti ya bidhaa zake kwa maelezo zaidi kuhusu viambajengo vinazotumika.
 
-### Je, ninaweza kutumia anwani ileile kwenye vifaa vingi?
+### Je, ninaweza kutumia anwani ileile kwenye vifaa vingi? {#can-i-use-the-same-address-on-multiple-devices}
 
 “Ndiyo, unaweza kutumia anwani ile ile kwenye vifaa vingi. Pochi kitaalamu ni kiolesura cha kukuonyesha salio lako na kufanya miamala, akaunti yako haihifadhiwi ndani ya pochi, bali kwenye kiambajengo.
 
-### Sijapokea sarafu ya kidigitali, ni wapi ninaweza kuangalia hali ya muamala?
+### Sijapokea sarafu ya kidigitali, ni wapi ninaweza kuangalia hali ya muamala? {#i-have-not-received-the-crypto-where-can-i-check-the-status-of-a-transaction}
 
 Unaweza kutumia [wachunguzi wa bloku](/developers/docs/data-and-analytics/block-explorers/) kuona hali ya muamala wowote kwa wakati halisi. Unachohitaji kufanya ni kutafuta anwani ya pochi yako au kitambulisho cha muamala.
 
-### Je, ninaweza kufuta au kurejesha miamala?
+### Je, ninaweza kufuta au kurejesha miamala? {#can-i-cancel-or-return-transactions}
 
 “Hapana, mara tu muamala unapo thibitishwa, huwezi kuufuta.”

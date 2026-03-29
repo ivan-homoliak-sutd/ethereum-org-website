@@ -79,7 +79,7 @@ require(msg.sender == owner, "Only the owner of this contract can call this func
 require(msg.sender == owner, "OW1");
 ```
 
-### பிழைச் செய்திகளுக்குப் பதிலாகத் தனிப்பயன் பிழைகளைப் (custom errors) பயன்படுத்துதல்
+### பிழைச் செய்திகளுக்குப் பதிலாகத் தனிப்பயன் பிழைகளைப் (custom errors) பயன்படுத்துதல் {#use-custom-errors-instead-of-error-messages}
 
 தனிப்பயன் பிழைகள் [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/) இல் அறிமுகப்படுத்தப்பட்டுள்ளன. உங்கள் ஒப்பந்தங்களின் அளவைக் குறைக்க அவை ஒரு சிறந்த வழியாகும், ஏனெனில் அவை செலக்டர்களாக (selectors) ABI-குறியாக்கம் செய்யப்பட்டுள்ளன (செயல்பாடுகளைப் போலவே).
 

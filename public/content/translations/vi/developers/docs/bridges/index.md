@@ -105,7 +105,7 @@ Nếu một ứng dụng phi tập trung đi theo hướng tích hợp một c�
 
 Để triển khai một ứng dụng phi tập trung trên nhiều chuỗi, các nhà phát triển có thể sử dụng các nền tảng phát triển như [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/), v.v. Thông thường, các nền tảng này đi kèm với các plugin có thể kết hợp, cho phép các ứng dụng phi tập trung hoạt động xuyên chuỗi. Chẳng hạn, các nhà phát triển có thể sử dụng proxy triển khai xác định được cung cấp bởi [plugin hardhat-deploy](https://github.com/wighawag/hardhat-deploy).
 
-#### Ví dụ:
+#### Ví dụ: {#examples}
 
 - [Cách xây dựng các ứng dụng phi tập trung xuyên chuỗi](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [Xây dựng một Sàn giao dịch NFT Xuyên chuỗi](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ Nếu một ứng dụng phi tập trung đi theo hướng tích hợp một c�
 
 Để giám sát hoạt động hợp đồng trên nhiều chuỗi, các nhà phát triển có thể sử dụng subgraph và các nền tảng dành cho nhà phát triển như Tenderly để quan sát hợp đồng thông minh theo thời gian thực. Các nền tảng như vậy cũng có các công cụ cung cấp chức năng giám sát dữ liệu nâng cao hơn cho các hoạt động xuyên chuỗi, chẳng hạn như kiểm tra [các sự kiện được hợp đồng phát ra](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events), v.v.
 
-#### Công cụ
+#### Công cụ {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

@@ -79,7 +79,7 @@ require(msg.sender == owner, "이 컨트랙트의 소유자만 이 함수를 호
 require(msg.sender == owner, "OW1");
 ```
 
-### 오류 메시지 대신 사용자 정의 오류 사용하기
+### 오류 메시지 대신 사용자 정의 오류 사용하기 {#use-custom-errors-instead-of-error-messages}
 
 사용자 정의 오류는 [솔리디티 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/)에서 도입되었습니다. 사용자 정의 오류는 함수처럼 선택자로 ABI 인코딩되므로 컨트랙트의 크기를 줄이는 좋은 방법입니다.
 

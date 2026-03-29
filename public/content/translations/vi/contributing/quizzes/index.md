@@ -17,7 +17,7 @@ Xem thêm ví dụ về các câu trắc nghiệm hiện có tại đây:
 - [Ethereum là gì?](/what-is-ethereum/)
 - [ETH là gì?](/what-is-ether/)
 
-## Thêm câu trắc nghiệm kiến thức
+## Thêm câu trắc nghiệm kiến thức {#adding-a-learn-quiz}
 
 Nếu có trang nào chưa có câu đố học tập nào được tạo cho nó, vui lòng [mở một vấn đề](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) cho trang đó.
 
@@ -30,7 +30,7 @@ Vui lòng cung cấp các thông tin sau:
   - 1 đáp án chính xác với lời giải đáp tại sao đáp án đó đúng
   - 3 đáp án chính xác, mỗi đáp án kèm theo lời giải đáp tại sao đáp án đó sai
 
-## Thêm câu hỏi trắc nghiệm
+## Thêm câu hỏi trắc nghiệm {#adding-a-quiz-question}
 
 Nếu có câu hỏi bạn muốn thêm vào ngân hàng câu hỏi cho một câu đố, vui lòng [mở một vấn đề](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) và cung cấp thông tin sau:
 
@@ -41,7 +41,7 @@ Nếu có câu hỏi bạn muốn thêm vào ngân hàng câu hỏi cho một c�
   - 1 đáp án chính xác với lời giải đáp tại sao đáp án đó đúng
   - 3 đáp án chính xác, mỗi đáp án kèm theo lời giải đáp tại sao đáp án đó sai
 
-## Điều chỉnh câu hỏi trắc nghiệm
+## Điều chỉnh câu hỏi trắc nghiệm {#updating-a-quiz-question}
 
 Nếu có câu hỏi bạn muốn cập nhật trong ngân hàng câu hỏi cho một câu đố, vui lòng [mở một vấn đề](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) và cung cấp thông tin sau:
 
@@ -53,7 +53,7 @@ Nếu có câu hỏi bạn muốn cập nhật trong ngân hàng câu hỏi cho 
   - 1 đáp án chính xác với lời giải đáp tại sao đáp án đó đúng
   - 3 đáp án chính xác, mỗi đáp án kèm theo lời giải đáp tại sao đáp án đó sai
 
-## Gỡ bỏ câu hỏi trắc nghiệm
+## Gỡ bỏ câu hỏi trắc nghiệm {#removing-a-quiz-question}
 
 Nếu nội dung cho một câu hỏi không còn tồn tại trên trang và cần được xóa, vui lòng [mở một vấn đề](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) để xóa câu hỏi và cung cấp các thông tin sau:
 

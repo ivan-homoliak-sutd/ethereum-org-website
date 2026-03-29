@@ -73,7 +73,7 @@ Ingawa kwa sasa kuna msisitizo mkubwa katika masoko ya kaboni kwa ujumla na hasa
 
 Kwa kuhamisha mwelekeo wa mtaji kutoka kwenye vitendo vya uchimbaji kuelekea kwenye mtiririko wa kuzalisha upya, miradi na makampuni yanayotoa manufaa ya kijamii, kimazingira, au kijumuiya—na ambayo yanaweza kushindwa kupata ufadhili katika fedha za jadi—yanaweza kuanza na kuzalisha athari chanya za nje kwa jamii kwa haraka na urahisi zaidi. Kuhamia kwenye mtindo huu wa ufadhili pia hufungua mlango kwa mifumo ya kiuchumi iliyo jumuishi zaidi, ambapo watu wa demografia zote wanaweza kuwa washiriki hai badala ya kuwa watazamaji tu. ReFi inatoa maono ya Ethereum kama utaratibu wa kuratibu hatua juu ya changamoto za kuwepo zinazokabili spishi zetu na viumbe vyote kwenye sayari yetu—kama safu ya msingi ya dhana mpya ya kiuchumi, ikiwezesha mustakabali jumuishi na endelevu zaidi kwa karne zijazo.
 
-## Masomo ya ziada kuhusu ReFi
+## Masomo ya ziada kuhusu ReFi {#additional-reading-on-refi}
 
 - [Muhtasari wa juu wa sarafu za kaboni na nafasi yake katika uchumi](https://www.klimadao.finance/resources/the-vision-of-a-carbon-currency)
 - [The Ministry for the Future, riwaya inayoonyesha jukumu la sarafu inayoungwa mkono na kaboni katika kupambana na mabadiliko ya tabianchi](https://en.wikipedia.org/wiki/The_Ministry_for_the_Future)

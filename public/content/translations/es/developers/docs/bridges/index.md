@@ -105,7 +105,7 @@ Si una dapp va por la ruta de integrar un puente o un agregador, hay diferentes 
 
 Para implementar una dapp en múltiples cadenas, los desarrolladores pueden utilizar plataformas de desarrollo como [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/), etc. Por lo general, estas plataformas vienen con complementos componibles que pueden permitir que las dapps se hagan multicadena o se usen en otras. Por ejemplo, los desarrolladores pueden utilizar un proxy de implementación determinística ofrecido por el [plugin hardhat-deploy](https://github.com/wighawag/hardhat-deploy).
 
-#### Ejemplos:
+#### Ejemplos: {#examples}
 
 - [Cómo construir dapps entre cadenas](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [Construyendo un Marketplace de NFT entre cadenas](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ Para implementar una dapp en múltiples cadenas, los desarrolladores pueden util
 
 Para monitorear la actividad de los contratos entre cadenas, los desarrolladores pueden usar subgrafos y plataformas de desarrollador como Tenderly para observar los contratos inteligentes en tiempo real. Estas plataformas también cuentan con herramientas que ofrecen una mayor funcionalidad de monitoreo de datos para actividades entre cadenas, como la posibilidad de consultar [eventos emitidos por contratos](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events), etc.
 
-#### Herramientas
+#### Herramientas {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

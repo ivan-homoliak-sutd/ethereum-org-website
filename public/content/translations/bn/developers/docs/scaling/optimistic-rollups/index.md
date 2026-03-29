@@ -253,7 +253,7 @@ ii. অপ্টিমেস্টিক রোলআপ ব্যবহার�
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## অপ্টিমেস্টিক রোলআপ সম্পর্কে আরও পড়া
+## অপ্টিমেস্টিক রোলআপ সম্পর্কে আরও পড়া {#further-reading-on-optimistic-rollups}
 
 - [How do optimistic rollups work (The Complete guide)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [What is a Blockchain Rollup? A Technical Introduction](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

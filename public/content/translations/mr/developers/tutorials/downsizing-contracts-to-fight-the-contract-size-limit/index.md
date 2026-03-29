@@ -78,7 +78,7 @@ require(msg.sender == owner, "फक्त या कंत्राटाचा
 require(msg.sender == owner, "OW1");
 ```
 
-### त्रुटी संदेशांऐवजी कस्टम त्रुटी वापरा
+### त्रुटी संदेशांऐवजी कस्टम त्रुटी वापरा {#use-custom-errors-instead-of-error-messages}
 
 कस्टम त्रुटी [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/) मध्ये सादर करण्यात आल्या आहेत. तुमच्या कंत्राटांचा आकार कमी करण्याचा हा एक उत्तम मार्ग आहे, कारण ते निवडक (selectors) म्हणून ABI-एनकोड केलेले आहेत (जसे कार्ये असतात).
 

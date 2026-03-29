@@ -23,7 +23,7 @@ Bất kỳ ai cũng có thể đề cử dự án vào danh sách niêm yết tr
 - **Dự án phải là một phần của hệ sinh thái Ethereum** - Tại ethereum.org, chúng tôi tin rằng Ethereum (và các Lớp 2 của nó) là lớp cơ sở phù hợp cho phong trào DeSci.
 - **Dự án đã được thành lập và hoạt động ổn định** - Dự án có người dùng thực đã có thể truy cập các dịch vụ của dự án trong vài tháng.
 
-### Những điều nên có
+### Những điều nên có {#nice-to-haves}
 
 - **Có sẵn bằng nhiều ngôn ngữ** - Dự án của bạn được dịch sang nhiều ngôn ngữ cho phép người dùng trên khắp thế giới truy cập.
 - **Tài nguyên giáo dục** - Sản phẩm của bạn nên có trải nghiệm giới thiệu được thiết kế tốt để giúp đỡ và hướng dẫn người dùng. Hoặc có thể chứng minh qua các nội dung hướng dẫn như bài viết hoặc video.

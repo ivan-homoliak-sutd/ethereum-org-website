@@ -17,7 +17,7 @@ lang: bn
 - [ইথিরিয়াম কী?](/what-is-ethereum/)
 - [ETH কী?](/what-is-ether/)
 
-## একটি লার্ন কুইজ যোগ করা
+## একটি লার্ন কুইজ যোগ করা {#adding-a-learn-quiz}
 
 যদি এমন কোনো পেজ থাকে যার জন্য এখনও কোনো লার্ন কুইজ তৈরি করা হয়নি, তাহলে অনুগ্রহ করে এর জন্য [একটি ইস্যু খুলুন](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml)।
 
@@ -30,7 +30,7 @@ lang: bn
   - 1টি সঠিক উত্তর এবং এটি কেন সঠিক তার ব্যাখ্যা
   - 3টি ভুল উত্তর, প্রতিটির সাথে সেগুলো কেন ভুল তার ব্যাখ্যা
 
-## কুইজের প্রশ্ন যোগ করা
+## কুইজের প্রশ্ন যোগ করা {#adding-a-quiz-question}
 
 যদি এমন কোনো প্রশ্ন থাকে যা আপনি কোনো কুইজের প্রশ্নব্যাংকে যোগ করতে চান, তাহলে অনুগ্রহ করে [একটি ইস্যু খুলুন](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) এবং নিচের তথ্যগুলো প্রদান করুন:
 
@@ -41,7 +41,7 @@ lang: bn
   - 1টি সঠিক উত্তর এবং এটি কেন সঠিক তার ব্যাখ্যা
   - 3টি ভুল উত্তর, প্রতিটির সাথে সেগুলো কেন ভুল তার ব্যাখ্যা
 
-## কুইজের প্রশ্ন আপডেট করা
+## কুইজের প্রশ্ন আপডেট করা {#updating-a-quiz-question}
 
 যদি এমন কোনো প্রশ্ন থাকে যা আপনি কোনো কুইজের প্রশ্নব্যাংকে আপডেট করতে চান, তাহলে অনুগ্রহ করে [একটি ইস্যু খুলুন](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) এবং নিচের তথ্যগুলো প্রদান করুন:
 
@@ -53,7 +53,7 @@ lang: bn
   - 1টি সঠিক উত্তর এবং এটি কেন সঠিক তার ব্যাখ্যা
   - 3টি ভুল উত্তর, প্রতিটির সাথে সেগুলো কেন ভুল তার ব্যাখ্যা
 
-## কুইজের প্রশ্ন মুছে ফেলা
+## কুইজের প্রশ্ন মুছে ফেলা {#removing-a-quiz-question}
 
 যদি কোনো প্রশ্নের জন্য পেজে আর কোনো বিষয়বস্তু না থাকে এবং সেটি মুছে ফেলার প্রয়োজন হয়, তাহলে প্রশ্নটি মুছে ফেলার জন্য অনুগ্রহ করে [একটি ইস্যু খুলুন](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) এবং নিচের তথ্যগুলো প্রদান করুন:
 

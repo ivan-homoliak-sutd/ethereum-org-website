@@ -32,7 +32,7 @@ Hầu hết mạng thử nghiệm ban đầu bắt đầu bằng việc sử d�
 
 ETH trên mạng thử nghiệm sẽ không có giá trị thực; tuy nhiên, nếu chúng được thị trường tạo ra cho một số loại mạng thử nghiệm ETH đã trở nên khan hiếm và khó kiếm được. Vì bạn càn ETH để có thể tương tác với mạng Ethereum (thậm chí là mạng thử nghiệm), nhiều người sẽ lấy ETH mạng thử nghiệm từ phân phối (Faucets). Hầu hết faucets là các ứng dụng web nơi bạn có thể nhập địa chỉ mà bạn yêu cầu gửi ETH tới.
 
-#### Tôi nên dùng testnet nào?
+#### Tôi nên dùng testnet nào? {#which-testnet-should-i-use}
 
 Hai mạng thử nghiệm công khai mà nhà lập trình Client thực sự đang duy trì là Sepolia và Hoodi. Sepolia là mạng lưới cho hợp đồng và nhà phát triển ứng dụng để thử nghiệm ứng dụng của họ. Mạng Hoodi cho phép nhà lập trình giao thức thử nghiệm nâng cấp mạng lưới, và giúp người Stake thử nghiệm vận hành nút xác thực.
 
@@ -104,7 +104,7 @@ Ephemery là một mạng thử nghiệm độc nhất luôn được đặt l�
 - [Đồng bộ hóa điểm kiểm tra](https://checkpoint-sync.ephemery.ethpandaops.io)
 - [Bệ phóng](https://launchpad.ephemery.dev/)
 
-#### Faucets
+#### Faucets {#faucets}
 
 - [Vòi Bordel](https://faucet.bordel.wtf/)
 - [Vòi PoW Pk910](https://ephemery-faucet.pk910.de/)

@@ -22,15 +22,15 @@ Nella maggior parte dei casi, non c'è modo di recuperare i fondi. Nessuna organ
 
 Le tue opzioni di recupero dipendono dal tipo di portafoglio che utilizzi.
 
-### Se hai la tua frase di recupero (seed phrase)
+### Se hai la tua frase di recupero (seed phrase) {#if-you-have-your-seed-phrase-recovery-phrase}
 
 Puoi ripristinare il tuo portafoglio in qualsiasi app di portafoglio compatibile utilizzando la tua frase di recupero. Questo è il motivo per cui è fondamentale conservare la tua frase di recupero in modo sicuro offline. Consulta la documentazione del fornitore del tuo portafoglio per le istruzioni di ripristino.
 
-### Se hai perso la tua frase di recupero
+### Se hai perso la tua frase di recupero {#if-you-have-lost-your-seed-phrase}
 
 Senza la tua frase di recupero o le tue chiavi private, i tuoi fondi non possono essere recuperati. Nessuno, incluso ethereum.org, può reimpostare la tua password o ripristinare l'accesso a un portafoglio auto-custodito.
 
-### Se il tuo account è su un exchange
+### Se il tuo account è su un exchange {#if-your-account-is-on-an-exchange}
 
 Se il tuo account è su un exchange centralizzato come Coinbase, Binance o Kraken, contatta direttamente il team di supporto dell'exchange. Loro controllano gli account sulla loro piattaforma e potrebbero essere in grado di aiutarti con la reimpostazione della password o il recupero dell'account.
 
@@ -55,7 +55,7 @@ Le transazioni su Ethereum possono bloccarsi quando la commissione che hai impos
 - **Velocizza:** Invia nuovamente la stessa transazione con una commissione più alta
 - **Annulla:** Invia una transazione di 0 ETH al tuo indirizzo utilizzando lo stesso nonce della transazione in sospeso
 
-### Guide utili
+### Guide utili {#helpful-guides}
 
 - [Come velocizzare o annullare una transazione in sospeso su MetaMask](https://support.metamask.io/transactions-and-gas/transactions/how-to-speed-up-or-cancel-a-pending-transaction/)
 - [Come annullare le transazioni Ethereum in sospeso](https://info.etherscan.com/how-to-cancel-ethereum-pending-transactions/)

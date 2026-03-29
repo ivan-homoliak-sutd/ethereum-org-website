@@ -253,7 +253,7 @@ ii. Розробники та проєктні команди, що викори
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## Додаткова література про оптимістичні ролапи
+## Додаткова література про оптимістичні ролапи {#further-reading-on-optimistic-rollups}
 
 - [Як працюють оптимістичні ролапи (повний посібник)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [Що таке блокчейн-ролап? Технічний вступ](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

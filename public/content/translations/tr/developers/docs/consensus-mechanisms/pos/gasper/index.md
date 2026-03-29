@@ -8,7 +8,7 @@ Gasper, Casper the Friendly Finality Gadget'ın (Casper-FFG) ve LMD-GHOST çatal
 
 **Not:** Casper-FFG'nin orijinal tanımının Gasper'a dahil edilmek üzere biraz güncellendiğini unutmayın. Bu sayfada, güncellenmiş versiyonu göz önünde bulunduruyoruz.
 
-## Ön koşullar
+## Ön koşullar {#prerequisites}
 
 Bu materyali anlamak için [hisse ispatı](/developers/docs/consensus-mechanisms/pos/) hakkındaki giriş sayfasını okumak gerekir.
 

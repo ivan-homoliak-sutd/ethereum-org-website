@@ -78,7 +78,7 @@ require(msg.sender == owner, "Only the owner of this contract can call this func
 require(msg.sender == owner, "OW1");
 ```
 
-### 使用自訂錯誤而非錯誤訊息
+### 使用自訂錯誤而非錯誤訊息 {#use-custom-errors-instead-of-error-messages}
 
 [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/) 引入了自訂錯誤。 它們是減少合約大小的好方法，因為它們會被 ABI 編碼為選擇器（就像函式一樣）。
 

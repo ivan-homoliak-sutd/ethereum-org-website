@@ -4,7 +4,7 @@ description: "Un guide pour échanger des jetons sur Ethereum."
 lang: fr
 ---
 
-# Comment échanger des jetons
+# Comment échanger des jetons {#how-to-swap-tokens}
 
 Fatigué de chercher un échange de cryptomonnaies qui répertorie tous vos jetons favoris ? Vous pouvez échanger la plupart des jetons en utilisant des [échanges décentralisés](/glossary/#dex).
 
@@ -15,7 +15,7 @@ Un échange de jetons implique l'échange de deux actifs différents qui existen
 - avoir un [portefeuille crypto](/glossary/#wallet) ; si ce n'est pas le cas, vous pouvez suivre ce guide sur [comment créer un compte Ethereum](/guides/how-to-create-an-ethereum-account/)
 - ajouter des fonds à votre portefeuille
 
-## 1. Connectez votre portefeuille à l'échange décentralisé (DEX) de votre choix
+## 1. Connectez votre portefeuille à l'échange décentralisé (DEX) de votre choix {#1-connect-your-wallet-to-the-decentralized-exchange-dex-of-your-choice}
 
 Parmi les échanges décentralisés les plus connus :
 
@@ -26,24 +26,24 @@ Parmi les échanges décentralisés les plus connus :
 
 Intéressant ? Apprenez-en davantage sur ce qu'est la [finance décentralisée (DeFi)](/defi/) et sur le fonctionnement de ces nouveaux types d'échanges.
 
-## 2. Sélectionnez la paire de jetons que vous souhaitez échanger
+## 2. Sélectionnez la paire de jetons que vous souhaitez échanger {#2-select-the-pair-of-tokens-you-wish-to-swap}
 
 Par exemple, ETH et DAI. Assurez-vous d'avoir des fonds dans l'un des deux jetons.
 ![Interface commune pour l'échange](./swap1.png)
 
-## 3. Entrez le nombre de jetons que vous voulez échanger et cliquez sur échanger
+## 3. Entrez le nombre de jetons que vous voulez échanger et cliquez sur échanger {#3-enter-the-amount-of-tokens-you-want-to-trade-and-click-swap}
 
 L'échange va calculer automatiquement le nombre de jetons que vous obtiendrez.
 
 ![Interface commune pour l'échange](./swap2.png)
 
-## 4. Confirmez la transaction
+## 4. Confirmez la transaction {#4-confirm-the-transaction}
 
 Vérifiez les détails de la transaction. Vérifiez le taux de change et tous les frais annexes pour éviter les mauvaises surprises.
 
 ![Interface commune pour l'examen de la transaction](./swap3.png)
 
-## 5. Attendez que la transaction soit traitée
+## 5. Attendez que la transaction soit traitée {#5-wait-for-the-transaction-to-be-processed}
 
 Vous pouvez vérifier la progression de la transaction sur n'importe quel explorateur de blockchain. Cette procédure ne devrait pas prendre plus de 10 minutes.
 
@@ -59,12 +59,12 @@ Vous recevez automatiquement les jetons échangés dans votre portefeuille lorsq
 </AlertContent>
 </Alert>
 
-## Questions fréquemment posées
+## Questions fréquemment posées {#frequently-asked-questions}
 
-### Puis-je échanger des ETH contre des BTC depuis mon portefeuille ?
+### Puis-je échanger des ETH contre des BTC depuis mon portefeuille ? {#can-i-swap-eth-for-btc-from-my-wallet}
 
 Non, vous ne pouvez échanger que des jetons natifs du réseau Ethereum, tels que les jetons ETH, ERC-20 ou NFTs. Vous pouvez toutefois échanger des "Bitcoins enveloppés", qui sont des jetons conçus pour circuler sur le réseau Ethereum.
 
-### Qu'est-ce que l'effet de glissement ?
+### Qu'est-ce que l'effet de glissement ? {#what-is-slippage}
 
 Il s'agit de la différence entre votre taux de change prévu et le taux réel.

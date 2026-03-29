@@ -78,7 +78,7 @@ require(msg.sender == owner, "Tylko właściciel tego kontraktu może wywołać 
 require(msg.sender == owner, "OW1");
 ```
 
-### Używaj niestandardowych błędów zamiast komunikatów o błędach
+### Używaj niestandardowych błędów zamiast komunikatów o błędach {#use-custom-errors-instead-of-error-messages}
 
 Niestandardowe błędy zostały wprowadzone w [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/). Są świetnym sposobem na zmniejszenie rozmiaru Twoich kontraktów, ponieważ są kodowane w ABI jako selektory (tak jak funkcje).
 

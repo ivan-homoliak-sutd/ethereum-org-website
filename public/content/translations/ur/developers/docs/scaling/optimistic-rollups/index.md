@@ -253,7 +253,7 @@ ii. آپٹیمسٹک رول اپس استعمال کرنے والے ڈیولپر
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## آپٹیمسٹک رول اپس پر مزید مطالعہ
+## آپٹیمسٹک رول اپس پر مزید مطالعہ {#further-reading-on-optimistic-rollups}
 
 - [آپٹیمسٹک رول اپس کیسے کام کرتے ہیں (مکمل گائیڈ)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [بلاک چین رول اپ کیا ہے؟ ایک تکنیکی تعارف](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

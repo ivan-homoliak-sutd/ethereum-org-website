@@ -43,13 +43,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### 质押即服务提供商
+### 质押即服务提供商 {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 请注意支持[客户端多样性](/developers/docs/nodes-and-clients/client-diversity/)的重要性，因为这可以提高网络安全性并限制您的风险。 <em style={{ textTransform: "uppercase" }}>“执行客户端多样性”</em>和<em style={{ textTransform: "uppercase" }}>“共识客户端多样性”</em>能够表明服务可证明其在限制使用主流客户端。
 
-### 密钥生成器
+### 密钥生成器 {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

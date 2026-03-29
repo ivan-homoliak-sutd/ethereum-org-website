@@ -4,7 +4,7 @@ description: "在pectra的发布中了解更多关于7702的信息"
 lang: zh
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## 概要 {#abstract}
 

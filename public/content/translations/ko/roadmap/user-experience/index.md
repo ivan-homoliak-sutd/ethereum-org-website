@@ -17,7 +17,7 @@ template: roadmap
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">계정 추상화에 대해 더 알아보기</ButtonLink>
 
-## 모두를 위한 노드
+## 모두를 위한 노드 {#nodes-for-everyone}
 
 [노드](/glossary/#node)를 실행하는 사용자는 데이터를 제공받기 위해 제3자를 신뢰할 필요가 없으며, 이더리움 [블록체인](/glossary/#blockchain)과 빠르고, 비공개적으로, 허가 없이 상호작용할 수 있습니다. 하지만 현재 노드 운영에는 기술적 지식과 상당한 디스크 공간이 필요하기 때문에, 많은 사람들이 대신 중개자를 신뢰해야 합니다.
 

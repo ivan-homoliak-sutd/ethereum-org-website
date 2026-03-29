@@ -4,7 +4,7 @@ description: Muongozo wa jinsi ya kuondoa mkataba mahiri unaofikiwa kidhalimu
 lang: sw
 ---
 
-# Jinsi ya Kubatilisha mkataba erevu usifikie fedha zako za kripto
+# Jinsi ya Kubatilisha mkataba erevu usifikie fedha zako za kripto {#how-to-revoke-smart-contract-access-to-your-crypto-funds}
 
 Mwongozo huu utakufundisha jinsi ya kutazama orodha ya [smart contracts](/glossary/#smart-contract) zote ambazo umeziruhusu kufikia fedha zako na jinsi ya kuzighairi.
 
@@ -14,7 +14,7 @@ Mara tu jukwaa linapokuwa na haki za ufikiaji zisizo na kikomo kwa tokeni kwenye
 
 Ulinzi pekee ni kujiepusha kutumia miradi mipya ambayo haijajaribiwa, idhinisha kile unachohitaji tu, au futa mara kwa mara ruhusa ulizozitoa awali. Sasa, jinsi gani unaweza fanya ivyo?
 
-## Hatua 1: Tumia kifaa cha kubatilisha zana ya ufikiaji
+## Hatua 1: Tumia kifaa cha kubatilisha zana ya ufikiaji {#step-1-use-revoke-access-tools}
 
 Kuna tovuti kadhaa zinazokuwezesha kuona na kubatilisha mikataba mahiri iliyounganishwa na anwani yako. Tembelea tovuti na unganisha mkoba wako:
 
@@ -24,19 +24,19 @@ Kuna tovuti kadhaa zinazokuwezesha kuona na kubatilisha mikataba mahiri iliyoung
 - [Unrekt](https://app.unrekt.net/) (mitandao mingi)
 - [EverRevoke](https://everrise.com/everrevoke/) (mitandao mingi)
 
-## Hatua 2: Unganisha mkoba wako
+## Hatua 2: Unganisha mkoba wako {#step-2-connect-your-wallet}
 
 Ukiwa tayari kwenye tovuti, bonyeza kwenye "Unganisha mkoba". Tovuti itakuletea wewe uunganishe mkoba wako.
 
 Hakikisha kuwa unatumia mtandao mmoja kwenye mkoba wako na tovuti. Utaona tu mikataba mahiri inayohusiana na mtandao uliochagua. Kwa mfano, kama unaunganisha Ethereum Mainnet, utaona tu mikataba ya Ethereum, na sio mikataba kutoka kwenye minyororo mingine kama Polygon.
 
-## Hatua 3: Chagua mkataba mahiri unaotaka kuubatilisha
+## Hatua 3: Chagua mkataba mahiri unaotaka kuubatilisha {#step-3-select-a-smart-contract-you-wish-to-revoke}
 
 Unatakiwa kuona mikataba yote ambayo imeruhusiwa kuunganishwa na tokeni zako na kiasi chake cha matumizi. Tafuta ule unaotaka kusitisha.
 
 Kama hujui mkataba upi wa kuchagua, unaweza batilisha mikataba yote. Haitakuletea matatizo yoyote, lakini utahitaji kutoa ruhusa mpya tena wakati mwingine utakaposhirikiana na yoyote kati ya mikataba hii.
 
-## Hatua 4: Batilisha ruhusa ya kuweza kufikia fedha zako
+## Hatua 4: Batilisha ruhusa ya kuweza kufikia fedha zako {#step-4-revoke-access-to-your-funds}
 
 Mara tu unapobonyeza kubatilisha, unapaswa kuona pendekezo jipya la muamala kwenye mkoba wako. Hii ni ya kutarajiwa. Itabidi ulipe ada ili kufuta huko kufanikiwe. Kutegemea na mtandao, hii inaweza kuchukua kuanzia dakika moja hadi kadhaa ili kuchakatwa.
 
@@ -56,20 +56,20 @@ Tunakushauri uonyeshe upya chombo cha kubatilisha ruhusa baada ya dakika chache 
 </AlertContent>
 </Alert>
 
-## Maswali yanayoulizwa mara kwa mara
+## Maswali yanayoulizwa mara kwa mara {#frequently-asked-questions}
 
-### Je, kubatilisha ufikiaji wa tokeni pia kunakomesha kusindika, kuweka kwa pamoja kwenye bwawa, kukopesha n.k?
+### Je, kubatilisha ufikiaji wa tokeni pia kunakomesha kusindika, kuweka kwa pamoja kwenye bwawa, kukopesha n.k? {#does-revoking-token-access-also-terminate-staking-pooling-lending-etc}
 
 Hapana, haitaathiri mikakati yoyote ya [DeFi](/glossary/#defi) uliyonayo. Bado utabaki katika nafasi zako na kuendelea kupata zawadi n.k.
 
-### Je, kukata muungano wa mkoba kutoka kwenye mradi ni sawa na kuondoa ruhusa ya kutumia pesa zangu?
+### Je, kukata muungano wa mkoba kutoka kwenye mradi ni sawa na kuondoa ruhusa ya kutumia pesa zangu? {#is-disconnecting-a-wallet-from-a-project-the-same-as-removing-permission-to-use-my-funds}
 
 Hapana, ukiondoa mkoba wako kwenye mradi, lakini tayari umetoa ruhusa ya kutumia tokeni, bado wanaweza kutumia tokeni hizo. Inakupasa kubatilisha ruhusa hiyo.
 
-### Ruhusa ya mkataba itakwisha lini?
+### Ruhusa ya mkataba itakwisha lini? {#when-will-the-contract-permission-expire}
 
 Hakuna tarehe ya mwisho wa matumizi kwenye ruhusa za mkataba. Kama utatoa ruhusa ya mkataba, zinaweza kutumika, hata miaka mingi baada ya kutolewa.
 
-### Kwa nini miradi huweka ruhusa ya matumizi ya tokeni isiyo na kikomo?
+### Kwa nini miradi huweka ruhusa ya matumizi ya tokeni isiyo na kikomo? {#why-do-projects-set-unlimited-token-allowance}
 
 Miradi mara nyingi hufanya hivi ili kupunguza idadi ya maombi yanayohitajika, ikimaanisha mtumiaji anapaswa kuidhinisha mara moja tu na kulipa ada ya muamala mara moja tu. Ingawa hii ni rahisi, inaweza kuwa hatari kwa watumiaji kuidhinisha bila uangalifu, hasa kwenye tovuti ambazo hazijathibitishwa na wakati au kukaguliwa. Baadhi ya mikoba hukuruhusu kuzuia mwenyewe kiasi cha tokeni zinazoidhinishwa ili kupunguza hatari yako. Wasiliana na mtoa huduma wa mkoba wako kwa maelezo zaidi.

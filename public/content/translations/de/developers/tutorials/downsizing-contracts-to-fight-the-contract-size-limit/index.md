@@ -79,7 +79,7 @@ require(msg.sender == owner, "Only the owner of this contract can call this func
 require(msg.sender == owner, "OW1");
 ```
 
-### Benutzerdefinierte Fehler anstelle von Fehlermeldungen verwenden
+### Benutzerdefinierte Fehler anstelle von Fehlermeldungen verwenden {#use-custom-errors-instead-of-error-messages}
 
 Benutzerdefinierte Fehler wurden in [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/) eingeführt. Sie sind eine großartige Möglichkeit, die Größe Ihrer Verträge zu reduzieren, da sie als Selektoren ABI-codiert sind (genau wie Funktionen).
 

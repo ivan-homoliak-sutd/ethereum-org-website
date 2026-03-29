@@ -78,7 +78,7 @@ require(msg.sender == owner, \"Only the owner of this contract can call this fun
 require(msg.sender == owner, \"OW1\");
 ```
 
-### Використовуйте користувацькі помилки замість повідомлень про помилки
+### Використовуйте користувацькі помилки замість повідомлень про помилки {#use-custom-errors-instead-of-error-messages}
 
 Користувацькі помилки були запроваджені в [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/). Це чудовий спосіб зменшити розмір ваших контрактів, оскільки вони кодуються в ABI як селектори (так само, як і функції).
 

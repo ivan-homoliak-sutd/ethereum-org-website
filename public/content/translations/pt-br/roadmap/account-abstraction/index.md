@@ -52,7 +52,7 @@ O controle de gas melhora consideravelmente. As aplicações podem pagar as taxa
 
 Atualmente, implementar carteiras de smart contract é um desafio, já que elas exigem códigos complexos para envolver e gerenciar as transações padrão. Ethereum pode mudar isso permitindo que smart contracts inciem transações diretamente, integrando a lógica nos smart contracts do Ethereum, sem depender de intermediários externos.
 
-### EIP-4337: Abstração de conta sem mudanças de protocolo
+### EIP-4337: Abstração de conta sem mudanças de protocolo {#eip-4337-account-abstraction-without-protocol-changes}
 
 EIP-4337 permite suporte nativo a carteiras de smart contract sem modificar o protocolo central do Ethereum. Ele introduz objetos `UserOperation` coletados em pacotes de transação por validadores, simplificando o desenvolvimento de carteiras. O contrato EntryPoint do EIP-4337 foi implantado na Ethereum Mainnet em 1º de março de 2023 e já possibilitou a criação de mais de 26 milhões de carteiras inteligentes e 170 milhões de UserOperations.
 

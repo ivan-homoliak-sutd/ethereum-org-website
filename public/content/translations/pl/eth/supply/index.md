@@ -33,7 +33,7 @@ W tradycyjnym systemie finansowym banki centralne kontrolują podaż pieniądza,
 
 Emisja ETH odnosi się do procesu tworzenia nowego ETH jako nagrody dla walidatorów, którzy zabezpieczają sieć Ethereum. Różni się ona od całkowitej podaży, która jest całkowitą liczbą ETH w obiegu.
 
-### Mówiąc najprościej:
+### Mówiąc najprościej: {#in-simple-terms}
 
 - **Emisja** dodaje nowe ETH do sieci.
 - **Spalanie** (wprowadzone przez EIP-1559) usuwa ETH z sieci poprzez zniszczenie części opłat transakcyjnych.
@@ -46,7 +46,7 @@ System Ethereum Proof-of-Stake (PoS) znacząco zmniejszył emisję ETH w porówn
 
 Jednakże ta liczba jest dynamiczna. Dzięki EIP-1559, kiedy aktywność sieci jest wysoka, tempo spalania ETH może przewyższyć emisję, tworząc efekt deflacyjny. Na przykład, w okresach wzmożonego zapotrzebowania, takich jak wprowadzenie NFT lub aktywność DeFi, więcej ETH może być spalonych niż emitowanych.
 
-### Narzędzia do monitorowania podaży i emisji ETH:
+### Narzędzia do monitorowania podaży i emisji ETH: {#tools-to-track-eth-supply-and-issuance}
 
 - [Ultrasound Money](https://ultrasound.money) - Śledzenie w czasie rzeczywistym podaży, emisji i tempa spalania ETH
 - [Etherscan](https://etherscan.io) - Eksplorator bloków z metrykami podaży

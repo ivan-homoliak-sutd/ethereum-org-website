@@ -190,7 +190,7 @@ Zwraca całkowitą liczbę udziałów skarbca, jaką aktualnie posiada `owner`.
 
 ### Zdarzenia {#events}
 
-#### Wydarzenie Deposit
+#### Wydarzenie Deposit {#deposit-event}
 
 **MUSI** być emitowane, gdy tokeny są deponowane w skarbcu za pomocą metod [`mint`](#mint) i [`deposit`](#deposit).
 
@@ -205,7 +205,7 @@ event Deposit(
 
 Gdzie `sender` to użytkownik, który wymienił `assets` na `shares` i przeniósł te `shares` na `owner`.
 
-#### Wydarzenie Withdraw
+#### Wydarzenie Withdraw {#withdraw-event}
 
 **MUSI** być emitowane, gdy udziały są wypłacane ze skarbca przez deponenta za pomocą metod [`redeem`](#redeem) lub [`withdraw`](#withdraw).
 

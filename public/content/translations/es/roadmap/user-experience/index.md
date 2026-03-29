@@ -17,7 +17,7 @@ La solución a esto es usar billeteras de [contrato inteligente](/glossary/#smar
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">Más información sobre la abstracción de cuentas</ButtonLink>
 
-## Nodos para todos
+## Nodos para todos {#nodes-for-everyone}
 
 Los usuarios que ejecutan [nodos](/glossary/#node) no tienen que confiar en terceros para que les proporcionen datos, y pueden interactuar de forma rápida, privada y sin permisos con la [cadena de bloques](/glossary/#blockchain) de Ethereum. Sin embargo, ejecutar un nodo en este momento requiere conocimientos técnicos y destinar un espacio en disco considerable, lo que significa que muchas personas deben confiar en intermediarios en su lugar.
 

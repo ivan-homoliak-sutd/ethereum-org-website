@@ -43,13 +43,13 @@ ETHのステーキングを支援するSaaSプロバイダーの数は増えて�
 
 <ProductDisclaimer />
 
-### ステーキングサービスプロバイダー
+### ステーキングサービスプロバイダー {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 [クライアントの多様性](/developers/docs/nodes-and-clients/client-diversity/)をサポートすることが、ネットワークのセキュリティを向上させ、ご自身のリスクを制限する上で、重要であることにご留意ください。 マジョリティクライアントの使用を制限していることが確認できるサービスは、<em style={{ textTransform: "uppercase" }}>「実行クライアントの多様性」</em>および<em style={{ textTransform: "uppercase" }}>「コンセンサスクライアントの多様性」</em>で示されます。
 
-### キージェネレーター
+### キージェネレーター {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

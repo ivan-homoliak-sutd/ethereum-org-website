@@ -10,7 +10,7 @@ La conception est une composante essentielle de tout projet, et en consacrant vo
 
 Finalement, c'est une excellente façon de construire un portfolio diversifié et impressionnant qui met en valeur vos compétences en conception.
 
-## Comment contribuer ?
+## Comment contribuer ? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;Fournissez des commentaires sur les premiers prototypes de conception {#design-critique}
 

@@ -17,7 +17,7 @@ template: roadmap
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">Více o abstrakci účtů</ButtonLink>
 
-## Síťové uzly pro každého
+## Síťové uzly pro každého {#nodes-for-everyone}
 
 Uživatelé provozující [síťové uzly](/glossary/#node) nemusí důvěřovat třetím stranám, které by jim poskytovaly data, a mohou rychle, v soukromí a bez povolení interagovat s [blockchainem](/glossary/#blockchain) Ethereum. Nicméně, provoz síťového uzlu v současnosti vyžaduje technické znalosti a významný prostor na pevném disku, což vede mnoho lidí k tomu, že raději důvěřují zprostředkovatelům.
 

@@ -10,7 +10,7 @@ El diseño es un componente vital de cualquier proyecto, por eso dedicando tiemp
 
 Por último, esto es un buen camino para construir un diverso e impresionante portafolio que demuestra tus habilidades de diseño.
 
-## ¿Cómo contribuir?
+## ¿Cómo contribuir? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;Proporcione comentarios sobre los prototipos de diseño tempranos {#design-critique}
 

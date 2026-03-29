@@ -475,7 +475,7 @@ O modelo de emissão será o seguinte:
 | Reserva usada depois da venda | 8,26%         | 6,79%           | 3,96%            |
 | Mineradores                   | 0%            | 17,8%           | 52,0%            |
 
-#### Taxa de crescimento do fornecimento de longo prazo (porcentagem)
+#### Taxa de crescimento do fornecimento de longo prazo (porcentagem) {#long-term-supply-growth-rate-percent}
 
 ![Inflação do Ethereum](./ethereum-inflation.png)
 

@@ -4,7 +4,7 @@ description: "Ethereum üzerinde token takasına yönelik bir rehber."
 lang: tr
 ---
 
-# Jetonlar nasıl takas edilir?
+# Jetonlar nasıl takas edilir? {#how-to-swap-tokens}
 
 Favori token'larınızın hepsini listeleyen bir borsa aramaktan sıkıldınız mı? Jetonların çoğunu [merkeziyetsiz borsalar](/glossary/#dex) kullanarak takas edebilirsiniz.
 
@@ -15,7 +15,7 @@ Bir jeton takası, Ethereum ağında var olan iki farklı varlığın takasını
 - bir [kripto cüzdanınız](/glossary/#wallet) olsun; eğer yoksa, [Ethereum hesabı nasıl oluşturulur](/guides/how-to-create-an-ethereum-account/) hakkındaki bu rehberi takip edebilirsiniz
 - cüzdanınıza fon ekleme
 
-## 1. Cüzdanınızı seçtiğiniz merkeziyetsiz borsaya (DEX) bağlayın
+## 1. Cüzdanınızı seçtiğiniz merkeziyetsiz borsaya (DEX) bağlayın {#1-connect-your-wallet-to-the-decentralized-exchange-dex-of-your-choice}
 
 Bazı popüler borsalar şunlardır:
 
@@ -26,24 +26,24 @@ Bazı popüler borsalar şunlardır:
 
 İlginizi çekti mi? [merkeziyetsiz finansın (DeFi)](/defi/) ne olduğunu ve bu yeni tür borsaların nasıl çalıştığını öğrenin.
 
-## 2. Takas etmek istediğiniz token çiftini seçin
+## 2. Takas etmek istediğiniz token çiftini seçin {#2-select-the-pair-of-tokens-you-wish-to-swap}
 
 Örneğin, ETH ve DAI. İki token'dan birinde fona sahip olduğunuzdan emin olun.
 ![Takas için ortak arayüz](./swap1.png)
 
-## 3. Takas etmek istediğiniz token miktarını girin ve takasa tıklayın
+## 3. Takas etmek istediğiniz token miktarını girin ve takasa tıklayın {#3-enter-the-amount-of-tokens-you-want-to-trade-and-click-swap}
 
 Borsa otomatik olarak alacağınız token miktarını hesaplayacaktır.
 
 ![Takas için ortak arayüz](./swap2.png)
 
-## 4. İşlemi onaylayın
+## 4. İşlemi onaylayın {#4-confirm-the-transaction}
 
 İşlemin detaylarını gözden geçirin. Çirkin sürprizlerden kaçınmak için takas oranını ve diğer ücretleri kontrol edin.
 
 ![İşlemi gözden geçirmek için ortak arayüz](./swap3.png)
 
-## 5. İşlemin yapılmasını bekleyin
+## 5. İşlemin yapılmasını bekleyin {#5-wait-for-the-transaction-to-be-processed}
 
 Herhangi bir blok zincir tarayıcısında işlemin ilerlemesini görebilirsiniz. Süreç 10 dakikadan fazla sürmemelidir.
 
@@ -59,12 +59,12 @@ Herhangi bir blok zincir tarayıcısında işlemin ilerlemesini görebilirsiniz.
 </AlertContent>
 </Alert>
 
-## Sıkça sorulan sorular
+## Sıkça sorulan sorular {#frequently-asked-questions}
 
-### Cüzdanımdan BTC için ETH takas edebilir miyim?
+### Cüzdanımdan BTC için ETH takas edebilir miyim? {#can-i-swap-eth-for-btc-from-my-wallet}
 
 Hayır, sadece Ethereum ağı üzerindeki token'ları takas edebilirsiniz, ETH, ERC-20 token'ları veya NFT'ler gibi. Sadece Bitcoin'in Ethereum üzerinde yaşayan "sarılı" versiyonlarını takas edebilirsiniz.
 
-### Slipaj nedir?
+### Slipaj nedir? {#what-is-slippage}
 
 Beklenen takas oranı ile gerçek takas oranı arasındaki farktır.

@@ -11,7 +11,7 @@ Một nút lưu trữ là một phiên bản của máy khách Ethereum được
 
 Bạn nên hiểu khái niệm về [nút Ethereum](/developers/docs/nodes-and-clients/), [kiến trúc của nó](/developers/docs/nodes-and-clients/node-architecture/), [chiến lược đồng bộ hóa](/developers/docs/nodes-and-clients/#sync-modes), các phương pháp [chạy](/developers/docs/nodes-and-clients/run-a-node/) và [sử dụng chúng](/developers/docs/apis/json-rpc/).
 
-## Nút lưu trữ là gì
+## Nút lưu trữ là gì {#what-is-an-archive-node}
 
 Để nắm được tầm quan trọng của nút lưu trữ, hãy làm rõ khái niệm về "trạng thái". Ethereum có thể được gọi là _máy trạng thái dựa trên giao dịch_. Nó bao gồm các tài khoản và ứng dụng thực hiện các giao dịch làm thay đổi trạng thái của chúng. Dữ liệu toàn cầu với thông tin về từng tài khoản và hợp đồng được lưu trữ trong cơ sở dữ liệu trie được gọi là trạng thái. Điều này được xử lý bởi máy khách lớp thực thi (EL) và bao gồm:
 
@@ -29,7 +29,7 @@ Tuy nhiên, điều này có nghĩa là việc truy cập trạng thái lịch s
 
 Điều quan trọng cần lưu ý là mạng không phụ thuộc vào các nút lưu trữ để lưu giữ và cung cấp tất cả dữ liệu lịch sử. Như đã đề cập ở trên, tất cả các trạng thái tạm thời trong lịch sử đều có thể được lấy ra trên một nút đầy đủ. Các giao dịch được lưu trữ bởi bất kỳ nút đầy đủ nào (hiện tại dưới 400G) và có thể được phát lại để xây dựng toàn bộ kho lưu trữ.
 
-### Trường hợp sử dụng
+### Trường hợp sử dụng {#use-cases}
 
 Việc sử dụng Ethereum thông thường như gửi giao dịch, triển khai hợp đồng, xác minh sự đồng thuận, v.v. không yêu cầu quyền truy cập vào các trạng thái lịch sử. Người dùng không bao giờ cần nút lưu trữ để tương tác tiêu chuẩn với mạng.
 
@@ -48,17 +48,17 @@ Như đã giải thích ở trên, một nút đầy đủ sẽ cần tạo dữ
 
 Có nhiều [dịch vụ](/developers/docs/nodes-and-clients/nodes-as-a-service/) miễn phí khác nhau cũng cho phép truy cập vào dữ liệu lịch sử. Vì việc chạy một nút lưu trữ đòi hỏi nhiều hơn, nên quyền truy cập này hầu hết bị hạn chế và chỉ hoạt động cho việc truy cập không thường xuyên. Nếu dự án của bạn yêu cầu quyền truy cập liên tục vào dữ liệu lịch sử, bạn nên cân nhắc tự chạy một nút.
 
-## Triển khai và sử dụng
+## Triển khai và sử dụng {#implementations-and-usage}
 
 Nút lưu trữ trong bối cảnh này có nghĩa là dữ liệu được cung cấp bởi các máy khách lớp thực thi hướng tới người dùng khi chúng xử lý cơ sở dữ liệu trạng thái và cung cấp các điểm cuối JSON-RPC. Các tùy chọn cấu hình, thời gian đồng bộ hóa và kích thước cơ sở dữ liệu có thể khác nhau tùy theo máy khách. Để biết chi tiết, vui lòng tham khảo tài liệu do máy khách của bạn cung cấp.
 
 Trước khi bắt đầu nút lưu trữ của riêng bạn, hãy tìm hiểu về sự khác biệt giữa các máy khách và đặc biệt là các [yêu cầu phần cứng](/developers/docs/nodes-and-clients/run-a-node/#requirements) khác nhau. Hầu hết các máy khách không được tối ưu hóa cho tính năng này và kho lưu trữ của chúng yêu cầu hơn 12TB dung lượng. Ngược lại, các triển khai như Erigon có thể lưu trữ cùng một dữ liệu trong dung lượng dưới 3TB, điều này khiến chúng trở thành cách hiệu quả nhất để chạy một nút lưu trữ.
 
-## Các phương pháp được đề xuất
+## Các phương pháp được đề xuất {#recommended-practices}
 
 Ngoài các [đề xuất chung để chạy một nút](/developers/docs/nodes-and-clients/run-a-node/), một nút lưu trữ có thể đòi hỏi nhiều hơn về phần cứng và bảo trì. Xem xét các [tính năng chính](https://github.com/ledgerwatch/erigon#key-features) của Erigon, phương pháp tiếp cận thiết thực nhất là sử dụng triển khai máy khách [Erigon](/developers/docs/nodes-and-clients/#erigon).
 
-### Phần cứng
+### Phần cứng {#hardware}
 
 Luôn đảm bảo xác minh các yêu cầu phần cứng cho một chế độ nhất định trong tài liệu của máy khách.
 Yêu cầu lớn nhất đối với các nút lưu trữ là không gian đĩa. Tùy thuộc vào máy khách, nó thay đổi từ 3TB đến 12TB. Ngay cả khi HDD có thể được coi là một giải pháp tốt hơn cho lượng lớn dữ liệu, việc đồng bộ hóa và liên tục cập nhật khối đứng đầu của chuỗi sẽ yêu cầu ổ SSD. Ổ đĩa [SATA](https://www.cleverfiles.com/help/sata-hard-drive.html) là đủ tốt nhưng nó phải có chất lượng đáng tin cậy, ít nhất là [TLC](https://blog.synology.com/tlc-vs-qlc-ssds-what-are-the-differences). Các đĩa có thể được lắp vào máy tính để bàn hoặc máy chủ có đủ khe cắm. Các thiết bị chuyên dụng như vậy là lý tưởng để chạy nút có thời gian hoạt động cao. Hoàn toàn có thể chạy nó trên máy tính xách tay nhưng tính di động sẽ đi kèm với một chi phí bổ sung.

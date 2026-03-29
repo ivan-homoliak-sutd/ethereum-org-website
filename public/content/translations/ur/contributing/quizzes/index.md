@@ -17,7 +17,7 @@ lang: ur
 - [ایتھیریم کیا ہے؟](/what-is-ethereum/)
 - [ETH کیا ہے؟](/what-is-ether/)
 
-## سیکھنے کا کوئز شامل کرنا
+## سیکھنے کا کوئز شامل کرنا {#adding-a-learn-quiz}
 
 اگر کوئی ایسا صفحہ ہے جس کے لیے سیکھنے کا کوئز نہیں بنایا گیا ہے، تو براہ کرم اس کے لیے [ایک ایشو کھولیں](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml)۔
 
@@ -30,7 +30,7 @@ lang: ur
   - ۱ درست جواب اس وضاحت کے ساتھ کہ یہ کیوں درست ہے
   - ۳ غلط جوابات، ہر ایک اس وضاحت کے ساتھ کہ وہ کیوں غلط ہیں
 
-## کوئز کا سوال شامل کرنا
+## کوئز کا سوال شامل کرنا {#adding-a-quiz-question}
 
 اگر کوئی ایسا سوال ہے جسے آپ کوئز کے سوالات کے بینک میں شامل کرنا چاہتے ہیں، تو براہ کرم [ایک ایشو کھولیں](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) اور درج ذیل معلومات فراہم کریں:
 
@@ -41,7 +41,7 @@ lang: ur
   - ۱ درست جواب اس وضاحت کے ساتھ کہ یہ کیوں درست ہے
   - ۳ غلط جوابات، ہر ایک اس وضاحت کے ساتھ کہ وہ کیوں غلط ہیں
 
-## کوئز کے سوال کو اپ ڈیٹ کرنا
+## کوئز کے سوال کو اپ ڈیٹ کرنا {#updating-a-quiz-question}
 
 اگر کوئی ایسا سوال ہے جسے آپ کوئز کے سوالات کے بینک میں اپ ڈیٹ کرنا چاہتے ہیں، تو براہ کرم [ایک ایشو کھولیں](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) اور درج ذیل معلومات فراہم کریں:
 
@@ -53,7 +53,7 @@ lang: ur
   - ۱ درست جواب اس وضاحت کے ساتھ کہ یہ کیوں درست ہے
   - ۳ غلط جوابات، ہر ایک اس وضاحت کے ساتھ کہ وہ کیوں غلط ہیں
 
-## کوئز کا سوال ہٹانا
+## کوئز کا سوال ہٹانا {#removing-a-quiz-question}
 
 اگر کسی سوال کے لیے صفحے پر مواد مزید موجود نہیں ہے اور اسے ہٹانے کی ضرورت ہے، تو براہ کرم سوال کو ہٹانے کے لیے [ایک ایشو کھولیں](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) اور درج ذیل معلومات فراہم کریں:
 

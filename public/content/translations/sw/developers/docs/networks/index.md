@@ -32,7 +32,7 @@ Testnet nyingi zilianza kwa kutumia utaratibu wa makubaliano wa uthibitisho wa m
 
 ETH kwenye testnet inatakiwa isiwe na thamani halisi; hata hivyo, kumekuwa na masoko yaliyoanzishwa kwa aina fulani za testnet ETH ambazo zimekuwa adimu au vigumu kupata. Kwa kuwa unahitaji ETH ili kuingiliana na Ethereum (hata kwenye testnet), watu wengi hupata testnet ETH bure kutoka kwa bomba. Mabomba mengi ni programu za wavuti ambapo unaweza kuweka anwani unayoomba ETH itumwe.
 
-#### Nitumie Testnet gani?
+#### Nitumie Testnet gani? {#which-testnet-should-i-use}
 
 Testnet mbili za umma ambazo wasanidi programu wa wateja wanazidumisha kwa sasa ni Sepolia na Hoodi. Sepolia ni mtandao kwa wasanidi programu wa mikataba na programu kujaribu programu zao. Mtandao wa Hoodi unaruhusu wasanidi programu wa itifaki kujaribu masasisho ya mtandao, na unaruhusu waweka hisa kujaribu kuendesha wathibitishaji.
 
@@ -104,7 +104,7 @@ Ephemery ni aina ya kipekee ya testnet ambayo huwekwa upya kikamilifu kila mwezi
 - [Usawazishaji wa Kituo cha Ukaguzi](https://checkpoint-sync.ephemery.ethpandaops.io)
 - [Launchpad](https://launchpad.ephemery.dev/)
 
-#### Mabomba
+#### Mabomba {#faucets}
 
 - [Bomba la Bordel](https://faucet.bordel.wtf/)
 - [Bomba la Pk910 PoW](https://ephemery-faucet.pk910.de/)

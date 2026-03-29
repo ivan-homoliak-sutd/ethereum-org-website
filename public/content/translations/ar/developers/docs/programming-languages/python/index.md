@@ -9,7 +9,7 @@ incomplete: true
 
 استخدم إثيريوم لإنشاء تطبيقات لامركزية (أو "dapp") تستخدم فوائد العملات المشفرة وتكنولوجيا سلسلة الكتل. قد تكون هذه التطبيقات اللامركزية جديرة بالثقة، بمعنى أنه بمجرد نشرها على إثيريوم، فستعمل دائمًا كما تم برمجتها بالضبط. ويمكن لتلك التطبيقات اللامركزية التحكم في الأصول الرقمية من أجل إنشاء أنواع جديدة من التطبيقات المالية. كما أنها قد تكون لامركزية، بمعنى عدم وجود كيان أو شخص واحد يتحكم فيها ويكاد يكون من المستحيل مراقبتها.
 
-## بدء العمل مع العقود الذكية ولغة سوليديتي
+## بدء العمل مع العقود الذكية ولغة سوليديتي {#getting-started-with-smart-contracts-and-solidity}
 
 **اخط خطواتك الأولي لدمج بايثون مع إثيريوم**
 
@@ -47,7 +47,7 @@ incomplete: true
 - [تحليل عقود سوليديتي الذكية باستخدام سليذر](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [برنامج تعليمي عن التكنولوجيا المالية للبلوكتشين: الإقراض والاقتراض باستخدام بايثون](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## المقالات المؤرشفة
+## المقالات المؤرشفة {#archived-articles}
 
 - [نشر رمز ERC20 الخاص بك باستخدام بايثون وBrownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [استخدام Brownie وبايثون لنشر العقود الذكية](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

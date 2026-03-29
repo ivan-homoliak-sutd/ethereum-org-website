@@ -47,7 +47,7 @@ Ethereum.org는 웹사이트의 번역, 집필, 디자인 및 유지 관리를 �
 
 질문이 있으신가요? 🤔 저희 [Discord 서버](https://discord.gg/ethereum-org)에 참여하세요
 
-## 기여를 시작하기에 좋은 첫 작업
+## 기여를 시작하기에 좋은 첫 작업 {#good-first-tasks-to-start-contributing}
 
 다음은 여러분이 해결을 돕고 담당할 수 있는 몇 가지 현재 작업입니다. 웹사이트에 대한 대부분의 변경 사항은 GitHub를 통해 이루어지므로 대부분의 경우 GitHub 계정이 필요합니다.
 
@@ -95,7 +95,7 @@ ethereum.org에 콘텐츠나 결과물을 기여할 때는 본인의 독창적�
 
 [OAT에 대한 추가 정보](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### 수령 방법
+### 수령 방법 {#how-to-claim-1}
 
 1. 저희 [Discord 서버](https://discord.gg/ethereum-org)에 참여하세요.
 2. 기여에 대한 링크를 `#🥇 | proof-of-contribution` 채널에 붙여넣으세요.

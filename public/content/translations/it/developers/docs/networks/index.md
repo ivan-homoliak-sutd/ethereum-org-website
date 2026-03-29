@@ -32,7 +32,7 @@ La maggior parte delle reti di test è iniziata utilizzando un meccanismo di con
 
 Si suppone che l'ETH sulle reti di test non abbia alcun valore reale; tuttavia, sono stati creati mercati per alcuni tipi di ETH della rete di test che sono diventati scarsi o difficili da ottenere. Poiché hai bisogno di ETH per interagire effettivamente con Ethereum (anche sulle reti di test), la maggior parte delle persone ottiene gratuitamente ETH della rete di test dai rubinetti. La maggior parte dei rubinetti sono app web in cui puoi inserire un indirizzo a cui richiedere l'invio di ETH.
 
-#### Quale rete di test dovrei usare?
+#### Quale rete di test dovrei usare? {#which-testnet-should-i-use}
 
 Le due reti di test pubbliche che gli sviluppatori di client stanno attualmente mantenendo sono Sepolia e Hoodi. Sepolia è una rete per gli sviluppatori di contratti e applicazioni per testare le loro applicazioni. La rete Hoodi consente agli sviluppatori del protocollo di testare gli aggiornamenti della rete e agli staker di testare l'esecuzione dei validatori.
 
@@ -104,7 +104,7 @@ Ephemery è un tipo unico di rete di test che si ripristina completamente ogni m
 - [Sincronizzazione Checkpoint](https://checkpoint-sync.ephemery.ethpandaops.io)
 - [Launchpad](https://launchpad.ephemery.dev/)
 
-#### Rubinetti
+#### Rubinetti {#faucets}
 
 - [Rubinetto Bordel](https://faucet.bordel.wtf/)
 - [Rubinetto PoW Pk910](https://ephemery-faucet.pk910.de/)

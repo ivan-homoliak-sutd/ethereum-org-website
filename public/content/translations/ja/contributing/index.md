@@ -47,7 +47,7 @@ Ethereum.orgはオープンソースで運営されているプロジェクト�
 
 ご質問はありますか？ 🤔 私たちの[Discordサーバー](https://discord.gg/ethereum-org)に参加しましょう
 
-## 貢献を始めるのに適した最初のタスク
+## 貢献を始めるのに適した最初のタスク {#good-first-tasks-to-start-contributing}
 
 現在、解決を手伝っていただきたいタスクがいくつかあります。 変更のほとんどは、GitHubを通じて行われるため、GitHubアカウントが必要になります。
 
@@ -95,7 +95,7 @@ ethereum.orgにコンテンツやアーティファクトを投稿する際は�
 
 [OATの詳細](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### 請求方法
+### 請求方法 {#how-to-claim-1}
 
 1. 私たちの[Discordサーバー](https://discord.gg/ethereum-org)に参加する。
 2. `#🥇 | proof-of-contribution`チャンネルに、あなたの貢献へのリンクを貼り付ける。

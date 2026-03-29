@@ -4,7 +4,7 @@ description: "Дізнайтеся більше про 7702 у випуску Pe
 lang: uk
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## Анотація {#abstract}
 

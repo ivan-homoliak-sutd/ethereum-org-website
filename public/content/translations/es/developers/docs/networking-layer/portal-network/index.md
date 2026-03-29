@@ -59,7 +59,7 @@ Los beneficios de este diseño de red son:
 
 La tabla siguiente muestra las funciones de los clientes existentes que puede ofrecer la red Portal, permitiendo a los usuarios acceder a estas funciones en dispositivos con muy pocos recursos.
 
-### Las redes del portal
+### Las redes del portal {#the-portal-networks}
 
 | Cliente ligero de baliza | Red de estado                   | Gossip de transacciones | Historial de la red |
 | ------------------------ | ------------------------------- | ----------------------- | ------------------- |

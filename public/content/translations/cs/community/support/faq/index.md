@@ -22,15 +22,15 @@ Ve většině případů neexistuje způsob, jak prostředky získat zpět. Ethe
 
 Možnosti obnovení závisí na typu peněženky, kterou používáte.
 
-### Pokud máte svou bezpečnostní frázi (frázi pro obnovení)
+### Pokud máte svou bezpečnostní frázi (frázi pro obnovení) {#if-you-have-your-seed-phrase-recovery-phrase}
 
 Pomocí bezpečnostní fráze můžete svou peněženku obnovit v jakékoli kompatibilní aplikaci peněženky. Proto je důležité, abyste svou bezpečnostní frázi uchovávali bezpečně v režimu offline. Pokyny k obnovení naleznete v dokumentaci poskytovatele vaší peněženky.
 
-### Pokud jste ztratili svou bezpečnostní frázi
+### Pokud jste ztratili svou bezpečnostní frázi {#if-you-have-lost-your-seed-phrase}
 
 Bez vaší bezpečnostní fráze nebo privátních klíčů nelze vaše prostředky obnovit. Nikdo, včetně ethereum.org, vám nemůže obnovit heslo ani přístup k peněžence s vlastní správou.
 
-### Pokud je váš účet na burze
+### Pokud je váš účet na burze {#if-your-account-is-on-an-exchange}
 
 Pokud je váš účet na centralizované burze, jako je Coinbase, Binance nebo Kraken, kontaktujte přímo tým podpory burzy. Oni spravují účty na své platformě a mohou vám pomoci s resetováním hesla nebo obnovením účtu.
 
@@ -55,7 +55,7 @@ Transakce na Ethereu se mohou zaseknout, když je vámi nastavený poplatek za p
 - **Urychlit:** Odešlete stejnou transakci znovu s vyšším poplatkem za palivo
 - **Zrušit:** Odešlete transakci 0 ETH na svou vlastní adresu se stejným nonce, jaké má čekající transakce
 
-### Užitečné příručky
+### Užitečné příručky {#helpful-guides}
 
 - [Jak urychlit nebo zrušit nevyřízenou transakci na MetaMask](https://support.metamask.io/transactions-and-gas/transactions/how-to-speed-up-or-cancel-a-pending-transaction/)
 - [Jak zrušit nevyřízené transakce na Ethereu](https://info.etherscan.com/how-to-cancel-ethereum-pending-transactions/)

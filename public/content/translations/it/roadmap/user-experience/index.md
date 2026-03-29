@@ -17,7 +17,7 @@ La soluzione a questo problema è l'utilizzo di portafogli di [contratti intelli
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">Maggiori informazioni sull'astrazione dell'account</ButtonLink>
 
-## Nodi per tutti
+## Nodi per tutti {#nodes-for-everyone}
 
 Gli utenti che eseguono [nodi](/glossary/#node) non devono fidarsi di terze parti per farsi fornire i dati e possono interagire in modo rapido, privato e senza permessi con la [blockchain](/glossary/#blockchain) di Ethereum. Tuttavia, eseguire un nodo in questo momento richiede conoscenze tecniche e uno spazio su disco considerevole, il che significa che molte persone devono invece fidarsi degli intermediari.
 

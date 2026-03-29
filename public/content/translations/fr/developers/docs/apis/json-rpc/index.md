@@ -79,7 +79,7 @@ Les options suivantes sont possibles pour le paramètre de bloc :
 - `Chaîne \"finalized\"` - pour le dernier bloc finalisé
 - `Chaîne \"pending\"` - pour l'état ou les transactions en attente
 
-## Exemples
+## Exemples {#examples}
 
 Sur cette page, nous fournissons des exemples sur la façon d'utiliser des points de terminaison individuels de l'API JSON-RPC en utilisant l'outil de ligne de commande, [curl](https://curl.se). Ces exemples de points de terminaison individuels se trouvent ci-dessous dans la section [Exemples de Curl](#curl-examples). Plus bas sur la page, nous fournissons également un [exemple de bout en bout](#usage-example) pour compiler et déployer un contrat intelligent en utilisant un nœud Geth, l'API JSON-RPC et curl.
 
@@ -133,7 +133,7 @@ Une poignée de méthodes JSON-RPC de base nécessitent des données du réseau 
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## Terrain de jeu pour l'API JSON-RPC
+## Terrain de jeu pour l'API JSON-RPC {#json-rpc-api-playground}
 
 Vous pouvez utiliser l'[outil de terrain de jeu](https://ethereum-json-rpc.com) pour découvrir et essayer les méthodes de l'API. Cela vous montre également quelles méthodes et réseaux sont pris en charge par les différents fournisseurs de nœud.
 

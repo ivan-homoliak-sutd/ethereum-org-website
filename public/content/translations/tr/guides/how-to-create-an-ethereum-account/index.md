@@ -4,13 +4,13 @@ description: "Cüzdan kullanarak Ethereum hesabı oluşturmaya ilişkin ayrınt�
 lang: tr
 ---
 
-# Ethereum hesabı nasıl oluşturulur
+# Ethereum hesabı nasıl oluşturulur {#how-to-create-an-ethereum-account}
 
 **Herkes ücretsiz bir Ethereum hesabı oluşturabilir.** Bunun için bir kripto cüzdanı uygulaması yüklemeniz yeterlidir. Cüzdanlar Ethereum hesabınızı oluşturur ve yönetir. İşlem gönderebilir, bakiyelerinizi kontrol edebilir ve sizi Ethereum üzerine inşa edilmiş diğer uygulamalara bağlayabilir.
 
 Bir cüzdan ile jeton borsalarına, oyunlara ve [NFT](/glossary/#nft) pazar yerlerine anında giriş yapabilirsiniz. Bireysel bir kayıt gerektirmez, Ethereum üzerinde inşa edilmiş tüm uygulamalar için tek bir hesap kullanılır.
 
-## 1. Adım: Bir cüzdan seçin
+## 1. Adım: Bir cüzdan seçin {#step-1-choose-a-wallet}
 
 Cüzdan, Ethereum hesabınızı yönetmenize yardımcı olan bir uygulamadır. Aralarından seçim yapabileceğiniz mobil, masaüstü ve hatta tarayıcı uzantıları olarak düzinelerce farklı cüzdan vardır.
 
@@ -24,15 +24,15 @@ Eğer yeniyseniz, başlangıç seviyesindeki kişilere uygun gerekli özellikler
 
 İhtiyaçlarınızı karşılamak için başka profil filtreleri de vardır. Bunlar yaygın kullanılan cüzdanların örnekleridir - herhangi bir yazılıma güvenmeden önce kendi araştırmanızı yapmalısınız.
 
-## 2. Adım: Cüzdan uygulamanızı indirin ve kurun
+## 2. Adım: Cüzdan uygulamanızı indirin ve kurun {#step-2-download-and-install-your-wallet-app}
 
 Belirli bir cüzdan seçtiğinizde, uygulamanın resmi web sitesini veya uygulama mağazasını ziyaret edin, uygulamayı indirin ve kurun. Bunların hepsi ücretsizdir.
 
-## 3. Adım: Uygulamayı açın ve Ethereum hesabınızı oluşturun
+## 3. Adım: Uygulamayı açın ve Ethereum hesabınızı oluşturun {#step-3-open-the-app-and-create-your-ethereum-account}
 
 Yeni cüzdanınızı ilk kez açarken, yeni bir hesap oluşturma veya mevcut bir hesabı içe aktarma arasında seçim yapmanız istenebilir. Yeni bir hesap oluşturmaya tıklayın. **Bu, cüzdan yazılımının Ethereum hesabınızı oluşturduğu adımdır.**
 
-## 4. Adım: Kurtarma ifadenizi saklayın
+## 4. Adım: Kurtarma ifadenizi saklayın {#step-4-store-your-recovery-phrase}
 
 Bazı uygulamalar sizden gizli bir "kurtarma ifadesi" (bazen "güvenlik kelimeleri" ya da "mnemonic" olarak da adlandırılır) kaydetmenizi ister. Bu güvenlik kelimelerinin güvende tutulması son derecede önemlidir! Bu Ethereum hesabınızı oluşturmak için kullanılır ve işlemleri onaylamak için de kullanılabilir.
 
@@ -52,24 +52,24 @@ Bazı uygulamalar sizden gizli bir "kurtarma ifadesi" (bazen "güvenlik kelimele
 
 İlgilendiğiniz başka rehberler de mi var? Göz atın: [Adım adım kılavuzlar](/guides/)
 
-## Sıkça sorulan sorular
+## Sıkça sorulan sorular {#frequently-asked-questions}
 
-### Cüzdanım ve Ethereum hesabım aynı mı?
+### Cüzdanım ve Ethereum hesabım aynı mı? {#are-my-wallet-and-my-ethereum-account-the-same}
 
 Hayır. Cüzdan, hesapları yönetmenizi sağlayan bir yönetim aracıdır. Bir cüzdan birden fazla hesaba erişebilir ve tek bir hesaba birden fazla cüzdan tarafından erişilebilir. Kurtarma ifadesi hesap oluşturmak için kullanılır ve bir cüzdan uygulamasına varlıkların yönetim iznini verir.
 
-### Bir Bitcoin adresine Ether, yahut bir Ethereum adresine Bitcoin gönderebilir miyim?
+### Bir Bitcoin adresine Ether, yahut bir Ethereum adresine Bitcoin gönderebilir miyim? {#can-i-send-bitcoin-to-an-ethereum-address-or-ether-to-a-bitcoin-address}
 
 Hayır, gönderemezsiniz. Bitcoin ve ether, her biri kendi defter tutma ve adres biçimleri olan iki ayrı ağda (yani farklı blokzincirlerde) bulunur. İki farklı ağı köprülemek için çeşitli girişimlerde bulunuldu; bunlardan şu anda en aktif olanı [Wrapped Bitcoin veya WBTC](https://www.bitcoin.com/get-started/what-is-wbtc/)'dir. WBTC bir saklama çözümü olduğundan (yani belirli kritik işlevleri tek bir grup insanın kontrol etmesi anlamına gelir) bu bir onay değildir ve burada yalnızca bilgilendirme amacıyla verilmiştir.
 
-### Bir ETH adresi sahibiysem, aynı adrese diğer blok zincirlerde de sahip miyim?
+### Bir ETH adresi sahibiysem, aynı adrese diğer blok zincirlerde de sahip miyim? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Ethereum'a benzer temel yazılımı kullanan tüm blokzincirlerde (bunlar 'EVM uyumlu' olarak bilinir) aynı [adresi](/glossary/#address) kullanabilirsiniz. Bu [liste](https://chainlist.org/), size hangi blokzincirlerde aynı adresi kullanabileceğinizi gösterecektir. Bitcoin gibi bazı blok zincirlerde tamamen farklı ağ kuralları uygulanır ve farklı bir biçimde farklı bir adrese ihtiyaç duyacaksınız. Eğer bir akıllı sözleşme cüzdanına sahipseniz, hangi blokzincirlerin desteklendiği hakkında daha fazla bilgi için ürün web sitesini kontrol etmelisiniz. Çünkü bunlar genelde sınırlı ama daha güvenli bir kapsama sahiptir.
 
-### Kendi cüzdanıma sahip olmak, fonlarımı bir borsada tutmaktan daha mı güvenli?
+### Kendi cüzdanıma sahip olmak, fonlarımı bir borsada tutmaktan daha mı güvenli? {#is-having-my-own-wallet-safer-than-keeping-my-funds-on-an-exchange}
 
 Kendi cüzdanınıza sahip olmanız kendi varlıklarınızın sorumluluğunu kendiniz almanız anlamına gelir. Maalesef müşterilerinin paralarını kaybeden birçok başarısız borsa örneği bulunmaktadır. Bir cüzdana (kurtarma ifadesi ile birlikte) sahip olmak, varlıklarınızı tutması için bir kuruluşa güvenmek zorunda kalmakla ilişkili riskleri ortadan kaldırır. Ancak bunu kendiniz güvenli tutmanız ve kimlik avı dolandırıcılıklarından, işlemleri yanlışlıkla onaylamaktan veya kurtarma ifadesini ifşa etmekten, sahte web siteleriyle etkileşime girmekten ve kendi kendine saklama ile ilgili diğer risklerden kaçınmanız gerekir. Riskler ve faydalar farklıdır.
 
-### Telefon/donanım cüzdanımı kaybedersem, kayıp fonlarımı kurtarmak için yine aynı cüzdan uygulamasına ihtiyacım var mı?
+### Telefon/donanım cüzdanımı kaybedersem, kayıp fonlarımı kurtarmak için yine aynı cüzdan uygulamasına ihtiyacım var mı? {#if-i-lose-my-phonehardware-wallet-do-i-need-to-use-the-same-wallet-app-again-to-recover-the-lost-funds}
 
 Hayır, farklı bir cüzdan kullanabilirsiniz. Güvenlik kelimelerine sahip olduğunuz sürece birçok cüzdana girebilirsiniz ve hesabınız geri alınacaktır. Bunu yapmanız gerekirse dikkatli olun: Cüzdanınızı kurtarırken internete bağlı olmadığınızdan emin olmanız en iyisidir, böylece kurtarma ifadeniz yanlışlıkla sızdırılmaz. Kayıp fonları, kurtarma ifadesi olmadan kurtarmak çoğunlukla imkansızdır.

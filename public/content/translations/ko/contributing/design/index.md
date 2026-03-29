@@ -10,7 +10,7 @@ lang: ko
 
 결과적으로, 이는 여러분의 디자인 능력을 효과적으로 보여줄 수 있는 포트폴리오를 구축하는 좋은 기회가 됩니다.
 
-## 기여 방법?
+## 기여 방법? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;초기 디자인 프로토타입에 대한 피드백 제공 {#design-critique}
 

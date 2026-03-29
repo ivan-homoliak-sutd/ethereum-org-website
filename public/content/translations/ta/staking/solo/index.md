@@ -106,13 +106,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### நோடு கருவிகள்
+### நோடு கருவிகள் {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 [மைனாரிட்டி கிளைன்ட்டைத்](/developers/docs/nodes-and-clients/client-diversity/) தேர்ந்தெடுப்பதன் முக்கியத்துவத்தைக் கவனியுங்கள், ஏனெனில் இது நெட்வொர்க்கின் பாதுகாப்பை மேம்படுத்துகிறது மற்றும் உங்கள் ஆபத்தைக் கட்டுப்படுத்துகிறது. மைனாரிட்டி கிளைன்ட்டை அமைக்க உங்களை அனுமதிக்கும் கருவிகள் <em style={{ textTransform: "uppercase" }}>"மல்டி-கிளைன்ட்"</em> எனக் குறிக்கப்படுகின்றன.
 
-### கீ ஜெனரேட்டர்கள் (Key Generators)
+### கீ ஜெனரேட்டர்கள் (Key Generators) {#key-generators}
 
 திறவுகோல் உருவாக்கத்திற்கு உதவ [ஸ்டேக்கிங் டெபாசிட் CLI](https://github.com/ethereum/staking-deposit-cli/)-க்கு மாற்றாக இந்தக் கருவிகளைப் பயன்படுத்தலாம்.
 

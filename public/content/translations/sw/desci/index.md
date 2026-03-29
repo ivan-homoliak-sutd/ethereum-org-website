@@ -20,7 +20,7 @@ DeSci inalenga kuunda mfumo ambapo wanasayansi wanahimizwa kushiriki utafiti wao
 
 Sayansi iliyogatuliwa inaruhusu vyanzo mbalimbali vya ufadhili (kutoka [DAOs](/glossary/#dao), [michango ya quadratic](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531) hadi ufadhili wa umma na zaidi), data na mbinu zinazopatikana zaidi, na kwa kutoa motisha kwa urudufishaji.
 
-### Juan Benet - Harakati ya DeSci
+### Juan Benet - Harakati ya DeSci {#juan-benet-the-desci-movement}
 
 <YouTube id="zkXM9H90g_E" />
 

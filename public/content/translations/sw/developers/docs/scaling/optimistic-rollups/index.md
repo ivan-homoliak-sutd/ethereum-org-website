@@ -253,7 +253,7 @@ Wewe ni mwanafunzi wa kuona zaidi? Tazama Finematics ikielezea optimistic rollup
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## Masomo zaidi kuhusu optimistic rollups
+## Masomo zaidi kuhusu optimistic rollups {#further-reading-on-optimistic-rollups}
 
 - [Jinsi optimistic rollups zinavyofanya kazi (Mwongozo Kamili)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [Rollup ya Mnyororo wa Bloku ni Nini? Utangulizi wa Kiufundi](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

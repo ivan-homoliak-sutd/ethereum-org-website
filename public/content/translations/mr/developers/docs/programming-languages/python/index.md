@@ -47,7 +47,7 @@ incomplete: true
 - [Slither सह Solidity स्मार्ट कॉन्ट्रॅक्ट्सचे विश्लेषण करा](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [ब्लॉकचेन फिनटेक ट्युटोरियल: पायथॉनसह कर्ज देणे आणि घेणे](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## संग्रहित लेख
+## संग्रहित लेख {#archived-articles}
 
 - [पायथॉन आणि Brownie सह तुमचा स्वतःचा ERC20 टोकन तैनात करा](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [स्मार्ट कॉन्ट्रॅक्ट्स तैनात करण्यासाठी Brownie आणि पायथॉन वापरणे](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

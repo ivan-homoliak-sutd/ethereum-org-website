@@ -22,15 +22,15 @@ Dans la plupart des cas, il n'y a aucun moyen de récupérer les fonds. Aucune o
 
 Vos options de récupération dépendent du type de portefeuille que vous utilisez.
 
-### Si vous avez votre phrase de récupération
+### Si vous avez votre phrase de récupération {#if-you-have-your-seed-phrase-recovery-phrase}
 
 Vous pouvez restaurer votre portefeuille dans n'importe quelle application de portefeuille compatible à l'aide de votre phrase de récupération. C'est pourquoi il est essentiel de conserver votre phrase de récupération en toute sécurité hors ligne. Consultez la documentation de votre fournisseur de portefeuille pour obtenir les instructions de restauration.
 
-### Si vous avez perdu votre phrase de récupération
+### Si vous avez perdu votre phrase de récupération {#if-you-have-lost-your-seed-phrase}
 
 Sans votre phrase de récupération ou vos clés privées, vos fonds ne peuvent pas être récupérés. Personne, y compris ethereum.org, ne peut réinitialiser votre mot de passe ou restaurer l'accès à un portefeuille non-dépositaire.
 
-### Si votre compte se trouve sur un échange
+### Si votre compte se trouve sur un échange {#if-your-account-is-on-an-exchange}
 
 Si votre compte se trouve sur un échange centralisé comme Coinbase, Binance ou Kraken, contactez directement l'équipe d'assistance de l'échange. Ils contrôlent les comptes sur leur plateforme et peuvent être en mesure de vous aider à réinitialiser votre mot de passe ou à récupérer votre compte.
 
@@ -55,7 +55,7 @@ Les transactions sur Ethereum peuvent être bloquées lorsque les frais de gaz q
 - **Accélérer :** Soumettre à nouveau la même transaction avec des frais de gaz plus élevés
 - **Annuler :** Envoyer une transaction de 0 ETH à votre propre adresse en utilisant le même nonce que la transaction en attente
 
-### Guides utiles
+### Guides utiles {#helpful-guides}
 
 - [Comment accélérer ou annuler une transaction en attente sur MetaMask](https://support.metamask.io/transactions-and-gas/transactions/how-to-speed-up-or-cancel-a-pending-transaction/)
 - [Comment annuler les transactions Ethereum en attente](https://info.etherscan.com/how-to-cancel-ethereum-pending-transactions/)

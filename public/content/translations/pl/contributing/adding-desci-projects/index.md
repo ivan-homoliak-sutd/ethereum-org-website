@@ -23,7 +23,7 @@ Każdy może zaproponować projekt i umieścić go na stronie DeSci na ethereum.
 - **Projekt powinien być częścią ekosystemu Ethereum** – Na ethereum.org wierzymy, że Ethereum (i jego warstwy 2) jest odpowiednią warstwą bazową dla ruchu DeSci.
 - **Ugruntowana pozycja projektu** - Projekt ma prawdziwych użytkowników, którzy mają dostęp do usług projektu od kilku miesięcy.
 
-### Mile widziane
+### Mile widziane {#nice-to-haves}
 
 - **Dostępny w wielu językach** – Twój projekt jest przetłumaczony na wiele języków, co pozwala użytkownikom na całym świecie na dostęp do niego.
 - **Zasoby edukacyjne** – Twój produkt powinien mieć dobrze zaprojektowany proces wdrożenia, aby pomagać i edukować użytkowników. Lub dowody na treści instruktażowe, takie jak artykuły lub filmy.

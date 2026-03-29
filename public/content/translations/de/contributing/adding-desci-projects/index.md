@@ -23,7 +23,7 @@ Jeder kann ein Projekt vorschlagen, das auf der DeSci-Seite auf ethereum.org auf
 - **Das Projekt sollte Teil des Ethereum-Ökosystems sein** - Wir bei ethereum.org glauben, dass Ethereum (und seine Ebene-2-Lösungen) die geeignete Basisschicht für die DeSci-Bewegung ist.
 - **Das Projekt ist ziemlich gut etabliert** - Das Projekt hat echte Nutzer, die seit mehreren Monaten auf die Dienste des Projekts zugreifen können.
 
-### Nice-to-haves
+### Nice-to-haves {#nice-to-haves}
 
 - **In mehreren Sprachen verfügbar** - Ihr Projekt ist in mehrere Sprachen übersetzt, sodass Nutzer auf der ganzen Welt darauf zugreifen können.
 - **Bildungsressourcen** - Ihr Produkt sollte über eine gut gestaltete Onboarding-Erfahrung verfügen, um Nutzern zu helfen und sie weiterzubilden. Oder Nachweise von Anleitungen wie Artikeln oder Videos.

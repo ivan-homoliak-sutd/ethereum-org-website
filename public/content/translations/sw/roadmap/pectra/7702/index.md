@@ -4,7 +4,7 @@ description: Jifunze zaidi kuhusu 7702 katika toleo la Pectra
 lang: sw
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## Muhtasari {#abstract}
 

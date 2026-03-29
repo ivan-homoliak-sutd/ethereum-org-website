@@ -17,7 +17,7 @@ Die Lösung hierfür ist die Verwendung von [Smart Contract](/glossary/#smart-co
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">Mehr zur Kontoabstraktion</ButtonLink>
 
-## Blockchain-Knoten für alle
+## Blockchain-Knoten für alle {#nodes-for-everyone}
 
 Benutzer, die [Blockchain-Knoten](/glossary/#node) betreiben, müssen keinen Dritten vertrauen, um Daten zu erhalten, und sie können schnell, privat und erlaubnisfrei mit der Ethereum-[Blockchain](/glossary/#blockchain) interagieren. Derzeit erfordert der Betrieb eines Blockchain-Knotens jedoch technisches Wissen und erheblichen Speicherplatz, was bedeutet, dass viele Menschen stattdessen Vermittlern vertrauen müssen.
 

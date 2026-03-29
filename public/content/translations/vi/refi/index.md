@@ -73,7 +73,7 @@ Mặc dù hiện tại thị trường carbon nói chung và việc chuyển đ�
 
 Bằng cách chuyển hướng vốn từ hoạt động khai thác sang dòng tái tạo, các dự án và công ty mang lại lợi ích xã hội, môi trường hoặc cộng đồng - và có thể không đạt được nguồn tài trợ trong tài chính truyền thống - có thể khởi đầu và tạo ra các tác động bên ngoài tích cực cho xã hội nhanh chóng và dễ dàng hơn rất nhiều. Việc chuyển đổi sang mô hình tài trợ này cũng mở ra cơ hội cho các hệ thống kinh tế toàn diện hơn nhiều, tại đây mọi người thuộc mọi thành phần nhân khẩu học đều có thể trở thành những người tham gia chủ động thay vì chỉ đơn thuần là những người quan sát thụ động. ReFi đưa ra tầm nhìn về Ethereum trở thành một cơ chế phối hợp hành động nhằm giải quyết các thách thức hiện hữu mà loài người và mọi sự sống trên hành tinh của chúng ta đang phải đối mặt—là lớp nền tảng của mô hình kinh tế mới, tạo điều kiện cho một tương lai toàn diện và bền vững hơn trong nhiều thế kỷ tới.
 
-## Tài liệu đọc thêm về ReFi
+## Tài liệu đọc thêm về ReFi {#additional-reading-on-refi}
 
 - [Tổng quan cấp cao về các loại tiền tệ carbon và vị trí của chúng trong nền kinh tế](https://www.klimadao.finance/resources/the-vision-of-a-carbon-currency)
 - [The Ministry for the Future, một cuốn tiểu thuyết mô tả vai trò của một loại tiền tệ được bảo đảm bằng carbon trong việc chống biến đổi khí hậu](https://en.wikipedia.org/wiki/The_Ministry_for_the_Future)

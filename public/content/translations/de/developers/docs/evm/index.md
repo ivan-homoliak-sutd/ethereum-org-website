@@ -45,15 +45,15 @@ Die EVM wird als [Stack-Maschine](https://wikipedia.org/wiki/Stack_machine) mit 
 
 Während der Ausführung unterhält die EVM einen flüchtigen _Speicher_ (als wortadressiertes Byte-Array), der zwischen Transaktionen nicht bestehen bleibt.
 
-### Transient Storage (Flüchtiger Speicher)
+### Transient Storage (Flüchtiger Speicher) {#transient-storage}
 
 Transient Storage ist ein schlüsselwertbasierter Speicher pro Transaktion, auf den über die Opcodes `TSTORE` und `TLOAD` zugegriffen wird. Er bleibt über alle internen Aufrufe während derselben Transaktion hinweg bestehen, wird aber am Ende der Transaktion gelöscht. Im Gegensatz zum Arbeitsspeicher (Memory) wird Transient Storage als Teil des EVM-Zustands und nicht als Teil des Ausführungsrahmens modelliert, wird jedoch nicht in den globalen Zustand übernommen. Transient Storage ermöglicht eine gas-effiziente, temporäre gemeinsame Nutzung von Zuständen über interne Aufrufe hinweg während einer Transaktion.
 
-### Storage
+### Storage {#storage}
 
 Verträge enthalten einen Merkle Patricia _Storage_-Trie (als wortadressierbares Wort-Array), der mit dem betreffenden Konto verknüpft und Teil des globalen Zustands ist. Dieser persistente Speicher unterscheidet sich vom Transient Storage, der nur für die Dauer einer einzelnen Transaktion verfügbar ist und nicht Teil des persistenten Storage-Tries des Kontos ist.
 
-### Opcodes
+### Opcodes {#opcodes}
 
 Kompilierter Smart-Contract-Bytecode wird als eine Reihe von EVM-[Opcodes](/developers/docs/evm/opcodes) ausgeführt, die Standard-Stack-Operationen wie `XOR`, `AND`, `ADD`, `SUB` usw. durchführen. Die EVM implementiert auch eine Reihe von Blockchain-spezifischen Stack-Operationen, wie `ADDRESS`, `BALANCE`, `BLOCKHASH` usw. Der Opcode-Satz enthält auch `TSTORE` und `TLOAD`, die Zugriff auf den Transient Storage bieten.
 

@@ -79,7 +79,7 @@ JSON-RPC స్పెసిఫికేషన్‌ను అమలు చేస
 - తాజా ఖరారు చేయబడిన బ్లాక్ కోసం `స్ట్రింగ్ "finalized"`
 - పెండింగ్‌లో ఉన్న స్థితి/లావాదేవీల కోసం `స్ట్రింగ్ "pending"`
 
-## ఉదాహరణలు
+## ఉదాహరణలు {#examples}
 
 ఈ పేజీలో మేము కమాండ్ లైన్ ఉపకరణం, [curl](https://curl.se) ఉపయోగించి వ్యక్తిగత JSON_RPC ఎపిఐ ఎండ్‌పాయింట్‌లను ఎలా ఉపయోగించాలో ఉదాహరణలు అందిస్తాము. ఈ వ్యక్తిగత ఎండ్‌పాయింట్ ఉదాహరణలు కింద [Curl ఉదాహరణలు](#curl-examples) విభాగంలో కనుగొనబడ్డాయి. పేజీలో మరింత కింద, గెత్ నోడ్, JSON_RPC ఎపిఐ మరియు curl ఉపయోగించి ఒక స్మార్ట్ కాంట్రాక్ట్‌ను కంపైల్ చేయడం మరియు డిప్లాయ్ చేయడం కోసం మేము ఒక [ఎండ్-టు-ఎండ్ ఉదాహరణను](#usage-example) కూడా అందిస్తాము.
 
@@ -133,7 +133,7 @@ curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","metho
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## JSON-RPC ఎపిఐ ప్లేగ్రౌండ్
+## JSON-RPC ఎపిఐ ప్లేగ్రౌండ్ {#json-rpc-api-playground}
 
 మీరు ఎపిఐ పద్ధతులను కనుగొనడానికి మరియు ప్రయత్నించడానికి [ప్లేగ్రౌండ్ ఉపకరణం](https://ethereum-json-rpc.com) ఉపయోగించవచ్చు. వివిధ నోడ్ ప్రొవైడర్ల ద్వారా ఏ పద్ధతులు మరియు నెట్‌వర్క్‌లకు మద్దతు ఉందో కూడా ఇది మీకు చూపిస్తుంది.
 

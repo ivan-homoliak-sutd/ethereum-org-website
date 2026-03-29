@@ -4,13 +4,13 @@ description: Um guia passo a passo sobre como criar uma conta Ethereum usando um
 lang: pt-br
 ---
 
-# Como criar uma conta Ethereum
+# Como criar uma conta Ethereum {#how-to-create-an-ethereum-account}
 
 \*\*Qualquer pessoa pode criar uma conta Ethereum de graça. Você só precisa instalar um aplicativo de carteira de criptomoedas. As carteiras criam e gerenciam sua conta Ethereum. Elas permitem enviar transações, verificar seus saldos e conectá-lo a outros aplicativos desenvolvidos em Ethereum.
 
 Com uma carteira, você também pode fazer login instantaneamente em qualquer exchange de tokens, jogos e mercados de [NFT](/glossary/#nft). Não há necessidade de inscrição individual. Uma única conta é compartilhada por todos os aplicativos criados com base em Ethereum.
 
-## Etapa 1: Escolha uma carteira
+## Etapa 1: Escolha uma carteira {#step-1-choose-a-wallet}
 
 Uma carteira é um aplicativo que ajuda você controlar a sua conta Ethereum. Existem dezenas de carteiras diferentes para escolher: móveis, de desktop ou até mesmo extensões de navegador.
 
@@ -24,15 +24,15 @@ Se for iniciante, poderá selecionar o filtro "New to crypto" (Novo em cripto) n
 
 Também existem outros filtros de perfil para atender às suas necessidades. Esses são exemplos de carteiras utilizadas normalmente. Você deve fazer a sua própria pesquisa antes de confiar em qualquer software.
 
-## Etapa 2: Baixar e instalar o aplicativo da carteira
+## Etapa 2: Baixar e instalar o aplicativo da carteira {#step-2-download-and-install-your-wallet-app}
 
 Após escolher sua carteira, visite o site oficial ou a loja de aplicativos, baixe e instale-a. Todas elas são gratuitas.
 
-## Etapa 3: Abra o aplicativo e crie sua conta Ethereum
+## Etapa 3: Abra o aplicativo e crie sua conta Ethereum {#step-3-open-the-app-and-create-your-ethereum-account}
 
 Ao abrir uma nova carteira pela primeira vez, será necessário escolher entre criar uma nova conta ou importar uma já existente. Clique em criação de nova conta. **Esta é a etapa durante a qual o software da carteira gera sua conta Ethereum.**
 
-## Etapa 4: Salvar a frase de recuperação
+## Etapa 4: Salvar a frase de recuperação {#step-4-store-your-recovery-phrase}
 
 Alguns aplicativos vão te pedir para salvar uma "chave de recuperação" secreta (algumas vezes chamada de "frase semente" ou de "mnemônico"). Manter essa frase a salvo é extremamente importante! Ela é usada para gerar sua conta Ethereum e pode ser usada para fazer transações.
 
@@ -52,24 +52,24 @@ Alguns aplicativos vão te pedir para salvar uma "chave de recuperação" secret
 
 Tem interesse em outros guias? Confira nossos: [Guias passo a passo](/guides/)
 
-## Perguntas frequentes
+## Perguntas frequentes {#frequently-asked-questions}
 
-### Uma carteira e uma conta Ethereum são o mesmo?
+### Uma carteira e uma conta Ethereum são o mesmo? {#are-my-wallet-and-my-ethereum-account-the-same}
 
 Não. A carteira é uma ferramenta de gerenciamento que ajuda você a gerenciar contas. Uma única carteira pode acessar várias contas, e uma única conta pode ser acessada por várias carteiras. A frase de recuperação é usada para criar contas e dá permissão ao aplicativo de carteira para gerenciar ativos.
 
-### Posso enviar bitcoins para uma conta/endereço Ethereum ou enviar ethers para uma conta/endereço Bitcoin?
+### Posso enviar bitcoins para uma conta/endereço Ethereum ou enviar ethers para uma conta/endereço Bitcoin? {#can-i-send-bitcoin-to-an-ethereum-address-or-ether-to-a-bitcoin-address}
 
 Não, não é possível. O Bitcoin e o ether existem em duas redes separadas (ou seja, blockchains diferentes), cada uma com seus próprios formatos de contabilidade e de endereço. Houve várias tentativas de criar uma ponte entre as duas redes diferentes, das quais a mais ativa atualmente é o [Wrapped Bitcoin ou WBTC](https://www.bitcoin.com/get-started/what-is-wbtc/). Isso não é uma recomendação, pois o WBTC é uma solução de custódia (ou seja, um único grupo de pessoas controla determinadas funções críticas) e é fornecido aqui apenas a título informativo.
 
-### Se eu tenho um endereço de ETH, o endereço é o mesmo para outras blockchains?
+### Se eu tenho um endereço de ETH, o endereço é o mesmo para outras blockchains? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Você pode usar o mesmo [endereço](/glossary/#address) em todas as blockchains que usam software subjacente semelhante ao Ethereum (conhecidas como 'compatíveis com EVM'). Esta [lista](https://chainlist.org/) mostra quais blockchains você pode usar com o mesmo endereço. Algumas blockchains, como o Bitcoin, implementam um conjunto completamente separado de regras de rede e você precisará de um endereço diferente com um formato diferente. Se você tem uma carteira de contrato inteligente então deve verificar o site do produto para ver mais informações sobre quais blockchains são permitidas porque geralmente elas têm uma abrangência limitada, porém mais segura.
 
-### Ter a minha própria carteira é mais seguro do que manter os meus fundos em uma corretora?
+### Ter a minha própria carteira é mais seguro do que manter os meus fundos em uma corretora? {#is-having-my-own-wallet-safer-than-keeping-my-funds-on-an-exchange}
 
 Ter a sua própria carteira significa que você assume a responsabilidade pela segurança dos seus ativos. Infelizmente, há muitos exemplos de corretoras que cometeram erros e perderam o dinheiro dos clientes. Possuir uma carteira (com uma frase de recuperação) elimina o risco associado à confiança em alguma entidade para manter seus ativos. No entanto, você precisa protegê-la por conta própria e evitar golpes de phishing, aprovação acidental de transações ou exposição da frase de recuperação, interação com sites falsos e outros riscos de autocustódia. Os riscos e benefícios são diferentes.
 
-### Se eu perder minha carteira de celular/hardware, eu preciso usar o mesmo aplicativo de carteira novamente para recuperar os fundos perdidos?
+### Se eu perder minha carteira de celular/hardware, eu preciso usar o mesmo aplicativo de carteira novamente para recuperar os fundos perdidos? {#if-i-lose-my-phonehardware-wallet-do-i-need-to-use-the-same-wallet-app-again-to-recover-the-lost-funds}
 
 Não, você pode utilizar outra carteira. Desde que você tenha a frase semente, poderá inseri-la na maioria das carteiras e a sua conta será restaurada. Tenha cuidado se precisar fazer isso: é melhor certificar-se de que você não está conectado à Internet ao recuperar a sua carteira para não vazar a sua frase semente acidentalmente. Muitas vezes, é impossível recuperar fundos perdidos sem a frase de recuperação.

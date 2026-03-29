@@ -143,7 +143,7 @@ Dengan menetapkan harga tindakan akses status secara lebih akurat, Ethereum dapa
 
 **Sumber daya**: [Spesifikasi teknis EIP-8038](https://eips.ethereum.org/EIPS/eip-8038)
 
-## Ketahanan jaringan
+## Ketahanan jaringan {#network-resilience}
 
 Penyempurnaan pada tugas validator dan proses keluar memastikan stabilitas jaringan selama peristiwa pemotongan massal dan mendemokratisasi likuiditas. Peningkatan ini membuat jaringan lebih stabil dan memastikan bahwa semua peserta, besar dan kecil, diperlakukan secara adil.
 

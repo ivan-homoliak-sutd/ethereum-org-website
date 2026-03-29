@@ -253,7 +253,7 @@ Učíte se spíše vizuálně? Podívejte se na video od Finematics, které vysv
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## Další čtení o optimistických rollupech
+## Další čtení o optimistických rollupech {#further-reading-on-optimistic-rollups}
 
 - [Jak fungují optimistické rollupy (kompletní průvodce)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [Co je to Blockchain Rollup? Technický úvod](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

@@ -32,7 +32,7 @@ La mayoría de las redes de prueba empezaron utilizando un mecanismo de consenso
 
 El ETH en las redes de prueba se supone que no tiene un valor real; sin embargo, se han creado mercados para ciertos tipos de ETH de red de prueba que se han vuelto escasos o difíciles de obtener. Dado que necesita ETH para interactuar con Ethereum (incluso en redes de prueba), la mayoría de las personas obtienen ETH de red de prueba de forma gratuita a través de «faucets» (o grifos). La mayoría de las faucets son aplicaciones web en las que puede introducir una dirección a la que pide que le envíen ETH.
 
-#### ¿Qué red de prueba debo usar?
+#### ¿Qué red de prueba debo usar? {#which-testnet-should-i-use}
 
 Las dos redes públicas de prueba que los desarrolladores de clientes están manteniendo actualmente son Sepolia y Hoodi. Sepolia es una red de desarrolladores de contratos y aplicaciones para probar sus aplicaciones. La red Hoodi permite a los desarrolladores de protocolos probar actualizaciones de red y permite a los participantes probar validadores en ejecución.
 
@@ -104,7 +104,7 @@ Ephemery es un tipo único de red de prueba que se reinicia por completo cada me
 - [Checkpoint Sync](https://checkpoint-sync.ephemery.ethpandaops.io)
 - [Launchpad](https://launchpad.ephemery.dev/)
 
-#### Faucets
+#### Faucets {#faucets}
 
 - [Faucet de Bordel](https://faucet.bordel.wtf/)
 - [Faucet PoW de Pk910](https://ephemery-faucet.pk910.de/)

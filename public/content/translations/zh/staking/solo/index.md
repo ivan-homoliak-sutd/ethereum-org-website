@@ -106,13 +106,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### 节点工具
+### 节点工具 {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 请注意选择[少数派客户端](/developers/docs/nodes-and-clients/client-diversity/)的重要性，因为这可以提高网络安全性并限制你的风险。 允许你设置少数派客户端的工具被标记为 <em style={{ textTransform: "uppercase" }}>“多客户端”。</em>
 
-### 密钥生成器
+### 密钥生成器 {#key-generators}
 
 这些工具可以作为 [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) 的替代方案，帮助生成密钥。
 

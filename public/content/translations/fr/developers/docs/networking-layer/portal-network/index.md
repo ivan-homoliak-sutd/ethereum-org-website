@@ -59,7 +59,7 @@ Les avantages de cette conception de réseau sont :
 
 Le tableau ci-dessous présente les fonctions des clients existants qui peuvent être fournies par le Portal Network, permettant aux utilisateurs d'accéder à ces fonctions sur des appareils à très faibles ressources.
 
-### Portal Networks
+### Portal Networks {#the-portal-networks}
 
 | Client léger de la chaîne phare | Réseau d'état                        | Commutation de transaction | Réseau d'historique |
 | ------------------------------- | ------------------------------------ | -------------------------- | ------------------- |

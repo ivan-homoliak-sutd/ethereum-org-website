@@ -106,13 +106,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### నోడ్ టూల్స్
+### నోడ్ టూల్స్ {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 దయచేసి [మైనారిటీ క్లయింట్‌ను](/developers/docs/nodes-and-clients/client-diversity/) ఎంచుకోవడం యొక్క ప్రాముఖ్యతను గమనించండి, ఎందుకంటే ఇది నెట్‌వర్క్ భద్రతను మెరుగుపరుస్తుంది మరియు మీ ప్రమాదాన్ని పరిమితం చేస్తుంది. మైనారిటీ క్లయింట్‌ను సెటప్ చేయడానికి మిమ్మల్ని అనుమతించే టూల్స్ <em style={{ textTransform: "uppercase" }}>"మల్టీ-క్లయింట్"</em>గా సూచించబడ్డాయి.
 
-### కీ జనరేటర్లు
+### కీ జనరేటర్లు {#key-generators}
 
 కీ జనరేషన్‌లో సహాయపడటానికి ఈ టూల్స్‌ను [స్టేకింగ్ డిపాజిట్ CLI](https://github.com/ethereum/staking-deposit-cli/) కు ప్రత్యామ్నాయంగా ఉపయోగించవచ్చు.
 

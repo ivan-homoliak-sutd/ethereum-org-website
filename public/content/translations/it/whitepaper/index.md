@@ -446,7 +446,7 @@ Il modello di emissione sarà il seguente:
 | Riserva usata post-vendita | 8,26% | 6,79%        | 3,96%         |
 | Miner                  | 0%        | 17,8%        | 52,0%         |
 
-#### Tasso di crescita dell'offerta a lungo termine (percentuale)
+#### Tasso di crescita dell'offerta a lungo termine (percentuale) {#long-term-supply-growth-rate-percent}
 
 ![Inflazione di Ethereum](./ethereum-inflation.png)
 

@@ -10,7 +10,7 @@ Tasarım, her projenin kritik bir parçasıdır. Siz de zamanınızı ve tasarı
 
 Sonuç olarak bu, tasarım becerilerinizi sergileyeceğiniz çeşit çeşit ve etkileyici bir portföy inşa etmenizin harika bir yoludur.
 
-## Nasıl katkıda bulunulur?
+## Nasıl katkıda bulunulur? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;Erken tasarım prototipleri için geri bildirimde bulunun {#design-critique}
 

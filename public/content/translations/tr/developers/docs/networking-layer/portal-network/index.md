@@ -59,7 +59,7 @@ Bu ağ tasarımının faydaları şunlardır:
 
 Aşağıdaki tablo, Portal Ağı tarafından sunulabilen mevcut istemcilerin işlevlerini göstermekte ve kullanıcıların bu işlevlere çok düşük kaynaklı cihazlarda erişmelerini sağlamaktadır.
 
-### Portal Ağları
+### Portal Ağları {#the-portal-networks}
 
 | İşaret hafif istemcisi | Durum ağı                    | İşlem dedikodusu    | Geçmiş ağı     |
 | ---------------------- | ---------------------------- | ------------------- | -------------- |

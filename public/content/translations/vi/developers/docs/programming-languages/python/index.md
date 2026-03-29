@@ -47,7 +47,7 @@ Cần một hướng dẫn cơ bản hơn? Tham khảo [ethereum.org/learn](/lea
 - [Phân tích Hợp đồng thông minh Solidity bằng Slither](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [Hướng dẫn Fintech trên Chuỗi khối: Cho vay và Vay mượn bằng Python](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## Bài viết được lưu trữ
+## Bài viết được lưu trữ {#archived-articles}
 
 - [Triển khai token ERC20 của riêng bạn bằng Python và Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Sử dụng Brownie và Python để triển khai Hợp đồng thông minh](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

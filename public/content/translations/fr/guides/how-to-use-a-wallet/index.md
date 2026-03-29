@@ -5,15 +5,15 @@ description: "Un guide expliquant comment envoyer, recevoir des jetons et se con
 lang: fr
 ---
 
-# Comment utiliser un portefeuille
+# Comment utiliser un portefeuille {#how-to-use-a-wallet}
 
 Apprenez à utiliser toutes les fonctions de base d'un portefeuille. Si vous n'en avez pas encore, consultez notre guide [Comment créer un compte Ethereum](/guides/how-to-create-an-ethereum-account/).
 
-## Ouvrir votre portefeuille
+## Ouvrir votre portefeuille {#open-your-wallet}
 
 Vous devriez voir un tableau de bord qui montrera probablement votre solde et contiendra des boutons pour envoyer et recevoir des jetons.
 
-## Recevoir de la cryptomonnaie
+## Recevoir de la cryptomonnaie {#receive-cryptocurrency}
 
 Voulez-vous recevoir des cryptomonnaies dans votre portefeuille?
 
@@ -30,7 +30,7 @@ Différentes applications peuvent varier ou utiliser une langue différente, mai
 3. Copiez votre adresse Ethereum dans le presse-papiers.
 4. Fournissez à l'expéditeur votre adresse Ethereum de réception.
 
-## Envoyer de la cryptomonnaie
+## Envoyer de la cryptomonnaie {#send-cryptocurrency}
 
 Voulez-vous envoyer ETH à un autre portefeuille ?
 
@@ -45,7 +45,7 @@ Voulez-vous envoyer ETH à un autre portefeuille ?
 6. Assurez-vous que votre portefeuille a suffisamment d'ETH pour couvrir les frais de transaction, qui varient selon les conditions du réseau. La plupart des portefeuilles ajouteront automatiquement les frais suggérés à la transaction que vous pourrez ensuite confirmer.
 7. Une fois votre transaction traitée, le montant de crypto correspondant apparaîtra dans le compte du destinataire. Cette opération peut aller de quelques secondes à quelques minutes, en fonction de l'intensité de l'utilisation du réseau.
 
-## Connexion à des projets
+## Connexion à des projets {#connecting-to-projects}
 
 Votre adresse sera la même pour tous les projets Ethereum. Vous n'avez pas besoin de vous inscrire individuellement à un projet. Une fois que vous avez un portefeuille, vous pouvez vous connecter à n'importe quel projet Ethereum sans aucune information supplémentaire. Aucun courrier électronique ou autre renseignement personnel n'est nécessaire.
 
@@ -72,20 +72,20 @@ Votre adresse sera la même pour tous les projets Ethereum. Vous n'avez pas beso
 </AlertContent>
 </Alert>
 
-## Questions fréquemment posées
+## Questions fréquemment posées {#frequently-asked-questions}
 
-### Si je possède une adresse ETH, est-ce que je peux l'utiliser sur d'autres blockchains ?
+### Si je possède une adresse ETH, est-ce que je peux l'utiliser sur d'autres blockchains ? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Vous pouvez utiliser la même adresse sur toutes les blockchains compatibles EVM (si vous utilisez un portefeuille avec une phrase de récupération). Cette [liste](https://chainlist.org/) vous montrera quelles blockchains vous pouvez utiliser avec la même adresse. Certaines blockchains, comme Bitcoin, utilisent un ensemble de règles de réseau totalement différentes et vous aurez donc besoin d'une adresse différente fonctionnant sous un autre format. Si vous utilisez un portefeuille de contrats intelligents, vous pouvez consulter son site web pour plus d'informations sur les blockchains pris en charge.
 
-### Puis-je utiliser la même adresse sur plusieurs appareils ?
+### Puis-je utiliser la même adresse sur plusieurs appareils ? {#can-i-use-the-same-address-on-multiple-devices}
 
 Bien entendu, vous pouvez utiliser la même adresse sur plusieurs appareils. Techniquement, les portefeuilles ne sont qu'une interface permettant d'afficher votre solde et d'effectuer des transactions. Votre compte n'est pas directement stocké à l'intérieur du portefeuille, mais bien sur la blockchain.
 
-### Je n'ai pas reçu la cryptomonnaie, où puis-je vérifier l'état d'une transaction ?
+### Je n'ai pas reçu la cryptomonnaie, où puis-je vérifier l'état d'une transaction ? {#i-have-not-received-the-crypto-where-can-i-check-the-status-of-a-transaction}
 
 Vous pouvez utiliser des [explorateurs de blocs](/developers/docs/data-and-analytics/block-explorers/) pour voir le statut de n'importe quelle transaction en temps réel. Tout ce que vous avez à faire est de chercher l'adresse de votre portefeuille ou l'ID de la transaction.
 
-### Puis-je annuler ou retourner des transactions ?
+### Puis-je annuler ou retourner des transactions ? {#can-i-cancel-or-return-transactions}
 
 Non, une fois qu'une transaction est confirmée, vous ne pouvez pas annuler la transaction.

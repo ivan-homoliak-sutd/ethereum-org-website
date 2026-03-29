@@ -20,7 +20,7 @@ DeSci pretende crear un ecosistema en el que se incentive a los científicos a c
 
 La ciencia descentralizada permite fuentes de financiación más diversas (desde [DAOs](/glossary/#dao), [donaciones cuadráticas](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531), hasta crowdfunding y más), datos y métodos más accesibles, y proporciona incentivos para la reproducibilidad.
 
-### Juan Benet, el movimiento de DeSci
+### Juan Benet, el movimiento de DeSci {#juan-benet-the-desci-movement}
 
 <YouTube id="zkXM9H90g_E" />
 

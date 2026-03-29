@@ -20,7 +20,7 @@ La DeSci vise à créer un écosystème dans lequel les scientifiques sont incit
 
 La science décentralisée permet des sources de financement plus diverses (des [DAO](/glossary/#dao) et des [dons quadratiques](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531) au financement participatif, et plus encore), des données et des méthodes plus accessibles, et incite à la reproductibilité.
 
-### Juan Benet - Le Mouvement DeSci
+### Juan Benet - Le Mouvement DeSci {#juan-benet-the-desci-movement}
 
 <YouTube id="zkXM9H90g_E" />
 

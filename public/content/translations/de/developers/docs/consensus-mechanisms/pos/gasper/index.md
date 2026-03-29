@@ -8,7 +8,7 @@ Gasper ist eine Kombination aus Casper the Friendly Finality Gadget (Casper-FFG)
 
 **Hinweis:** Die ursprüngliche Definition von Casper-FFG wurde für die Aufnahme in Gasper leicht aktualisiert. Auf dieser Seite betrachten wir die aktualisierte Version.
 
-## Voraussetzungen
+## Voraussetzungen {#prerequisites}
 
 Um dieses Material zu verstehen, ist es notwendig, die Einführungsseite zu [Proof-of-Stake](/developers/docs/consensus-mechanisms/pos/) zu lesen.
 

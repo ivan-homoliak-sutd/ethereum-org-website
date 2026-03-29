@@ -23,7 +23,7 @@ Siapa pun bebas menyarankan proyek untuk dicantumkan di halaman DeSci pada ether
 - **Proyek harus menjadi bagian dari ekosistem Ethereum** - Di ethereum.org kami percaya Ethereum (dan layer 2-nya) menjadi lapisan dasar yang tepat untuk gerakan DeSci.
 - **Proyek ini cukup mapan** - Proyek ini memiliki pengguna nyata yang telah dapat mengakses layanan proyek selama beberapa bulan.
 
-### Hal-hal yang bagus untuk dimiliki
+### Hal-hal yang bagus untuk dimiliki {#nice-to-haves}
 
 - **Tersedia dalam berbagai bahasa** - Proyek Anda diterjemahkan ke dalam berbagai bahasa yang memungkinkan pengguna di seluruh dunia untuk mengaksesnya.
 - **Sumber daya pendidikan** - Produk Anda harus memiliki pengalaman orientasi (onboarding) yang dirancang dengan baik untuk membantu dan mendidik pengguna. Atau bukti konten panduan seperti artikel atau video.

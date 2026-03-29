@@ -73,7 +73,7 @@ Blokzincirler üzerine inşa edilen ve bu sektördeki yerleşik yapıları deği
 
 Sermayenin yönünü çıkarımcı pratiklerden rejeneratif bir akışa çevirerek sosyal, çevresel veya toplumsal faydalar sağlayan ve geleneksel finansta finansman almayı başaramayan projeler ve şirketler ayağa kalkabilir ve topluma yönelik pozitif dışsallıkları çok daha hızlı ve kolay şekilde oluşturabilir. Bu finansman modeline geçiş yapmak, farklı demografik özelliklere sahip insanların pasif gözlemciler olmaktan çıkıp aktif katılımcılar haline gelebildiği çok daha kapsayıcı ekonomik sistemlerin de kapısını açar. ReFi, insanoğlunun ve gezegenimizdeki tüm canlıların karşılaştığı varoluşsal güçlüklere karşı hareketi koordine etmek için bir mekanizma ve önümüzdeki yüzyıllar için daha kapsayıcı ve sürdürülebilir geleceği sağlayan yeni bir ekonomik paradigmanın temel katmanı olan bir Ethereum vizyonu sunar.
 
-## ReFi hakkında ek okuma
+## ReFi hakkında ek okuma {#additional-reading-on-refi}
 
 - [Karbon para birimlerine ve ekonomideki yerlerine üst düzey bir bakış](https://www.klimadao.finance/resources/the-vision-of-a-carbon-currency)
 - [The Ministry for the Future, iklim değişikliğiyle mücadelede karbon destekli bir para biriminin rolünü tasvir eden bir roman](https://en.wikipedia.org/wiki/The_Ministry_for_the_Future)

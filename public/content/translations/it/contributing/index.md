@@ -42,7 +42,7 @@ Siamo una community accogliente che ti aiuterà a crescere e a formarti nell'eco
 
 Hai domande? 🤔 Unisciti al nostro [server Discord](https://discord.gg/ethereum-org)
 
-## Buoni compiti iniziali per iniziare a contribuire
+## Buoni compiti iniziali per iniziare a contribuire {#good-first-tasks-to-start-contributing}
 
 Questi sono alcuni compiti attuali che potresti aiutarci a risolvere e di cui potresti assumerti la responsabilità. Per la maggior parte avrai bisogno di un account GitHub, poiché la maggior parte delle modifiche al sito web viene effettuata tramite GitHub.
 
@@ -90,7 +90,7 @@ Se il tuo contributo viene unito a ethereum.org, avrai la possibilità di richie
 
 [Maggiori informazioni sugli OAT](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### Come richiederlo
+### Come richiederlo {#how-to-claim-1}
 
 1. Unisciti al nostro [server Discord](https://discord.gg/ethereum-org).
 2. Incolla un link al tuo contributo nel canale `#🥇 | proof-of-contribution`.

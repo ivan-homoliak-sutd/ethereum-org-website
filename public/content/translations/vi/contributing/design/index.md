@@ -10,7 +10,7 @@ Thiết kế là một phần quan trọng của bất kỳ dự án nào, và b
 
 Cuối cùng, đây là một cách tuyệt vời để xây dựng một hồ sơ đa dạng và ấn tượng, thể hiện kỹ năng thiết kế của bạn.
 
-## Cách đóng góp?
+## Cách đóng góp? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;Cung cấp phản hồi về các nguyên mẫu thiết kế ban đầu {#design-critique}
 

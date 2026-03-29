@@ -17,7 +17,7 @@ Alguns exemplos de questionários atuais podem ser encontrados aqui:
 - [O que é Ethereum?](/what-is-ethereum/)
 - [O que é ETH?](/what-is-ether/)
 
-## Adicionando um questionário de aprendizado
+## Adicionando um questionário de aprendizado {#adding-a-learn-quiz}
 
 Se uma página ainda não tiver um questionário de aprendizado, [abra um issue](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) para criá-lo.
 
@@ -30,7 +30,7 @@ Por favor forneça as seguintes informações:
   - 1 resposta correta com uma explicação da razão pela qual ela é correta
   - 3 respostas incorretas, cada uma com uma explicação porquê elas são incorretas
 
-## Adicionando uma pergunta ao questionário
+## Adicionando uma pergunta ao questionário {#adding-a-quiz-question}
 
 Se você quiser adicionar uma pergunta ao banco de perguntas de um questionário, [abra um issue](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) e forneça as seguintes informações:
 
@@ -41,7 +41,7 @@ Se você quiser adicionar uma pergunta ao banco de perguntas de um questionário
   - 1 resposta correta com uma explicação da razão pela qual ela é correta
   - 3 respostas incorretas, cada uma com uma explicação porquê elas são incorretas
 
-## Atualizando uma questão de questionário
+## Atualizando uma questão de questionário {#updating-a-quiz-question}
 
 Se você quiser atualizar uma pergunta no banco de perguntas de um questionário, [abra um issue](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) e forneça as seguintes informações:
 
@@ -53,7 +53,7 @@ Se você quiser atualizar uma pergunta no banco de perguntas de um questionário
   - 1 resposta correta com uma explicação da razão pela qual ela é correta
   - 3 respostas incorretas, cada uma com uma explicação porquê elas são incorretas
 
-## Removendo uma questão de questionário
+## Removendo uma questão de questionário {#removing-a-quiz-question}
 
 Para remover uma pergunta cujo conteúdo não existe mais na página, [abra um issue](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) e forneça as seguintes informações:
 

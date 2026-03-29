@@ -59,7 +59,7 @@ Faida za muundo huu wa mtandao ni:
 
 Jedwali lililo hapa chini linaonyesha kazi za wateja waliopo ambazo zinaweza kutolewa na Mtandao wa Portal, na kuwawezesha watumiaji kupata kazi hizi kwenye vifaa vyenye rasilimali chache sana.
 
-### Mitandao ya Portal
+### Mitandao ya Portal {#the-portal-networks}
 
 | Mteja mwepesi wa Beacon    | Mtandao wa hali               | Usambazaji wa miamala | Mtandao wa historia |
 | -------------------------- | ----------------------------- | --------------------- | ------------------- |

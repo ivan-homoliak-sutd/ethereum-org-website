@@ -253,7 +253,7 @@ ii. ஆப்டிமிஸ்டிக் ரோலப்களைப் ப�
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## ஆப்டிமிஸ்டிக் ரோலப்கள் பற்றிய கூடுதல் வாசிப்பு
+## ஆப்டிமிஸ்டிக் ரோலப்கள் பற்றிய கூடுதல் வாசிப்பு {#further-reading-on-optimistic-rollups}
 
 - [ஆப்டிமிஸ்டிக் ரோலப்கள் எவ்வாறு செயல்படுகின்றன (முழுமையான வழிகாட்டி)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [பிளாக்செயின் ரோலப் என்றால் என்ன? ஒரு தொழில்நுட்ப அறிமுகம்](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

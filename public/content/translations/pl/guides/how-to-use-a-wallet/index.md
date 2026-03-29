@@ -5,15 +5,15 @@ description: "Przewodnik wyjaśniający, jak wysyłać, odbierać tokeny i łąc
 lang: pl
 ---
 
-# Jak używać portfela
+# Jak używać portfela {#how-to-use-a-wallet}
 
 Dowiedz się, jak obsługiwać wszystkie podstawowe funkcje portfela. Jeśli jeszcze go nie masz, sprawdź nasz przewodnik: [Jak utworzyć konto Ethereum](/guides/how-to-create-an-ethereum-account/).
 
-## Otwórz swój portfel
+## Otwórz swój portfel {#open-your-wallet}
 
 Powinieneś zobaczyć panel, który prawdopodobnie pokaże Twoje saldo i będzie zawierał przyciski do wysyłania i przyjmowania tokenów.
 
-## Otrzymuj kryptowaluty
+## Otrzymuj kryptowaluty {#receive-cryptocurrency}
 
 Czy chcesz otrzymywać kryptowaluty na swój portfel?
 
@@ -30,7 +30,7 @@ Różne aplikacje mogą się różnić lub używać innego języka, ale powinny 
 3. Skopiuj swój adres Ethereum do schowka.
 4. Podaj nadawcy swój adres Ethereum.
 
-## Wyślij kryptowaluty
+## Wyślij kryptowaluty {#send-cryptocurrency}
 
 Chcesz wysłać ETH na inny portfel?
 
@@ -45,7 +45,7 @@ Chcesz wysłać ETH na inny portfel?
 6. Upewnij się, że Twój portfel ma wystarczającą ilość ETH, aby pokryć opłatę transakcyjną, która różni się w zależności od warunków sieciowych. Większość portfeli automatycznie doda sugerowaną opłatę do transakcji, którą możesz następnie potwierdzić.
 7. Gdy Twoja transakcja zostanie przetworzona, odpowiednia kwota kryptowaluty pojawi się na koncie odbiorcy. Może to potrwać od kilku sekund do kilku minut, w zależności od obciążenia sieci.
 
-## Łączenie z projektami
+## Łączenie z projektami {#connecting-to-projects}
 
 Twój adres będzie taki sam we wszystkich projektach Ethereum. Nie musisz rejestrować się indywidualnie w jakimkolwiek projekcie. Gdy posiadasz portfel, możesz połączyć się z dowolnym projektem Ethereum bez dodatkowych informacji. Nie są potrzebne żadne e-maile ani żadne inne dane osobowe.
 
@@ -72,20 +72,20 @@ Twój adres będzie taki sam we wszystkich projektach Ethereum. Nie musisz rejes
 </AlertContent>
 </Alert>
 
-## Często zadawane pytania
+## Często zadawane pytania {#frequently-asked-questions}
 
-### Jeśli posiadam adres ETH, czy posiadam również ten sam adres w innych blockchainach?
+### Jeśli posiadam adres ETH, czy posiadam również ten sam adres w innych blockchainach? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Możesz użyć tego samego adresu we wszystkich blockchainach kompatybilnych z EVM (jeśli posiadasz typ portfela z frazą odzyskiwania). Ta [lista](https://chainlist.org/) pokaże Ci, których blockchainów możesz użyć z tym samym adresem. Niektóre blockchainy, takie jak Bitcoin, zaimplementowały całkowicie oddzielny zestaw reguł sieciowych i będziesz potrzebował innego adresu o innym formacie. Jeśli posiadasz portfel z inteligentnym kontraktem (Smart Contract), powinieneś sprawdzić jego stronę internetową, aby uzyskać więcej informacji o tym, na których blockchainach są wspierane.
 
-### Czy mogę użyć tego samego adresu na wielu urządzeniach?
+### Czy mogę użyć tego samego adresu na wielu urządzeniach? {#can-i-use-the-same-address-on-multiple-devices}
 
 Tak, można używać tego samego adresu na wielu urządzeniach. Portfele zasadniczo są tylko interfejsem do wyświetlania salda i dokonywania transakcji, Twoje konto nie jest przechowywane w portfelu, ale w blockchainie.
 
-### Nie otrzymałem kryptowalut, gdzie mogę sprawdzić status transakcji?
+### Nie otrzymałem kryptowalut, gdzie mogę sprawdzić status transakcji? {#i-have-not-received-the-crypto-where-can-i-check-the-status-of-a-transaction}
 
 Możesz użyć [eksploratorów bloków](/developers/docs/data-and-analytics/block-explorers/), aby zobaczyć status dowolnej transakcji w czasie rzeczywistym. Wszystko, co musisz zrobić, to wyszukać swój adres portfela lub identyfikator transakcji.
 
-### Czy mogę anulować lub zwrócić transakcje?
+### Czy mogę anulować lub zwrócić transakcje? {#can-i-cancel-or-return-transactions}
 
 Nie, gdy transakcja zostanie potwierdzona, nie możesz anulować transakcji.

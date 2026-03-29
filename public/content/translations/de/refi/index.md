@@ -73,7 +73,7 @@ Obwohl derzeit ein starker Schwerpunkt auf Kohlenstoffmärkten im Allgemeinen un
 
 Indem die Richtung des Kapitals von extraktiven Praktiken hin zu einem regenerativen Fluss verlagert wird, können Projekte und Unternehmen, die soziale, ökologische oder gemeinschaftliche Vorteile bieten – und die in der traditionellen Finanzwelt möglicherweise keine Finanzierung erhalten würden – viel schneller und einfacher auf die Beine kommen und positive Externalitäten für die Gesellschaft generieren. Der Übergang zu diesem Finanzierungsmodell öffnet auch die Tür zu viel inklusiveren Wirtschaftssystemen, in denen Menschen aller Bevölkerungsgruppen zu aktiven Teilnehmern anstatt nur zu passiven Beobachtern werden können. ReFi bietet eine Vision von Ethereum als Mechanismus zur Koordinierung von Maßnahmen bei existenziellen Herausforderungen, denen unsere Spezies und alles Leben auf unserem Planeten gegenüberstehen – als Basisschicht eines neuen wirtschaftlichen Paradigmas, das eine inklusivere und nachhaltigere Zukunft für die kommenden Jahrhunderte ermöglicht.
 
-## Weiterführende Literatur zu ReFi
+## Weiterführende Literatur zu ReFi {#additional-reading-on-refi}
 
 - [Ein allgemeiner Überblick über Kohlenstoffwährungen und ihren Platz in der Wirtschaft](https://www.klimadao.finance/resources/the-vision-of-a-carbon-currency)
 - [Das Ministerium für die Zukunft, ein Roman, der die Rolle einer kohlenstoffgedeckten Währung bei der Bekämpfung des Klimawandels beschreibt](https://en.wikipedia.org/wiki/The_Ministry_for_the_Future)

@@ -13,7 +13,7 @@ published: 2023-01-12
 
 이 튜토리얼에서는 전자 서명, EIP-1271의 배경 및 [Safe](https://safe.global/)(이전 Gnosis Safe)에서 사용하는 EIP-1271의 특정 구현에 대해 간략히 설명합니다. 이 모든 내용은 여러분의 계약에 EIP-1271을 구현하기 위한 시작점이 될 수 있습니다.
 
-## 서명이란 무엇인가요?
+## 서명이란 무엇인가요? {#what-is-a-signature}
 
 이 맥락에서 서명(보다 정확하게는 '전자 서명')은 메시지와 해당 메시지가 특정 개인/보낸 사람/주소로부터 왔다는 일종의 증명을 더한 것입니다.
 
@@ -29,7 +29,7 @@ published: 2023-01-12
 
 마찬가지로, 전자 서명은 연관된 메시지 없이는 아무 의미가 없습니다!
 
-## EIP-1271은 왜 존재하나요?
+## EIP-1271은 왜 존재하나요? {#why-does-eip-1271-exist}
 
 이더리움 기반 블록체인에서 사용할 전자 서명을 생성하려면 일반적으로 다른 사람은 아무도 모르는 비밀 개인 키가 필요합니다. 이것이 바로 당신의 서명을 당신의 것으로 만드는 것입니다(비밀 키를 모르면 다른 누구도 동일한 서명을 생성할 수 없습니다).
 
@@ -43,7 +43,7 @@ EOA 계정에는 개인 키가 있지만, 스마트 계약 계정에는 개인 �
 
 EIP-1271이 해결하려는 문제는 다음과 같습니다. 스마트 계약에 서명에 포함할 수 있는 '비밀'이 없는 경우 스마트 계약 서명이 유효한지 어떻게 알 수 있을까요?
 
-## EIP-1271은 어떻게 작동하나요?
+## EIP-1271은 어떻게 작동하나요? {#how-does-eip-1271-work}
 
 스마트 계약에는 메시지에 서명하는 데 사용할 수 있는 개인 키가 없습니다. 그렇다면 서명이 진짜인지 어떻게 알 수 있을까요?
 
@@ -55,7 +55,7 @@ EIP-1271을 구현하는 계약에는 메시지와 서명을 입력으로 받는
 
 `isValidSignature`가 유효한 결과를 반환하면, 이는 계약이 '네, 이 서명 + 메시지를 승인합니다!'라고 말하는 것과 거의 같습니다.
 
-### 인터페이스
+### 인터페이스 {#interface}
 
 다음은 EIP-1271 사양의 정확한 인터페이스입니다(아래에서 `_hash` 매개변수에 대해 이야기하겠지만, 지금은 확인 중인 메시지로 생각하세요).
 
@@ -63,7 +63,7 @@ EIP-1271을 구현하는 계약에는 메시지와 서명을 입력으로 받는
 pragma solidity ^0.5.0;\n\ncontract ERC1271 {\n\n  // bytes4(keccak256(\"isValidSignature(bytes32,bytes)\")\n  bytes4 constant internal MAGICVALUE = 0x1626ba7e;\n\n  /**\n   * @dev 제공된 해시에 대해 제공된 서명이 유효한지 여부를 반환해야 합니다.\n   * @param _hash      서명할 데이터의 해시\n   * @param _signature _hash와 연관된 서명 바이트 배열\n   *\n   * 함수가 통과하면 bytes4 매직 값 0x1626ba7e를 반환해야 합니다(MUST).\n   * 상태를 수정해서는 안 됩니다(MUST NOT)(solc < 0.5의 경우 STATICCALL 사용, solc > 0.5의 경우 view 한정자 사용).\n   * 외부 호출을 허용해야 합니다(MUST).\n   */\n  function isValidSignature(\n    bytes32 _hash,\n    bytes memory _signature)\n    public\n    view\n    returns (bytes4 magicValue);\n}
 ```
 
-## 예제 EIP-1271 구현: Safe
+## 예제 EIP-1271 구현: Safe {#example-eip-1271-implementation-safe}
 
 계약은 `isValidSignature`를 여러 가지 방법으로 구현할 수 있습니다. 사양에서는 정확한 구현에 대해 많이 언급하지 않습니다.
 
@@ -78,17 +78,17 @@ Safe의 코드에서 `isValidSignature`는 [두 가지 방법](https://ethereum.
    1. 생성: Safe 소유자는 오프체인에서 메시지를 생성한 다음, 멀티시그 승인 임계값을 넘을 만큼 충분한 서명이 모일 때까지 다른 Safe 소유자가 각자 개별적으로 메시지에 서명하도록 합니다.
    2. 확인: `isValidSignature`를 호출합니다. 메시지 매개변수에는 확인할 메시지를 전달합니다. 서명 매개변수에는 각 Safe 소유자의 개별 서명을 모두 차례로 연결하여 전달합니다. Safe는 임계값을 충족하기에 충분한 서명이 있는지 **그리고** 각 서명이 유효한지 확인합니다. 그렇다면 서명 확인이 성공했음을 나타내는 값을 반환합니다.
 
-## `_hash` 매개변수는 정확히 무엇인가요? 전체 메시지를 전달하지 않는 이유는 무엇인가요?
+## `_hash` 매개변수는 정확히 무엇인가요? 전체 메시지를 전달하지 않는 이유는 무엇인가요? {#what-exactly-is-the-hash-parameter-why-not-pass-the-whole-message}
 
 [EIP-1271 인터페이스](https://eips.ethereum.org/EIPS/eip-1271)의 `isValidSignature` 함수가 메시지 자체를 받지 않고 대신 `_hash` 매개변수를 받는다는 것을 눈치채셨을 겁니다. 이는 `isValidSignature`에 전체 임의 길이 메시지를 전달하는 대신, 메시지의 32바이트 해시(일반적으로 keccak256)를 전달한다는 것을 의미합니다.
 
 calldata의 각 바이트, 즉 스마트 계약 함수에 전달되는 함수 매개변수 데이터는 [16 가스(0바이트인 경우 4 가스)의 비용](https://eips.ethereum.org/EIPS/eip-2028)이 들기 때문에 메시지가 길 경우 많은 가스를 절약할 수 있습니다.
 
-### 이전 EIP-1271 사양
+### 이전 EIP-1271 사양 {#previous-eip-1271-specifications}
 
 실제 사용되는 EIP-1271 사양 중에는 첫 번째 매개변수 유형이 `bytes`(고정 길이 `bytes32` 대신 임의 길이)이고 매개변수 이름이 `message`인 `isValidSignature` 함수를 가진 사양이 있습니다. 이것은 EIP-1271 표준의 [이전 버전](https://github.com/safe-global/safe-contracts/issues/391#issuecomment-1075427206)입니다.
 
-## 내 계약에 EIP-1271을 어떻게 구현해야 하나요?
+## 내 계약에 EIP-1271을 어떻게 구현해야 하나요? {#how-should-eip-1271-be-implemented-in-my-own-contracts}
 
 사양은 이 부분에서 매우 개방적입니다. Safe 구현에는 몇 가지 좋은 아이디어가 있습니다.
 
@@ -97,6 +97,6 @@ calldata의 각 바이트, 즉 스마트 계약 함수에 전달되는 함수 �
 
 결국, 계약 개발자인 당신에게 달려 있습니다!
 
-## 결론
+## 결론 {#conclusion}
 
 [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271)은 스마트 계약이 서명을 확인할 수 있도록 하는 다재다능한 표준입니다. 이 표준은 스마트 계약이 EOA처럼 작동할 수 있는 길을 열어주며, 예를 들어 '이더리움으로 로그인'이 스마트 계약과 함께 작동하는 방법을 제공합니다. 또한 여러 가지 방식으로 구현할 수 있습니다(Safe는 고려해 볼 만한 간단하지 않으면서도 흥미로운 구현을 가지고 있습니다).

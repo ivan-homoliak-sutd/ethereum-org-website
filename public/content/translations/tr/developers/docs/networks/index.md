@@ -32,7 +32,7 @@ Yazdığınız herhangi bir sözleşme kodunu Ana Ağ'a dağıtmadan önce bir t
 
 Test ağlarındaki ETH'nin gerçek değeri olmamalıdır; ancak nadirleşmiş veya edinilmesi zorlaşmış bazı test ağı ETH türleri için piyasalar oluşturulmuştur. Ethereum ile sahiden etkileşime geçmek için (test ağlarında bile) ETH'ye ihtiyacınız olduğu için çoğu kişi test ağı ETH'sini musluklardan ücretsiz şekilde alır. Çoğu musluk, ETH'nin gönderilmesini istediğiniz bir adresi girebileceğiniz web uygulamalarıdır.
 
-#### Hangi Test Ağını kullanmalıyım?
+#### Hangi Test Ağını kullanmalıyım? {#which-testnet-should-i-use}
 
 İstemci geliştiricilerinin şu anda bakımını yaptığı iki halka açık test ağı Sepolia ve Hoodi'dir. Sepolia, sözleşme ve uygulama geliştiricilerinin uygulamalarını test etmek için kullandığı bir ağdır. Hoodi ağı, protokol geliştiricilerinin ağ yükseltmelerini test etmelerine ve paydaşların çalışan doğrulayıcıları test etmelerine olanak tanır.
 
@@ -104,7 +104,7 @@ Ephemery, her ay tamamen sıfırlanan benzersiz bir test ağı türüdür. Yür�
 - [Kontrol Noktası Senkronizasyonu](https://checkpoint-sync.ephemery.ethpandaops.io)
 - [Launchpad](https://launchpad.ephemery.dev/)
 
-#### Musluklar
+#### Musluklar {#faucets}
 
 - [Bordel Musluğu](https://faucet.bordel.wtf/)
 - [Pk910 PoW Musluğu](https://ephemery-faucet.pk910.de/)

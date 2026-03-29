@@ -10,7 +10,7 @@ Projektowanie jest kluczowym elementem każdego projektu, a poświęcając swój
 
 Ostatecznie jest to świetny sposób na zbudowanie zróżnicowanego i imponującego portfolio, które zaprezentuje Twoje umiejętności projektowe.
 
-## Jak wnieść swój wkład?
+## Jak wnieść swój wkład? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;Przekaż opinię na temat wczesnych prototypów projektów {#design-critique}
 

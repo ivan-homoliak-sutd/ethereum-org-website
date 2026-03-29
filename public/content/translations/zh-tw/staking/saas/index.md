@@ -43,13 +43,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### 質押即服務供應商
+### 質押即服務供應商 {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 請注意，支援[用戶端多元化](/developers/docs/nodes-and-clients/client-diversity/)至關重要，因為它能提高網路的安全性，並限制您的風險。 如果某服務可以證明它會限制主流用戶端的使用，則稱它具有<em style={{ textTransform: "uppercase" }}>「執行層用戶端多樣性」</em>和<em style={{ textTransform: "uppercase" }}>「共識層用戶端多樣性」</em>。
 
-### 金鑰產生器
+### 金鑰產生器 {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

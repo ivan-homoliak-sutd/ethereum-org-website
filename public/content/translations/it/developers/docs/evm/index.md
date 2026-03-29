@@ -45,15 +45,15 @@ L'EVM viene eseguita come una [macchina a stack](https://wikipedia.org/wiki/Stac
 
 Durante l'esecuzione, l'EVM mantiene una _memoria_ transitoria (come un array di byte indirizzato a parole), che non persiste tra le transazioni.
 
-### Archiviazione transitoria
+### Archiviazione transitoria {#transient-storage}
 
 L'archiviazione transitoria è un archivio chiave-valore per transazione a cui si accede tramite gli opcode `TSTORE` e `TLOAD`. Persiste attraverso tutte le chiamate interne durante la stessa transazione, ma viene cancellata alla fine della transazione. A differenza della memoria, l'archiviazione transitoria è modellata come parte dello stato dell'EVM piuttosto che del frame di esecuzione, eppure non viene confermata nello stato globale. L'archiviazione transitoria consente la condivisione temporanea dello stato in modo efficiente in termini di gas tra le chiamate interne durante una transazione.
 
-### Archiviazione
+### Archiviazione {#storage}
 
 I contratti contengono un trie di _archiviazione_ di Merkle Patricia (come un array di parole indirizzabile a parole), associato all'account in questione e parte dello stato globale. Questa archiviazione persistente differisce dall'archiviazione transitoria, che è disponibile solo per la durata di una singola transazione e non fa parte del trie di archiviazione persistente dell'account.
 
-### Opcode
+### Opcode {#opcodes}
 
 Il bytecode compilato del contratto intelligente viene eseguito come una serie di [opcode](/developers/docs/evm/opcodes) dell'EVM, che eseguono operazioni standard di stack come `XOR`, `AND`, `ADD`, `SUB`, ecc. L'EVM implementa anche una serie di operazioni di stack specifiche per la blockchain, come `ADDRESS`, `BALANCE`, `BLOCKHASH`, ecc. Il set di opcode include anche `TSTORE` e `TLOAD`, che forniscono l'accesso all'archiviazione transitoria.
 

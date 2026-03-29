@@ -79,7 +79,7 @@ JSON पर दो प्रमुख डेटा प्रकार पार�
 - `स्ट्रिंग "finalized"` - नवीनतम अंतिम रूप दिए गए ब्लॉक के लिए
 - `स्ट्रिंग "pending"` - लंबित स्टेट/लेन-देन के लिए
 
-## उदाहरण
+## उदाहरण {#examples}
 
 इस पेज पर हम कमांड लाइन टूल, [curl](https://curl.se) का उपयोग करके अलग-अलग JSON_RPC API एंडपॉइंट का उपयोग करने के तरीके के उदाहरण प्रदान करते हैं। ये व्यक्तिगत एंडपॉइंट उदाहरण नीचे [Curl उदाहरण](#curl-examples) सेक्शन में दिए गए हैं। पेज में आगे, हम गेथ नोड, JSON_RPC API और curl का उपयोग करके एक स्मार्ट अनुबंध को संकलित और तैनात करने के लिए एक [एंड-टू-एंड उदाहरण](#usage-example) भी प्रदान करते हैं।
 
@@ -133,7 +133,7 @@ curl -H "Content-Type: application/json" -X POST --data '{\"jsonrpc\":\"2.0\",\"
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## JSON-RPC API खेल का मैदान
+## JSON-RPC API खेल का मैदान {#json-rpc-api-playground}
 
 आप API विधियों को खोजने और आज़माने के लिए [प्लेग्राउंड टूल](https://ethereum-json-rpc.com) का उपयोग कर सकते हैं। यह आपको यह भी दिखाता है कि विभिन्न नोड प्रदाताओं द्वारा कौन से तरीके और नेटवर्क समर्थित हैं।
 

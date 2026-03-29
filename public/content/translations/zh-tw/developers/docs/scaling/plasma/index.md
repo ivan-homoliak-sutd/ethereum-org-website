@@ -14,13 +14,13 @@ Plasma 鏈是錨定以太坊主網的獨立區塊鏈，其交易在鏈下執行�
 
 您應該對所有基礎主題有良好的理解，並對[以太坊擴張](/developers/docs/scaling/)有高層次的了解。
 
-## 何謂 Plasma 鏈？
+## 何謂 Plasma 鏈？ {#what-is-plasma}
 
 Plasma 是一個改善公共區塊鏈（如以太坊）可擴展性的框架。 如原始版 Plasma 白皮書中所述，Plasma 鏈建置在另一個區塊鏈（稱為「根鏈」）之上。 每個「子鏈」都是從根鏈延伸而來，通常由部署於父母鏈上的智慧型合約來管理。
 
 Plasma 合約的功能之一是作為[跨鏈橋](/developers/docs/bridges/)，讓使用者可以在以太坊主網和 plasma 鏈之間移動資產。 雖然這讓它們類似於[側鏈](/developers/docs/scaling/sidechains/)，但 plasma 鏈至少在某種程度上受益於以太坊主網的安全性。 而側鏈則是完全為自身的安全性負責，與以太坊主網無關。
 
-## Plasma 鏈如何運作？
+## Plasma 鏈如何運作？ {#how-does-plasma-work}
 
 Plasma 鏈的基本組成部分有：
 

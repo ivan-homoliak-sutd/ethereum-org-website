@@ -5,15 +5,15 @@ description: "Ein Leitfaden, der erklärt, wie man Token sendet, empfängt und s
 lang: de
 ---
 
-# Wie man eine Wallet verwendet
+# Wie man eine Wallet verwendet {#how-to-use-a-wallet}
 
 Erfahren Sie, wie Sie alle grundlegenden Funktionen einer Wallet bedienen. Wenn Sie noch keine haben, lesen Sie unseren Leitfaden [Wie man ein Ethereum-Konto erstellt](/guides/how-to-create-an-ethereum-account/).
 
-## Öffnen Sie Ihre Wallet
+## Öffnen Sie Ihre Wallet {#open-your-wallet}
 
 Sie sollten ein Dashboard sehen, das wahrscheinlich Ihr Guthaben anzeigt und Schaltflächen zum Senden und Empfangen von Token enthält.
 
-## Kryptowährung empfangen
+## Kryptowährung empfangen {#receive-cryptocurrency}
 
 Möchten Sie Krypto in Ihrer Wallet empfangen?
 
@@ -30,7 +30,7 @@ Verschiedene Apps können variieren oder eine andere Sprache verwenden, aber sie
 3. Kopieren Sie Ihre Ethereum-Adresse in die Zwischenablage.
 4. Teilen Sie dem Absender Ihre Ethereum-Empfangsadresse mit.
 
-## Kryptowährung senden
+## Kryptowährung senden {#send-cryptocurrency}
 
 Möchten Sie ETH an eine andere Wallet senden?
 
@@ -46,7 +46,7 @@ Möchten Sie ETH an eine andere Wallet senden?
 6. Stellen Sie sicher, dass Ihre Wallet über ausreichend ETH verfügt, um die Transaktionsgebühr zu decken, die je nach Netzwerkbedingungen variiert. Die meisten Wallets fügen der Transaktion automatisch die vorgeschlagene Gebühr hinzu, die Sie dann bestätigen können.
 7. Sobald Ihre Transaktion verarbeitet wurde, wird der entsprechende Krypto-Betrag auf dem Konto des Empfängers angezeigt. Dies kann je nach aktueller Auslastung des Netzwerks einige Sekunden bis einige Minuten dauern.
 
-## Mit Projekten verbinden
+## Mit Projekten verbinden {#connecting-to-projects}
 
 Ihre Adresse ist in allen Ethereum-Projekten dieselbe. Sie müssen sich bei keinem Projekt einzeln registrieren. Sobald Sie eine Wallet haben, können Sie sich ohne zusätzliche Informationen mit jedem Ethereum-Projekt verbinden. Es werden keine E-Mails oder andere persönliche Informationen benötigt.
 
@@ -74,20 +74,20 @@ Ihre Adresse ist in allen Ethereum-Projekten dieselbe. Sie müssen sich bei kein
 </AlertContent>
 </Alert>
 
-## Häufig gestellte Fragen
+## Häufig gestellte Fragen {#frequently-asked-questions}
 
-### Wenn ich eine ETH-Adresse besitze, besitze ich dann dieselbe Adresse auf anderen Blockchains?
+### Wenn ich eine ETH-Adresse besitze, besitze ich dann dieselbe Adresse auf anderen Blockchains? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Sie können dieselbe Adresse auf allen EVM-kompatiblen Blockchains verwenden (wenn Sie eine Wallet mit einer Wiederherstellungsphrase haben). Diese [Liste](https://chainlist.org/) zeigt Ihnen, welche Blockchains Sie mit derselben Adresse verwenden können. Einige Blockchains, wie Bitcoin, implementieren völlig andere Netzwerkregeln, und Sie benötigen eine andere Adresse mit einem anderen Format. Wenn Sie eine Smart Contract-Wallet haben, sollten Sie auf der Produktwebsite nach weiteren Informationen darüber suchen, welche Blockchains unterstützt werden.
 
-### Kann ich dieselbe Adresse auf mehreren Geräten verwenden?
+### Kann ich dieselbe Adresse auf mehreren Geräten verwenden? {#can-i-use-the-same-address-on-multiple-devices}
 
 Ja, Sie können dieselbe Adresse auf mehreren Geräten verwenden. Wallets sind technisch gesehen nur eine Schnittstelle, um Ihnen Ihr Guthaben anzuzeigen und Transaktionen durchzuführen. Ihr Konto wird nicht in der Wallet gespeichert, sondern auf der Blockchain.
 
-### Ich habe die Krypto nicht erhalten, wo kann ich den Status einer Transaktion überprüfen?
+### Ich habe die Krypto nicht erhalten, wo kann ich den Status einer Transaktion überprüfen? {#i-have-not-received-the-crypto-where-can-i-check-the-status-of-a-transaction}
 
 Sie können [Blocksuchmaschinen](/developers/docs/data-and-analytics/block-explorers/) verwenden, um den Status jeder Transaktion in Echtzeit zu sehen. Alles, was Sie tun müssen, ist nach Ihrer Wallet-Adresse oder der ID der Transaktion zu suchen.
 
-### Kann ich Transaktionen stornieren oder rückgängig machen?
+### Kann ich Transaktionen stornieren oder rückgängig machen? {#can-i-cancel-or-return-transactions}
 
 Nein, sobald eine Transaktion bestätigt ist, können Sie die Transaktion nicht mehr stornieren.

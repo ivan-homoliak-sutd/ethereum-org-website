@@ -79,7 +79,7 @@ JSON پر دو اہم ڈیٹا ٹائپس پاس کی جاتی ہیں: ان فا
 - `String "finalized"` - تازہ ترین حتمی (finalized) بلاک کے لیے
 - `String "pending"` - زیر التوا حالت/ٹرانزیکشنز کے لیے
 
-## مثالیں
+## مثالیں {#examples}
 
 اس صفحے پر ہم کمانڈ لائن ٹول، [curl](https://curl.se) کا استعمال کرتے ہوئے انفرادی JSON_RPC API اینڈ پوائنٹس کو استعمال کرنے کی مثالیں فراہم کرتے ہیں۔ یہ انفرادی اینڈ پوائنٹ کی مثالیں نیچے [Curl کی مثالیں](#curl-examples) سیکشن میں دی گئی ہیں۔ صفحے میں مزید نیچے، ہم Geth نوڈ، JSON_RPC API اور curl کا استعمال کرتے ہوئے ایک اسمارٹ کانٹریکٹ کو مرتب اور تعینات کرنے کے لیے ایک [مکمل مثال](#usage-example) بھی فراہم کرتے ہیں۔
 
@@ -132,7 +132,7 @@ curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","metho
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## JSON-RPC API پلے گراؤنڈ
+## JSON-RPC API پلے گراؤنڈ {#json-rpc-api-playground}
 
 آپ API میتھڈز کو دریافت کرنے اور آزمانے کے لیے [پلے گراؤنڈ ٹول](https://ethereum-json-rpc.com) استعمال کر سکتے ہیں۔ یہ آپ کو یہ بھی دکھاتا ہے کہ مختلف نوڈ پرووائیڈرز کن میتھڈز اور نیٹ ورکس کو سپورٹ کرتے ہیں۔
 

@@ -190,7 +190,7 @@ Inarudisha jumla ya hisa za vault ambazo `mmiliki` anazo kwa sasa.
 
 ### Matukio {#events}
 
-#### Tukio la Kuweka
+#### Tukio la Kuweka {#deposit-event}
 
 **LAZIMA** itolewe wakati tokeni zinawekwa ndani ya vault kupitia njia za [`mint`](#mint) na [`deposit`](#deposit).
 
@@ -205,7 +205,7 @@ event Deposit(
 
 Ambapo `mtumaji` ni mtumiaji ambaye alibadilisha `mali` kwa `hisa`, na akahamisha `hisa` hizo kwa `mmiliki`.
 
-#### Tukio la Kutoa
+#### Tukio la Kutoa {#withdraw-event}
 
 **LAZIMA** itolewe wakati hisa zinatolewa kutoka kwa vault na mwekaji katika njia za [`redeem`](#redeem) au [`withdraw`](#withdraw).
 

@@ -11,7 +11,7 @@ sidebarDepth: 2
 
 您應該了解 [以太坊節點](/developers/docs/nodes-and-clients/) 的概念、[其架構](/developers/docs/nodes-and-clients/node-architecture/)、[同步策略](/developers/docs/nodes-and-clients/#sync-modes)，以及 [運行](/developers/docs/nodes-and-clients/run-a-node/) 和 [使用它們](/developers/docs/apis/json-rpc/) 的方法。
 
-## 什麼是歸檔節點
+## 什麼是歸檔節點 {#what-is-an-archive-node}
 
 要理解歸檔節點的重要性，讓我們先釐清「狀態」的概念。 以太坊可以稱為_以交易為基礎的狀態機_。 它包括了帳戶以及執行交易並改變帳戶狀態的應用程式。 有關每個帳戶和合約的全球數據儲存在一個稱為狀態的 字典樹資料庫中。 這由執行層 (EL) 用戶端處理，並包括:
 
@@ -29,7 +29,7 @@ sidebarDepth: 2
 
 值得注意的是，網路並不依賴歸檔節點來保存和提供所有歷史資料。 如上所述，所有歷史中間狀態都可以在全節點上推導出來。 任何全節點都儲存交易（目前少於 400G），並且可以重播以建立整個存檔。
 
-### 使用案例
+### 使用案例 {#use-cases}
 
 發送交易、部署合約、驗證共識等常規的以太坊使用不需要存取歷史狀態。 使用者無需歸檔節點，就可以與網路進行標準互動。
 
@@ -48,17 +48,17 @@ sidebarDepth: 2
 
 也有各種免費的 [服務](/developers/docs/nodes-and-clients/nodes-as-a-service/) 能讓您存取歷史資料。 由於運行歸檔節點要求更高，因此這種存取往往受到限制，且只適用於偶爾存取。 如果你的專案需要持續存取歷史資料，你應該考慮運行一個自己的歸檔節點。
 
-## 實作和使用
+## 實作和使用 {#implementations-and-usage}
 
 歸檔節點在此處表示由面向使用者的執行層用戶端提供的資料，因為它們處理狀態資料庫並提供 JSON-RPC 端點。 設定選項、同步時間和資料庫大小可能因用戶端而異。 詳細資訊請參考你的用戶端提供的文檔。
 
 在開始運行您自己的存檔節點前，請先了解不同用戶端之間的差異，特別是各種 [硬體需求](/developers/docs/nodes-and-clients/run-a-node/#requirements)。 多數用戶端沒有最佳化這個部分，且它們的存檔需要超過 12TB 的儲存空間。 與如 Erigon 的實作對比，Erigon 可以在低於 3TB 的空間儲存相同的資料，使其成為運行歸檔節點最有效率的方式。
 
-## 推薦的做法
+## 推薦的做法 {#recommended-practices}
 
 除了 [運行節點的一般建議](/developers/docs/nodes-and-clients/run-a-node/) 之外，存檔節點可能對硬體和維護有更高的要求。 考量到 Erigon 的 [主要功能](https://github.com/ledgerwatch/erigon#key-features)，最實際的方法是使用 [Erigon](/developers/docs/nodes-and-clients/#erigon) 用戶端實作。
 
-### 硬體
+### 硬體 {#hardware}
 
 永遠在用戶端文檔中確認滿足了特定模式的硬體要求。
 對歸檔節點來說，最大的需求是磁碟空間。 取決於用戶端的不同，可能從 3TB 到 12TB 都有。 雖然硬碟被認為可能是儲存大量資料的更好辦法，但同步資料和不斷地更新鏈頭需要固態硬碟。 [SATA](https://www.cleverfiles.com/help/sata-hard-drive.html) 硬碟已足夠，但應具備可靠的品質，至少是 [TLC](https://blog.synology.com/tlc-vs-qlc-ssds-what-are-the-differences) 等級。 磁碟可以安裝在有足夠插槽的桌機或伺服器中。 這些專用設備適合需要長時間正常運行的節點。 在筆電上運行也是完全可行的，但便攜性將帶來額外的成本。

@@ -10,7 +10,7 @@ Design je důležitou součástí každého projektu a věnováním svého času
 
 Hlavně je to skvělý způsob, jak si vytvořit rozmanité a působivé portfolio, které ukáže vaše designérské dovednosti.
 
-## Jak přispívat?
+## Jak přispívat? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;Poskytněte zpětnou vazbu k prvotním prototypům designu {#design-critique}
 

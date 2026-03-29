@@ -190,7 +190,7 @@ function balanceOf(address owner) public view returns (uint256)
 
 ### ইভেন্ট {#events}
 
-#### ডিপোজিট ইভেন্ট
+#### ডিপোজিট ইভেন্ট {#deposit-event}
 
 [`mint`](#mint) এবং [`deposit`](#deposit) মেথডের মাধ্যমে ভল্টে টোকেন জমা করার সময় **অবশ্যই** এমিট করতে হবে।
 
@@ -205,7 +205,7 @@ event Deposit(
 
 যেখানে `sender` হলো সেই ব্যবহারকারী যিনি `shares`-এর বিনিময়ে `assets` এক্সচেঞ্জ করেছেন এবং সেই `shares` গুলো `owner`-এর কাছে ট্রান্সফার করেছেন।
 
-#### উইথড্র ইভেন্ট
+#### উইথড্র ইভেন্ট {#withdraw-event}
 
 [`redeem`](#redeem) বা [`withdraw`](#withdraw) মেথডে কোনো আমানতকারী ভল্ট থেকে শেয়ার তোলার সময় **অবশ্যই** এমিট করতে হবে।
 

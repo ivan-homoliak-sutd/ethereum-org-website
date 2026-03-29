@@ -17,7 +17,7 @@ template: roadmap
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">更多关于帐户抽象的信息</ButtonLink>
 
-## 人人皆有节点
+## 人人皆有节点 {#nodes-for-everyone}
 
 运行[节点](/glossary/#node)的用户不必依赖第三方为他们提供数据，他们可以快速、私密且无需许可地与以太坊[区块链](/glossary/#blockchain)进行交互。 然而，现在运行一个节点需要技术知识和大量磁盘空间，这意味着许多人不得不依赖第三方。
 

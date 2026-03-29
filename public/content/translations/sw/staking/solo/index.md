@@ -106,13 +106,13 @@ Kuna chaguzi mbalimbali zinazopatikana za kukusaidia na usanidi wako. Tumia vias
 
 <ProductDisclaimer />
 
-### Zana za Nodi
+### Zana za Nodi {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 Tafadhali kumbuka umuhimu wa kuchagua [mteja wa wachache](/developers/docs/nodes-and-clients/client-diversity/) kwani inaboresha usalama wa mtandao, na kupunguza hatari yako. Zana zinazokuruhusu kusanidi mteja wa wachache zinaonyeshwa kama <em style={{ textTransform: "uppercase" }}>"wateja-wengi."</em>
 
-### Viunda Funguo
+### Viunda Funguo {#key-generators}
 
 Zana hizi zinaweza kutumika kama mbadala wa [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) kusaidia katika uundaji wa funguo.
 

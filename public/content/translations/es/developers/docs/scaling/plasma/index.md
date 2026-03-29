@@ -14,13 +14,13 @@ Los Merkle trees permiten la creación de una pila interminable de estas cadenas
 
 Debería tener una buena comprensión de todos los temas fundamentales y un conocimiento de alto nivel sobre la [escalabilidad de Ethereum](/developers/docs/scaling/).
 
-## ¿Qué es Plasma?
+## ¿Qué es Plasma? {#what-is-plasma}
 
 Plasma es un marco para mejorar la escalabilidad en cadenas de bloques públicas como Ethereum. Como se describe en el [informe de Plasma](http://plasma.io/plasma.pdf) original, las cadenas Plasma se construyen sobre otra cadena de bloques (denominada "cadena raíz"). Cada cadena secundaria o child se extiende desde la cadena raíz y generalmente es gestionada por un contrato inteligente implementado en la cadena principal o parent.
 
 El contrato de Plasma funciona, entre otras cosas, como un [puente](/developers/docs/bridges/) que permite a los usuarios mover activos entre la red principal de Ethereum y la cadena Plasma. Aunque esto las hace similares a las [cadenas laterales](/developers/docs/scaling/sidechains/), las cadenas de Plasma se benefician, al menos hasta cierto punto, de la seguridad de la red principal de Ethereum. Esto se diferencia de las cadenas laterales, que son totalmente responsables de su propia seguridad.
 
-## ¿Cómo funciona Plasma?
+## ¿Cómo funciona Plasma? {#how-does-plasma-work}
 
 Los componentes básicos del marco de trabajo de Plasma son:
 

@@ -253,7 +253,7 @@ ii. 낙관적 롤업을 사용하는 개발자와 프로젝트 팀은 이더리�
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## 낙관적 롤업에 대한 추가 자료
+## 낙관적 롤업에 대한 추가 자료 {#further-reading-on-optimistic-rollups}
 
 - [낙관적 롤업은 어떻게 작동하는가 (완벽 가이드)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [블록체인 롤업이란 무엇인가?  기술적 소개](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

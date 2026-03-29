@@ -22,15 +22,15 @@ lang: ko
 
 복구 옵션은 사용하는 지갑 유형에 따라 다릅니다.
 
-### 시드 문구(복구 문구)가 있는 경우
+### 시드 문구(복구 문구)가 있는 경우 {#if-you-have-your-seed-phrase-recovery-phrase}
 
 시드 문구를 사용하여 호환되는 모든 지갑 앱에서 지갑을 복원할 수 있습니다. 따라서 시드 문구를 오프라인에 안전하게 보관하는 것이 중요합니다. 복원 지침은 지갑 제공업체의 설명서를 확인하세요.
 
-### 시드 문구를 분실한 경우
+### 시드 문구를 분실한 경우 {#if-you-have-lost-your-seed-phrase}
 
 시드 문구나 개인 키가 없으면 자금을 복구할 수 없습니다. ethereum.org를 포함한 그 누구도 비밀번호를 재설정하거나 개인 보관 지갑에 대한 액세스를 복원할 수 없습니다.
 
-### 계정이 거래소에 있는 경우
+### 계정이 거래소에 있는 경우 {#if-your-account-is-on-an-exchange}
 
 계정이 Coinbase, Binance 또는 Kraken과 같은 중앙화 거래소에 있는 경우 거래소 지원팀에 직접 문의하세요. 거래소는 플랫폼의 계정을 제어하며 비밀번호 재설정이나 계정 복구에 도움을 줄 수 있습니다.
 
@@ -55,7 +55,7 @@ lang: ko
 - **속도 높이기:** 더 높은 가스 수수료로 동일한 트랜잭션을 다시 제출합니다.
 - **취소:** 보류 중인 트랜잭션과 동일한 논스(Nonce)를 사용하여 자신의 주소로 0 ETH 트랜잭션을 보냅니다.
 
-### 유용한 가이드
+### 유용한 가이드 {#helpful-guides}
 
 - [MetaMask에서 보류 중인 트랜잭션의 속도를 높이거나 취소하는 방법](https://support.metamask.io/transactions-and-gas/transactions/how-to-speed-up-or-cancel-a-pending-transaction/)
 - [보류 중인 이더리움 트랜잭션을 취소하는 방법](https://info.etherscan.com/how-to-cancel-ethereum-pending-transactions/)

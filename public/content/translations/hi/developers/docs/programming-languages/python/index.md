@@ -47,7 +47,7 @@ incomplete: true
 - [स्लिदर के साथ सॉलिडिटी स्मार्ट अनुबंधों का विश्लेषण करें](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [ब्लॉकचेन फिनटेक ट्यूटोरियल: पायथन के साथ ऋण देना और उधार लेना](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## संग्रहीत लेख
+## संग्रहीत लेख {#archived-articles}
 
 - [पायथन और ब्राउनी के साथ अपना खुद का ERC20 टोकन डिप्लॉय करें](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [स्मार्ट अनुबंधों को डिप्लॉय करने के लिए ब्राउनी और पायथन का उपयोग करना](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

@@ -79,7 +79,7 @@ require(msg.sender == owner, "只有本合约的所有者才能调用此函数")
 require(msg.sender == owner, "OW1");
 ```
 
-### 使用自定义错误代替错误信息
+### 使用自定义错误代替错误信息 {#use-custom-errors-instead-of-error-messages}
 
 [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/) 引入了自定义错误。 它们是减小合约大小的极佳方法，因为它们和函数一样，被 ABI 编码为选择器。
 

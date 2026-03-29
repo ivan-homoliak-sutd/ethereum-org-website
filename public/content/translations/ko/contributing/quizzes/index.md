@@ -17,7 +17,7 @@ lang: ko
 - [이더리움이란 무엇인가요?](/what-is-ethereum/)
 - [ETH란 무엇인가요?](/what-is-ether/)
 
-## 학습 퀴즈 추가하기
+## 학습 퀴즈 추가하기 {#adding-a-learn-quiz}
 
 아직 학습 퀴즈가 생성되지 않은 페이지가 있는 경우, 해당 페이지에 대한 [이슈를 개설](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml)해 주세요.
 
@@ -30,7 +30,7 @@ lang: ko
   - 1 개의 정답과 정답인 이유에 관한 설명
   - 3 개의 오답과 오답인 이유에 관한 설명
 
-## 퀴즈 질문 추가하기
+## 퀴즈 질문 추가하기 {#adding-a-quiz-question}
 
 퀴즈의 문제 은행에 추가하고 싶은 질문이 있는 경우, [이슈를 개설](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml)하고 다음 정보를 제공해 주세요:
 
@@ -41,7 +41,7 @@ lang: ko
   - 1 개의 정답과 정답인 이유에 관한 설명
   - 3 개의 오답과 오답인 이유에 관한 설명
 
-## 퀴즈 질문 업데이트하기
+## 퀴즈 질문 업데이트하기 {#updating-a-quiz-question}
 
 퀴즈의 문제 은행에 있는 질문을 업데이트하고 싶은 경우, [이슈를 개설](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml)하고 다음 정보를 제공해 주세요:
 
@@ -53,7 +53,7 @@ lang: ko
   - 1 개의 정답과 정답인 이유에 관한 설명
   - 3 개의 오답과 오답인 이유에 관한 설명
 
-## 퀴즈 질문 제거하기
+## 퀴즈 질문 제거하기 {#removing-a-quiz-question}
 
 질문에 해당하는 내용이 페이지에 더 이상 존재하지 않아 질문을 제거해야 하는 경우, 질문을 제거하기 위해 [이슈를 개설](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml)하고 다음 정보를 제공해 주세요:
 

@@ -4,7 +4,7 @@ description: "Scopri di più su 7702 nell'aggiornamento Pectra"
 lang: it
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## Abstract {#abstract}
 

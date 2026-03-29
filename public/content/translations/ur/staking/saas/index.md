@@ -43,13 +43,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### SaaS فراہم کنندگان
+### SaaS فراہم کنندگان {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 براہ کرم [کلائنٹ کے تنوع (client diversity)](/developers/docs/nodes-and-clients/client-diversity/) کی حمایت کرنے کی اہمیت کو نوٹ کریں کیونکہ یہ نیٹ ورک کی سیکیورٹی کو بہتر بناتا ہے، اور آپ کے خطرے کو محدود کرتا ہے۔ وہ سروسز جن کے پاس اکثریتی کلائنٹ کے استعمال کو محدود کرنے کے شواہد ہیں ان کی نشاندہی <em style={{ textTransform: "uppercase" }}>"execution client diversity"</em> اور <em style={{ textTransform: "uppercase" }}>"consensus client diversity."</em> کے ساتھ کی گئی ہے۔
 
-### کلید بنانے والے (Key Generators)
+### کلید بنانے والے (Key Generators) {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

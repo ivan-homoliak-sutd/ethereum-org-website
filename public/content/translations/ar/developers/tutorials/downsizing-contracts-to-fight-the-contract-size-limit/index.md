@@ -78,7 +78,7 @@ require(msg.sender == owner, "يمكن لمالك هذا العقد فقط اس�
 require(msg.sender == owner, "OW1");
 ```
 
-### استخدام أخطاء مخصصة بدلاً من رسائل الخطأ
+### استخدام أخطاء مخصصة بدلاً من رسائل الخطأ {#use-custom-errors-instead-of-error-messages}
 
 تم تقديم الأخطاء المخصصة في [سوليديتي 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/). إنها طريقة رائعة لتقليل حجم عقودك، لأنها مرمزة بترميز ABI كـ selectors (تمامًا مثل الوظائف).
 

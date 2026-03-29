@@ -47,7 +47,7 @@ Je, unahitaji primer ya msingi zaidi kwanza? Angalia [ethereum.org/learn](/learn
 - [Changanua Mikataba-erevu ya Solidity kwa kutumia Slither](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [Mafunzo ya Fintech ya Mnyororo wa bloku: Kukopesha na Kukopa kwa Kutumia Python](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## Makala yaliyohifadhiwa
+## Makala yaliyohifadhiwa {#archived-articles}
 
 - [Peleka Tokeni yako mwenyewe ya ERC20 kwa kutumia Python na Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Kutumia Brownie na Python kupeleka Mikataba-erevu](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

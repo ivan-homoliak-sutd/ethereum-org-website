@@ -33,7 +33,7 @@ Dalam keuangan tradisional, bank sentral mengendalikan pasokan uang, sering kali
 
 Penerbitan ETH mengacu pada proses pembuatan ETH baru sebagai hadiah untuk validator yang mengamankan jaringan Ethereum. Ini terpisah dari total pasokan, yang merupakan jumlah total ETH yang beredar.
 
-### Secara sederhana:
+### Secara sederhana: {#in-simple-terms}
 - **Penerbitan** menambahkan ETH baru ke jaringan.
 - **Pembakaran** (diperkenalkan oleh EIP-1559) menghapus ETH dari jaringan dengan menghancurkan sebagian dari biaya transaksi.
 
@@ -45,7 +45,7 @@ Sistem Proof-of-Stake (PoS) Ethereum telah secara drastis mengurangi penerbitan 
 
 Namun, angka ini bersifat dinamis. Berkat EIP-1559, ketika aktivitas jaringan tinggi, tingkat pembakaran ETH dapat melampaui penerbitan, menciptakan efek deflasi. Misalnya, selama periode permintaan tinggi, seperti peluncuran NFT atau aktivitas DeFi, lebih banyak ETH yang mungkin dibakar daripada diterbitkan.
 
-### Alat untuk Melacak Pasokan dan Penerbitan ETH:
+### Alat untuk Melacak Pasokan dan Penerbitan ETH: {#tools-to-track-eth-supply-and-issuance}
 - [Ultrasound Money](https://ultrasound.money) - Pelacakan real-time pasokan, penerbitan, dan tingkat pembakaran ETH
 - [Etherscan](https://etherscan.io) - Penjelajah blok dengan metrik pasokan
 

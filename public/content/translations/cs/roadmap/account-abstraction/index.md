@@ -52,7 +52,7 @@ Správa paliva se výrazně zlepšuje. Aplikace mohou platit uživatelům poplat
 
 V současné době je implementace peněženek s chytrými kontrakty náročná, protože se spoléhají na složitý kód, který obaluje standardní transakce. Ethereum to může změnit tím, že umožní chytrým kontraktům přímo iniciovat transakce a vkládat logiku do chytrých kontraktů na Ethereu namísto spoléhání se na externí relayery.
 
-### EIP-4337: Abstrakce účtu bez změn v protokolu
+### EIP-4337: Abstrakce účtu bez změn v protokolu {#eip-4337-account-abstraction-without-protocol-changes}
 
 EIP-4337 umožňuje nativní podporu peněženek s chytrými kontrakty bez úpravy hlavního protokolu Etherea. Zavádí objekty `UserOperation`, které validátoři shromažďují do balíčků transakcí, což zjednodušuje vývoj peněženek. Kontrakt EntryPoint EIP-4337 byl 1. března 2023 nasazen na hlavní síti Etherea a umožnil vytvoření více než 26 milionů chytrých peněženek a 170 milionů operací UserOperation.
 

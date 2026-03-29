@@ -17,7 +17,7 @@ Alcuni esempi dei quiz attuali possono essere trovati qui:
 - [Cos'è Ethereum?](/what-is-ethereum/)
 - [Cos'è l'ETH?](/what-is-ether/)
 
-## Aggiungere un quiz di apprendimento
+## Aggiungere un quiz di apprendimento {#adding-a-learn-quiz}
 
 Se c'è una pagina per la quale non è ancora stato creato un quiz di apprendimento, ti preghiamo di [aprire una issue](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) a riguardo.
 
@@ -30,7 +30,7 @@ Ti preghiamo di fornire le seguenti informazioni:
   - 1 risposta corretta con una spiegazione del perché è corretta
   - 3 risposte errate, ciascuna con una spiegazione del perché è errata
 
-## Aggiungere una domanda al quiz
+## Aggiungere una domanda al quiz {#adding-a-quiz-question}
 
 Se c'è una domanda che desideri aggiungere alla banca dati delle domande per un quiz, ti preghiamo di [aprire una issue](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) e fornire le seguenti informazioni:
 
@@ -41,7 +41,7 @@ Se c'è una domanda che desideri aggiungere alla banca dati delle domande per un
   - 1 risposta corretta con una spiegazione del perché è corretta
   - 3 risposte errate, ciascuna con una spiegazione del perché è errata
 
-## Aggiornare una domanda del quiz
+## Aggiornare una domanda del quiz {#updating-a-quiz-question}
 
 Se c'è una domanda che desideri aggiornare in una banca dati delle domande per un quiz, ti preghiamo di [aprire una issue](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) e fornire le seguenti informazioni:
 
@@ -53,7 +53,7 @@ Se c'è una domanda che desideri aggiornare in una banca dati delle domande per 
   - 1 risposta corretta con una spiegazione del perché è corretta
   - 3 risposte errate, ciascuna con una spiegazione del perché è errata
 
-## Rimuovere una domanda del quiz
+## Rimuovere una domanda del quiz {#removing-a-quiz-question}
 
 Se il contenuto non esiste più nella pagina per una determinata domanda e questa deve essere rimossa, ti preghiamo di [aprire una issue](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) per rimuovere la domanda e fornire le seguenti informazioni:
 

@@ -52,7 +52,7 @@ Das Gas-Management verbessert sich erheblich. Anwendungen können die Gasgebühr
 
 Derzeit sind Smart Contract Wallets schwer zu implementieren, da sie auf komplexem Code basieren, der Standard-Transaktionen umhüllt. Ethereum kann dies ändern, indem es Smart Contracts ermöglicht, Transaktionen direkt zu initiieren, wobei die Logik in Ethereum-Smart-Contracts eingebettet wird, anstatt sich auf externe Relayer zu verlassen.
 
-### EIP-4337: Kontoabstraktion ohne Protokolländerungen
+### EIP-4337: Kontoabstraktion ohne Protokolländerungen {#eip-4337-account-abstraction-without-protocol-changes}
 
 EIP-4337 ermöglicht native Unterstützung für Smart Contract Wallets, ohne das Kernprotokoll von Ethereum zu ändern. Es führt `UserOperation`-Objekte ein, die von Validatoren in Transaktionsbündeln gesammelt werden, was die Wallet-Entwicklung vereinfacht. Der EIP-4337 EntryPoint-Vertrag wurde am 1. März 2023 im Ethereum-Mainnet bereitgestellt und hat die Erstellung von über 26 Millionen Smart Wallets und 170 Millionen UserOperations erleichtert.
 

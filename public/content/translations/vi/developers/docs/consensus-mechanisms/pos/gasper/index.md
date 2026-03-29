@@ -8,7 +8,7 @@ Gasper là sự kết hợp của Casper the Friendly Finality Gadget (Casper-FF
 
 **Lưu ý** rằng định nghĩa ban đầu của Casper-FFG đã được cập nhật một chút để đưa vào Gasper. Trên trang này, chúng tôi xem xét phiên bản đã cập nhật.
 
-## Lời mở đầu
+## Lời mở đầu {#prerequisites}
 
 Để hiểu tài liệu này, cần phải đọc trang giới thiệu về [bằng chứng cổ phần](/developers/docs/consensus-mechanisms/pos/).
 

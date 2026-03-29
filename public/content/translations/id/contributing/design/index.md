@@ -10,7 +10,7 @@ Desain adalah komponen penting dari proyek apa pun, dan dengan meluangkan waktu 
 
 Pada akhirnya, ini adalah cara yang bagus untuk membangun portofolio yang beragam dan mengesankan yang memamerkan keterampilan desain Anda.
 
-## Bagaimana cara berkontribusi?
+## Bagaimana cara berkontribusi? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;Berikan umpan balik pada prototipe desain awal {#design-critique}
 

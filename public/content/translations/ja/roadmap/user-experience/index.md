@@ -17,7 +17,7 @@ template: roadmap
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">アカウント抽象化の詳細</ButtonLink>
 
-## 誰でも使えるノード
+## 誰でも使えるノード {#nodes-for-everyone}
 
 [ノード](/glossary/#node)を実行しているユーザーは、データを提供するサードパーティに依存せず、イーサリアム[ブロックチェーン](/glossary/#blockchain)と迅速かつプライバシーを保ち、パーミッションレスにやり取りができます。 しかし、現時点では、ノードを実行するには技術的な知識とかなりのディスク容量が必要でであるため、多くの人はノードを実行する代わりに仲介者に頼らざるを得ません。
 

@@ -32,7 +32,7 @@ lang: ko
 
 테스트넷의 ETH는 실제 가치가 없는 것으로 간주되지만, 희소해지거나 구하기 어려워진 특정 유형의 테스트넷 ETH에 대한 시장이 형성되기도 했습니다. 이더리움과 상호작용하려면(테스트넷에서도) ETH가 필요하기 때문에, 대부분의 사람들은 포싯에서 테스트넷 ETH를 무료로 받습니다. faucet은 ETH를 받을 주소를 입력할 수 있는 웹앱인 경우가 많다.
 
-#### 어떤 동기화 방법을 사용해야 할까요?
+#### 어떤 동기화 방법을 사용해야 할까요? {#which-testnet-should-i-use}
 
 현재 클라이언트 개발자들이 유지 관리하는 두 개의 공개 테스트넷은 Sepolia와 Hoodi입니다. Sepolia는 컨트랙트와 어플리케이션 개발자들이 그들의 어플리케이션을 테스트하기 위해서 필요한 네트워크입니다. Hoodi 네트워크를 통해 프로토콜 개발자는 네트워크 업그레이드를 테스트하고, 스테이커는 검증자 실행을 테스트할 수 있습니다.
 
@@ -104,7 +104,7 @@ Ephemery는 매달 완전히 재설정되는 독특한 종류의 테스트넷입
 - [체크포인트 동기화](https://checkpoint-sync.ephemery.ethpandaops.io)
 - [런치패드](https://launchpad.ephemery.dev/)
 
-#### Faucets
+#### Faucets {#faucets}
 
 - [Bordel 포싯](https://faucet.bordel.wtf/)
 - [Pk910 PoW 포싯](https://ephemery-faucet.pk910.de/)

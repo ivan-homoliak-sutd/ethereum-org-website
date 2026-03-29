@@ -17,7 +17,7 @@ Některé příklady aktuálních kvízů najdete zde:
 - [Co je Ethereum?](/what-is-ethereum/)
 - [Co je ETH?](/what-is-ether/)
 
-## Přidávání učebního kvízu
+## Přidávání učebního kvízu {#adding-a-learn-quiz}
 
 Pokud existuje stránka, pro kterou ještě nebyl vytvořen vzdělávací kvíz, [otevřete prosím problém](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml).
 
@@ -30,7 +30,7 @@ Uveďte prosím následující informace:
   - 1 správná odpověď s vysvětlením, proč je správná
   - 3 nesprávné odpovědi s vysvětlením, proč jsou nesprávné
 
-## Přidávání kvízové otázky
+## Přidávání kvízové otázky {#adding-a-quiz-question}
 
 Pokud chcete do sady otázek pro kvíz přidat novou otázku, [otevřete prosím problém](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) a poskytněte následující informace:
 
@@ -41,7 +41,7 @@ Pokud chcete do sady otázek pro kvíz přidat novou otázku, [otevřete prosím
   - 1 správná odpověď s vysvětlením, proč je správná
   - 3 nesprávné odpovědi s vysvětlením, proč jsou nesprávné
 
-## Aktualizace kvízové otázky
+## Aktualizace kvízové otázky {#updating-a-quiz-question}
 
 Pokud chcete aktualizovat otázku v sadě otázek pro kvíz, [otevřete prosím problém](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) a poskytněte následující informace:
 
@@ -53,7 +53,7 @@ Pokud chcete aktualizovat otázku v sadě otázek pro kvíz, [otevřete prosím 
   - 1 správná odpověď s vysvětlením, proč je správná
   - 3 nesprávné odpovědi s vysvětlením, proč jsou nesprávné
 
-## Odebírání kvízové otázky
+## Odebírání kvízové otázky {#removing-a-quiz-question}
 
 Pokud již obsah na stránce k dané otázce neexistuje a je třeba ji odstranit, [otevřete prosím problém](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) k odstranění otázky a uveďte následující informace:
 

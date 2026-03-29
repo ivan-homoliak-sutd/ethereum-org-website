@@ -59,7 +59,7 @@ Die Vorteile dieses Netzwerkdesigns sind:
 
 Die folgende Tabelle zeigt die Funktionen bestehender Anwendungen, die durch das Portal Network bereitgestellt werden können, sodass Benutzer auf sehr ressourcenarmen Geräten auf diese Funktionen zugreifen können.
 
-### Die Portal Networks
+### Die Portal Networks {#the-portal-networks}
 
 | Beacon-Light-Client | Status-Netzwerk | Transaktions-Gossip | Historien-Netzwerk |
 | ------------------- | ---------------------------- | ------------------- | --------------- |

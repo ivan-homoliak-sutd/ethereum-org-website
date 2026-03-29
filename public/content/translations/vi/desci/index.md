@@ -20,7 +20,7 @@ Ngành khoa học phi tập trung DeSci tập trung vào việc tạo một hệ
 
 Khoa học phi tập trung cho phép có nhiều nguồn tài trợ đa dạng hơn (từ [DAO](/glossary/#dao), [quyên góp bậc hai](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531) đến huy động vốn từ cộng đồng và hơn thế nữa), dữ liệu và phương pháp dễ tiếp cận hơn, và bằng cách cung cấp các biện pháp khuyến khích cho khả năng tái tạo.
 
-### Juan Benet - DeSci vận động
+### Juan Benet - DeSci vận động {#juan-benet-the-desci-movement}
 
 <YouTube id="zkXM9H90g_E" />
 

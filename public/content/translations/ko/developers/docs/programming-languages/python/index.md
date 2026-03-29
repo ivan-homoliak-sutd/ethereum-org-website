@@ -47,7 +47,7 @@ incomplete: true
 - [Slither로 솔리디티 스마트 계약 분석하기](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [블록체인 핀테크 튜토리얼: 파이썬으로 대출 및 차입 구현하기](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## 보관된 아티클
+## 보관된 아티클 {#archived-articles}
 
 - [파이썬과 브라우니로 나만의 ERC20 토큰 배포하기](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [브라우니와 파이썬을 사용하여 스마트 계약 배포하기](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

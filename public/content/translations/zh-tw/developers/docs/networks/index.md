@@ -32,7 +32,7 @@ lang: zh-tw
 
 測試網上的以太幣原本應該是沒有實際價值的；然而，已經有為取得一些稀少或難以獲得的測試網以太幣而建立的市場。 因為要和以太坊（即使在測試網上）實際互動需要以太幣，多數人透過水龍頭免費獲得測試網以太幣。 多數水龍頭為 Web 應用程式，你可以在其中輸入你請求發送以太幣的地址。
 
-#### 我該使用哪個測試網？
+#### 我該使用哪個測試網？ {#which-testnet-should-i-use}
 
 目前用戶端開發者維護的兩個公共測試網分別為 Sepolia 及 Hoodi。 Sepolia 是合約和應用程式開發者用來測試其應用程式的網路。 在 Hoodi 網路上，協議開發者測試網路升級，質押者測試驗證者的運行狀況。
 
@@ -104,7 +104,7 @@ Ephemery 是一個獨特的測試網，每個月都會完全重置。 執行和�
 - [檢查點同步](https://checkpoint-sync.ephemery.ethpandaops.io)
 - [啟動面板](https://launchpad.ephemery.dev/)
 
-#### 水龍頭
+#### 水龍頭 {#faucets}
 
 - [Bordel 水龍頭](https://faucet.bordel.wtf/)
 - [Pk910 PoW 水龍頭](https://ephemery-faucet.pk910.de/)

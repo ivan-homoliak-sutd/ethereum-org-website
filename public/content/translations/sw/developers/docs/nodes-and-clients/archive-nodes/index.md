@@ -11,7 +11,7 @@ Nodi ya kumbukumbu ni mfano wa mteja wa Ethereum uliosanidiwa kujenga kumbukumbu
 
 Unapaswa kuelewa dhana ya [nodi ya Ethereum](/developers/docs/nodes-and-clients/), [usanifu wake](/developers/docs/nodes-and-clients/node-architecture/), [mikakati ya kusawazisha](/developers/docs/nodes-and-clients/#sync-modes), mazoea ya [kuiendesha](/developers/docs/nodes-and-clients/run-a-node/) na [kuitumia](/developers/docs/apis/json-rpc/).
 
-## Nodi ya kumbukumbu ni nini
+## Nodi ya kumbukumbu ni nini {#what-is-an-archive-node}
 
 Ili kuelewa umuhimu wa nodi ya kumbukumbu, hebu tufafanue dhana ya "hali". Ethereum inaweza kurejelewa kama _mashine ya hali inayotegemea muamala_. Inajumuisha akaunti na programu zinazotekeleza miamala ambayo inabadilisha hali zao. Data ya kimataifa yenye habari kuhusu kila akaunti na mkataba huhifadhiwa katika hifadhidata ya trie inayoitwa hali. Hii inashughulikiwa na mteja wa safu ya utekelezaji (EL) na inajumuisha:
 
@@ -29,7 +29,7 @@ Hata hivyo, hii inamaanisha kwamba kufikia hali ya kihistoria kwenye nodi kamili
 
 Ni muhimu kuzingatia kwamba mtandao hautegemei nodi za kumbukumbu kuhifadhi na kutoa data zote za kihistoria. Kama ilivyotajwa hapo juu, hali zote za mpito za kihistoria zinaweza kutolewa kwenye nodi kamili. Miamala huhifadhiwa na nodi yoyote kamili (kwa sasa chini ya 400G) na inaweza kurudiwa ili kujenga kumbukumbu nzima.
 
-### Tumia kesi
+### Tumia kesi {#use-cases}
 
 Matumizi ya kawaida ya Ethereum kama vile kutuma miamala, kupeleka mikataba, kuhakiki makubaliano, n.k. hayahitaji ufikiaji wa hali za kihistoria. Watumiaji hawahitaji kamwe nodi ya kumbukumbu kwa maingiliano ya kawaida na mtandao.
 
@@ -48,17 +48,17 @@ Kama ilivyoelezwa hapo juu, nodi kamili ingehitaji kuzalisha data hii kwa utekel
 
 Kuna [huduma](/developers/docs/nodes-and-clients/nodes-as-a-service/) mbalimbali za bure ambazo pia huruhusu ufikiaji wa data ya kihistoria. Kwa vile inahitaji nguvu zaidi kuendesha nodi ya kumbukumbu, ufikiaji huu mara nyingi una mipaka na hufanya kazi tu kwa ufikiaji wa mara kwa mara. Ikiwa mradi wako unahitaji ufikiaji wa kila wakati wa data ya kihistoria, unapaswa kufikiria kuiendesha mwenyewe.
 
-## Utekelezaji na matumizi
+## Utekelezaji na matumizi {#implementations-and-usage}
 
 Nodi ya kumbukumbu katika muktadha huu inamaanisha data inayotolewa na wateja wa safu ya utekelezaji wanaomkabili mtumiaji wanaposhughulikia hifadhidata ya hali na kutoa sehemu za mwisho za JSON-RPC. Chaguo za usanidi, muda wa kusawazisha na ukubwa wa hifadhidata vinaweza kutofautiana kulingana na mteja. Kwa maelezo zaidi, tafadhali rejelea nyaraka zilizotolewa na mteja wako.
 
 Kabla ya kuanzisha nodi yako mwenyewe ya kumbukumbu, jifunze kuhusu tofauti kati ya wateja na hasa [mahitaji mbalimbali ya maunzi](/developers/docs/nodes-and-clients/run-a-node/#requirements). Wateja wengi hawajaboreshwa kwa kipengele hiki na kumbukumbu zao zinahitaji zaidi ya 12TB ya nafasi. Kinyume chake, utekelezaji kama Erigon unaweza kuhifadhi data sawa katika chini ya 3TB jambo ambalo huwafanya kuwa njia bora zaidi ya kuendesha nodi ya kumbukumbu.
 
-## Mazoea yaliyopendekezwa
+## Mazoea yaliyopendekezwa {#recommended-practices}
 
 Mbali na [mapendekezo ya jumla ya kuendesha nodi](/developers/docs/nodes-and-clients/run-a-node/), nodi ya kumbukumbu inaweza kuhitaji zaidi upande wa maunzi na matengenezo. Kwa kuzingatia [vipengele muhimu](https://github.com/ledgerwatch/erigon#key-features) vya Erigon, njia inayofaa zaidi ni kutumia utekelezaji wa mteja wa [Erigon](/developers/docs/nodes-and-clients/#erigon).
 
-### Vifaa
+### Vifaa {#hardware}
 
 Daima hakikisha unahakiki mahitaji ya maunzi kwa hali fulani katika nyaraka za mteja.
 Hitaji kubwa zaidi kwa nodi za kumbukumbu ni nafasi ya diski. Kulingana na mteja, inatofautiana kutoka 3TB hadi 12TB. Hata kama HDD inaweza kuchukuliwa kuwa suluhisho bora kwa kiasi kikubwa cha data, kuisawazisha na kusasisha mara kwa mara ncha ya mnyororo itahitaji diski za SSD. Diski za [SATA](https://www.cleverfiles.com/help/sata-hard-drive.html) zinatosha lakini zinapaswa kuwa za ubora wa kuaminika, angalau [TLC](https://blog.synology.com/tlc-vs-qlc-ssds-what-are-the-differences). Diski zinaweza kuwekwa kwenye kompyuta ya mezani au seva yenye nafasi za kutosha. Vifaa maalum kama hivyo ni bora kwa kuendesha nodi yenye muda mrefu wa kufanya kazi. Inawezekana kabisa kuiendesha kwenye laptop lakini uwezo wa kuhamishika utakuja na gharama ya ziada.

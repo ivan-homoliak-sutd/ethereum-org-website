@@ -142,7 +142,7 @@ Ethereum, durum erişim eylemlerini daha doğru fiyatlandırarak kazara veya kas
 
 **Kaynaklar**: [EIP-8038 teknik spesifikasyonu](https://eips.ethereum.org/EIPS/eip-8038)
 
-## Ağ dayanıklılığı 
+## Ağ dayanıklılığı {#network-resilience}
 
 doğrulayıcı görevlerine ve çıkış süreçlerine yapılan iyileştirmeler, toplu cezalandırma olayları sırasında ağ kararlılığını sağlar ve likiditeyi demokratikleştirir. Bu iyileştirmeler, ağ daha kararlı hale getirir ve büyük küçük tüm katılımcıların adil muamele görmesini sağlar.
 

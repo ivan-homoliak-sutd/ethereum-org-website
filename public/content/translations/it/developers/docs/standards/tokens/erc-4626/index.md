@@ -190,7 +190,7 @@ Restituisce l'importo totale delle quote del vault che l'`owner` possiede attual
 
 ### Eventi {#events}
 
-#### Evento Deposit
+#### Evento Deposit {#deposit-event}
 
 **DEVE** essere emesso quando i token vengono depositati nel vault tramite i metodi [`mint`](#mint) e [`deposit`](#deposit).
 
@@ -205,7 +205,7 @@ event Deposit(
 
 Dove `sender` è l'utente che ha scambiato gli `assets` per le `shares` e ha trasferito tali `shares` all'`owner`.
 
-#### Evento Withdraw
+#### Evento Withdraw {#withdraw-event}
 
 **DEVE** essere emesso quando le quote vengono prelevate dal vault da un depositante nei metodi [`redeem`](#redeem) o [`withdraw`](#withdraw).
 

@@ -48,7 +48,7 @@ Utiliza Ethereum para crear aplicaciones descentralizadas (o "dapps"), que aprov
 - [Analizar contratos inteligentes de Solidity con Slither](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [Tutorial de tecnología financiera en la blockchain: préstamos y empréstitos con Python](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## Artículos archivados
+## Artículos archivados {#archived-articles}
 
 - [Implemente su propio token ERC-20 con Python y Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Usar Brownie y Python para implementar contratos inteligentes](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

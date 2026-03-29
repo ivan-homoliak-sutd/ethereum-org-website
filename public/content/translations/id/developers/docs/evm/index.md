@@ -45,15 +45,15 @@ EVM mengeksekusi sebagai [mesin stack](https://wikipedia.org/wiki/Stack_machine)
 
 Selama eksekusi, EVM memelihara _memori_ sementara (sebagai array byte yang dialamatkan dengan kata), yang tidak bertahan di antara transaksi.
 
-### Penyimpanan sementara
+### Penyimpanan sementara {#transient-storage}
 
 Penyimpanan sementara adalah penyimpanan nilai-kunci per transaksi yang diakses melalui opcode `TSTORE` dan `TLOAD`. Penyimpanan ini bertahan di semua panggilan internal selama transaksi yang sama tetapi dihapus pada akhir transaksi. Tidak seperti memori, penyimpanan sementara dimodelkan sebagai bagian dari status EVM daripada bingkai eksekusi, namun tidak dikomit ke status global. Penyimpanan sementara memungkinkan pembagian status sementara yang efisien gas di seluruh panggilan internal selama transaksi.
 
-### Penyimpanan
+### Penyimpanan {#storage}
 
 Kontrak berisi trie _penyimpanan_ Merkle Patricia (sebagai array kata yang dapat dialamatkan dengan kata), yang terkait dengan akun yang bersangkutan dan merupakan bagian dari status global. Penyimpanan persisten ini berbeda dari penyimpanan sementara, yang hanya tersedia selama durasi satu transaksi dan tidak membentuk bagian dari trie penyimpanan persisten akun.
 
-### Opcode
+### Opcode {#opcodes}
 
 Bytecode kontrak pintar yang dikompilasi dieksekusi sebagai sejumlah [opcode](/developers/docs/evm/opcodes) EVM, yang melakukan operasi stack standar seperti `XOR`, `AND`, `ADD`, `SUB`, dll. EVM juga mengimplementasikan sejumlah operasi stack khusus blockchain, seperti `ADDRESS`, `BALANCE`, `BLOCKHASH`, dll. Kumpulan opcode juga mencakup `TSTORE` dan `TLOAD`, yang menyediakan akses ke penyimpanan sementara.
 

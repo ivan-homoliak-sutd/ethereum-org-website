@@ -33,7 +33,7 @@ Im traditionellen Finanzwesen kontrollieren Zentralbanken die Geldmenge und druc
 
 Die ETH-Emission bezieht sich auf den Prozess der Schaffung neuer ETH als Belohnungen für Validatoren, die das Ethereum-Netzwerk sichern. Sie ist unabhängig vom Gesamtangebot, welches die Gesamtmenge der im Umlauf befindlichen ETH darstellt.
 
-### Einfach ausgedrückt:
+### Einfach ausgedrückt: {#in-simple-terms}
 - **Emission** fügt dem Netzwerk neue ETH hinzu.
 - **Verbrennung** (eingeführt durch EIP-1559) entfernt ETH aus dem Netzwerk, indem ein Teil der Transaktionsgebühren zerstört wird.
 
@@ -45,7 +45,7 @@ Das Proof-of-Stake (PoS)-System von Ethereum hat die ETH-Emission im Vergleich z
 
 Diese Zahl ist jedoch dynamisch. Dank EIP-1559 können die ETH-Verbrennungsraten bei hoher Netzwerkaktivität die Emission übersteigen, was einen deflationären Effekt erzeugt. Zum Beispiel können in Zeiten hoher Nachfrage, wie bei NFT-Starts oder DeFi-Aktivitäten, mehr ETH verbrannt als emittiert werden.
 
-### Tools zur Verfolgung von ETH-Angebot und -Emission:
+### Tools zur Verfolgung von ETH-Angebot und -Emission: {#tools-to-track-eth-supply-and-issuance}
 - [Ultrasound Money](https://ultrasound.money) – Echtzeit-Verfolgung von ETH-Angebot, Emission und Verbrennungsraten
 - [Etherscan](https://etherscan.io) – Blocksuchmaschine mit Angebotsmetriken
 

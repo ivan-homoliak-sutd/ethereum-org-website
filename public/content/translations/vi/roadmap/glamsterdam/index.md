@@ -143,7 +143,7 @@ Bằng cách định giá các hành động truy cập trạng thái một các
 
 **Tài nguyên**: [Thông số kỹ thuật EIP-8038](https://eips.ethereum.org/EIPS/eip-8038)
 
-## Sự chống chịu của mạng lưới
+## Sự chống chịu của mạng lưới {#network-resilience}
 
 Việc tinh chỉnh nhiệm vụ của trình xác thực và quy trình thoát đảm bảo sự ổn định của mạng lưới trong các sự kiện slashing hàng loạt và dân chủ hóa thanh khoản. Những cải tiến này giúp mạng lưới ổn định hơn và đảm bảo rằng tất cả những người tham gia, dù lớn hay nhỏ, đều được đối xử công bằng.
 

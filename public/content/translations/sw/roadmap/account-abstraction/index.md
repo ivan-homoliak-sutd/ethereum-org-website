@@ -52,7 +52,7 @@ Usimamizi wa gharama za muamala unaboresha sana. Programu zinaweza kulipa ada za
 
 Kwa sasa, pochi za mikataba mahiri ni changamoto kutekeleza kwani zinategemea miamala changamano ya kufunga msimbo. Ethereum inaweza kubadilisha hili kwa kuruhusu mikataba mahiri ianzishe shughuli moja kwa moja, kupachika mantiki katika mikataba mahiri ya Ethereum badala ya kutegemea mawakala wa nje.
 
-### EIP-4337: Uondoaji wa akaunti bila mabadiliko ya itifaki
+### EIP-4337: Uondoaji wa akaunti bila mabadiliko ya itifaki {#eip-4337-account-abstraction-without-protocol-changes}
 
 EIP-4337 huwezesha usaidizi wa pochi ya mkataba mahiri bila kurekebisha itifaki ya msingi ya Ethereum. Inatambulisha vipengee vya `UserOperation` vinavyokusanywa katika mafungu ya miamala na wathibitishaji, na kurahisisha uundaji wa mkoba. Mkataba wa EIP-4337 EntryPoint ulitumwa kwa Ethereum Mainnet tarehe 1 Machi 2023 na umewezesha uundaji wa pochi mahiri zaidi ya milioni 26 na Uendeshaji wa Watumiaji milioni 170.
 

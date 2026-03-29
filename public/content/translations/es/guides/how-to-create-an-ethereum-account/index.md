@@ -4,13 +4,13 @@ description: "Guía paso a paso sobre la creación de una cuenta de Ethereum uti
 lang: es
 ---
 
-# Cómo crear una cuenta de Ethereum
+# Cómo crear una cuenta de Ethereum {#how-to-create-an-ethereum-account}
 
 **Cualquiera puede crear una cuenta de Ethereum de forma gratuita.** Solo tiene que instalar una aplicación de billetera de criptomonedas. Las billeteras digitales crean y administran su cuenta de Ethereum. Permiten enviar transacciones, comprobar sus saldos y conectarlo a otras aplicaciones creadas en Ethereum.
 
 Con una billetera, también puede iniciar sesión al instante en cualquier plataforma de intercambio de tokens, juegos y mercados de [NFT](/glossary/#nft). No hay necesidad de registro individual; se comparte una cuenta para todas las aplicaciones construidas en Ethereum.
 
-## Paso 1: Elija una billetera
+## Paso 1: Elija una billetera {#step-1-choose-a-wallet}
 
 Una cartera es una aplicación que te ayuda a gestionar tu cuenta de Ethereum. Hay docenas de billeteras diferentes para elegir: móviles, de escritorio o incluso extensiones de navegador.
 
@@ -24,15 +24,15 @@ Si es nuevo, puede seleccionar el filtro «Nuevo en cripto» en la página «enc
 
 También hay otros filtros de perfil para satisfacer sus necesidades. Estos son ejemplos de carteras de uso común: debería de hacer su propia investigación antes de confiar en cualquier software.
 
-## Paso 2: Descargue e instale la aplicación de la cartera
+## Paso 2: Descargue e instale la aplicación de la cartera {#step-2-download-and-install-your-wallet-app}
 
 Una vez que haya decidido una cartera específica, visite su sitio web oficial o la tienda de aplicaciones, descárguela e instálela. Todas deberían ser gratuitas.
 
-## Paso 3: Abra la aplicación y cree su cuenta de Ethereum
+## Paso 3: Abra la aplicación y cree su cuenta de Ethereum {#step-3-open-the-app-and-create-your-ethereum-account}
 
 La primera vez que abra su nueva cartera, es posible que se le pida que elija entre crear una nueva cuenta o importar una existente. Haga clic en «crear una nueva cuenta». **Este es el paso durante el cual el software de la billetera genera su cuenta de Ethereum.**
 
-## Paso 4: Guarde su frase de recuperación
+## Paso 4: Guarde su frase de recuperación {#step-4-store-your-recovery-phrase}
 
 Algunas aplicaciones le pedirán que guarde una "frase de recuperación" secreta (a veces llamada "frase semilla" o "mnemónica"). ¡Mantener esta frase segura es extremadamente importante! Esta se utiliza para generar su cuenta de Ethereum y se puede utilizar para enviar transacciones.
 
@@ -52,24 +52,24 @@ Algunas aplicaciones le pedirán que guarde una "frase de recuperación" secreta
 
 ¿Interesado en otras guías? Consulte nuestras: [Guías paso a paso](/guides/)
 
-## Preguntas más frecuentes
+## Preguntas más frecuentes {#frequently-asked-questions}
 
-### ¿Son mi cartera y mi cuenta de Ethereum lo mismo?
+### ¿Son mi cartera y mi cuenta de Ethereum lo mismo? {#are-my-wallet-and-my-ethereum-account-the-same}
 
 No. La cartera es una herramienta de gestión que le ayuda a gestionar cuentas. Una sola billetera puede acceder a varias cuentas, y varias billeteras pueden acceder a una sola cuenta. La frase de recuperación se utiliza para crear cuentas y da permiso a una aplicación de billetera para administrar activos.
 
-### ¿Puedo enviar bitcoin a una dirección de Ethereum o ether a una dirección de bitcoin?
+### ¿Puedo enviar bitcoin a una dirección de Ethereum o ether a una dirección de bitcoin? {#can-i-send-bitcoin-to-an-ethereum-address-or-ether-to-a-bitcoin-address}
 
 No, no puede. Bitcoin y ether existen en dos redes separadas (es decir, cadenas de bloques diferentes), cada una con sus propios formatos de contabilidad y dirección. Ha habido varios intentos de unir las dos redes diferentes, de los cuales el más activo actualmente es [Wrapped Bitcoin o WBTC](https://www.bitcoin.com/get-started/what-is-wbtc/). Esto no es un aval, ya que WBTC es una solución de custodia (es decir, un solo grupo de personas controla ciertas funciones críticas) y se proporciona aquí sólo para propósitos informativos.
 
-### Si tengo una dirección de ETH, ¿tengo la misma dirección en otras cadenas de bloques?
+### Si tengo una dirección de ETH, ¿tengo la misma dirección en otras cadenas de bloques? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Puede usar la misma [dirección](/glossary/#address) en todas las cadenas de bloques que utilizan un software subyacente similar al de Ethereum (conocido como «compatible con EVM»). Esta [lista](https://chainlist.org/) te mostrará qué cadenas de bloques puedes usar con la misma dirección. Algunas cadenas de bloques, como Bitcoin, implementan un conjunto de reglas de red completamente por separado y necesitará una dirección diferente con un formato diferente. Si tiene una billetera de contrato inteligente, debe consultar el sitio web de su producto para obtener más información sobre qué cadenas de bloques son compatibles, ya que generalmente estas tienen un alcance limitado pero más seguro.
 
-### ¿Tener mi propia cartera es más seguro que mantener mis fondos en una casa de cambio?
+### ¿Tener mi propia cartera es más seguro que mantener mis fondos en una casa de cambio? {#is-having-my-own-wallet-safer-than-keeping-my-funds-on-an-exchange}
 
 Tener su propia cartera significa que usted asume la responsabilidad de la seguridad de sus activos. Desafortunadamente, hay muchos ejemplos de casas de cambio fallidas que perdieron el dinero de sus clientes. Ser propietario de una billetera (con una frase de recuperación) elimina el riesgo asociado con la confianza en alguna entidad para mantener sus activos. Sin embargo, tiene que protegerla por su cuenta y evitar estafas de phishing, aprobar transacciones accidentalmente o exponer la frase de recuperación, interactuar con sitios web falsos y otros riesgos de autocustodia. Los riesgos y beneficios son diferentes.
 
-### Si pierdo mi teléfono/cartera de hardware, ¿necesito usar la misma aplicación de cartera nuevamente para recuperar los fondos perdidos?
+### Si pierdo mi teléfono/cartera de hardware, ¿necesito usar la misma aplicación de cartera nuevamente para recuperar los fondos perdidos? {#if-i-lose-my-phonehardware-wallet-do-i-need-to-use-the-same-wallet-app-again-to-recover-the-lost-funds}
 
 No, puede usar una cartera diferente. Siempre y cuando tenga la frase de recuperación, puede introducirla en la mayoría de las carteras y se restaurará su cuenta. Actúe con suma cautela si alguna vez necesita hacer esto: lo mejor es asegurarse de que no está conectado a Internet al recuperar su cartera, para que su frase de recuperación no se filtre accidentalmente. A veces es imposible recuperar los fondos perdidos sin la frase de recuperación.

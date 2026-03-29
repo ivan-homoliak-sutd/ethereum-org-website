@@ -22,15 +22,15 @@ Dalam kebanyakan kasus, tidak ada cara untuk memulihkan dana. Tidak ada organisa
 
 Opsi pemulihan Anda bergantung pada jenis dompet yang Anda gunakan.
 
-### Jika Anda memiliki frasa seed (frasa pemulihan) Anda
+### Jika Anda memiliki frasa seed (frasa pemulihan) Anda {#if-you-have-your-seed-phrase-recovery-phrase}
 
 Anda dapat memulihkan dompet Anda di aplikasi dompet apa pun yang kompatibel menggunakan frasa seed Anda. Inilah sebabnya mengapa sangat penting untuk menyimpan frasa seed Anda dengan aman secara offline. Periksa dokumentasi penyedia dompet Anda untuk instruksi pemulihan.
 
-### Jika Anda kehilangan frasa seed Anda
+### Jika Anda kehilangan frasa seed Anda {#if-you-have-lost-your-seed-phrase}
 
 Tanpa frasa seed atau kunci pribadi Anda, dana Anda tidak dapat dipulihkan. Tidak ada seorang pun, termasuk ethereum.org, yang dapat mengatur ulang kata sandi Anda atau memulihkan akses ke dompet hak asuh mandiri (self-custody).
 
-### Jika akun Anda berada di bursa
+### Jika akun Anda berada di bursa {#if-your-account-is-on-an-exchange}
 
 Jika akun Anda berada di bursa terpusat seperti Coinbase, Binance, atau Kraken, hubungi tim dukungan bursa tersebut secara langsung. Mereka mengontrol akun di platform mereka dan mungkin dapat membantu dengan pengaturan ulang kata sandi atau pemulihan akun.
 
@@ -55,7 +55,7 @@ Transaksi di Ethereum bisa macet ketika biaya gas yang Anda tetapkan lebih renda
 - **Percepat:** Kirim ulang transaksi yang sama dengan biaya gas yang lebih tinggi
 - **Batalkan:** Kirim transaksi 0 ETH ke alamat Anda sendiri menggunakan nonce yang sama dengan transaksi yang tertunda
 
-### Panduan yang membantu
+### Panduan yang membantu {#helpful-guides}
 
 - [Cara mempercepat atau membatalkan transaksi yang tertunda di MetaMask](https://support.metamask.io/transactions-and-gas/transactions/how-to-speed-up-or-cancel-a-pending-transaction/)
 - [Cara membatalkan transaksi Ethereum yang tertunda](https://info.etherscan.com/how-to-cancel-ethereum-pending-transactions/)

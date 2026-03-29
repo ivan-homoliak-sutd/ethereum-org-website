@@ -23,7 +23,7 @@ Herkes, ethereum.org'daki Merkeziyetsiz Bilim sayfasındaki listeye proje önerm
 - **Proje, Ethereum ekosisteminin bir parçası olmalıdır** - ethereum.org olarak, DeSci hareketinin temel katmanı için Ethereum'un (ve Katman 2'lerinin) uygun olduğuna inanıyoruz.
 - **Proje yeterince oturmuş olmalıdır** - Projenin, hizmetlerine birkaç aydır erişebilen gerçek kullanıcıları olmalıdır.
 
-### Olması istenen özellikler
+### Olması istenen özellikler {#nice-to-haves}
 
 - **Birden fazla dilde mevcut olma** - Projeniz, dünyanın dört bir yanındaki kullanıcıların erişebilmesi için birden çok dile çevrilmiştir.
 - **Eğitici kaynaklar** - Ürününüz, kullanıcılara yardımcı olmak ve onları eğitmek için iyi tasarlanmış bir başlangıç deneyimine sahip olmalıdır. Alternatif olarak, makaleler veya videolar gibi nasıl yapılır içeriğinin kanıtına da sahip olabilir.

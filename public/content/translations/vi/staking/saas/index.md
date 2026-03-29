@@ -43,13 +43,13 @@ Dưới đây là một số nhà cung cấp SaaS có sẵn. Sử dụng các ch
 
 <ProductDisclaimer />
 
-### Nhà cung cấp SaaS
+### Nhà cung cấp SaaS {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 Vui lòng lưu ý tầm quan trọng của việc hỗ trợ [sự đa dạng ứng dụng](/developers/docs/nodes-and-clients/client-diversity/) vì nó giúp cải thiện bảo mật của mạng và hạn chế rủi ro cho bạn. Các dịch vụ có bằng chứng về việc hạn chế sử dụng máy khách đa số được biểu thị bằng <em style={{ textTransform: "uppercase" }}>"tính đa dạng của máy khách thực thi"</em> và <em style={{ textTransform: "uppercase" }}>"tính đa dạng của máy khách đồng thuận."</em>
 
-### Trình tạo khóa
+### Trình tạo khóa {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

@@ -17,7 +17,7 @@ La solution consiste à utiliser des portefeuilles de [contrats intelligents](/g
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">En savoir plus sur l'abstraction de compte</ButtonLink>
 
-## Des nœuds pour tous
+## Des nœuds pour tous {#nodes-for-everyone}
 
 Les utilisateurs qui exécutent des [nœuds](/glossary/#node) n'ont pas à faire confiance à des tiers pour leur fournir des données, et ils peuvent interagir rapidement, en privé et sans autorisation avec la [blockchain](/glossary/#blockchain) Ethereum. Cependant, exécuter un nœud nécessite actuellement des connaissances techniques et un espace disque important, ce qui signifie que de nombreuses personnes doivent faire confiance à des intermédiaires.
 

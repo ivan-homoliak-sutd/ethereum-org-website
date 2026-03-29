@@ -451,7 +451,7 @@ Mô hình phát hành sẽ như sau:
 | Dự trữ được sử dụng sau khi bán | 8,26%                | 6,79%     | 3,96%     |
 | Thợ đào                         | 0%                   | 17,8%     | 52,0%     |
 
-#### Tốc độ tăng trưởng nguồn cung dài hạn (phần trăm)
+#### Tốc độ tăng trưởng nguồn cung dài hạn (phần trăm) {#long-term-supply-growth-rate-percent}
 
 ![Lạm phát Ethereum](./ethereum-inflation.png)
 

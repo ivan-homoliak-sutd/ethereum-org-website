@@ -23,7 +23,7 @@ Kdokoli může navrhnout projekt, který bude uveden na stránce DeSci na ethere
 - **Projekt by měl být součástí ekosystému Etherea** – Na ethereum.org věříme, že Ethereum (a jeho druhé vrstvy) je vhodnou základní vrstvou pro hnutí DeSci.
 - **Projekt je poměrně dobře zaveden** – Projekt má skutečné uživatele, kteří mají již několik měsíců přístup ke službám projektu.
 
-### Užitečné vlastnosti
+### Užitečné vlastnosti {#nice-to-haves}
 
 - **K dispozici ve více jazycích** – Váš projekt je přeložen do více jazyků, takže k němu mají přístup uživatelé z celého světa.
 - **Vzdělávací zdroje** – Váš produkt by měl mít dobře navržené vstupní prostředí, které uživatelům pomáhá a vzdělává je. Nebo důkazy o obsahu s návody, jako jsou články nebo videa.

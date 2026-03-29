@@ -4,7 +4,7 @@ description: "Un guide pratique sur la révocation de l'accès aux jetons de con
 lang: fr
 ---
 
-# Comment révoquer l'accès des contrats intelligents à vos fonds crypto
+# Comment révoquer l'accès des contrats intelligents à vos fonds crypto {#how-to-revoke-smart-contract-access-to-your-crypto-funds}
 
 Ce guide vous apprendra comment afficher la liste de tous les [contrats intelligents](/glossary/#smart-contract) auxquels vous avez autorisé l'accès à vos fonds et comment les révoquer.
 
@@ -14,7 +14,7 @@ Une fois qu'une plateforme dispose de droits d'accès illimités à un jeton sur
 
 Vos options pour vous protéger sont de ne pas utiliser de ne pas utiliser de nouveaux projets non testés, de n'approuver que ce dont vous avez besoin et de régulièrement contrôler et révoquer les accès qui présentent un risque. Alors, comment fait-on ?
 
-## Étape 1 : Utiliser les outils de révocation d'accès
+## Étape 1 : Utiliser les outils de révocation d'accès {#step-1-use-revoke-access-tools}
 
 Plusieurs sites Web vous permettent de visualiser et de révoquer les contrats intelligents connectés à votre adresse. Chacun de ces sites nécessite une connexion à votre portefeuille :
 
@@ -24,19 +24,19 @@ Plusieurs sites Web vous permettent de visualiser et de révoquer les contrats i
 - [Unrekt](https://app.unrekt.net/) (plusieurs réseaux)
 - [EverRevoke](https://everrise.com/everrevoke/) (plusieurs réseaux)
 
-## Étape 2 : Connectez votre portefeuille
+## Étape 2 : Connectez votre portefeuille {#step-2-connect-your-wallet}
 
 Une fois que vous êtes sur le site Web, cliquez sur « Connecter le portefeuille ». Le site Web devrait vous inviter à connecter votre portefeuille.
 
 Assurez-vous d'utiliser le même réseau pour votre portefeuille et pour le site Web. Vous ne verrez que les contrats intelligents liés au réseau sélectionné. Par exemple, si vous vous connectez au réseau principal Ethereum, vous ne verrez que les contrats Ethereum et non les contrats d'autres chaînes comme Polygon.
 
-## Étape 3 : Sélectionnez un contrat intelligent que vous souhaitez révoquer
+## Étape 3 : Sélectionnez un contrat intelligent que vous souhaitez révoquer {#step-3-select-a-smart-contract-you-wish-to-revoke}
 
 Vous devriez voir tous les contrats qui sont autorisés à accéder à vos jetons ainsi que leurs limites de dépenses respectives. Identifiez les contrats que vous souhaitez révoquer.
 
 Si vous ne savez pas quel contrat choisir, vous pouvez tous les révoquer. Cela ne créera aucun problème de votre côte, mais lorsque vous aurez à interagir avec un contrat révoqué, vous devrez à nouveau lui accorder des droits d'accès.
 
-## Étape 4 : Révoquer l'accès à vos fonds
+## Étape 4 : Révoquer l'accès à vos fonds {#step-4-revoke-access-to-your-funds}
 
 Lorsque vous cliquez sur révoquer, vous devriez voir une nouvelle proposition de transaction dans votre portefeuille. C'est tout à fait normal. Vous devrez payer ces frais pour que la révocation soit validée. Selon le réseau, le délai de traitement de la requête peut varier d'une à plusieurs minutes.
 
@@ -56,20 +56,20 @@ Nous vous conseillons de rafraîchir l'outil de révocation après quelques minu
 </AlertContent>
 </Alert>
 
-## Questions fréquemment posées
+## Questions fréquemment posées {#frequently-asked-questions}
 
-### Est-ce que la révocation de l'accès aux jetons met également fin au staking, aux pools de liquidités, aux prêts, etc. ?
+### Est-ce que la révocation de l'accès aux jetons met également fin au staking, aux pools de liquidités, aux prêts, etc. ? {#does-revoking-token-access-also-terminate-staking-pooling-lending-etc}
 
 Non, cela n'affectera aucune de vos stratégies [DeFi](/glossary/#defi). Vos positions et vos gains seront préservés.
 
-### Est-ce que déconnecter un portefeuille d'un projet équivaut à supprimer les permissions d'utilisation de mes fonds ?
+### Est-ce que déconnecter un portefeuille d'un projet équivaut à supprimer les permissions d'utilisation de mes fonds ? {#is-disconnecting-a-wallet-from-a-project-the-same-as-removing-permission-to-use-my-funds}
 
 Non, si vous déconnectez votre portefeuille du projet, mais que vous avez accordé des droits d'accès avec un jeton, les droits d'accès accordés par le jeton restent valides. Vous devez révoquer cet accès.
 
-### Quelle est la date d'expiration du contrat ?
+### Quelle est la date d'expiration du contrat ? {#when-will-the-contract-permission-expire}
 
 Il n'y a pas de date d'expiration pour les permissions accordées par un contrat. Lorsque vous accordez des droits avec un contrat, ils restent valides même plusieurs années après leur octroi.
 
-### Pourquoi certains projets définissent-ils une allocation de jetons illimitée ?
+### Pourquoi certains projets définissent-ils une allocation de jetons illimitée ? {#why-do-projects-set-unlimited-token-allowance}
 
 Les projets le font souvent pour minimiser le nombre de demandes requises, ce qui signifie que l'utilisateur n'a qu'à approuver une seule fois et qu'il ne paye les frais de transaction qu'une seule fois. Bien que pratique, cette solution peut s'avérer dangereuse pour les utilisateurs qui approuvent sans précaution les contrats sur des sites dont la fiabilité reste à prouver par le temps ou par des audits. Certains portefeuilles permettent d'établir une limite de transaction afin de limiter les risques. Consultez votre fournisseur de portefeuille pour plus d'informations.

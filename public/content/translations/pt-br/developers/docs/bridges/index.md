@@ -106,7 +106,7 @@ Se um dapp for integrar uma bridge ou um agregador, existem diferentes opções 
 
 Para fazer deploy de um dapp em múltiplas redes, os desenvolvedores podem usar plataformas de desenvolvimento como [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/), etc. Normalmente, essas plataformas vêm com plugins compostos que podem habilitar dapps para cross-chain. Por exemplo, os desenvolvedores podem usar um proxy de implantação determinístico oferecido pelo [plugin hardhat-deploy](https://github.com/wighawag/hardhat-deploy).
 
-#### Exemplos:
+#### Exemplos: {#examples}
 
 - [Como construir dapps de cross-chain](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [Construindo um Marketplace de NFT de Múltiplas Redes](https://youtu.be/WZWCzsB1xUE)
@@ -116,7 +116,7 @@ Para fazer deploy de um dapp em múltiplas redes, os desenvolvedores podem usar 
 
 Para monitorar atividades de contrato entre cadeias, os desenvolvedores podem usar subgraphs e plataformas de desenvolvedores, como Tenderly, para acompanhar os contratos inteligentes em tempo real. Essas plataformas também têm ferramentas que oferecem maior funcionalidade de monitoramento de dados para atividades entre redes, como a verificação de [eventos emitidos por contratos](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events), etc.
 
-#### Ferramentas
+#### Ferramentas {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

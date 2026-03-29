@@ -105,7 +105,7 @@ Jeśli zdecentralizowana aplikacja idzie drogą integracji mostu lub agregatora,
 
 Aby wdrożyć dapką na wielu łańcuchach, deweloperzy mogą korzystać z platform deweloperskich, takich jak [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/) itp. Zazwyczaj platformy te są wyposażane z komponowalnymi wtyczkami, które mogą umożliwić zdecentralizowanym aplikacjom działanie między łańcuchami. Na przykład deweloperzy mogą użyć deterministycznego proxy wdrażania oferowanego przez [wtyczkę hardhat-deploy](https://github.com/wighawag/hardhat-deploy).
 
-#### Przykłady:
+#### Przykłady: {#examples}
 
 - [Jak budować dapki cross-chain](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [Budowanie międzyłańcuchowego rynku NFT](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ Aby wdrożyć dapką na wielu łańcuchach, deweloperzy mogą korzystać z platf
 
 Aby monitorować aktywność kontraktów pomiędzy łańcuchami, deweloperzy mogą korzystać z podgrafów (subgraph) i platform deweloperskich, takich jak Tenderly, aby obserwować inteligentne kontrakty w czasie rzeczywistym. Takie platformy posiadają również narzędzia, które oferują większą funkcjonalność monitorowania danych dla działań międzyłańcuchowych, takie jak sprawdzanie [zdarzeń emitowanych przez kontrakty](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events) itp.
 
-#### Narzędzia
+#### Narzędzia {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

@@ -52,7 +52,7 @@ Manajemen gas meningkat pesat. Aplikasi dapat membayar biaya gas pengguna atau m
 
 Saat ini, dompet kontrak pintar menantang untuk diimplementasikan karena mereka bergantung pada kode kompleks yang membungkus transaksi standar. Ethereum dapat mengubah ini dengan memungkinkan kontrak pintar untuk secara langsung memulai transaksi, menanamkan logika dalam kontrak pintar Ethereum daripada mengandalkan relayer eksternal.
 
-### EIP-4337: Abstraksi akun tanpa perubahan protokol
+### EIP-4337: Abstraksi akun tanpa perubahan protokol {#eip-4337-account-abstraction-without-protocol-changes}
 
 EIP-4337 memungkinkan dukungan dompet kontrak pintar bawaan tanpa memodifikasi protokol inti Ethereum. Ini memperkenalkan objek `UserOperation` yang dikumpulkan ke dalam bundel transaksi oleh validator, menyederhanakan pengembangan dompet. Kontrak EntryPoint EIP-4337 disebarkan ke mainnet Ethereum pada 1 Maret 2023 dan telah memfasilitasi pembuatan lebih dari 26 juta dompet pintar dan 170 juta UserOperation.
 

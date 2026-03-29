@@ -47,7 +47,7 @@ Besoin d’une approche plus élémentaire ? Consultez [ethereum.org/learn](/le
 - [Analyser les contrats intelligents Solidity avec Slither](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [Tutoriel sur la Fintech blockchain : prêts et emprunts avec Python](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## Articles archivés
+## Articles archivés {#archived-articles}
 
 - [Déployer votre propre jeton ERC20 avec Python et Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Utiliser Brownie et Python pour déployer des contrats intelligents](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

@@ -11,7 +11,7 @@ sidebarDepth: 2
 
 你应该了解[以太坊节点](/developers/docs/nodes-and-clients/)的概念、[其架构](/developers/docs/nodes-and-clients/node-architecture/)、[同步策略](/developers/docs/nodes-and-clients/#sync-modes)以及[运行](/developers/docs/nodes-and-clients/run-a-node/)和[使用](/developers/docs/apis/json-rpc/)它们的做法。
 
-## 什么是归档节点
+## 什么是归档节点 {#what-is-an-archive-node}
 
 为了理解归档节点的重要性，让我们澄清一下“状态”的概念。 以太坊可以被称为_基于交易的状态机_。 它由执行交易并改变其状态的帐户和应用程序组成。 关于每个帐户和合约的信息等全局数据储存在一个名为“状态”的字典树数据库当中。 这些都是由执行层 (EL) 客户端处理，包括：
 
@@ -29,7 +29,7 @@ sidebarDepth: 2
 
 需要注意的是，网络不依赖于归档节点来保留和提供所有历史数据。 如上所述，所有历史中间状态都可以在全节点上派生出来。 任何全节点都会存储交易（目前不到 400G），而且可重放交易以构建整个归档。
 
-### 用例
+### 用例 {#use-cases}
 
 像发送交易、部署合约、验证共识等常规使用以太坊的方式不需要访问历史状态。 用户从不需要一个归档节点来进行标准的网络交互。
 
@@ -48,17 +48,17 @@ sidebarDepth: 2
 
 也有各种免费的[服务](/developers/docs/nodes-and-clients/nodes-as-a-service/)允许访问历史数据。 由于运行一个归档节点的要求更高，这种访问通常是有限的，只适用于偶尔的访问。 如果你的项目需要不断地访问历史数据，你应该考虑自己运行一个。
 
-## 实现和使用
+## 实现和使用 {#implementations-and-usage}
 
 在这种情况下，归档节点意味着由面向用户的执行层客户端提供数据，因为它们要处理状态数据库并提供 JSON-RPC 端点。 配置选项、同步时间和数据库大小可能因客户端而异。 详情请参考你的客户端提供的文档。
 
 在启动自己的归档节点之前，请了解客户端之间的差异，特别是各种[硬件要求](/developers/docs/nodes-and-clients/run-a-node/#requirements)。 大多数客户端没有针对此功能进行优化，其归档需要超过 12TB 的空间。 相比之下，像 Erigon 这样的实现可以将相同的数据存储在不到 3TB 的空间内，这使它们成为运行归档节点的最有效方式。
 
-## 推荐的做法
+## 推荐的做法 {#recommended-practices}
 
 除了一般的[运行节点建议](/developers/docs/nodes-and-clients/run-a-node/)外，归档节点可能对硬件和维护的要求更高。 考虑到 Erigon 的[主要功能](https://github.com/ledgerwatch/erigon#key-features)，最实用的方法是使用 [Erigon](/developers/docs/nodes-and-clients/#erigon) 客户端实现。
 
-### 硬件
+### 硬件 {#hardware}
 
 始终确保满足客户端文档中给定模式的硬件要求。
 归档节点的最大要求是磁盘空间。 根据不同的客户端，此项要求从 3TB 到 12TB 不等。 虽然人们可能认为机械硬盘是更适合存储大量数据的解决方案，不过，同步数据和持续地更新链头需要使用固态硬盘。 [SATA](https://www.cleverfiles.com/help/sata-hard-drive.html) 硬盘就足够了，但它应该是可靠的质量，至少是 [TLC](https://blog.synology.com/tlc-vs-qlc-ssds-what-are-the-differences)。 磁盘可以安装在有足够插槽的台式电脑或服务器中。 这样的专用设备是运行高正常运行时间节点的理想选择。 在笔记本上运行是完全可以实现的，代价是需要牺牲一定的便携性。

@@ -59,7 +59,7 @@ Manfaat dari desain jaringan ini adalah:
 
 Tabel di bawah ini menunjukkan fungsi klien yang ada yang dapat disampaikan oleh Jaringan Portal, memungkinkan pengguna untuk mengakses fungsi-fungsi ini pada perangkat dengan sumber daya yang sangat rendah.
 
-### Jaringan Portal
+### Jaringan Portal {#the-portal-networks}
 
 | Klien ringan beacon | Jaringan status              | Gosip transaksi     | Jaringan riwayat |
 | ------------------- | ---------------------------- | ------------------- | --------------- |

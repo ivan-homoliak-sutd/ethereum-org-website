@@ -47,7 +47,7 @@ Chúng tôi là một cộng đồng thân thiện sẽ giúp bạn phát triể
 
 Có thắc mắc? 🤔 Tham gia [máy chủ Discord](https://discord.gg/ethereum-org) của chúng tôi
 
-## Nhiệm vụ khởi đầu tốt để bắt đầu đóng góp
+## Nhiệm vụ khởi đầu tốt để bắt đầu đóng góp {#good-first-tasks-to-start-contributing}
 
 Dưới đây là một số nhiệm vụ có sẵn mà bạn có thể giúp chúng tôi làm và nhận việc. Phần lớn yêu cầu bạn có tài khoản GitHub vì hầu hết thay đổi trên trang web được thực hiện qua GitHub.
 
@@ -95,7 +95,7 @@ Nếu đóng góp của bạn được hợp nhất vào ethereum.org, bạn s�
 
 [Tìm hiểu thêm về OAT](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### Cách nhận
+### Cách nhận {#how-to-claim-1}
 
 1. Tham gia [máy chủ Discord](https://discord.gg/ethereum-org) của chúng tôi.
 2. Dán một liên kết đến đóng góp của bạn vào kênh `#🥇 | proof-of-contribution`.

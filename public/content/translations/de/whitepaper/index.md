@@ -442,7 +442,7 @@ Das Ausgabemodell wird wie folgt aussehen:
 | Nach dem Verkauf verwendete Reserve | 8.26%      | 6.79%       | 3.96%         |
 | Miner                               | 0 %        | 17,8 %      | 52,0 %        |
 
-#### Langfristige Versorgungswachstumsrate (Prozent)
+#### Langfristige Versorgungswachstumsrate (Prozent) {#long-term-supply-growth-rate-percent}
 
 ![Ethereum-Inflation](./ethereum-inflation.png)
 

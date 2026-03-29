@@ -18,7 +18,7 @@ Standard [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) pozwala inteligentn
 
 W tym samouczku przedstawiamy przegląd podpisów cyfrowych, tło EIP-1271 oraz specyficzną implementację EIP-1271 używaną przez [Safe](https://safe.global/) (wcześniej Gnosis Safe). Wszystko to może posłużyć jako punkt wyjścia do implementacji EIP-1271 w Twoich własnych kontraktach.
 
-## Czym jest podpis?
+## Czym jest podpis? {#what-is-a-signature}
 
 W tym kontekście podpis (a dokładniej „podpis cyfrowy”) to komunikat oraz pewnego rodzaju dowód, że komunikat pochodzi od określonej osoby/nadawcy/adresu.
 
@@ -34,7 +34,7 @@ Dlaczego? Na przykład, gdybyś dał mi umowę do podpisania, a ja odciąłbym s
 
 W ten sam sposób podpis cyfrowy nic nie znaczy bez powiązanego z nim komunikatu!
 
-## Dlaczego EIP-1271 istnieje?
+## Dlaczego EIP-1271 istnieje? {#why-does-eip-1271-exist}
 
 Aby utworzyć podpis cyfrowy do użytku w blockchainach opartych na Ethereum, zazwyczaj potrzebny jest tajny klucz prywatny, którego nikt inny nie zna. To właśnie sprawia, że Twój podpis jest Twój (nikt inny nie może stworzyć tego samego podpisu bez znajomości tajnego klucza).
 
@@ -48,7 +48,7 @@ Podczas gdy konta EOA posiadają klucz prywatny, konta inteligentnych kontraktó
 
 Problem, który EIP-1271 ma na celu rozwiązać: skąd możemy wiedzieć, że podpis inteligentnego kontraktu jest ważny, jeśli inteligentny kontrakt nie ma "tajemnicy", którą mógłby włączyć do podpisu?
 
-## Jak działa EIP-1271?
+## Jak działa EIP-1271? {#how-does-eip-1271-work}
 
 Inteligentne kontrakty nie mają kluczy prywatnych, których można użyć do podpisywania komunikatów. Skąd więc możemy wiedzieć, czy podpis jest autentyczny?
 
@@ -60,7 +60,7 @@ Kontrakt, który implementuje EIP-1271, musi mieć funkcję o nazwie `isValidSig
 
 Jeśli `isValidSignature` zwróci prawidłowy wynik, to jest to prawie tak, jakby kontrakt mówił: "tak, zatwierdzam ten podpis + komunikat!".
 
-### Interfejs
+### Interfejs {#interface}
 
 Oto dokładny interfejs w specyfikacji EIP-1271 (o parametrze `_hash` porozmawiamy poniżej, ale na razie pomyśl o nim jako o weryfikowanym komunikacie):
 
@@ -90,7 +90,7 @@ contract ERC1271 {
 }
 ```
 
-## Przykładowa implementacja EIP-1271: Safe
+## Przykładowa implementacja EIP-1271: Safe {#example-eip-1271-implementation-safe}
 
 Kontrakty mogą implementować `isValidSignature` na wiele sposobów – specyfikacja nie mówi wiele o dokładnej implementacji.
 
@@ -105,17 +105,17 @@ W kodzie Safe `isValidSignature` [jest zaimplementowane](https://github.com/safe
    1. Tworzenie: właściciel Safe tworzy komunikat offchain, a następnie prosi innych właścicieli Safe o indywidualne podpisanie komunikatu, dopóki nie będzie wystarczającej liczby podpisów, aby przekroczyć próg zatwierdzenia multisig.
    2. Weryfikacja: wywołaj `isValidSignature`. W parametrze komunikatu przekaż komunikat do zweryfikowania. W parametrze podpisu przekaż połączone ze sobą indywidualne podpisy każdego właściciela Safe, jeden po drugim. Safe sprawdzi, czy jest wystarczająco dużo podpisów, aby osiągnąć próg **oraz** czy każdy podpis jest ważny. Jeśli tak, zwróci wartość wskazującą pomyślną weryfikację podpisu.
 
-## Czym dokładnie jest parametr `_hash`? Dlaczego nie przekazać całego komunikatu?
+## Czym dokładnie jest parametr `_hash`? Dlaczego nie przekazać całego komunikatu? {#what-exactly-is-the-hash-parameter-why-not-pass-the-whole-message}
 
 Być może zauważyłeś, że funkcja `isValidSignature` w [interfejsie EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) nie przyjmuje samego komunikatu, ale parametr `_hash`. Oznacza to, że zamiast przekazywać do `isValidSignature` pełny komunikat o dowolnej długości, przekazujemy 32-bajtowy hasz komunikatu (zazwyczaj keccak256).
 
 Każdy bajt calldata – tj. dane parametrów funkcji przekazywane do funkcji inteligentnego kontraktu – [kosztuje 16 jednostek gazu (4 jednostki gazu w przypadku bajtu zerowego)](https://eips.ethereum.org/EIPS/eip-2028), więc może to zaoszczędzić dużo gazu, jeśli komunikat jest długi.
 
-### Poprzednie specyfikacje EIP-1271
+### Poprzednie specyfikacje EIP-1271 {#previous-eip-1271-specifications}
 
 Istnieją specyfikacje EIP-1271, które mają funkcję `isValidSignature` z pierwszym parametrem typu `bytes` (o dowolnej długości, zamiast o stałej długości `bytes32`) i nazwą parametru `message`. Jest to [starsza wersja](https://github.com/safe-global/safe-contracts/issues/391#issuecomment-1075427206) standardu EIP-1271.
 
-## Jak EIP-1271 powinien być zaimplementowany w moich własnych kontraktach?
+## Jak EIP-1271 powinien być zaimplementowany w moich własnych kontraktach? {#how-should-eip-1271-be-implemented-in-my-own-contracts}
 
 Specyfikacja jest w tym zakresie bardzo otwarta. Implementacja Safe zawiera kilka dobrych pomysłów:
 
@@ -124,6 +124,6 @@ Specyfikacja jest w tym zakresie bardzo otwarta. Implementacja Safe zawiera kilk
 
 Ostatecznie zależy to od Ciebie jako dewelopera kontraktu!
 
-## Podsumowanie
+## Podsumowanie {#conclusion}
 
 [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) to wszechstronny standard, który pozwala inteligentnym kontraktom weryfikować podpisy. Otwiera to drzwi do tego, aby inteligentne kontrakty działały bardziej jak EOA – na przykład zapewniając sposób na działanie "Logowania za pomocą Ethereum" z inteligentnymi kontraktami – i może być wdrażany na wiele sposobów (Safe ma nietrywialną, interesującą implementację do rozważenia).

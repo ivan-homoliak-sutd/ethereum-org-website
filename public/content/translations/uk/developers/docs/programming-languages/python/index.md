@@ -47,7 +47,7 @@ incomplete: true
 - [Аналіз смарт-контрактів Solidity за допомогою Slither](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [Посібник з блокчейн-фінтеху: кредитування та запозичення за допомогою Python](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## Архівовано статті
+## Архівовано статті {#archived-articles}
 
 - [Розгорніть власний токен ERC20 за допомогою Python та Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Використання Brownie та Python для розгортання смарт-контрактів](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

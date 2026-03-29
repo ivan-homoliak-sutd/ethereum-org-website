@@ -5,15 +5,15 @@ description: Una guida che spiega come inviare, ricevere token e connettersi ai 
 lang: it
 ---
 
-# Come usare un portafoglio
+# Come usare un portafoglio {#how-to-use-a-wallet}
 
 Scopri come utilizzare tutte le funzioni di base di un portafoglio. Se non ne hai ancora uno, dai un'occhiata alla nostra guida [Come creare un account di Ethereum](/guides/how-to-create-an-ethereum-account/).
 
-## Apri il tuo portafoglio
+## Apri il tuo portafoglio {#open-your-wallet}
 
 Dovresti vedere una dashboard che probabilmente mostrerà il tuo saldo e conterrà i pulsanti per inviare e ricevere token.
 
-## Ricevere criptovaluta
+## Ricevere criptovaluta {#receive-cryptocurrency}
 
 Vuoi ricevere criptovaluta nel tuo portafoglio?
 
@@ -30,7 +30,7 @@ App diverse possono variare o utilizzare un linguaggio diverso, ma dovrebbero gu
 3. Copia il tuo indirizzo di Ethereum negli appunti.
 4. Fornisci al mittente il tuo indirizzo di ricezione di Ethereum.
 
-## Inviare criptovaluta
+## Inviare criptovaluta {#send-cryptocurrency}
 
 Vorresti inviare ETH a un altro portafoglio?
 
@@ -46,7 +46,7 @@ Vorresti inviare ETH a un altro portafoglio?
 6. Assicurati che il tuo portafoglio abbia abbastanza ETH per coprire la commissione della transazione, che varia a seconda delle condizioni della rete. La maggior parte dei portafogli aggiungerà automaticamente la commissione suggerita alla transazione che potrai poi confermare.
 7. Una volta elaborata la tua transazione, l'importo in criptovaluta corrispondente apparirà nell'account del destinatario. Questo potrebbe richiedere da pochi secondi a qualche minuto a seconda di quanto la rete sia attualmente utilizzata.
 
-## Connettersi ai progetti
+## Connettersi ai progetti {#connecting-to-projects}
 
 Il tuo indirizzo sarà lo stesso in tutti i progetti di Ethereum. Non è necessario registrarsi individualmente su alcun progetto. Una volta che hai un portafoglio, puoi connetterti a qualsiasi progetto di Ethereum senza alcuna informazione aggiuntiva. Non sono necessarie email o altre informazioni personali.
 
@@ -74,20 +74,20 @@ Il tuo indirizzo sarà lo stesso in tutti i progetti di Ethereum. Non è necessa
 </AlertContent>
 </Alert>
 
-## Domande frequenti
+## Domande frequenti {#frequently-asked-questions}
 
-### Se possiedo un indirizzo ETH, possiedo lo stesso indirizzo su altre blockchain?
+### Se possiedo un indirizzo ETH, possiedo lo stesso indirizzo su altre blockchain? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Puoi usare lo stesso indirizzo su tutte le blockchain compatibili con l'EVM (se hai il tipo di portafoglio con una frase di recupero). Questo [elenco](https://chainlist.org/) ti mostrerà quali blockchain puoi usare con lo stesso indirizzo. Alcune blockchain, come Bitcoin, implementano un insieme completamente separato di regole di rete e avrai bisogno di un indirizzo diverso con un formato diverso. Se hai un portafoglio di contratto intelligente dovresti controllare il sito web del suo prodotto per maggiori informazioni su quali blockchain sono supportate.
 
-### Posso usare lo stesso indirizzo su più dispositivi?
+### Posso usare lo stesso indirizzo su più dispositivi? {#can-i-use-the-same-address-on-multiple-devices}
 
 Sì, puoi usare lo stesso indirizzo su più dispositivi. I portafogli sono tecnicamente solo un'interfaccia per mostrarti il tuo saldo e per effettuare transazioni, il tuo account non è memorizzato all'interno del portafoglio, ma sulla blockchain.
 
-### Non ho ricevuto la criptovaluta, dove posso controllare lo stato di una transazione?
+### Non ho ricevuto la criptovaluta, dove posso controllare lo stato di una transazione? {#i-have-not-received-the-crypto-where-can-i-check-the-status-of-a-transaction}
 
 Puoi usare gli [esploratori di blocchi](/developers/docs/data-and-analytics/block-explorers/) per vedere lo stato di qualsiasi transazione in tempo reale. Tutto ciò che devi fare è cercare l'indirizzo del tuo portafoglio o l'ID della transazione.
 
-### Posso annullare o restituire le transazioni?
+### Posso annullare o restituire le transazioni? {#can-i-cancel-or-return-transactions}
 
 No, una volta che una transazione è confermata, non puoi annullare la transazione.

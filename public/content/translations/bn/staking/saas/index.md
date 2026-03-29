@@ -43,13 +43,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### SaaS প্রোভাইডার
+### SaaS প্রোভাইডার {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 অনুগ্রহ করে [ক্লায়েন্ট ডাইভার্সিটি](/developers/docs/nodes-and-clients/client-diversity/) সমর্থন করার গুরুত্বটি মনে রাখবেন কারণ এটি নেটওয়ার্কের নিরাপত্তা উন্নত করে এবং আপনার ঝুঁকি সীমিত করে। যেসব সার্ভিসে মেজরিটি ক্লায়েন্ট ব্যবহার সীমিত করার প্রমাণ রয়েছে সেগুলোকে <em style={{ textTransform: "uppercase" }}>"এক্সিকিউশন ক্লায়েন্ট ডাইভার্সিটি"</em> এবং <em style={{ textTransform: "uppercase" }}>"কনসেন্সাস ক্লায়েন্ট ডাইভার্সিটি"</em> দিয়ে নির্দেশ করা হয়েছে।
 
-### কি জেনারেটর (Key Generators)
+### কি জেনারেটর (Key Generators) {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

@@ -17,7 +17,7 @@ Mevcut testlerin bazı örnekleri burada bulunabilir:
 - [Ethereum nedir?](/what-is-ethereum/)
 - [ETH nedir?](/what-is-ether/)
 
-## Öğrenme testi ekleme
+## Öğrenme testi ekleme {#adding-a-learn-quiz}
 
 Henüz öğrenme sınavı oluşturulmamış bir sayfa varsa, lütfen bunun için [bir konu açın](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml).
 
@@ -30,7 +30,7 @@ Lütfen aşağıdaki bilgileri sağlayın:
   - Neden doğru olduğuna dair açıklamayla beraber 1 doğru cevap
   - Her birinin neden yanlış olduklarına dair açıklamalarla beraber 3 yanlış cevap
 
-## Test sorusu ekleme
+## Test sorusu ekleme {#adding-a-quiz-question}
 
 Bir sınava ait soru bankasına eklemek istediğiniz bir soru varsa, lütfen [bir konu açın](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) ve aşağıdaki bilgileri sağlayın:
 
@@ -41,7 +41,7 @@ Bir sınava ait soru bankasına eklemek istediğiniz bir soru varsa, lütfen [bi
   - Neden doğru olduğuna dair açıklamayla beraber 1 doğru cevap
   - Her birinin neden yanlış olduklarına dair açıklamalarla beraber 3 yanlış cevap
 
-## Test sorusunu güncelleme
+## Test sorusunu güncelleme {#updating-a-quiz-question}
 
 Bir sınava ait soru bankasında güncellemek istediğiniz bir soru varsa, lütfen [bir konu açın](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) ve aşağıdaki bilgileri sağlayın:
 
@@ -53,7 +53,7 @@ Bir sınava ait soru bankasında güncellemek istediğiniz bir soru varsa, lütf
   - Neden doğru olduğuna dair açıklamayla beraber 1 doğru cevap
   - Her birinin neden yanlış olduklarına dair açıklamalarla beraber 3 yanlış cevap
 
-## Test sorusunu kaldırma
+## Test sorusunu kaldırma {#removing-a-quiz-question}
 
 Bir soruya ait içerik artık sayfada yer almıyorsa ve sorunun kaldırılması gerekiyorsa, lütfen soruyu kaldırmak için [bir konu açın](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) ve aşağıdaki bilgileri sağlayın:
 

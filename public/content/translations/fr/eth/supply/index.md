@@ -33,7 +33,7 @@ Dans la finance traditionnelle, les banques centrales contrôlent l'offre de mon
 
 L'émission d'ETH désigne le processus de création de nouveaux ETH comme récompenses pour les validateurs qui sécurisent le réseau Ethereum. Elle est distincte de l'offre totale, qui représente la quantité totale d'ETH en circulation.
 
-### En termes simples :
+### En termes simples : {#in-simple-terms}
 
 - **L'émission** ajoute de nouveaux ETH au réseau.
 - **Le brûlage** (introduit par EIP-1559) retire des ETH du réseau en détruisant une partie des frais de transaction.
@@ -46,7 +46,7 @@ Le système de preuve d'enjeu (PoS) d'Ethereum a considérablement réduit l'ém
 
 Cependant, ce nombre est dynamique. Grâce à EIP-1559, lorsque l'activité du réseau est élevée, les taux de brûlage d'ETH peuvent dépasser l'émission, créant un effet déflationniste. Par exemple, pendant les périodes de forte demande, comme les lancements de NFT ou l'activité DeFi, plus d'ETH peut être brûlé qu'émis.
 
-### Outils pour suivre l'offre et l'émission d'ETH :
+### Outils pour suivre l'offre et l'émission d'ETH : {#tools-to-track-eth-supply-and-issuance}
 
 - [Ultrasound Money](https://ultrasound.money) - Suivi en temps réel de l'offre, de l'émission et des taux de brûlage d'ETH
 - [Etherscan](https://etherscan.io) - Explorateur de blocs avec des paramètres d'offre

@@ -142,7 +142,7 @@ Dzięki dokładniejszemu wycenianiu działań związanych z dostępem do stanu, 
 
 **Zasoby**: [Specyfikacja techniczna EIP-8038](https://eips.ethereum.org/EIPS/eip-8038)
 
-## Odporność sieci 
+## Odporność sieci {#network-resilience}
 
 Usprawnienia w obowiązkach walidator i procesach wyjścia zapewniają stabilność sieć podczas masowych zdarzeń slashingowych i demokratyzują płynność. Te ulepszenia sprawiają, że sieć jest bardziej stabilna i zapewniają, że wszyscy uczestnicy, zarówno duzi, jak i mali, są traktowani sprawiedliwie.
 

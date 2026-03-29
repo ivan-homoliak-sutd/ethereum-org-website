@@ -78,7 +78,7 @@ require(msg.sender == owner, "Ni mmiliki wa mkataba huu pekee anayeweza kuita ki
 require(msg.sender == owner, "OW1");
 ```
 
-### Tumia hitilafu maalum badala ya jumbe za hitilafu
+### Tumia hitilafu maalum badala ya jumbe za hitilafu {#use-custom-errors-instead-of-error-messages}
 
 Hitilafu maalum zilianzishwa katika [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/). Ni njia nzuri ya kupunguza ukubwa wa mikataba yako, kwa sababu zimesimbwa kwa ABI kama viteuzi (kama vile vitendaji vilivyo).
 

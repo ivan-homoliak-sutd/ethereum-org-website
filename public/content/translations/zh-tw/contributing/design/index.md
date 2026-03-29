@@ -10,7 +10,7 @@ lang: zh-tw
 
 最後，這是建立多元且令人印象深刻的作品集，以展示你設計技能的好方式。
 
-## 如何做出貢獻？
+## 如何做出貢獻？ {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;針對早期設計原型提供回饋 {#design-critique}
 

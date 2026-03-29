@@ -33,7 +33,7 @@ En las finanzas tradicionales, los bancos centrales controlan el suministro del 
 
 Por emisión de ETH se refiere al proceso de creación de nuevos ETH como recompensas para los validadores que aseguran la red de Ethereum. Va separado del suministro total, el cual se refiere a la cantidad total de ETH que hay en circulación.
 
-### En términos sencillos:
+### En términos sencillos: {#in-simple-terms}
 
 - La **emisión** añade nuevos ETH a la red.
 - **Quema** (introducida por la EIP-1559) elimina ETH de la red mediante la destruccion de una parte de la comisión de la transacción.
@@ -46,7 +46,7 @@ El sistema de prueba de participación (PoS) de Ethereum ha reducido de forma dr
 
 No obstante, este número es dinámico. Gracias a EIP-1559, cuando la red cuenta con gran actividad, la tasa de quema de ETH sobrepasa la tasa de emisión, creando asi un efecto deflacionario. Por ejemplo, durante periodos de alta demanda, como lanzamientos de NFT o actividad DeFi, más ETH del que se emite puede llegar a ser quemado.
 
-### Herramientas para seguir el suministro y emisión de ETH:
+### Herramientas para seguir el suministro y emisión de ETH: {#tools-to-track-eth-supply-and-issuance}
 
 - [Ultrasound Money](https://ultrasound.money): seguimiento en tiempo real de las tasas de suministro, emisión y quema
 - [Etherscan](https://etherscan.io): explorador de bloque con métricas de suministro

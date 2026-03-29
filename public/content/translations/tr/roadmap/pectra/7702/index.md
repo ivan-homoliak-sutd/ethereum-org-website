@@ -4,7 +4,7 @@ description: "Pectra sürümündeki 7702 hakkında daha fazla bilgi edinin"
 lang: tr
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## Özet {#abstract}
 

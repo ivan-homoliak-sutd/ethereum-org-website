@@ -4,7 +4,7 @@ description: "Consulte más información sobre 7702 en la publicación de Pectra
 lang: es
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## Resumen {#abstract}
 

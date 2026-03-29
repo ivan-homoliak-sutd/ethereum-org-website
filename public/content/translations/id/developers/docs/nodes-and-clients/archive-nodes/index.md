@@ -11,7 +11,7 @@ Archive node adalah instans dari klien [Ethereum](/) yang dikonfigurasi untuk me
 
 Anda harus memahami konsep [node Ethereum](/developers/docs/nodes-and-clients/), [arsitekturnya](/developers/docs/nodes-and-clients/node-architecture/), [strategi sinkronisasi](/developers/docs/nodes-and-clients/#sync-modes), praktik [menjalankan](/developers/docs/nodes-and-clients/run-a-node/) dan [menggunakannya](/developers/docs/apis/json-rpc/).
 
-## Apa itu archive node
+## Apa itu archive node {#what-is-an-archive-node}
 
 Untuk memahami pentingnya archive node, mari kita perjelas konsep "status" (state). Ethereum dapat disebut sebagai _mesin status berbasis transaksi_. Ini terdiri dari akun dan aplikasi yang mengeksekusi transaksi yang mengubah status mereka. Data global dengan informasi tentang setiap akun dan kontrak disimpan dalam basis data trie yang disebut status. Ini ditangani oleh klien lapisan eksekusi (EL) dan mencakup:
 
@@ -29,7 +29,7 @@ Namun, ini berarti bahwa mengakses status historis pada full node menghabiskan b
 
 Penting untuk dicatat bahwa jaringan tidak bergantung pada archive node untuk menyimpan dan menyediakan semua data historis. Seperti disebutkan di atas, semua status sementara historis dapat diturunkan pada full node. Transaksi disimpan oleh full node mana pun (saat ini kurang dari 400G) dan dapat diputar ulang untuk membangun seluruh arsip.
 
-### Kasus penggunaan
+### Kasus penggunaan {#use-cases}
 
 Penggunaan reguler Ethereum seperti mengirim transaksi, menerapkan kontrak, memverifikasi konsensus, dll. tidak memerlukan akses ke status historis. Pengguna tidak pernah membutuhkan archive node untuk interaksi standar dengan jaringan.
 
@@ -48,17 +48,17 @@ Seperti dijelaskan di atas, full node perlu menghasilkan data ini dengan eksekus
 
 Ada berbagai [layanan](/developers/docs/nodes-and-clients/nodes-as-a-service/) gratis yang juga memungkinkan akses ke data historis. Karena lebih menuntut untuk menjalankan archive node, akses ini sebagian besar terbatas dan hanya berfungsi untuk akses sesekali. Jika proyek Anda memerlukan akses konstan ke data historis, Anda harus mempertimbangkan untuk menjalankannya sendiri.
 
-## Implementasi dan penggunaan
+## Implementasi dan penggunaan {#implementations-and-usage}
 
 Archive node dalam konteks ini berarti data yang disajikan oleh klien lapisan eksekusi yang menghadap pengguna karena mereka menangani basis data status dan menyediakan titik akhir JSON-RPC. Opsi konfigurasi, waktu sinkronisasi, dan ukuran basis data dapat bervariasi menurut klien. Untuk detailnya, silakan merujuk ke dokumentasi yang disediakan oleh klien Anda.
 
 Sebelum memulai archive node Anda sendiri, pelajari tentang perbedaan antara klien dan terutama berbagai [persyaratan perangkat keras](/developers/docs/nodes-and-clients/run-a-node/#requirements). Sebagian besar klien tidak dioptimalkan untuk fitur ini dan arsip mereka membutuhkan lebih dari 12TB ruang. Sebaliknya, implementasi seperti Erigon dapat menyimpan data yang sama di bawah 3TB yang menjadikannya cara paling efektif untuk menjalankan archive node.
 
-## Praktik yang disarankan
+## Praktik yang disarankan {#recommended-practices}
 
 Selain [rekomendasi umum untuk menjalankan node](/developers/docs/nodes-and-clients/run-a-node/), archive node mungkin lebih menuntut pada perangkat keras dan pemeliharaan. Mempertimbangkan [fitur utama](https://github.com/ledgerwatch/erigon#key-features) Erigon, pendekatan paling praktis adalah menggunakan implementasi klien [Erigon](/developers/docs/nodes-and-clients/#erigon).
 
-### Perangkat keras
+### Perangkat keras {#hardware}
 
 Selalu pastikan untuk memverifikasi persyaratan perangkat keras untuk mode tertentu dalam dokumentasi klien.
 Persyaratan terbesar untuk archive node adalah ruang disk. Tergantung pada klien, ini bervariasi dari 3TB hingga 12TB. Meskipun HDD mungkin dianggap sebagai solusi yang lebih baik untuk jumlah data yang besar, menyinkronkannya dan terus memperbarui ujung rantai akan membutuhkan drive SSD. Drive [SATA](https://www.cleverfiles.com/help/sata-hard-drive.html) sudah cukup baik tetapi harus memiliki kualitas yang andal, setidaknya [TLC](https://blog.synology.com/tlc-vs-qlc-ssds-what-are-the-differences). Disk dapat dipasang ke komputer desktop atau server dengan slot yang cukup. Perangkat khusus semacam itu ideal untuk menjalankan node dengan waktu aktif (uptime) tinggi. Sangat mungkin untuk menjalankannya di laptop tetapi portabilitas akan datang dengan biaya tambahan.

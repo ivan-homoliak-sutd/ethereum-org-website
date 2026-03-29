@@ -105,7 +105,7 @@ Ikiwa dApp itafuata njia ya kuunganisha daraja au mkusanyaji, kuna chaguo tofaut
 
 Ili kutuma dApp kwenye minyororo mingi, wasanidi programu wanaweza kutumia majukwaa ya maendeleo kama [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/), n.k. Kwa kawaida, majukwaa haya huja na programu-jalizi zinazoweza kutungika ambazo zinaweza kuwezesha dApps kwenda kwenye minyororo-tofauti. Kwa mfano, wasanidi programu wanaweza kutumia proksi ya utumaji ya kudhamiria inayotolewa na [programu-jalizi ya hardhat-deploy](https://github.com/wighawag/hardhat-deploy).
 
-#### Mifano:
+#### Mifano: {#examples}
 
 - [Jinsi ya kuunda dApps za minyororo-tofauti](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [Kuunda Soko la NFT la Minyororo-Tofauti](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ Ili kutuma dApp kwenye minyororo mingi, wasanidi programu wanaweza kutumia majuk
 
 Ili kufuatilia shughuli za mkataba kwenye minyororo, wasanidi programu wanaweza kutumia subgrafu na majukwaa ya wasanidi programu kama Tenderly ili kuchunguza mikataba-erevu kwa wakati halisi. Majukwaa kama haya pia yana zana zinazotoa utendaji mkuu zaidi wa ufuatiliaji wa data kwa shughuli za minyororo-tofauti, kama vile kuangalia [matukio yanayotolewa na mikataba](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events), n.k.
 
-#### Zana
+#### Zana {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

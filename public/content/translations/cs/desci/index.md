@@ -20,7 +20,7 @@ Cílem DeSci je vytvořit ekosystém, v němž jsou vědci motivováni k otevře
 
 Decentralizovaná věda umožňuje rozmanitější zdroje financování (od [DAO](/glossary/#dao), přes [kvadratické dary](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531) až po crowdfunding a další), přístupnější data a metody a poskytuje pobídky pro reprodukovatelnost.
 
-### Juan Benet – Hnutí DeSci
+### Juan Benet – Hnutí DeSci {#juan-benet-the-desci-movement}
 
 <YouTube id="zkXM9H90g_E" />
 

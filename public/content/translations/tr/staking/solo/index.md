@@ -106,13 +106,13 @@ Kurulumunuzda size yardımcı olacak çeşitli seçenekler mevcuttur. Aşağıda
 
 <ProductDisclaimer />
 
-### Düğüm araçları
+### Düğüm araçları {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 Ağın güvenliğini artırdığı ve riskinizi sınırladığı için bir [azınlık istemcisi](/developers/docs/nodes-and-clients/client-diversity/) seçmenin önemine lütfen dikkat edin. Azınlık istemcisi kurmanıza olanak tanıyan araçlar <em style={{ textTransform: "uppercase" }}>"çoklu istemci"</em> olarak belirtilir.
 
-### Anahtar Üreticileri
+### Anahtar Üreticileri {#key-generators}
 
 Bu araçlar, anahtar üretimine yardımcı olmak için [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) aracına bir alternatif olarak kullanılabilir.
 

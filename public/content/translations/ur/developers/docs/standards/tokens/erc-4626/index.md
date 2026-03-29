@@ -190,7 +190,7 @@ function balanceOf(address owner) public view returns (uint256)
 
 ### ایونٹس {#events}
 
-#### Deposit ایونٹ
+#### Deposit ایونٹ {#deposit-event}
 
 جب ٹوکنز کو [`mint`](#mint) اور [`deposit`](#deposit) طریقوں کے ذریعے والٹ میں جمع کیا جاتا ہے تو اسے **لازمی** طور پر ایمٹ (emit) کیا جانا چاہیے۔
 
@@ -205,7 +205,7 @@ event Deposit(
 
 جہاں `sender` وہ صارف ہے جس نے `shares` کے لیے `assets` کا تبادلہ کیا، اور ان `shares` کو `owner` کو منتقل کیا۔
 
-#### Withdraw ایونٹ
+#### Withdraw ایونٹ {#withdraw-event}
 
 جب کسی جمع کنندہ کی طرف سے [`redeem`](#redeem) یا [`withdraw`](#withdraw) طریقوں میں والٹ سے شیئرز نکالے جاتے ہیں تو اسے **لازمی** طور پر ایمٹ کیا جانا چاہیے۔
 

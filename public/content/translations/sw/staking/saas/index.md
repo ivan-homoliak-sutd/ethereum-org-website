@@ -43,13 +43,13 @@ Chini ni baadhi ya watoa huduma wa SaaS wanaopatikana. Tumia viashiria vilivyo h
 
 <ProductDisclaimer />
 
-### Watoa huduma za SaaS
+### Watoa huduma za SaaS {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 Tafadhali kumbuka umuhimu wa kusaidia [anuwai za mteja](/developers/docs/nodes-and-clients/client-diversity/) kwani inaboresha usalama wa mtandao, na kupunguza hatari yako. Huduma ambazo zina ushahidi wa kuzuia matumizi ya wateja walio wengi huonyeshwa kwa <em style={{ textTransform: "uppercase" }}>"anuwai za mteja wa utekelezaji"</em> na <em style={{ textTransform: "uppercase" }}>"anuwai za mteja wa makubaliano."</em>
 
-### "Vianzishi vya Funguo"
+### "Vianzishi vya Funguo" {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

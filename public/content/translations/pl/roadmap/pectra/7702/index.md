@@ -4,7 +4,7 @@ description: "Dowiedz się więcej o aktualizacji Pectra 7702"
 lang: pl
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## Streszczenie {#abstract}
 

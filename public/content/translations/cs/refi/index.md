@@ -73,7 +73,7 @@ Ačkoliv je v současnosti kladen silný důraz na trhy s emisními povolenkami 
 
 Přesunem směřování kapitálu z projektů vytěžujících zdroje k regenerativně zaměřeným akcím mohou projekty a společnosti, které poskytují sociální, environmentální nebo komunitní výhody – a které by nemusely získat financování v tradičním finančním sektoru – rychleji a snadněji získat základní kapitál a generovat pozitivní externality pro společnost. Přechod na tento model financování také otevírá dveře mnohem inkluzivnějším ekonomickým systémům, ve kterých se lidé všech demografických skupin mohou stát aktivními účastníky místo pouhých pasivních pozorovatelů. ReFi nabízí vizi Etherea jako mechanismu pro koordinaci akcí souvisejících s existenčními výzvami, kterým čelí naše druhy a veškerý život na naší planetě – jako základní vrstvu nového ekonomického paradigmatu, který umožňuje inkluzivnější a udržitelnou budoucnost na budoucí staletí.
 
-## Další zdroje informací o ReFi
+## Další zdroje informací o ReFi {#additional-reading-on-refi}
 
 - [Celkový přehled měn krytých uhlíkem a jejich místo v ekonomice](https://www.klimadao.finance/resources/the-vision-of-a-carbon-currency)
 - [The Ministry for the Future, román popisující roli měny kryté uhlíkem v boji proti změně klimatu](https://en.wikipedia.org/wiki/The_Ministry_for_the_Future)

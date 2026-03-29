@@ -5,15 +5,15 @@ description: "Hướng dẫn giải thích cách gửi, nhận token và kết n
 lang: vi
 ---
 
-# Cách để sử dụng ví
+# Cách để sử dụng ví {#how-to-use-a-wallet}
 
 Tìm hiểu cách vận hành tất cả các chức năng cơ bản của ví. Nếu bạn chưa có, hãy xem bài viết [Cách tạo một tài khoản Ethereum](/guides/how-to-create-an-ethereum-account/) của chúng tôi.
 
-## Mở ví của bạn
+## Mở ví của bạn {#open-your-wallet}
 
 Bạn sẽ thấy một bảng điều khiển có khả năng hiển thị số dư của bạn và chứa các nút để gửi và nhận token.
 
-## Nhận tiền mã hóa
+## Nhận tiền mã hóa {#receive-cryptocurrency}
 
 Bạn muốn nhận tiền mã hóa vào ví của mình?
 
@@ -30,7 +30,7 @@ Các ứng dụng khác nhau có thể sử dụng ngôn ngữ khác, nhưng ch�
 3. Sao chép đĩa chỉ ví vào trong bộ nhớ.
 4. Cung cấp cho người gửi địa chỉ ví Ethereum mà bạn muốn nhận tiền.
 
-## Gửi tiền điện tử
+## Gửi tiền điện tử {#send-cryptocurrency}
 
 Bạn có muốn gửi ETH sang một ví khác?
 
@@ -45,7 +45,7 @@ Bạn có muốn gửi ETH sang một ví khác?
 6. Hãy đảm bảo rằng ví của bạn có đủ ETH để trả cho phí giao dịch, mà đều đó tùy vào tình trạng mạng. Hầu hết ví sẽ tự động thêm phí đề nghị cho giao dịch khi đó bạn có thể xác nhận nó.
 7. Một khi giao dịch của bạn xử lí, lượng tiền điện tử tương ứng sẽ xuất hiện trong tài khoản người nhận. Điều này có thể tốn từ vài giây cho đến vài phút tùy theo độ tắc nghẽn mạng lưới.
 
-## Kết nối với các dự án
+## Kết nối với các dự án {#connecting-to-projects}
 
 Địa chỉ ví sẽ giống nhau trong mọi dự án Ethereum. Bạn không cần đăng kí riêng biệt trên bất kì dự án nào. Một khi bạn có ví, bạn có thể kết nối đến mọi dự án Ethereum mà không cần thêm thông tin gì nữa. Không cần Email hoặc bất kì thông tin cá nhân nào.
 
@@ -72,20 +72,20 @@ Bạn có muốn gửi ETH sang một ví khác?
 </AlertContent>
 </Alert>
 
-## Những câu hỏi thường gặp
+## Những câu hỏi thường gặp {#frequently-asked-questions}
 
-### Nếu tôi sở hữu một địa chỉ ETH, tôi có sở hữu cùng một địa chỉ trên các chuỗi khối khác không?
+### Nếu tôi sở hữu một địa chỉ ETH, tôi có sở hữu cùng một địa chỉ trên các chuỗi khối khác không? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Bạn có thể sử dụng địa chỉ trên mọi chuỗi khối tương thích với máy ảo Ethereum (nếu như bạn sử dụng ví có cụm từ khôi phục). [Danh sách](https://chainlist.org/) này sẽ cho bạn biết bạn có thể sử dụng những chuỗi khối nào với cùng một địa chỉ. Một số mạng lưới, như Bitcoin, triển khai một bộ quy tắc mạng hoàn toàn riêng biệt và bạn sẽ cần một địa chỉ khác có định dạng khác. Nếu bạn có ví hợp đồng thông minh, bạn nên kiểm tra trang web sản phẩm của nó để biết thêm thông tin xem nó hỗ trợ những blockchain nào.
 
-### Tôi có thể sử dụng cùng địa chỉ ví trên nhiều thiết bị?
+### Tôi có thể sử dụng cùng địa chỉ ví trên nhiều thiết bị? {#can-i-use-the-same-address-on-multiple-devices}
 
 Đúng, bạn có thể sử dụng cùng địa chỉ ví trên nhiều thiết bị. Về mặt kỹ thuật, ví chỉ là một giao diện để hiển thị số dư và giao dịch; tài khoản của bạn không được lưu trong ví mà nằm trên chuỗi khối.
 
-### Tôi không nhận được tiền điện tử, tôi có thể kiểm tra trạng thái của giao dịch?
+### Tôi không nhận được tiền điện tử, tôi có thể kiểm tra trạng thái của giao dịch? {#i-have-not-received-the-crypto-where-can-i-check-the-status-of-a-transaction}
 
 Bạn có thể sử dụng [các trình duyệt khối](/developers/docs/data-and-analytics/block-explorers/) để xem trạng thái của bất kỳ giao dịch nào trong thời gian thực. Tất cả những gì bạn cần là tìm địa chỉ ví hoặc ID của giao dịch.
 
-### Tôi có thể hủy giao dịch được không?
+### Tôi có thể hủy giao dịch được không? {#can-i-cancel-or-return-transactions}
 
 Không, một khi giao dịch được xác nhận, bạn không thể hủy giao dịch được.

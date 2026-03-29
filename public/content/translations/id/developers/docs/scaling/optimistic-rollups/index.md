@@ -253,7 +253,7 @@ Lebih suka belajar secara visual? Tonton Finematics menjelaskan optimistic rollu
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## Bacaan lebih lanjut tentang optimistic rollup
+## Bacaan lebih lanjut tentang optimistic rollup {#further-reading-on-optimistic-rollups}
 
 - [Bagaimana cara kerja optimistic rollup (Panduan Lengkap)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [Apa itu Rollup Blockchain? Pengantar Teknis](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

@@ -253,7 +253,7 @@ ii. ऑप्टिमिस्टिक रोलअप का उपयोग 
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## आशावादी रोलअप पर आगे पढ़ें
+## आशावादी रोलअप पर आगे पढ़ें {#further-reading-on-optimistic-rollups}
 
 - [आशावादी रोलअप कैसे काम करते हैं (संपूर्ण गाइड)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [ब्लॉकचेन रोलअप क्या है? एक तकनीकी परिचय](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

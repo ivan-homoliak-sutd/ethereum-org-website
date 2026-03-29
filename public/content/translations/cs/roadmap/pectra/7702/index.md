@@ -4,7 +4,7 @@ description: "Zjistěte více o 7702 ve vydání Pectra"
 lang: cs
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## Abstrakt {#abstract}
 

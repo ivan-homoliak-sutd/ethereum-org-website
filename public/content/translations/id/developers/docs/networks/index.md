@@ -32,7 +32,7 @@ Sebagian besar testnet dimulai dengan menggunakan mekanisme konsensus proof-of-a
 
 ETH di testnet seharusnya tidak memiliki nilai nyata; namun, ada pasar yang dibuat untuk jenis ETH testnet tertentu yang menjadi langka atau sulit didapat. Karena Anda memerlukan ETH untuk benar-benar berinteraksi dengan Ethereum (bahkan di testnet), kebanyakan orang mendapatkan ETH testnet secara gratis dari faucet. Sebagian besar faucet adalah aplikasi web di mana Anda dapat memasukkan alamat yang Anda minta agar ETH dikirimkan kepadanya.
 
-#### Testnet mana yang harus saya gunakan?
+#### Testnet mana yang harus saya gunakan? {#which-testnet-should-i-use}
 
 Dua testnet publik yang saat ini dikelola oleh pengembang klien adalah Sepolia dan Hoodi. Sepolia adalah jaringan bagi pengembang kontrak dan aplikasi untuk menguji aplikasi mereka. Jaringan Hoodi memungkinkan pengembang protokol menguji peningkatan jaringan, dan memungkinkan staker menguji menjalankan validator.
 
@@ -104,7 +104,7 @@ Ephemery adalah jenis testnet unik yang sepenuhnya diatur ulang setiap bulan. St
 - [Checkpoint Sync](https://checkpoint-sync.ephemery.ethpandaops.io)
 - [Launchpad](https://launchpad.ephemery.dev/)
 
-#### Faucet
+#### Faucet {#faucets}
 
 - [Bordel Faucet](https://faucet.bordel.wtf/)
 - [Pk910 PoW Faucet](https://ephemery-faucet.pk910.de/)

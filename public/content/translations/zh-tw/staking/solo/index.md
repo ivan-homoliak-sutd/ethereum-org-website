@@ -106,13 +106,13 @@ summaryPoints:
 
 <ProductDisclaimer />
 
-### 節點工具
+### 節點工具 {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 請注意選擇[非主流用戶端](/developers/docs/nodes-and-clients/client-diversity/) 的重要性，因為這可以提高網路的安全性，並降低您的風險。 可讓您設定非主流用戶端的工具稱為<em style={{ textTransform: "uppercase" }}>「多重用戶端」</em>。
 
-### 金鑰產生器
+### 金鑰產生器 {#key-generators}
 
 這些工具可做為 [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) 的替代方案，用來協助產生金鑰。
 

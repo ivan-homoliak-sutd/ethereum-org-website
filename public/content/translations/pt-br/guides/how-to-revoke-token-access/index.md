@@ -4,7 +4,7 @@ description: Um guia sobre como revogar o acesso explorativo ao token de contrat
 lang: pt-br
 ---
 
-# Como revogar o acesso ao contrato inteligente aos seus fundos cripto
+# Como revogar o acesso ao contrato inteligente aos seus fundos cripto {#how-to-revoke-smart-contract-access-to-your-crypto-funds}
 
 Este guia ensinará como visualizar uma lista de todos os [contratos inteligentes](/glossary/#smart-contract) aos quais você permitiu acesso aos seus fundos e como cancelar essas permissões.
 
@@ -14,7 +14,7 @@ Depois que uma plataforma tem direitos de acesso ilimitados a um token em sua [c
 
 As únicas proteções são deixar de usar novos projetos não testados, aprovar apenas o que você precisa, ou revogar o acesso regularmente. Então, como fazer isso?
 
-## Passo 1: Usar ferramentas de revogação de acesso
+## Passo 1: Usar ferramentas de revogação de acesso {#step-1-use-revoke-access-tools}
 
 Vários sites permitem que você veja e revogue os contratos inteligentes conectados ao seu endereço. Visite o site e conecte sua carteira:
 
@@ -24,19 +24,19 @@ Vários sites permitem que você veja e revogue os contratos inteligentes conect
 - [Unrekt](https://app.unrekt.net/) (múltiplas redes)
 - [EverRevoke](https://everrise.com/everrevoke/) (múltiplas redes)
 
-## Passo 2: Conecte sua carteira
+## Passo 2: Conecte sua carteira {#step-2-connect-your-wallet}
 
 Assim que estiver no site, clique em “Conectar carteira”. O site deverá solicitar que você conecte sua carteira.
 
 Certifique-se de usar a mesma rede em sua carteira e site. Você verá apenas os contratos inteligentes relacionados à rede selecionada. Por exemplo, se você se conectar à Ethereum Mainnet (Rede principal do Ethereum), você verá apenas contratos do Ethereum, não contratos de outras redes, como a Polygon.
 
-## Passo 3: Selecione um contrato inteligente que deseja revogar
+## Passo 3: Selecione um contrato inteligente que deseja revogar {#step-3-select-a-smart-contract-you-wish-to-revoke}
 
 Você deve ver todos os contratos aos quais é permitido acesso a seus tokens e seus limites de gastos. Encontre aquele que você deseja encerrar.
 
 Se você não sabe qual contrato escolher, você pode revogar todos eles. Isso não criará nenhum problema para você, mas terá que conceder um novo conjunto de permissões na próxima vez que interagir com qualquer um desses contratos.
 
-## Passo 4: Revogar o acesso aos seus fundos
+## Passo 4: Revogar o acesso aos seus fundos {#step-4-revoke-access-to-your-funds}
 
 Ao clicar em revogar, você verá uma nova sugestão de transação na sua carteira. Isso é o que se espera que aconteça. Você terá que pagar a tarifa para o cancelamento ser bem-sucedido. Dependendo da rede, isso pode levar de um a vários minuto para ser processado.
 
@@ -56,20 +56,20 @@ Aconselhamos que você atualize a ferramenta de revogação após alguns minutos
 </AlertContent>
 </Alert>
 
-## Perguntas frequentes
+## Perguntas frequentes {#frequently-asked-questions}
 
-### A revogação do acesso ao token também encerrará staking, pooling, empréstimo, etc?
+### A revogação do acesso ao token também encerrará staking, pooling, empréstimo, etc? {#does-revoking-token-access-also-terminate-staking-pooling-lending-etc}
 
 Não, isso não afetará nenhuma de suas estratégias de [DeFi](/glossary/#defi). Você permanecerá em suas posições e continuará recebendo recompensas, etc.
 
-### Desconectar uma carteira de um projeto é o mesmo que remover a permissão para usar meus fundos?
+### Desconectar uma carteira de um projeto é o mesmo que remover a permissão para usar meus fundos? {#is-disconnecting-a-wallet-from-a-project-the-same-as-removing-permission-to-use-my-funds}
 
 Não, se você desconectar sua carteira do projeto, mas tiver concedido permissões de acesso aos tokens, eles ainda podem usar esses tokens. Você precisa revogar esse acesso.
 
-### Quando a permissão do contrato expirará?
+### Quando a permissão do contrato expirará? {#when-will-the-contract-permission-expire}
 
 Não há datas de validade nas permissões do contrato. Se você conceder permissões contratuais, elas podem ser usadas, mesmo anos após serem concedidas.
 
-### Por que os projetos definem a permissão de token ilimitada?
+### Por que os projetos definem a permissão de token ilimitada? {#why-do-projects-set-unlimited-token-allowance}
 
 Projetos muitas vezes fazem isso para minimizar o número de solicitações necessárias, ou seja, o usuário só tem que aprovar uma vez e pagar a taxa de transação apenas uma vez. Embora conveniente, isso pode ser perigoso para os usuários aprovarem descuidadamente, em sites que não são comprovados com o tempo ou auditados. Algumas carteiras permitem que você restrinja manualmente a quantidade de tokens a serem aprovados para limitar o seu risco. Contate seu provedor de carteira para obter mais informações.

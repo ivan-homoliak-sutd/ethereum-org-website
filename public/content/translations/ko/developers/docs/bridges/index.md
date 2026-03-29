@@ -105,7 +105,7 @@ L1 블록체인과 L2 [확장](/developers/docs/scaling/) 솔루션이 확산되
 
 여러 체인에 탈중앙화앱을 배포하기 위해 개발자는 [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/) 등과 같은 개발 플랫폼을 사용할 수 있습니다. 일반적으로 이러한 플랫폼에는 탈중앙화앱이 크로스체인으로 전환할 수 있도록 하는 구성 가능한 플러그인이 함께 제공됩니다. 예를 들어, 개발자는 [hardhat-deploy plugin](https://github.com/wighawag/hardhat-deploy)에서 제공하는 결정론적 배포 프록시를 사용할 수 있습니다.
 
-#### 예시:
+#### 예시: {#examples}
 
 - [크로스체인 탈중앙화앱을 구축하는 방법](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [크로스체인 NFT 마켓플레이스 구축하기](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ L1 블록체인과 L2 [확장](/developers/docs/scaling/) 솔루션이 확산되
 
 체인 간 계약 활동을 모니터링하기 위해 개발자는 서브그래프 및 Tenderly와 같은 개발자 플랫폼을 사용하여 스마트 계약을 실시간으로 관찰할 수 있습니다. 이러한 플랫폼에는 [계약에서 발생한 이벤트](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events) 확인 등 크로스체인 활동에 대한 더 큰 데이터 모니터링 기능을 제공하는 도구도 있습니다.
 
-#### 도구
+#### 도구 {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

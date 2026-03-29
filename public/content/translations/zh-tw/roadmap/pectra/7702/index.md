@@ -4,7 +4,7 @@ description: "深入了解 Pectra 發行版的 7702"
 lang: zh-tw
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## 概要 {#abstract}
 

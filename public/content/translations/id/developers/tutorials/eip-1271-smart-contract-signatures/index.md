@@ -12,7 +12,7 @@ Standar [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) memungkinkan kontrak
 
 Dalam tutorial ini, kami memberikan gambaran umum tentang tanda tangan digital, latar belakang EIP-1271, dan implementasi spesifik EIP-1271 yang digunakan oleh [Safe](https://safe.global/) (sebelumnya Gnosis Safe). Secara keseluruhan, ini dapat berfungsi sebagai titik awal untuk mengimplementasikan EIP-1271 di kontrak Anda sendiri.
 
-## Apa itu tanda tangan?
+## Apa itu tanda tangan? {#what-is-a-signature}
 
 Dalam konteks ini, tanda tangan (lebih tepatnya, "tanda tangan digital") adalah pesan ditambah semacam bukti bahwa pesan tersebut berasal dari orang/pengirim/alamat tertentu.
 
@@ -28,7 +28,7 @@ Mengapa? Misalnya, jika Anda memberi saya kontrak untuk ditandatangani, lalu say
 
 Dengan cara yang sama, tanda tangan digital tidak berarti apa-apa tanpa pesan yang terkait!
 
-## Mengapa EIP-1271 ada?
+## Mengapa EIP-1271 ada? {#why-does-eip-1271-exist}
 
 Untuk membuat tanda tangan digital untuk digunakan pada blockchain berbasis Ethereum, Anda umumnya memerlukan kunci pribadi rahasia yang tidak diketahui orang lain. Inilah yang membuat tanda tangan Anda, menjadi milik Anda (tidak ada orang lain yang dapat membuat tanda tangan yang sama tanpa mengetahui kunci rahasia tersebut).
 
@@ -42,7 +42,7 @@ Meskipun akun EOA memiliki kunci pribadi, akun kontrak pintar tidak memiliki kun
 
 Masalah yang ingin diselesaikan oleh EIP-1271: bagaimana kita bisa tahu bahwa tanda tangan kontrak pintar itu valid jika kontrak pintar tidak memiliki "rahasia" yang dapat dimasukkan ke dalam tanda tangan?
 
-## Bagaimana cara kerja EIP-1271?
+## Bagaimana cara kerja EIP-1271? {#how-does-eip-1271-work}
 
 Kontrak pintar tidak memiliki kunci pribadi yang dapat digunakan untuk menandatangani pesan. Jadi bagaimana kita bisa tahu apakah sebuah tanda tangan itu asli?
 
@@ -54,7 +54,7 @@ Kontrak yang mengimplementasikan EIP-1271 harus memiliki fungsi bernama `isValid
 
 Jika `isValidSignature` mengembalikan hasil yang valid, itu kurang lebih berarti kontrak tersebut mengatakan "ya, saya menyetujui tanda tangan + pesan ini!"
 
-### Antarmuka
+### Antarmuka {#interface}
 
 Berikut adalah antarmuka yang tepat dalam spesifikasi EIP-1271 (kita akan membahas parameter `_hash` di bawah ini, tetapi untuk saat ini, anggap saja itu sebagai pesan yang sedang diverifikasi):
 
@@ -84,7 +84,7 @@ contract ERC1271 {
 }
 ```
 
-## Contoh Implementasi EIP-1271: Safe
+## Contoh Implementasi EIP-1271: Safe {#example-eip-1271-implementation-safe}
 
 Kontrak dapat mengimplementasikan `isValidSignature` dengan banyak cara — spesifikasi tersebut tidak banyak menjelaskan tentang implementasi pastinya.
 
@@ -99,17 +99,17 @@ Dalam kode Safe, `isValidSignature` [diimplementasikan](https://github.com/safe-
    1. Pembuatan: pemilik safe membuat pesan secara offchain, lalu meminta pemilik safe lainnya untuk menandatangani pesan tersebut secara individu hingga terdapat cukup tanda tangan untuk melampaui ambang batas persetujuan multi tanda tangan.
    2. Verifikasi: panggil `isValidSignature`. Pada parameter pesan, teruskan pesan yang akan diverifikasi. Pada parameter tanda tangan, teruskan tanda tangan individu dari setiap pemilik safe yang semuanya digabungkan bersama, secara berurutan. Safe akan memeriksa bahwa ada cukup tanda tangan untuk memenuhi ambang batas **dan** bahwa setiap tanda tangan valid. Jika ya, ia akan mengembalikan nilai yang menunjukkan verifikasi tanda tangan berhasil.
 
-## Apa sebenarnya parameter `_hash` itu? Mengapa tidak meneruskan seluruh pesan?
+## Apa sebenarnya parameter `_hash` itu? Mengapa tidak meneruskan seluruh pesan? {#what-exactly-is-the-hash-parameter-why-not-pass-the-whole-message}
 
 Anda mungkin memperhatikan bahwa fungsi `isValidSignature` dalam [antarmuka EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) tidak menerima pesan itu sendiri, melainkan parameter `_hash`. Artinya, alih-alih meneruskan pesan dengan panjang arbitrer secara penuh ke `isValidSignature`, kita malah meneruskan hash 32-byte dari pesan tersebut (umumnya keccak256).
 
 Setiap byte calldata — yaitu, data parameter fungsi yang diteruskan ke fungsi kontrak pintar — [membutuhkan biaya 16 gas (4 gas jika byte nol)](https://eips.ethereum.org/EIPS/eip-2028), sehingga ini dapat menghemat banyak gas jika pesannya panjang.
 
-### Spesifikasi EIP-1271 Sebelumnya
+### Spesifikasi EIP-1271 Sebelumnya {#previous-eip-1271-specifications}
 
 Terdapat spesifikasi EIP-1271 di luar sana yang memiliki fungsi `isValidSignature` dengan parameter pertama bertipe `bytes` (panjang arbitrer, bukan `bytes32` dengan panjang tetap) dan nama parameter `message`. Ini adalah [versi lama](https://github.com/safe-global/safe-contracts/issues/391#issuecomment-1075427206) dari standar EIP-1271.
 
-## Bagaimana seharusnya EIP-1271 diimplementasikan dalam kontrak saya sendiri?
+## Bagaimana seharusnya EIP-1271 diimplementasikan dalam kontrak saya sendiri? {#how-should-eip-1271-be-implemented-in-my-own-contracts}
 
 Spesifikasi ini sangat terbuka di sini. Implementasi Safe memiliki beberapa ide bagus:
 
@@ -118,6 +118,6 @@ Spesifikasi ini sangat terbuka di sini. Implementasi Safe memiliki beberapa ide 
 
 Pada akhirnya, itu terserah Anda sebagai pengembang kontrak!
 
-## Kesimpulan
+## Kesimpulan {#conclusion}
 
 [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) adalah standar serbaguna yang memungkinkan kontrak pintar untuk memverifikasi tanda tangan. Ini membuka pintu bagi kontrak pintar untuk bertindak lebih seperti EOA — misalnya menyediakan cara agar "Masuk dengan Ethereum" dapat bekerja dengan kontrak pintar — dan ini dapat diimplementasikan dengan banyak cara (Safe memiliki implementasi yang tidak sepele dan menarik untuk dipertimbangkan).

@@ -253,7 +253,7 @@ Você é o tipo de pessoa que aprende mais com recursos visuais? Assista aos Fin
 
 <YouTube id="7pWxCklcNsU" start="263" />
 
-## Leitura adicional sobre optimistic rollups
+## Leitura adicional sobre optimistic rollups {#further-reading-on-optimistic-rollups}
 
 - [Como os optimistic rollups funcionam (O guia completo)](https://www.alchemy.com/overviews/optimistic-rollups)
 - [O que é uma Blockchain Rollup? Uma introdução técnica](https://www.ethereum-ecosystem.com/blog/what-is-a-blockchain-rollup-a-technical-introduction)

@@ -10,7 +10,7 @@ Design ist eine entscheidende Komponente jedes Projekts. Indem Sie Ihre Zeit und
 
 Letztendlich ist dies eine großartige Möglichkeit, ein vielfältiges und beeindruckendes Portfolio aufzubauen, das Ihre Designfähigkeiten präsentiert.
 
-## Wie kann ich beitragen?
+## Wie kann ich beitragen? {#how-to-contribute}
 
 ### <Emoji text=":one:" size={1} /> &nbsp;Feedback zu frühen Design-Prototypen geben {#design-critique}
 

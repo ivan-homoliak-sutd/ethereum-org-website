@@ -47,7 +47,7 @@ Butuh panduan yang lebih mendasar terlebih dahulu? Kunjungi [ethereum.org/learn]
 - [Menganalisis Kontrak Pintar Solidity dengan Slither](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [Tutorial Fintech Blockchain: Meminjamkan dan Meminjam Dengan Python](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## Artikel yang diarsipkan
+## Artikel yang diarsipkan {#archived-articles}
 
 - [Sebarkan Token ERC20 Anda sendiri dengan Python dan Brownie](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [Menggunakan Brownie dan Python untuk menyebarkan Kontrak Pintar](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

@@ -5,15 +5,15 @@ description: "Una guía para explicar cómo enviar, recibir tókenes y conectars
 lang: es
 ---
 
-# Cómo utilizar una cartera
+# Cómo utilizar una cartera {#how-to-use-a-wallet}
 
 Domine el funcionamiento de todas las funciones básicas de su cartera. Si aún no tienes una, consulta nuestra guía: [Cómo crear una cuenta de Ethereum](/guides/how-to-create-an-ethereum-account/).
 
-## Abra su cartera
+## Abra su cartera {#open-your-wallet}
 
 Debería aparecer un panel que probablemente muestre el saldo y dos botones para enviar y recibir tókenes.
 
-## Recibir criptomonedas
+## Recibir criptomonedas {#receive-cryptocurrency}
 
 ¿Quiere recibir criptomonedas en su cartera?
 
@@ -30,7 +30,7 @@ Diferentes aplicaciones pueden variar o usar diferentes idiomas, pero todas debe
 3. Copie su dirección Ethereum al portapapeles.
 4. Proporcione al emisor su dirección de Ethereum.
 
-## Enviar criptomonedas
+## Enviar criptomonedas {#send-cryptocurrency}
 
 ¿Le gustaría enviar ETH a otra cartera?
 
@@ -45,7 +45,7 @@ Diferentes aplicaciones pueden variar o usar diferentes idiomas, pero todas debe
 6. Asegúrese de que su cartera tiene suficiente ETH como para cubrir la comisión de transacción, que varía dependiendo de las condiciones de la red. La mayoría de las carteras añadirán automáticamente la comisión sugerida que después debe confirmar.
 7. Una vez que su transacción se haya procesado, la cantidad de criptomoneda correspondiente se mostrará en la cuenta del destinatario. Esto puede llevar desde unos segundos hasta varios minutos dependiendo de cuánto se esté usando la red en ese instante.
 
-## Conectando a proyectos
+## Conectando a proyectos {#connecting-to-projects}
 
 Su dirección será la misma en todos los proyectos de Ethereum. No tiene que registrarse individualmente en ningún proyecto. Una vez que tiene una cartera, puede conectarse a cualquier proyecto de Ethereum sin ninguna información adicional. No se necesitan correos electrónicos ni otra información personal.
 
@@ -72,20 +72,20 @@ Su dirección será la misma en todos los proyectos de Ethereum. No tiene que re
 </AlertContent>
 </Alert>
 
-## Preguntas más frecuentes
+## Preguntas más frecuentes {#frequently-asked-questions}
 
-### Si tengo una dirección de ETH, ¿tengo la misma dirección en otras cadenas de bloques?
+### Si tengo una dirección de ETH, ¿tengo la misma dirección en otras cadenas de bloques? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Puede utilizar la misma dirección en todas las cadenas de bloques compatibles con EVM (si tiene el tipo de cartera con una frase de recuperación). Esta [lista](https://chainlist.org/) te mostrará qué cadenas de bloques puedes usar con la misma dirección. Algunas cadenas de bloques, como Bitcoin, implementan un conjunto de reglas de red completamente por separado y necesitará una dirección diferente con un formato diferente. Si tiene una cartera de contrato inteligente, debe consultar el sitio web del producto para obtener más información sobre qué cadenas de bloque se admiten.
 
-### ¿Puedo usar la misma dirección en múltiples dispositivos?
+### ¿Puedo usar la misma dirección en múltiples dispositivos? {#can-i-use-the-same-address-on-multiple-devices}
 
 Sí, puedes usar la misma dirección en varios dispositivos. Las carteras sólo son técnicamente una interfaz que muestra su saldo y que sirven para realizar transacciones, su cuenta no se guarda dentro de la cartera, sino en la cadena de bloques.
 
-### No he recibido mi criptomoneda, ¿dónde puedo verificar el estado de la transacción?
+### No he recibido mi criptomoneda, ¿dónde puedo verificar el estado de la transacción? {#i-have-not-received-the-crypto-where-can-i-check-the-status-of-a-transaction}
 
 Puedes usar los [exploradores de bloques](/developers/docs/data-and-analytics/block-explorers/) para ver el estado de cualquier transacción en tiempo real. Todo lo que tiene que hacer es buscar la dirección de la cartera o el ID de la transacción.
 
-### ¿Puedo cancelar o devolver transacciones?
+### ¿Puedo cancelar o devolver transacciones? {#can-i-cancel-or-return-transactions}
 
 No, una vez se ha confirmado la transacción, no puede cancelarla.

@@ -43,13 +43,13 @@ A continuación se muestran algunos proveedores de SaaS disponibles. Utilice los
 
 <ProductDisclaimer />
 
-### Proveedores SaaS
+### Proveedores SaaS {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 Tenga en cuenta la importancia de apoyar la [diversidad de clientes](/developers/docs/nodes-and-clients/client-diversity/), ya que mejora la seguridad de la red y limita su riesgo. Los servicios que tienen constatación de limitar el uso de cliente mayoritario están señalados con <em style={{ textTransform: "uppercase" }}>"diversidad de cliente de ejecución"</em> y <em style={{ textTransform: "uppercase" }}>"diversidad de cliente de consenso".</em>
 
-### Generadores de claves
+### Generadores de claves {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 

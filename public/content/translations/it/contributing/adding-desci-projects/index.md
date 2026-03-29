@@ -23,7 +23,7 @@ Chiunque è libero di suggerire un progetto da elencare sulla pagina DeSci di et
 - **Il progetto dovrebbe far parte dell'ecosistema di Ethereum** - Su ethereum.org crediamo che Ethereum (e i suoi livelli 2) sia il livello di base appropriato per il movimento DeSci.
 - **Il progetto è abbastanza consolidato** - Il progetto ha utenti reali che sono stati in grado di accedere ai servizi del progetto per diversi mesi.
 
-### Elementi graditi
+### Elementi graditi {#nice-to-haves}
 
 - **Disponibile in più lingue** - Il tuo progetto è tradotto in più lingue, consentendo agli utenti di tutto il mondo di accedervi.
 - **Risorse educative** - Il tuo prodotto dovrebbe avere un'esperienza di onboarding ben progettata per aiutare ed educare gli utenti. Oppure prove di contenuti pratici come articoli o video.

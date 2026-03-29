@@ -105,7 +105,7 @@ Jika sebuah dapp mengambil rute mengintegrasikan jembatan atau agregator, ada op
 
 Untuk menerapkan dapp di beberapa rantai, pengembang dapat menggunakan platform pengembangan seperti [Alchemy](https://www.alchemy.com/), [Hardhat](https://hardhat.org/), [Moralis](https://moralis.io/), dll. Biasanya, platform ini dilengkapi dengan plugin yang dapat disusun yang memungkinkan dapps untuk beralih ke lintas rantai. Misalnya, pengembang dapat menggunakan proksi penerapan deterministik yang ditawarkan oleh [plugin hardhat-deploy](https://github.com/wighawag/hardhat-deploy).
 
-#### Contoh:
+#### Contoh: {#examples}
 
 - [Cara membangun dapps lintas rantai](https://moralis.io/how-to-build-cross-chain-dapps/)
 - [Membangun Pasar NFT Lintas Rantai](https://youtu.be/WZWCzsB1xUE)
@@ -115,7 +115,7 @@ Untuk menerapkan dapp di beberapa rantai, pengembang dapat menggunakan platform 
 
 Untuk memantau aktivitas kontrak lintas rantai, pengembang dapat menggunakan subgraf dan platform pengembang seperti Tenderly untuk mengamati kontrak pintar secara real-time. Platform semacam itu juga memiliki alat yang menawarkan fungsionalitas pemantauan data yang lebih besar untuk aktivitas lintas rantai, seperti memeriksa [peristiwa yang dipancarkan oleh kontrak](https://docs.soliditylang.org/en/v0.8.14/contracts.html?highlight=events#events), dll.
 
-#### Alat
+#### Alat {#tools}
 
 - [The Graph](https://thegraph.com/en/)
 - [Tenderly](https://tenderly.co/)

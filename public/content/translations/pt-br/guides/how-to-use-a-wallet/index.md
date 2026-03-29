@@ -5,15 +5,15 @@ description: Uma guia explicando como enviar, receber tokens e conectar-se aos p
 lang: pt-br
 ---
 
-# Como usar uma carteira
+# Como usar uma carteira {#how-to-use-a-wallet}
 
 Aprenda como operar todas as funções básicas de uma carteira. Se você ainda não tem uma conta, confira nosso [Como criar uma conta Ethereum](/guides/how-to-create-an-ethereum-account/).
 
-## Abra sua conta
+## Abra sua conta {#open-your-wallet}
 
 Você verá um painel que provavelmente mostrará seu saldo e os botões para enviar e receber tokens.
 
-## Receber criptomoedas
+## Receber criptomoedas {#receive-cryptocurrency}
 
 Você quer receber criptomoedas na sua carteira?
 
@@ -30,7 +30,7 @@ Aplicativos diferentes podem variar ou usar linguagens diferentes, mas devem con
 3. Copie o seu endereço Ethereum para a área de transferência.
 4. Forneça ao remetente o seu endereço Ethereum.
 
-## Enviar criptomoeda
+## Enviar criptomoeda {#send-cryptocurrency}
 
 Deseja enviar ETH para outra carteira?
 
@@ -45,7 +45,7 @@ Deseja enviar ETH para outra carteira?
 6. Certifique-se de que sua carteira tenha ETH suficiente para cobrir a taxa de transação, que varia dependendo das condições da rede. A maioria das carteiras adicionará automaticamente a taxa sugerida para a transação. Em seguida, você pode confirmar.
 7. Uma vez que a transação é processada, o valor de cripto correspondente aparecerá na conta do destinatário. Isso pode demorar de alguns segundos a alguns minutos, dependendo do quanto a rede está sendo usada atualmente.
 
-## Conectando-se a projetos
+## Conectando-se a projetos {#connecting-to-projects}
 
 Seu endereço será o mesmo em todos os projetos do Ethereum. Você não precisa se registrar individualmente em nenhum projeto. Quando tiver uma carteira, você poderá se conectar a qualquer projeto na rede Ethereum sem quaisquer informações adicionais. Não são necessários e-mails ou outras informações pessoais.
 
@@ -72,20 +72,20 @@ Seu endereço será o mesmo em todos os projetos do Ethereum. Você não precisa
 </AlertContent>
 </Alert>
 
-## Perguntas frequentes
+## Perguntas frequentes {#frequently-asked-questions}
 
-### Se eu tenho um endereço de ETH, o endereço é o mesmo para outras blockchains?
+### Se eu tenho um endereço de ETH, o endereço é o mesmo para outras blockchains? {#if-i-own-an-eth-address-do-i-own-the-same-address-on-other-blockchains}
 
 Você pode utilizar o mesmo endereço em todos os blockchains compatíveis com EVM (se você tiver o tipo de carteira com uma frase de recuperação). Esta [lista](https://chainlist.org/) mostra quais blockchains você pode usar com o mesmo endereço. Algumas blockchains, como o Bitcoin, implementam um conjunto completamente separado de regras de rede e você precisará de um endereço diferente com um formato diferente. Se você tem uma carteira de contrato inteligente, você deve verificar o site do produto para mais informações sobre quais blockchains são suportadas.
 
-### Posso usar o mesmo endereço em vários dispositivos?
+### Posso usar o mesmo endereço em vários dispositivos? {#can-i-use-the-same-address-on-multiple-devices}
 
 Sim, você pode utilizar o mesmo endereço em diversos dispositivos. Tecnicamente, carteiras são apenas uma interface para mostrar o seu saldo e fazer transações — sua conta não está armazenada na carteira, mas na blockchain.
 
-### Eu não recebi a criptomoeda. Onde posso verificar o status da transação?
+### Eu não recebi a criptomoeda. Onde posso verificar o status da transação? {#i-have-not-received-the-crypto-where-can-i-check-the-status-of-a-transaction}
 
 Você pode usar [exploradores de blocos](/developers/docs/data-and-analytics/block-explorers/) para ver o status de qualquer transação em tempo real. Tudo o que você precisa fazer é pesquisar o endereço da sua carteira ou o ID da transação.
 
-### Posso cancelar ou retornar transações?
+### Posso cancelar ou retornar transações? {#can-i-cancel-or-return-transactions}
 
 Não, uma vez que uma transação é confirmada, você não pode cancelá-la.

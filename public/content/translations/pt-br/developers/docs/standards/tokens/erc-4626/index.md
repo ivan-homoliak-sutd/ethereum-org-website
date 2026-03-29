@@ -190,7 +190,7 @@ Retorna a quantidade total de shares do cofre que o `owner` possui atualmente.
 
 ### Eventos {#events}
 
-#### Evento de depósito
+#### Evento de depósito {#deposit-event}
 
 **DEVE** ser emitido quando tokens são depositados no cofre através dos métodos [`mint`](#mint) e [`deposit`](#deposit).
 
@@ -205,7 +205,7 @@ event Deposit(
 
 Onde `sender` é o usuário que trocou `assets` por `shares` e transferiu essas `shares` para o `owner`.
 
-#### Evento de retirada
+#### Evento de retirada {#withdraw-event}
 
 **DEVE** ser emitido quando shares são sacadas do cofre por um depositante nos métodos [`redeem`](#redeem) ou [`withdraw`](#withdraw).
 

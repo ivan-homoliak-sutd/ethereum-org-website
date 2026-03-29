@@ -14,13 +14,13 @@ As árvores Merkle permitem a criação de uma pilha sem fim dessas cadeias, que
 
 Você deve ter um bom entendimento de todos os tópicos fundamentais e um entendimento de alto nível da [escalabilidade do Ethereum](/developers/docs/scaling/).
 
-## O que é Plasma?
+## O que é Plasma? {#what-is-plasma}
 
 Plasma é uma estrutura para melhorar o dimensionamento em blockchains públicas como o Ethereum. Conforme descrito no [whitepaper original do Plasma](http://plasma.io/plasma.pdf), as cadeias Plasma são construídas sobre outra blockchain (chamada de "cadeia raiz"). Cada "cadeia filha" estende da cadeia raiz e geralmente é gerenciada por um contrato inteligente implantado na cadeia pai.
 
 O contrato Plasma funciona, entre outras coisas, como uma [ponte](/developers/docs/bridges/) que permite aos usuários mover ativos entre a Rede Principal do Ethereum e a cadeia plasma. Embora isso as torne semelhantes às [sidechains](/developers/docs/scaling/sidechains/), as cadeias plasma se beneficiam — pelo menos, até certo ponto — da segurança da rede principal do Ethereum. Isso é diferente das sidechains que são as únicas responsáveis pela segurança delas.
 
-## Como as cadeias Plasma funcionam?
+## Como as cadeias Plasma funcionam? {#how-does-plasma-work}
 
 Os componentes básicos do framework Plasma são:
 

@@ -106,13 +106,13 @@ K dispozici jsou různé možnosti, které vám pomohou s nastavením. Pomocí v
 
 <ProductDisclaimer />
 
-### Nástroje uzlu
+### Nástroje uzlu {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 Vezměte prosím na vědomí, že je důležité vybrat [menšinového klienta](/developers/docs/nodes-and-clients/client-diversity/), protože zlepšuje zabezpečení sítě a omezuje vaše riziko. Nástroje, které umožňují nastavení menšinového klienta, jsou označeny jako <em style={{ textTransform: "uppercase" }}>„multi-klientské“</em>.
 
-### Generátory klíčů
+### Generátory klíčů {#key-generators}
 
 Tyto nástroje lze použít jako alternativu k [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/), které vám pomohou s generováním klíčů.
 

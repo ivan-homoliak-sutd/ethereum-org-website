@@ -4,7 +4,7 @@ description: "Guía para revocar el acceso a tókenes de contratos inteligentes 
 lang: es
 ---
 
-# Cómo revocar el acceso al contrato inteligente a sus fondos en criptomonedas
+# Cómo revocar el acceso al contrato inteligente a sus fondos en criptomonedas {#how-to-revoke-smart-contract-access-to-your-crypto-funds}
 
 Esta guía le enseñará cómo ver una lista de todos los [contratos inteligentes](/glossary/#smart-contract) a los que ha permitido acceder a sus fondos y cómo cancelarlos.
 
@@ -14,7 +14,7 @@ Una vez que una plataforma tiene derechos de acceso ilimitados a un token en su 
 
 Las únicas protecciones son abstenerse de utilizar nuevos proyectos no probados, aprobar sólo lo que se necesita o revocar regularmente el acceso. Pero, ¿cómo se logra hacer?
 
-## Paso 1: Utilizar las herramientas de revocación de acceso
+## Paso 1: Utilizar las herramientas de revocación de acceso {#step-1-use-revoke-access-tools}
 
 Existen varios sitios web que le permiten ver y revocar contratos inteligentes conectados a su dirección. Visite el sitio web y conecte su cartera:
 
@@ -24,19 +24,19 @@ Existen varios sitios web que le permiten ver y revocar contratos inteligentes c
 - [Unrekt](https://app.unrekt.net/) (múltiples redes)
 - [EverRevoke](https://everrise.com/everrevoke/) (múltiples redes)
 
-## Paso 2: Conecte su cartera
+## Paso 2: Conecte su cartera {#step-2-connect-your-wallet}
 
 Una vez en el sitio web, haga clic en «Conectar cartera». El sitio web debería pedirle que conecte su cartera.
 
 Asegúrese de usar la misma red en su cartera y en el sitio web. Solo podrá ver los contratos inteligentes relacionados con la red seleccionada. Por ejemplo, si se conecta a Ethereum Mainnet, solo verá contratos de Ethereum, no contratos de otras cadenas como Polygon.
 
-## Paso 3: Seleccione el contrato inteligente que desee revocar
+## Paso 3: Seleccione el contrato inteligente que desee revocar {#step-3-select-a-smart-contract-you-wish-to-revoke}
 
 Debería ver todos los contratos que tienen permiso para acceder a sus tókenes y su límite de gasto. Encuentre el que desea revocar.
 
 Si no sabe qué contrato elegir, puede revocarlos todos. No le creará ningún problema, pero tendrá que conceder un nuevo conjunto de permisos la próxima vez que interactúe con cualquiera de estos contratos.
 
-## Paso 4: Revocar acceso a sus fondos
+## Paso 4: Revocar acceso a sus fondos {#step-4-revoke-access-to-your-funds}
 
 Una vez que haga clic en revocar, debería ver una nueva sugerencia de transacción en su cartera. Es algo que cabe esperar. Tendrá que pagar la cuota para que se cancele satisfactoriamente. Dependiendo de la red, su procesaminto puede llevar entre uno y varios minutos.
 
@@ -56,20 +56,20 @@ Le aconsejamos que actualice la herramienta de revocación transcurridos unos mi
 </AlertContent>
 </Alert>
 
-## Preguntas más frecuentes
+## Preguntas más frecuentes {#frequently-asked-questions}
 
-### ¿Revocar el acceso de tókenes también hace que se termine la apuesta, la reserva, el préstamo, etc?
+### ¿Revocar el acceso de tókenes también hace que se termine la apuesta, la reserva, el préstamo, etc? {#does-revoking-token-access-also-terminate-staking-pooling-lending-etc}
 
 No, no afectará a ninguna de sus estrategias de [DeFi](/glossary/#defi). Permanecerá en sus posiciones y seguirá obteniendo recompensas, etc.
 
-### ¿Desconectar una cartera de un proyecto es lo mismo que quitar el permiso para usar mis fondos?
+### ¿Desconectar una cartera de un proyecto es lo mismo que quitar el permiso para usar mis fondos? {#is-disconnecting-a-wallet-from-a-project-the-same-as-removing-permission-to-use-my-funds}
 
 No, si desconecta su cartera del proyecto, pero ha concedido permisos de acceso a tókenes, todavía pueden usar esos tókenes. Es preciso que revoque ese acceso.
 
-### ¿Cuándo caducará el permiso del contrato?
+### ¿Cuándo caducará el permiso del contrato? {#when-will-the-contract-permission-expire}
 
 No hay fechas de caducidad en los permisos de contrato. Si usted concede permisos de contrato, pueden usarse incluso años después de que se concedan.
 
-### ¿Por qué los proyectos establecen una autorización ilimitada de tókenes?
+### ¿Por qué los proyectos establecen una autorización ilimitada de tókenes? {#why-do-projects-set-unlimited-token-allowance}
 
 Los proyectos a menudo hacen esto para minimizar el número de peticiones requeridas, lo que significa que el usuario sólo tiene que aprobar y pagar la cuota de transacción una vez. Aunque es conveniente aprobarlos, si los usuarios lo hacen sin prestar atención puede ser peligroso en sitios que no están probados con tiempo o auditados. Algunas carteras le permiten restringir manualmente la cantidad de tókenes que se están aprobando para limitar su riesgo. Consulte con su proveedor de cartera para obtener más información.

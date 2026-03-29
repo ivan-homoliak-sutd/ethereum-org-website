@@ -4,23 +4,23 @@ description: "一組實用指南，向初學者解釋有關使用以太坊的基
 lang: zh-tw
 ---
 
-# 以太坊指南
+# 以太坊指南 {#ethereum-guides}
 
 想要開啟你的以太坊之旅嗎？ 我們的實用指南將帶你一步一步開始認識以太坊，並讓你更輕鬆地使用這項新技術。
 
-## 開始使用
+## 開始使用 {#getting-started}
 
 1. [如何「創建」以太坊帳戶](/guides/how-to-create-an-ethereum-account/) - 任何人都可以免費創建一個錢包。 本指南會引導你從哪裡開始。
 
 2. [如何使用錢包](/guides/how-to-use-a-wallet/) - 學習如何在您的錢包中發送和接收代幣，以及如何將錢包連接至專案。
 
-## 安全基礎知識
+## 安全基礎知識 {#security-basics}
 
 1. [如何撤銷智慧型合約對您加密貨幣資金的存取權限](/guides/how-to-revoke-token-access/) - 如果您突然在錢包中看到一筆非您發起的交易，本指南將教您如何防止這種情況再次發生。
 
 2. [如何辨識詐騙代幣](/guides/how-to-id-scam-tokens/) - 什麼是詐騙代幣？ 它們如何讓自己看起來合法，您又能如何辨識它們，以保護自己不受詐騙？
 
-## 使用以太坊
+## 使用以太坊 {#using-ethereum}
 
 1. [如何將代幣橋接到 Layer 2](/guides/how-to-use-a-bridge/) - 以太坊交易費用是否太高？ 可以考慮轉而使用以太坊擴容方案，即二層網路。
 

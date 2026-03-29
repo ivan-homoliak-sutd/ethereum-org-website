@@ -33,7 +33,7 @@ Geleneksel finansta merkez bankaları para arzını kontrol eder ve genellikle e
 
 ETH ihracı, Ethereum ağını güvence altına alan doğrulayıcılar için ödül olarak yeni ETH oluşturma sürecini ifade eder. Bu, dolaşımdaki toplam ETH miktarı olan toplam arzdan ayrıdır.
 
-### Basit terimlerle:
+### Basit terimlerle: {#in-simple-terms}
 
 - **İhraç**, ağa yeni ETH ekler.
 - **Yakım** (EIP-1559 ile getirildi), işlem ücretlerinin bir kısmını yok ederek ağdan ETH'yi kaldırır.
@@ -46,7 +46,7 @@ Ethereum'un Hisse İspatı (PoS) sistemi, önceki İş İspatı (PoW) modeline k
 
 Ancak bu sayı dinamiktir. EIP-1559 sayesinde, ağ etkinliği yüksek olduğunda ETH yakım oranları ihracı aşarak deflasyonist bir etki yaratabilir. Örneğin, NFT lansmanları veya DeFi etkinliği gibi yüksek talep dönemlerinde, ihraç edilenden daha fazla ETH yakılabilir.
 
-### ETH Arzını ve İhracını İzleme Araçları:
+### ETH Arzını ve İhracını İzleme Araçları: {#tools-to-track-eth-supply-and-issuance}
 
 - [Ultrasound Money](https://ultrasound.money) - ETH arzının, ihracının ve yakım oranlarının gerçek zamanlı takibi
 - [Etherscan](https://etherscan.io) - Arz metrikleri içeren blok gezgini

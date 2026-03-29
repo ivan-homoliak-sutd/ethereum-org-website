@@ -23,7 +23,7 @@ Cualquiera es libre de sugerirnos elistar un proyecto DeSci en la página de ehe
 - **El proyecto debe ser parte del ecosistema de Ethereum** - En ethereum.org creemos que Ethereum (y sus Capas 2) son la capa base apropiada para el movimiento DeSci.
 - **El proyecto está bastante bien establecido** - El proyecto cuenta con usuarios reales que han podido acceder a los servicios del proyecto durante varios meses.
 
-### Sería aconsejable tener...
+### Sería aconsejable tener... {#nice-to-haves}
 
 - **Disponible en varios idiomas** - Su proyecto está traducido a varios idiomas, lo que permite que usuarios de todo el mundo accedan a él.
 - **Recursos educativos** - Su producto debería tener una experiencia de incorporación bien diseñada para ayudar y educar a los usuarios. O prueba de cómo hacer contenido como artículos o vídeos.

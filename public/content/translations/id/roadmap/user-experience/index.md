@@ -17,7 +17,7 @@ Solusi untuk hal ini adalah menggunakan dompet [kontrak pintar](/glossary/#smart
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">Lebih lanjut tentang abstraksi akun</ButtonLink>
 
-## Node untuk semua orang
+## Node untuk semua orang {#nodes-for-everyone}
 
 Pengguna yang menjalankan [node](/glossary/#node) tidak perlu memercayai pihak ketiga untuk menyediakan data bagi mereka, dan mereka dapat berinteraksi dengan cepat, secara pribadi, dan tanpa izin dengan [blockchain](/glossary/#blockchain) Ethereum. Namun, menjalankan node saat ini membutuhkan pengetahuan teknis dan ruang disk yang besar, yang berarti banyak orang harus memercayai perantara sebagai gantinya.
 

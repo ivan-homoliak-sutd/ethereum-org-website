@@ -17,7 +17,7 @@ A solução para isso é usar carteiras de [contrato inteligente](/glossary/#sma
 
 <ButtonLink variant="outline-color" href="/roadmap/account-abstraction/">Mais sobre abstração de contas</ButtonLink>
 
-## Nós para todos
+## Nós para todos {#nodes-for-everyone}
 
 Usuários que executam [nós](/glossary/#node) não precisam confiar em terceiros para lhes fornecer dados e podem interagir de forma rápida, privada e sem permissão com a [blockchain](/glossary/#blockchain) do Ethereum. Entretanto, a execução de um nó atualmente exige conhecimento técnico e espaço considerável em disco, o que significa que muitas pessoas precisam confiar em intermediários.
 

@@ -18,7 +18,7 @@ Kiwango cha [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) huruhusu mikatab
 
 Katika mafunzo haya, tunatoa muhtasari wa sahihi za dijitali, historia ya EIP-1271, na utekelezaji mahususi wa EIP-1271 unaotumiwa na [Safe](https://safe.global/) (awali Gnosis Safe). Kwa pamoja, hii inaweza kutumika kama sehemu ya kuanzia kwa ajili ya kutekeleza EIP-1271 katika mikataba yako mwenyewe.
 
-## Sahihi ni nini?
+## Sahihi ni nini? {#what-is-a-signature}
 
 Katika muktadha huu, sahihi (kwa usahihi zaidi, "sahihi ya dijitali") ni ujumbe pamoja na aina fulani ya uthibitisho kwamba ujumbe umetoka kwa mtu/mtumaji/anwani maalum.
 
@@ -34,7 +34,7 @@ Kwa nini? Kwa mfano, kama ungenipa mkataba wa kusaini, kisha nikakata ukurasa wa
 
 Vivyo hivyo, sahihi ya dijitali haina maana yoyote bila ujumbe unaohusiana nayo!
 
-## Kwa nini EIP-1271 ipo?
+## Kwa nini EIP-1271 ipo? {#why-does-eip-1271-exist}
 
 Ili kuunda sahihi ya dijitali kwa matumizi katika blockchain zinazotumia Ethereum, kwa ujumla unahitaji ufunguo binafsi wa siri ambao hakuna mtu mwingine anayejua. Hiki ndicho kinachofanya sahihi yako kuwa yako (hakuna mtu mwingine anayeweza kuunda sahihi sawa bila kujua ufunguo wa siri).
 
@@ -48,7 +48,7 @@ Ingawa akaunti za EOA zina ufunguo binafsi, akaunti za mkataba-erevu hazina aina
 
 Tatizo ambalo EIP-1271 inalenga kutatua: tunawezaje kujua kuwa sahihi ya mkataba-erevu ni halali ikiwa mkataba-erevu hauna “siri” inayoweza kujumuishwa katika sahihi?
 
-## EIP-1271 inafanyaje kazi?
+## EIP-1271 inafanyaje kazi? {#how-does-eip-1271-work}
 
 Mikataba-erevu haina funguo binafsi zinazoweza kutumika kusaini jumbe. Basi tunawezaje kujua ikiwa sahihi ni halisi?
 
@@ -60,7 +60,7 @@ Mkataba unaotekeleza EIP-1271 lazima uwe na kitendakazi kiitwacho `isValidSignat
 
 Ikiwa `isValidSignature` inarudisha matokeo halali, hiyo ni sawa na mkataba kusema “ndiyo, naidhinisha sahihi + ujumbe huu!”
 
-### Kiolesura
+### Kiolesura {#interface}
 
 Huu hapa ni muundo kamili katika vipimo vya EIP-1271 (tutazungumzia kigezo cha `_hash` hapo chini, lakini kwa sasa, fikiria kama ni ujumbe unaothibitishwa):
 
@@ -90,7 +90,7 @@ contract ERC1271 {
 }
 ```
 
-## Mfano wa Utekelezaji wa EIP-1271: Safe
+## Mfano wa Utekelezaji wa EIP-1271: Safe {#example-eip-1271-implementation-safe}
 
 Mikataba inaweza kutekeleza `isValidSignature` kwa njia nyingi — vipimo havisemi mengi kuhusu utekelezaji kamili.
 
@@ -105,17 +105,17 @@ Katika msimbo wa Safe, `isValidSignature` [imetekelezwa](https://github.com/safe
    1. Uundaji: mmiliki wa safe huunda ujumbe nje ya mnyororo, kisha anawapata wamiliki wengine wa safe kusaini ujumbe huo kila mmoja kivyake hadi kuwe na sahihi za kutosha kuvuka kizingiti cha idhini ya multisig.
    2. Uthibitishaji: ita `isValidSignature`. Katika kigezo cha ujumbe, pitisha ujumbe wa kuthibitishwa. Katika kigezo cha sahihi, pitisha sahihi za kila mmiliki wa safe zikiwa zimeunganishwa pamoja, moja baada ya nyingine. Safe itaangalia kuwa kuna sahihi za kutosha kufikia kizingiti **na** kwamba kila sahihi ni halali. Ikiwa ndivyo, itarudisha thamani inayoonyesha uthibitishaji uliofaulu wa sahihi.
 
-## Kigezo cha `_hash` ni nini hasa? Kwa nini usipitishe ujumbe wote?
+## Kigezo cha `_hash` ni nini hasa? Kwa nini usipitishe ujumbe wote? {#what-exactly-is-the-hash-parameter-why-not-pass-the-whole-message}
 
 Huenda umegundua kwamba kitendakazi cha `isValidSignature` katika [muundo wa EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) hakichukui ujumbe wenyewe, bali kigezo cha `_hash`. Hii inamaanisha kuwa badala ya kupitisha ujumbe kamili wa urefu wowote kwa `isValidSignature`, badala yake tunapitisha hashi ya baiti 32 ya ujumbe (kwa ujumla keccak256).
 
 Kila baiti ya calldata — yaani, data ya kigezo cha kitendakazi inayopitishwa kwa kitendakazi cha mkataba-erevu — [hugharimu gesi 16 (gesi 4 ikiwa ni baiti ya sifuri)](https://eips.ethereum.org/EIPS/eip-2028), hivyo hii inaweza kuokoa gesi nyingi ikiwa ujumbe ni mrefu.
 
-### Vipimo vya Awali vya EIP-1271
+### Vipimo vya Awali vya EIP-1271 {#previous-eip-1271-specifications}
 
 Kuna vipimo vya EIP-1271 vinavyotumika ambavyo vina kitendakazi cha `isValidSignature` chenye kigezo cha kwanza cha aina ya `bytes` (urefu wowote, badala ya urefu usiobadilika wa `bytes32`) na jina la kigezo `message`. Hili ni [toleo la zamani](https://github.com/safe-global/safe-contracts/issues/391#issuecomment-1075427206) la kiwango cha EIP-1271.
 
-## EIP-1271 inapaswa kutekelezwa vipi katika mikataba yangu mwenyewe?
+## EIP-1271 inapaswa kutekelezwa vipi katika mikataba yangu mwenyewe? {#how-should-eip-1271-be-implemented-in-my-own-contracts}
 
 Vipimo havina masharti mengi hapa. Utekelezaji wa Safe una mawazo mazuri:
 
@@ -124,6 +124,6 @@ Vipimo havina masharti mengi hapa. Utekelezaji wa Safe una mawazo mazuri:
 
 Mwishowe, ni juu yako kama msanidi programu wa mkataba!
 
-## Hitimisho
+## Hitimisho {#conclusion}
 
 [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) ni kiwango chenye matumizi mengi kinachoruhusu mikataba-erevu kuthibitisha sahihi. Inafungua mlango kwa mikataba-erevu kufanya kazi zaidi kama EOA — kwa mfano kutoa njia ya "Ingia na Ethereum" kufanya kazi na mikataba-erevu — na inaweza kutekelezwa kwa njia nyingi (Safe ikiwa na utekelezaji usio rahisi na wa kuvutia kuzingatia).

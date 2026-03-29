@@ -190,7 +190,7 @@ Mengembalikan jumlah total saham vault yang saat ini dimiliki oleh `owner`.
 
 ### Event {#events}
 
-#### Event Deposit
+#### Event Deposit {#deposit-event}
 
 **HARUS** dipancarkan ketika token disetorkan ke dalam vault melalui metode [`mint`](#mint) dan [`deposit`](#deposit).
 
@@ -205,7 +205,7 @@ event Deposit(
 
 Di mana `sender` adalah pengguna yang menukarkan `assets` dengan `shares`, dan mentransfer `shares` tersebut kepada `owner`.
 
-#### Event Withdraw
+#### Event Withdraw {#withdraw-event}
 
 **HARUS** dipancarkan ketika saham ditarik dari vault oleh penyetor dalam metode [`redeem`](#redeem) atau [`withdraw`](#withdraw).
 

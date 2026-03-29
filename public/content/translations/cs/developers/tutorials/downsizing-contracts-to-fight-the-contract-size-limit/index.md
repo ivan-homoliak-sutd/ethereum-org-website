@@ -79,7 +79,7 @@ require(msg.sender == owner, "Tuto funkci může volat pouze vlastník tohoto ko
 require(msg.sender == owner, "OW1");
 ```
 
-### Používejte vlastní chyby namísto chybových zpráv
+### Používejte vlastní chyby namísto chybových zpráv {#use-custom-errors-instead-of-error-messages}
 
 Vlastní chyby byly zavedeny v [Solidity 0.8.4](https://blog.soliditylang.org/2021/04/21/custom-errors/). Jsou skvělým způsobem, jak zmenšit velikost vašich kontraktů, protože jsou kódovány v ABI jako selektory (stejně jako funkce).
 

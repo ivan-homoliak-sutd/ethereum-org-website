@@ -4,7 +4,7 @@ description: "Pectra ریلیز میں 7702 کے بارے میں مزید جان
 lang: ur
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## خلاصہ {#abstract}
 

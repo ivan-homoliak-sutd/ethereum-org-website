@@ -20,7 +20,7 @@ DeSciは、科学者が自身の研究を公然と共有することにインセ
 
 分散型科学は、[DAO](/glossary/#dao)や[クアドラティックドネーション](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531)からクラウドファンディングなど、より多様な資金源を可能にし、データや手法へのアクセスを容易にし、再現性へのインセンティブも提供します。
 
-### Juan Benet - DeSci運動
+### Juan Benet - DeSci運動 {#juan-benet-the-desci-movement}
 
 <YouTube id="zkXM9H90g_E" />
 

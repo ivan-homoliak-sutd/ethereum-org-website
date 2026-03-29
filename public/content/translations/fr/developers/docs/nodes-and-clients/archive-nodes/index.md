@@ -11,7 +11,7 @@ Un nœud d'archive est une instance d'un client Ethereum configurée pour créer
 
 Vous devez comprendre le concept d'un [nœud Ethereum](/developers/docs/nodes-and-clients/), [son architecture](/developers/docs/nodes-and-clients/node-architecture/), les [stratégies de synchronisation](/developers/docs/nodes-and-clients/#sync-modes), les pratiques pour les [exécuter](/developers/docs/nodes-and-clients/run-a-node/) et les [utiliser](/developers/docs/apis/json-rpc/).
 
-## Qu'est-ce qu'un nœud d'archive
+## Qu'est-ce qu'un nœud d'archive {#what-is-an-archive-node}
 
 Pour saisir l'importance d'un nœud d'archive, clarifions le concept d'« état. » Ethereum peut être qualifié de _machine à état basée sur les transactions_. Il est composé de comptes et d'applications exécutant des transactions qui modifient leur état. Les données globales contenant des informations sur chaque compte et contrat sont stockées dans une base de données triée appelée état. Cela est géré par le client de la couche d'exécution (EL) et comprend :
 
@@ -29,7 +29,7 @@ Cependant, cela signifie que l'accès à un état historique sur un nœud comple
 
 Il est important de noter que le réseau ne dépend pas des nœuds d'archive pour conserver et fournir toutes les données historiques. Comme mentionné précédemment, tous les états intermédiaires historiques peuvent être dérivés sur un nœud complet. Les transactions sont stockées par tout nœud complet (actuellement moins de 400 Go) et peuvent être rejouées pour construire l'ensemble des archives.
 
-### Cas d'usage
+### Cas d'usage {#use-cases}
 
 L'utilisation régulière d'Ethereum, comme l'envoi de transactions, le déploiement de contrats, la vérification du consensus, etc. ne nécessite pas l'accès aux états historiques. Les utilisateurs n'ont jamais besoin d'un nœud d'archive pour une interaction standard avec le réseau.
 
@@ -48,17 +48,17 @@ Comme expliqué ci-dessus, un nœud complet aurait besoin de générer ces donn�
 
 Il existe également divers [services](/developers/docs/nodes-and-clients/nodes-as-a-service/) gratuits qui permettent d'accéder aux données historiques. Comme il est plus exigeant d'exécuter un nœud d'archive, cet accès est généralement limité et ne fonctionne que pour des accès occasionnels. Si votre projet nécessite un accès constant aux données historiques, vous devriez envisager d'en exécuter un vous-même.
 
-## Implémentations et utilisation
+## Implémentations et utilisation {#implementations-and-usage}
 
 Dans ce contexte, le terme « nœud d'archive » fait référence aux données fournies par les clients de la couche d'exécution orientés utilisateur, car ils gèrent la base de données d'état et fournissent des points de terminaison JSON-RPC. Les options de configuration, le temps de synchronisation et la taille de la base de données peuvent varier selon le client. Pour plus de détails, veuillez vous référer à la documentation fournie par votre client.
 
 Avant de démarrer votre propre nœud d'archive, renseignez-vous sur les différences entre les clients et surtout sur les diverses [exigences matérielles](/developers/docs/nodes-and-clients/run-a-node/#requirements). La plupart des clients ne sont pas optimisés pour cette fonctionnalité et leurs archives nécessitent plus de 12 To d'espace. En revanche, des implémentations telles qu'Erigon peuvent stocker les mêmes données en moins de 3 To, ce qui en fait la méthode la plus efficace pour exécuter un nœud d'archive.
 
-## Pratiques recommandées
+## Pratiques recommandées {#recommended-practices}
 
 Outre les [recommandations générales pour l'exécution d'un nœud](/developers/docs/nodes-and-clients/run-a-node/), un nœud d'archive peut être plus exigeant en termes de matériel et de maintenance. Compte tenu des [fonctionnalités clés](https://github.com/ledgerwatch/erigon#key-features) d'Erigon, l'approche la plus pratique consiste à utiliser l'implémentation client [Erigon](/developers/docs/nodes-and-clients/#erigon).
 
-### Matériel
+### Matériel {#hardware}
 
 Assurez-vous toujours de vérifier les exigences matérielles pour un mode spécifique dans la documentation du client.
 L'espace disque est la principale exigence pour les nœuds d'archive. Selon le client, cela varie de 3 To à 12 To. Même si le disque dur peut être considéré comme une meilleure solution pour de grandes quantités de données, sa synchronisation et la mise à jour constante de la tête de chaîne nécessiteront des disques SSD. Les disques [SATA](https://www.cleverfiles.com/help/sata-hard-drive.html) sont suffisants, mais ils doivent être d'une qualité fiable, au moins [TLC](https://blog.synology.com/tlc-vs-qlc-ssds-what-are-the-differences). Les disques peuvent être installés dans un ordinateur de bureau ou un serveur avec suffisamment d'emplacements. Ces appareils dédiés sont idéaux pour exécuter un nœud à haute disponibilité. Il est tout à fait possible de l'exécuter sur un ordinateur portable, mais la portabilité entraînera un coût supplémentaire.

@@ -20,7 +20,7 @@ summaryPoint3: "以開放科學運動為原則。"
 
 去中心化科研允許更多樣化的資金來源（從[去中心化自治組織](/glossary/#dao)、[平方募資](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531)到衆籌等等），讓資料和方法更易獲取，並透過激勵實現可重複性。
 
-### Juan Benet - 去中心化科研運動
+### Juan Benet - 去中心化科研運動 {#juan-benet-the-desci-movement}
 
 <YouTube id="zkXM9H90g_E" />
 

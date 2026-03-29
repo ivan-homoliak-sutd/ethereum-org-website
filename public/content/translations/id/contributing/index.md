@@ -42,7 +42,7 @@ Kami adalah komunitas yang ramah yang akan membantu Anda berkembang dan belajar 
 
 Ada pertanyaan? 🤔 Bergabunglah dengan [server Discord](https://discord.gg/ethereum-org) kami
 
-## Tugas pertama yang baik untuk mulai berkontribusi
+## Tugas pertama yang baik untuk mulai berkontribusi {#good-first-tasks-to-start-contributing}
 
 Berikut adalah beberapa tugas saat ini yang dapat Anda bantu selesaikan dan ambil tanggung jawabnya. Untuk sebagian besar tugas, Anda akan memerlukan akun GitHub karena sebagian besar perubahan pada situs web dilakukan melalui GitHub.
 
@@ -90,7 +90,7 @@ Jika kontribusi Anda digabungkan ke dalam ethereum.org, Anda akan memiliki kesem
 
 [Lebih lanjut tentang OAT](https://help.galxe.com/en/articles/9645630-create-quest-rewards#h_1c5d63ba03)
 
-### Cara mengklaim
+### Cara mengklaim {#how-to-claim-1}
 
 1. Bergabunglah dengan [server Discord](https://discord.gg/ethereum-org) kami.
 2. Tempelkan tautan ke kontribusi Anda di saluran `#🥇 | proof-of-contribution`.

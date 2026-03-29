@@ -73,7 +73,7 @@ ReFi 也與 [去中心化科學 (DeSci)](/desci/) 運動重疊，後者使用以
 
 透過將資本由榨取式的做法轉變成再生循環的資金流，對那些提供了社會、環境或公共利益，但可能難以透過傳統金融取得資金的專案及公司來說，他們因而能順利發展，並更快、更輕鬆地為社會產生正向外部影響。 轉變到此融資模式也開啟了更包容的經濟體系，各種背景的人都可以成為主動參與者，而非僅僅是被動的觀察者。 再生金融是以太坊的願景之一，可作為一種行動協調機制，解決人類及地球上所有生命正面臨的現存挑戰 — 並作為新經濟典範的基礎層，促進更包容且更永續的未來世紀。
 
-## 關於再生金融的延伸閱讀
+## 關於再生金融的延伸閱讀 {#additional-reading-on-refi}
 
 - [碳貨幣及其在經濟中地位的高階概覽](https://www.klimadao.finance/resources/the-vision-of-a-carbon-currency)
 - [小說《未來部門》(The Ministry for the Future)，描繪了碳本位貨幣在對抗氣候變遷中所扮演的角色](https://en.wikipedia.org/wiki/The_Ministry_for_the_Future)

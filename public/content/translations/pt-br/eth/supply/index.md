@@ -33,7 +33,7 @@ Nas finanças tradicionais, os bancos centrais controlam a oferta de dinheiro, m
 
 A emissão de ETH refere-se ao processo de criação de novos ETH como recompensas para os validadores que protegem a rede Ethereum. Ela é distinta da oferta total, a quantidade total de ETH em circulação.
 
-### Simplificando:
+### Simplificando: {#in-simple-terms}
 
 - **Emissão** adiciona novos ETH à rede.
 - **Queima** (introduzida pela EIP-1559) remove ETH da rede ao destruir uma parte das taxas de transação.
@@ -46,7 +46,7 @@ O sistema Proof-of-Stake (PoS) da Ethereum reduziu drasticamente a emissão de E
 
 No entanto, esse número é dinâmico. Graças a EIP-1559, quando a atividade da rede é alta, as taxas de queima de ETH podem superar a emissão, criando um efeito deflacionário. Por exemplo, durante períodos de alta demanda, como lançamentos de NFTs ou atividades DeFi, mais ETH pode ser queimado do que emitido.
 
-### Ferramentas para Acompanhar a Oferta e a Emissão de ETH:
+### Ferramentas para Acompanhar a Oferta e a Emissão de ETH: {#tools-to-track-eth-supply-and-issuance}
 
 - [Ultrasound Money](https://ultrasound.money) - Acompanhamento em tempo real de oferta, emissão e taxas de queima de ETH
 - [Etherscan](https://etherscan.io) - Explorador de blocos com métricas de oferta

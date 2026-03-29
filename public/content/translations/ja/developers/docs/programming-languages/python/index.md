@@ -47,7 +47,7 @@ incomplete: true
 - [SlitherでSolidityスマートコントラクトを分析する](https://kauri.io/#collections/DevOps/analyze-solidity-smart-contracts-with-slither/#analyze-solidity-smart-contracts-with-slither)
 - [ブロックチェーンFintechチュートリアル: Pythonによる貸し借り](https://blog.chain.link/blockchain-fintech-defi-tutorial-lending-borrowing-python/)
 
-## アーカイブされた記事
+## アーカイブされた記事 {#archived-articles}
 
 - [PythonとBrownieで独自のERC20トークンをデプロイする](https://betterprogramming.pub/python-blockchain-token-deployment-tutorial-create-an-erc20-77a5fd2e1a58)
 - [BrownieとPythonを使ったスマートコントラクトのデプロイ](https://dev.to/patrickalphac/using-brownie-for-to-deploy-smart-contracts-1kkp)

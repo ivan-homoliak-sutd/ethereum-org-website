@@ -17,7 +17,7 @@ lang: ar
 - [ما هو إيثريوم؟](/what-is-ethereum/)
 - [ما هو ETH؟](/what-is-ether/)
 
-## إضافة اختبار تعلّم
+## إضافة اختبار تعلّم {#adding-a-learn-quiz}
 
 إذا كانت هناك صفحة لم يتم إنشاء اختبار تعلُّم لها، يُرجى [فتح مشكلة](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) لها.
 
@@ -30,7 +30,7 @@ lang: ar
   - 1 صحيحة واحدة مع شرح لسبب صحتها
   - 3 إجابات غير صحيحة، كل منها مع تفسير لسبب كونها غير صحيحة
 
-## إضافة سؤال في الاختبار
+## إضافة سؤال في الاختبار {#adding-a-quiz-question}
 
 إذا كان هناك سؤال تريد إضافته إلى بنك الأسئلة لأحد الاختبارات، فيُرجى [فتح مشكلة](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) وتقديم المعلومات التالية:
 
@@ -41,7 +41,7 @@ lang: ar
   - 1 صحيحة واحدة مع شرح لسبب صحتها
   - 3 إجابات غير صحيحة، كل منها مع تفسير لسبب كونها غير صحيحة
 
-## تحديث سؤال في الاختبار
+## تحديث سؤال في الاختبار {#updating-a-quiz-question}
 
 إذا كان هناك سؤال تريد تحديثه في بنك الأسئلة لأحد الاختبارات، فيُرجى [فتح مشكلة](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) وتقديم المعلومات التالية:
 
@@ -53,7 +53,7 @@ lang: ar
   - 1 صحيحة واحدة مع شرح لسبب صحتها
   - 3 إجابات غير صحيحة، كل منها مع تفسير لسبب كونها غير صحيحة
 
-## إزالة سؤال من الاختبار
+## إزالة سؤال من الاختبار {#removing-a-quiz-question}
 
 إذا لم يعد محتوى سؤال ما موجودًا على الصفحة ويحتاج إلى إزالته، فيُرجى [فتح مشكلة](https://github.com/ethereum/ethereum-org-website/issues/new?assignees=&labels=&template=suggest_quiz.yaml) لإزالة السؤال وتقديم المعلومات التالية:
 

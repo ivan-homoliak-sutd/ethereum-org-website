@@ -79,7 +79,7 @@ Ethereumの状態を照会するリクエストが行われる際、指定され
 - `String "finalized"` - 最新のファイナライズされたブロック
 - `String "pending"` - 保留中の状態/トランザクション
 
-## 実例：
+## 実例： {#examples}
 
 このページでは、コマンドラインツールである[curl](https://curl.se)を使用して、個々のJSON_RPC APIエンドポイントを使用する方法の例を示します。 これらの個々のエンドポイントの例は、以下の[Curlの例](#curl-examples)のセクションにあります。 さらにページの下部では、Gethノード、JSON_RPC API、curlを使用してスマートコントラクトをコンパイルし、デプロイするための[エンドツーエンドの例](#usage-example)も提供しています。
 
@@ -132,7 +132,7 @@ curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","metho
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## JSON-RPC APIプレイグラウンド
+## JSON-RPC APIプレイグラウンド {#json-rpc-api-playground}
 
 [プレイグラウンドツール](https://ethereum-json-rpc.com)を使用して、APIメソッドを発見し、試すことができます。 プレイグラウンドツールでは、さまざまなノードプロバイダーによってサポートされているメソッドとネットワークも表示されます。
 

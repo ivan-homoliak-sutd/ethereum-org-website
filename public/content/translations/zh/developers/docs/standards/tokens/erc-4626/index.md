@@ -190,7 +190,7 @@ function balanceOf(address owner) public view returns (uint256)
 
 ### 事件 {#events}
 
-#### Deposit 事件
+#### Deposit 事件 {#deposit-event}
 
 **必须**在通过 [`mint`](#mint) 和 [`deposit`](#deposit) 方法将代币存入资金库时发出。
 
@@ -205,7 +205,7 @@ event Deposit(
 
 其中 `sender` 是用 `assets` 兑换 `shares`，并将这些 `shares` 转移给 `owner` 的用户。
 
-#### 提款事件
+#### 提款事件 {#withdraw-event}
 
 **必须**在存款人使用 [`redeem`](#redeem) 或 [`withdraw`](#withdraw) 方法从资金库提取份额时发出。
 

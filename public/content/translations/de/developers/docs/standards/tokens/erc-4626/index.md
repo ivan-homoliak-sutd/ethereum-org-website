@@ -190,7 +190,7 @@ Gibt die Gesamtmenge an Vault-Anteilen zurück, die der `owner` derzeit besitzt.
 
 ### Ereignisse {#events}
 
-#### Deposit-Ereignis
+#### Deposit-Ereignis {#deposit-event}
 
 **MUSS** ausgelöst werden, wenn Token über die Methoden [`mint`](#mint) und [`deposit`](#deposit) in den Vault eingezahlt werden.
 
@@ -205,7 +205,7 @@ event Deposit(
 
 Wobei `sender` der Benutzer ist, der `assets` gegen `shares` eingetauscht und diese `shares` an den `owner` übertragen hat.
 
-#### Withdraw-Ereignis
+#### Withdraw-Ereignis {#withdraw-event}
 
 **MUSS** ausgelöst werden, wenn Anteile von einem Einzahler über die Methoden [`redeem`](#redeem) oder [`withdraw`](#withdraw) aus dem Vault abgehoben werden.
 

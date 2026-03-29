@@ -20,7 +20,7 @@ DeSci, bilimsel araştırmalarını açıkça paylaşmaya teşvik edilen bilim i
 
 Merkeziyetsiz bilim, ([DAO'lardan](/glossary/#dao), [ikinci dereceden bağışlardan](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2003531) kitle fonlamasına ve daha fazlasına kadar) daha çeşitli fon kaynaklarına, daha erişilebilir verilere ve yöntemlere olanak tanır ve yeniden üretilebilirlik için teşvikler sağlar.
 
-### Juan Benet - DeSci Hareketi
+### Juan Benet - DeSci Hareketi {#juan-benet-the-desci-movement}
 
 <YouTube id="zkXM9H90g_E" />
 

@@ -32,7 +32,7 @@ Większość sieci testowych zaczynała od korzystania z mechanizmu konsensusu d
 
 ETH w sieciach testowych nie powinno mieć żadnej realnej wartości, jednak powstały rynki dla niektórych rodzajów testnetowych ETH, które stały się rzadkie lub trudne do zdobycia. Ponieważ potrzebujesz ETH do faktycznej interakcji z Ethereum (nawet w sieciach testowych), większość ludzi uzyskuje testnetowe ETH za darmo z kranów. Większość kranów to aplikacje internetowe, do których możesz wprowadzić adres, na który ma zostać wysłane ETH.
 
-#### Której sieci testowej powinienem użyć?
+#### Której sieci testowej powinienem użyć? {#which-testnet-should-i-use}
 
 Dwie publiczne sieci testowe utrzymywane przez programistów klienckich są obecnie Sepolia i Hoodi. Sepolia to sieć dla twórców kontraktów i aplikacji przeznaczona do testowania aplikacji. Sieć Hoodi pozwala programistom protokołu testowanie usprawnień sieci oraz umożliwia stakerom testowanie walidatorów.
 
@@ -104,7 +104,7 @@ Ephemery jest unikalną siecią testową, która resetuje się w pełni każdego
 - [Synchronizacja z punktu kontrolnego](https://checkpoint-sync.ephemery.ethpandaops.io)
 - [Launchpad](https://launchpad.ephemery.dev/)
 
-#### Krany
+#### Krany {#faucets}
 
 - [Kran Bordel](https://faucet.bordel.wtf/)
 - [Kran PoW Pk910](https://ephemery-faucet.pk910.de/)

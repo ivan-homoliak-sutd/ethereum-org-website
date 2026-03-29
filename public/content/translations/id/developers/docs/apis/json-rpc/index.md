@@ -79,7 +79,7 @@ Opsi berikut dimungkinkan untuk parameter blok:
 - `String "finalized"` - untuk blok yang difinalisasi terbaru
 - `String "pending"` - untuk status/transaksi yang tertunda
 
-## Contoh
+## Contoh {#examples}
 
 Di halaman ini kami menyediakan contoh cara menggunakan masing-masing endpoint API JSON_RPC menggunakan alat baris perintah, [curl](https://curl.se). Contoh masing-masing endpoint ini dapat ditemukan di bawah pada bagian [Contoh Curl](#curl-examples). Lebih jauh ke bawah di halaman ini, kami juga menyediakan [contoh ujung-ke-ujung (end-to-end)](#usage-example) untuk mengompilasi dan menerapkan kontrak pintar menggunakan node Geth, API JSON_RPC, dan curl.
 
@@ -132,7 +132,7 @@ Sejumlah metode JSON-RPC inti memerlukan data dari jaringan Ethereum, dan terbag
 - [eth_getUncleByBlockHashAndIndex](#eth_getunclebyblockhashandindex)
 - [eth_getUncleByBlockNumberAndIndex](#eth_getunclebyblocknumberandindex)
 
-## Playground API JSON-RPC
+## Playground API JSON-RPC {#json-rpc-api-playground}
 
 Anda dapat menggunakan [alat playground](https://ethereum-json-rpc.com) untuk menemukan dan mencoba metode-metode API. Alat ini juga menunjukkan kepada Anda metode dan jaringan mana yang didukung oleh berbagai penyedia node.
 

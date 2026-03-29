@@ -4,7 +4,7 @@ description: "Pectra रिलीजमध्ये 7702 बद्दल अध�
 lang: mr
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## सारांश {#abstract}
 

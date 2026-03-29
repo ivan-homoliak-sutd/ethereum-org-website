@@ -106,13 +106,13 @@ Có nhiều tùy chọn có sẵn để giúp bạn thiết lập. Sử dụng c
 
 <ProductDisclaimer />
 
-### Bộ công cụ nút
+### Bộ công cụ nút {#node-tools}
 
 <StakingProductsCardGrid category="nodeTools" />
 
 Xin lưu ý tầm quan trọng của việc chọn [máy khách thiểu số](/developers/docs/nodes-and-clients/client-diversity/) vì nó cải thiện tính bảo mật của mạng lưới và hạn chế rủi ro cho bạn. Các công cụ cho phép bạn thiết lập máy khách thiểu số được ký hiệu là <em style={{ textTransform: "uppercase" }}>"đa máy khách."</em>
 
-### Trình tạo khóa
+### Trình tạo khóa {#key-generators}
 
 Các công cụ này có thể được sử dụng để thay thế cho [Staking Deposit CLI](https://github.com/ethereum/staking-deposit-cli/) để hỗ trợ việc tạo khóa.
 

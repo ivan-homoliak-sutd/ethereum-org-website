@@ -4,7 +4,7 @@ description: "Pectra வெளியீட்டில் 7702 பற்றி �
 lang: ta
 ---
 
-# Pectra 7702
+# Pectra 7702 {#pectra-7702}
 
 ## சுருக்கம் {#abstract}
 

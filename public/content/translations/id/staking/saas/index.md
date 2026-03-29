@@ -43,13 +43,13 @@ Di bawah ini adalah beberapa penyedia SaaS yang tersedia. Gunakan indikator di a
 
 <ProductDisclaimer />
 
-### Penyedia SaaS
+### Penyedia SaaS {#saas-providers-1}
 
 <StakingProductsCardGrid category="saas" />
 
 Harap perhatikan pentingnya mendukung [keragaman klien](/developers/docs/nodes-and-clients/client-diversity/) karena hal ini meningkatkan keamanan jaringan, dan membatasi risiko Anda. Layanan yang memiliki bukti membatasi penggunaan klien mayoritas ditunjukkan dengan <em style={{ textTransform: "uppercase" }}>"keragaman klien eksekusi"</em> dan <em style={{ textTransform: "uppercase" }}>"keragaman klien konsensus."</em>
 
-### Pembuat Kunci
+### Pembuat Kunci {#key-generators}
 
 <StakingProductsCardGrid category="keyGen" />
 
